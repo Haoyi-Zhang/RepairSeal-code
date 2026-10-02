@@ -1,0 +1,20 @@
+{
+  "id": "holdout-533da7ac-preserve",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((2u - (y * y)) ^ 31u);\n  unsigned b = a;\n  unsigned r = (((7u << (x & 31u)) % (((7u >> (x & 31u)) & 7u) + 1u)) - y);\n  if (((~(r ^ r)) <= (~(b ^ y)))) {\n    r = y;\n  } else {\n    r = 4294967295u;\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((2u - (y * y)) ^ 31u);\n  unsigned b = a;\n  unsigned r = (((7u << (x & 31u)) % (((7u >> (x & 31u)) & 7u) + 1u)) - y);\n  if (((~(r ^ r)) <= (~(b ^ y)))) {\n    r = y;\n  } else {\n    r = 4294967295u;\n  }\n  if (((x == 1u) && (y == 1u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((2u - (y * y)) ^ 31u);\n  unsigned b = a;\n  unsigned r = (((7u << (x & 31u)) % (((7u >> (x & 31u)) & 7u) + 1u)) - y);\n  if (((~(r ^ r)) <= (~(b ^ y)))) {\n    r = y;\n  } else {\n    r = 4294967295u;\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

@@ -1,0 +1,9 @@
+External resources and licensing boundary
+
+The artifact's implementations, constructed fixture programs, mathematical oracle, hand proof exposition and result data were developed for this project with substantive AI assistance. They do not incorporate Codeflaws programs or upstream verification-tool internals. Original material is under ../LICENSE to the extent copyrightable.
+
+The Codeflaws repository's published LICENSE was inspected: MIT License, Copyright (c) 2017 Shin Hwei Tan. Only metadata and documentation were consulted; the benchmark tar payload was not acquired and no benchmark source or test files are redistributed. Repository licensing alone is not evidence that the absent payload was lawfully consumed or empirically evaluated.
+
+The scholarly sources recorded in ../external_resources.csv are cited, not redistributed. Their full text and figures are not embedded in the artifact. No rights to those works are asserted.
+
+The Python standard library and host GCC/Clang C11 frontends are execution dependencies and are not redistributed or modified. The manuscript's separate acmart class and bibliography style are supplied assets, unchanged, accompanied in paper/ by the supplied LPPL license. They are not needed by this standalone repository.

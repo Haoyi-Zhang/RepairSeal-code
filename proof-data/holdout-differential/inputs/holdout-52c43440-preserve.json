@@ -1,0 +1,30 @@
+{
+  "id": "holdout-52c43440-preserve",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = ((y << ((t % ((3u & 7u) + 1u)) & 31u)) / ((t & 7u) + 1u));\n  unsigned b = x;\n  unsigned r = ((b - (z * a)) / ((a & 7u) + 1u));\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = ((y << ((t % ((3u & 7u) + 1u)) & 31u)) / ((t & 7u) + 1u));\n  unsigned b = x;\n  unsigned r = ((b - (z * a)) / ((a & 7u) + 1u));\n  if (((x == 1u) && (y == 0u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = ((y << ((t % ((3u & 7u) + 1u)) & 31u)) / ((t & 7u) + 1u));\n  unsigned b = x;\n  unsigned r = ((b - (z * a)) / ((a & 7u) + 1u));\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

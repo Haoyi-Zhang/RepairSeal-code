@@ -1,0 +1,30 @@
+{
+  "id": "fixture-12-correct",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = x >> y;\nif (x == 0u) { r = r - 1u; } else { r = r; }\nreturn r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned scratch = t;\nif (z == 0u) { scratch = scratch + 1u; } else { scratch = scratch + 2u; }\nunsigned r = x >> y;\nreturn r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = x >> y;\nreturn r;\n}\n",
+  "repair_guard": "x == 0u"
+}

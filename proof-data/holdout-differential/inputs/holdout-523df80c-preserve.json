@@ -1,0 +1,25 @@
+{
+  "id": "holdout-523df80c-preserve",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (z ^ x);\n  unsigned b = a;\n  unsigned r = b;\n  if (((((15u / ((y & 7u) + 1u)) != (b % ((0u & 7u) + 1u))) || ((r & (z & y)) >= 3u)) || ((((x | 3u) >> ((0u % ((15u & 7u) + 1u)) & 31u)) <= ((x * a) ^ b)) || ((x + (a | a)) == (a - (y * b)))))) {\n    r = r;\n  } else {\n    r = (((1u / ((4294967295u & 7u) + 1u)) | (y % ((z & 7u) + 1u))) * (b % ((y & 7u) + 1u)));\n  }\n  if (((((b - 0u) % ((a & 7u) + 1u)) == ((z + a) % ((r & 7u) + 1u))) && (!(x <= z)))) {\n    r = a;\n  } else {\n    r = ((x << ((b % ((x & 7u) + 1u)) & 31u)) - ((z / ((y & 7u) + 1u)) / (((a + z) & 7u) + 1u)));\n  }\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (z ^ x);\n  unsigned b = a;\n  unsigned r = b;\n  if (((((15u / ((y & 7u) + 1u)) != (b % ((0u & 7u) + 1u))) || ((r & (z & y)) >= 3u)) || ((((x | 3u) >> ((0u % ((15u & 7u) + 1u)) & 31u)) <= ((x * a) ^ b)) || ((x + (a | a)) == (a - (y * b)))))) {\n    r = r;\n  } else {\n    r = (((1u / ((4294967295u & 7u) + 1u)) | (y % ((z & 7u) + 1u))) * (b % ((y & 7u) + 1u)));\n  }\n  if (((((b - 0u) % ((a & 7u) + 1u)) == ((z + a) % ((r & 7u) + 1u))) && (!(x <= z)))) {\n    r = a;\n  } else {\n    r = ((x << ((b % ((x & 7u) + 1u)) & 31u)) - ((z / ((y & 7u) + 1u)) / (((a + z) & 7u) + 1u)));\n  }\n  if (((x == 2u) && (y == 3u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (z ^ x);\n  unsigned b = a;\n  unsigned r = b;\n  if (((((15u / ((y & 7u) + 1u)) != (b % ((0u & 7u) + 1u))) || ((r & (z & y)) >= 3u)) || ((((x | 3u) >> ((0u % ((15u & 7u) + 1u)) & 31u)) <= ((x * a) ^ b)) || ((x + (a | a)) == (a - (y * b)))))) {\n    r = r;\n  } else {\n    r = (((1u / ((4294967295u & 7u) + 1u)) | (y % ((z & 7u) + 1u))) * (b % ((y & 7u) + 1u)));\n  }\n  if (((((b - 0u) % ((a & 7u) + 1u)) == ((z + a) % ((r & 7u) + 1u))) && (!(x <= z)))) {\n    r = a;\n  } else {\n    r = ((x << ((b % ((x & 7u) + 1u)) & 31u)) - ((z / ((y & 7u) + 1u)) / (((a + z) & 7u) + 1u)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

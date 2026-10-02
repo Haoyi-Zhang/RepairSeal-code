@@ -1,0 +1,8177 @@
+[
+  {
+    "certificate_bytes": 11713,
+    "check_ms": 2.301781,
+    "id": "stress-001-correct",
+    "nodes": 32,
+    "points": 81,
+    "produce_ms": 1.742072,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.404185,
+    "status": "ACCEPT",
+    "topological_ms": 1.248382,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14907,
+    "check_ms": 2.77465,
+    "id": "stress-002-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.015342,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.475493,
+    "session_direct_ms": 1.459438,
+    "status": "REFUTED",
+    "topological_ms": 1.496824,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15173,
+    "check_ms": 2.751466,
+    "id": "stress-003-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.295291,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.508012,
+    "session_direct_ms": 1.327791,
+    "status": "REFUTED",
+    "topological_ms": 1.682443,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17308,
+    "check_ms": 3.069553,
+    "id": "stress-004-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.421511,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.545187,
+    "session_direct_ms": 1.050836,
+    "status": "REFUTED",
+    "topological_ms": 1.833389,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13105,
+    "check_ms": 2.408021,
+    "id": "stress-005-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.689344,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.338496,
+    "status": "ACCEPT",
+    "topological_ms": 1.302323,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15172,
+    "check_ms": 2.686288,
+    "id": "stress-006-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.916944,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.496424,
+    "session_direct_ms": 1.255302,
+    "status": "REFUTED",
+    "topological_ms": 1.509143,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15227,
+    "check_ms": 2.737355,
+    "id": "stress-007-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.201851,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.50673,
+    "session_direct_ms": 1.310755,
+    "status": "REFUTED",
+    "topological_ms": 1.524817,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17401,
+    "check_ms": 2.897725,
+    "id": "stress-008-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.956133,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.474702,
+    "session_direct_ms": 1.011337,
+    "status": "REFUTED",
+    "topological_ms": 1.572928,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12978,
+    "check_ms": 2.398086,
+    "id": "stress-009-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.68703,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.18053,
+    "status": "ACCEPT",
+    "topological_ms": 1.266218,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15098,
+    "check_ms": 3.008451,
+    "id": "stress-010-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.986119,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.498016,
+    "session_direct_ms": 1.329213,
+    "status": "REFUTED",
+    "topological_ms": 1.534731,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15604,
+    "check_ms": 3.040378,
+    "id": "stress-011-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.023153,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.506079,
+    "session_direct_ms": 1.329063,
+    "status": "REFUTED",
+    "topological_ms": 1.574671,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16538,
+    "check_ms": 3.168441,
+    "id": "stress-012-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.939598,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.453671,
+    "session_direct_ms": 1.066959,
+    "status": "REFUTED",
+    "topological_ms": 1.706409,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12911,
+    "check_ms": 2.345607,
+    "id": "stress-013-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.625477,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.241612,
+    "status": "ACCEPT",
+    "topological_ms": 1.292979,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14068,
+    "check_ms": 2.831746,
+    "id": "stress-014-overfit",
+    "nodes": 38,
+    "points": 81,
+    "produce_ms": 1.946689,
+    "refutation_cells": 38,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.496404,
+    "session_direct_ms": 1.311927,
+    "status": "REFUTED",
+    "topological_ms": 1.592908,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15307,
+    "check_ms": 2.768161,
+    "id": "stress-015-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.960089,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.484296,
+    "session_direct_ms": 1.371216,
+    "status": "REFUTED",
+    "topological_ms": 1.579157,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16834,
+    "check_ms": 2.952717,
+    "id": "stress-016-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.329823,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.516385,
+    "session_direct_ms": 0.998447,
+    "status": "REFUTED",
+    "topological_ms": 1.685357,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13555,
+    "check_ms": 2.665086,
+    "id": "stress-017-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.758497,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.229513,
+    "status": "ACCEPT",
+    "topological_ms": 1.262984,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14937,
+    "check_ms": 2.74093,
+    "id": "stress-018-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.105567,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.578557,
+    "session_direct_ms": 1.272999,
+    "status": "REFUTED",
+    "topological_ms": 1.556815,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15470,
+    "check_ms": 2.700439,
+    "id": "stress-019-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.910505,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.470275,
+    "session_direct_ms": 1.289534,
+    "status": "REFUTED",
+    "topological_ms": 1.518748,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16456,
+    "check_ms": 2.842512,
+    "id": "stress-020-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.982472,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.59331,
+    "session_direct_ms": 0.990145,
+    "status": "REFUTED",
+    "topological_ms": 1.621642,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13351,
+    "check_ms": 2.384495,
+    "id": "stress-021-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.698717,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.154762,
+    "status": "ACCEPT",
+    "topological_ms": 1.48052,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15266,
+    "check_ms": 2.821039,
+    "id": "stress-022-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.924937,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.509094,
+    "session_direct_ms": 1.275673,
+    "status": "REFUTED",
+    "topological_ms": 1.730054,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14941,
+    "check_ms": 2.869563,
+    "id": "stress-023-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.040629,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.51353,
+    "session_direct_ms": 1.344596,
+    "status": "REFUTED",
+    "topological_ms": 1.602132,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16457,
+    "check_ms": 3.150313,
+    "id": "stress-024-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.972277,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.476524,
+    "session_direct_ms": 0.768582,
+    "status": "REFUTED",
+    "topological_ms": 1.632067,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12537,
+    "check_ms": 2.359908,
+    "id": "stress-025-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.803724,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.598627,
+    "status": "ACCEPT",
+    "topological_ms": 1.306129,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15703,
+    "check_ms": 2.705447,
+    "id": "stress-026-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.944035,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.479269,
+    "session_direct_ms": 1.090886,
+    "status": "REFUTED",
+    "topological_ms": 1.521271,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14993,
+    "check_ms": 2.78767,
+    "id": "stress-027-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.953078,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.529123,
+    "session_direct_ms": 1.520811,
+    "status": "REFUTED",
+    "topological_ms": 1.513179,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16942,
+    "check_ms": 3.400308,
+    "id": "stress-028-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.031316,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.454061,
+    "session_direct_ms": 0.76041,
+    "status": "REFUTED",
+    "topological_ms": 1.844856,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12861,
+    "check_ms": 2.348582,
+    "id": "stress-029-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.770534,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.431587,
+    "status": "ACCEPT",
+    "topological_ms": 1.235633,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15514,
+    "check_ms": 2.606819,
+    "id": "stress-030-overfit",
+    "nodes": 38,
+    "points": 81,
+    "produce_ms": 2.108802,
+    "refutation_cells": 38,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.511477,
+    "session_direct_ms": 1.062754,
+    "status": "REFUTED",
+    "topological_ms": 1.671216,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15593,
+    "check_ms": 2.74146,
+    "id": "stress-031-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.961852,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.502334,
+    "session_direct_ms": 1.529072,
+    "status": "REFUTED",
+    "topological_ms": 1.554161,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16942,
+    "check_ms": 3.01438,
+    "id": "stress-032-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.98102,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.492809,
+    "session_direct_ms": 0.789083,
+    "status": "REFUTED",
+    "topological_ms": 1.685918,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12646,
+    "check_ms": 2.316954,
+    "id": "stress-033-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.943674,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.675892,
+    "status": "ACCEPT",
+    "topological_ms": 1.283555,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14780,
+    "check_ms": 2.736824,
+    "id": "stress-034-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.00082,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.54639,
+    "session_direct_ms": 1.036604,
+    "status": "REFUTED",
+    "topological_ms": 1.535151,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15834,
+    "check_ms": 2.732518,
+    "id": "stress-035-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.942273,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.516084,
+    "session_direct_ms": 1.577315,
+    "status": "REFUTED",
+    "topological_ms": 1.521983,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16027,
+    "check_ms": 3.105857,
+    "id": "stress-036-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 1.977575,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.50018,
+    "session_direct_ms": 0.768993,
+    "status": "REFUTED",
+    "topological_ms": 1.764306,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12752,
+    "check_ms": 2.350885,
+    "id": "stress-037-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.9538,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.364747,
+    "status": "ACCEPT",
+    "topological_ms": 1.237476,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15015,
+    "check_ms": 2.729733,
+    "id": "stress-038-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.893088,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.476465,
+    "session_direct_ms": 1.037515,
+    "status": "REFUTED",
+    "topological_ms": 1.469413,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16481,
+    "check_ms": 2.752808,
+    "id": "stress-039-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.9471,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.474121,
+    "session_direct_ms": 1.549273,
+    "status": "REFUTED",
+    "topological_ms": 1.601441,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16472,
+    "check_ms": 2.857224,
+    "id": "stress-040-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.964075,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.47336,
+    "session_direct_ms": 0.743605,
+    "status": "REFUTED",
+    "topological_ms": 1.646158,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12728,
+    "check_ms": 2.303043,
+    "id": "stress-041-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.688361,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.398026,
+    "status": "ACCEPT",
+    "topological_ms": 1.26067,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14907,
+    "check_ms": 2.679027,
+    "id": "stress-042-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.002052,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.475333,
+    "session_direct_ms": 1.079008,
+    "status": "REFUTED",
+    "topological_ms": 1.498437,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16577,
+    "check_ms": 3.078276,
+    "id": "stress-043-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.984155,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.499219,
+    "session_direct_ms": 1.669043,
+    "status": "REFUTED",
+    "topological_ms": 1.615022,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17279,
+    "check_ms": 3.444395,
+    "id": "stress-044-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.065767,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.545818,
+    "session_direct_ms": 0.924656,
+    "status": "REFUTED",
+    "topological_ms": 1.862192,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12323,
+    "check_ms": 2.505897,
+    "id": "stress-045-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.695602,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.613089,
+    "status": "ACCEPT",
+    "topological_ms": 1.283114,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15070,
+    "check_ms": 2.748221,
+    "id": "stress-046-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.115362,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.54063,
+    "session_direct_ms": 1.082864,
+    "status": "REFUTED",
+    "topological_ms": 1.449003,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15117,
+    "check_ms": 2.697215,
+    "id": "stress-047-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.869263,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.478397,
+    "session_direct_ms": 1.537255,
+    "status": "REFUTED",
+    "topological_ms": 1.583384,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17437,
+    "check_ms": 3.163955,
+    "id": "stress-048-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.004476,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.449725,
+    "session_direct_ms": 0.743896,
+    "status": "REFUTED",
+    "topological_ms": 1.679719,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12348,
+    "check_ms": 2.352627,
+    "id": "stress-049-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.782713,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.668362,
+    "status": "ACCEPT",
+    "topological_ms": 1.315653,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15178,
+    "check_ms": 2.719568,
+    "id": "stress-050-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.007921,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.477556,
+    "session_direct_ms": 1.041111,
+    "status": "REFUTED",
+    "topological_ms": 1.50082,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15658,
+    "check_ms": 2.783504,
+    "id": "stress-051-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.966178,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.471127,
+    "session_direct_ms": 1.508512,
+    "status": "REFUTED",
+    "topological_ms": 1.49378,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17431,
+    "check_ms": 2.856524,
+    "id": "stress-052-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.94071,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.47316,
+    "session_direct_ms": 0.773029,
+    "status": "REFUTED",
+    "topological_ms": 1.734261,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12328,
+    "check_ms": 2.317335,
+    "id": "stress-053-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.632338,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.367881,
+    "status": "ACCEPT",
+    "topological_ms": 1.234201,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15151,
+    "check_ms": 2.658866,
+    "id": "stress-054-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.879167,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.497286,
+    "session_direct_ms": 1.041983,
+    "status": "REFUTED",
+    "topological_ms": 1.464736,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15495,
+    "check_ms": 2.864896,
+    "id": "stress-055-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.941862,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.563455,
+    "session_direct_ms": 2.199448,
+    "status": "REFUTED",
+    "topological_ms": 2.510604,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16806,
+    "check_ms": 3.151496,
+    "id": "stress-056-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.162153,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.5531,
+    "session_direct_ms": 0.84068,
+    "status": "REFUTED",
+    "topological_ms": 1.94079,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13492,
+    "check_ms": 2.391086,
+    "id": "stress-057-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.785928,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.468031,
+    "status": "ACCEPT",
+    "topological_ms": 1.339118,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14297,
+    "check_ms": 2.568171,
+    "id": "stress-058-overfit",
+    "nodes": 38,
+    "points": 81,
+    "produce_ms": 1.933078,
+    "refutation_cells": 38,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.482313,
+    "session_direct_ms": 1.085177,
+    "status": "REFUTED",
+    "topological_ms": 1.553239,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15495,
+    "check_ms": 2.881541,
+    "id": "stress-059-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.038596,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.54645,
+    "session_direct_ms": 1.889564,
+    "status": "REFUTED",
+    "topological_ms": 1.55391,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16779,
+    "check_ms": 3.024986,
+    "id": "stress-060-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.977466,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.448823,
+    "session_direct_ms": 0.822904,
+    "status": "REFUTED",
+    "topological_ms": 1.685197,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13687,
+    "check_ms": 2.753989,
+    "id": "stress-061-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.922553,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.517576,
+    "status": "ACCEPT",
+    "topological_ms": 1.33362,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14593,
+    "check_ms": 2.891215,
+    "id": "stress-062-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.008181,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.480611,
+    "session_direct_ms": 1.051998,
+    "status": "REFUTED",
+    "topological_ms": 1.543925,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15848,
+    "check_ms": 2.976403,
+    "id": "stress-063-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.017776,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.575373,
+    "session_direct_ms": 1.502873,
+    "status": "REFUTED",
+    "topological_ms": 1.531236,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16511,
+    "check_ms": 2.904676,
+    "id": "stress-064-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.934351,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.441653,
+    "session_direct_ms": 0.811487,
+    "status": "REFUTED",
+    "topological_ms": 1.627831,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13375,
+    "check_ms": 2.369553,
+    "id": "stress-065-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.712107,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.429634,
+    "status": "ACCEPT",
+    "topological_ms": 1.261732,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14527,
+    "check_ms": 2.942121,
+    "id": "stress-066-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.900009,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.505468,
+    "session_direct_ms": 1.051547,
+    "status": "REFUTED",
+    "topological_ms": 1.609804,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15026,
+    "check_ms": 3.223484,
+    "id": "stress-067-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.063023,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.492248,
+    "session_direct_ms": 1.910444,
+    "status": "REFUTED",
+    "topological_ms": 1.611006,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16619,
+    "check_ms": 2.939447,
+    "id": "stress-068-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.971987,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.457476,
+    "session_direct_ms": 0.755063,
+    "status": "REFUTED",
+    "topological_ms": 1.68033,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12513,
+    "check_ms": 2.391657,
+    "id": "stress-069-correct",
+    "nodes": 33,
+    "points": 81,
+    "produce_ms": 1.647821,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.484927,
+    "status": "ACCEPT",
+    "topological_ms": 1.24017,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15853,
+    "check_ms": 2.864675,
+    "id": "stress-070-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.908352,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.803775,
+    "session_direct_ms": 1.038637,
+    "status": "REFUTED",
+    "topological_ms": 1.593339,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15043,
+    "check_ms": 2.851535,
+    "id": "stress-071-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.018857,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.61981,
+    "session_direct_ms": 1.957365,
+    "status": "REFUTED",
+    "topological_ms": 1.685027,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16618,
+    "check_ms": 2.94745,
+    "id": "stress-072-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.513729,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.467631,
+    "session_direct_ms": 1.029804,
+    "status": "REFUTED",
+    "topological_ms": 1.701201,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12969,
+    "check_ms": 2.433468,
+    "id": "stress-073-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.714531,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.579749,
+    "status": "ACCEPT",
+    "topological_ms": 1.323374,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 16206,
+    "check_ms": 2.864635,
+    "id": "stress-074-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.132568,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.477225,
+    "session_direct_ms": 1.145658,
+    "status": "REFUTED",
+    "topological_ms": 1.517586,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14977,
+    "check_ms": 2.729633,
+    "id": "stress-075-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.992147,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.502753,
+    "session_direct_ms": 1.562663,
+    "status": "REFUTED",
+    "topological_ms": 1.798938,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16915,
+    "check_ms": 2.92096,
+    "id": "stress-076-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.149613,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.483776,
+    "session_direct_ms": 0.781472,
+    "status": "REFUTED",
+    "topological_ms": 1.766599,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12752,
+    "check_ms": 2.461471,
+    "id": "stress-077-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.883224,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.422643,
+    "status": "ACCEPT",
+    "topological_ms": 1.321832,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15042,
+    "check_ms": 2.753048,
+    "id": "stress-078-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.96078,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.510325,
+    "session_direct_ms": 1.037997,
+    "status": "REFUTED",
+    "topological_ms": 1.511206,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15185,
+    "check_ms": 2.785818,
+    "id": "stress-079-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.014801,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.497085,
+    "session_direct_ms": 1.585397,
+    "status": "REFUTED",
+    "topological_ms": 1.536554,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16519,
+    "check_ms": 2.921541,
+    "id": "stress-080-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.064365,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.492849,
+    "session_direct_ms": 0.761241,
+    "status": "REFUTED",
+    "topological_ms": 1.696424,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12538,
+    "check_ms": 2.330024,
+    "id": "stress-081-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.686008,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.658467,
+    "status": "ACCEPT",
+    "topological_ms": 1.241111,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15151,
+    "check_ms": 2.876643,
+    "id": "stress-082-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.24748,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.48026,
+    "session_direct_ms": 1.034782,
+    "status": "REFUTED",
+    "topological_ms": 1.564546,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16468,
+    "check_ms": 2.901491,
+    "id": "stress-083-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.254741,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.534071,
+    "session_direct_ms": 1.516604,
+    "status": "REFUTED",
+    "topological_ms": 1.5471,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16816,
+    "check_ms": 3.14055,
+    "id": "stress-084-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.053489,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.448913,
+    "session_direct_ms": 0.754621,
+    "status": "REFUTED",
+    "topological_ms": 1.769153,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13141,
+    "check_ms": 2.435582,
+    "id": "stress-085-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.808572,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.423314,
+    "status": "ACCEPT",
+    "topological_ms": 1.348111,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14801,
+    "check_ms": 2.806959,
+    "id": "stress-086-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.928321,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.498187,
+    "session_direct_ms": 1.044877,
+    "status": "REFUTED",
+    "topological_ms": 1.534822,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16577,
+    "check_ms": 3.143093,
+    "id": "stress-087-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.035452,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.48682,
+    "session_direct_ms": 1.625107,
+    "status": "REFUTED",
+    "topological_ms": 1.626609,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16186,
+    "check_ms": 3.259277,
+    "id": "stress-088-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 2.00751,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.499139,
+    "session_direct_ms": 0.910265,
+    "status": "REFUTED",
+    "topological_ms": 1.877705,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12364,
+    "check_ms": 2.617415,
+    "id": "stress-089-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.961121,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.435583,
+    "status": "ACCEPT",
+    "topological_ms": 1.423214,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15124,
+    "check_ms": 2.729993,
+    "id": "stress-090-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.958818,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.507051,
+    "session_direct_ms": 1.022823,
+    "status": "REFUTED",
+    "topological_ms": 1.511636,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15556,
+    "check_ms": 2.76777,
+    "id": "stress-091-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.927831,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.48004,
+    "session_direct_ms": 1.592929,
+    "status": "REFUTED",
+    "topological_ms": 1.520049,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16199,
+    "check_ms": 2.923143,
+    "id": "stress-092-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 1.962633,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.4734,
+    "session_direct_ms": 0.744746,
+    "status": "REFUTED",
+    "topological_ms": 1.648412,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12435,
+    "check_ms": 2.408932,
+    "id": "stress-093-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 2.060499,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.393099,
+    "status": "ACCEPT",
+    "topological_ms": 1.401752,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14851,
+    "check_ms": 2.76795,
+    "id": "stress-094-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.392057,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.521863,
+    "session_direct_ms": 1.113269,
+    "status": "REFUTED",
+    "topological_ms": 1.583625,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15551,
+    "check_ms": 2.797405,
+    "id": "stress-095-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.14686,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.582844,
+    "session_direct_ms": 1.608853,
+    "status": "REFUTED",
+    "topological_ms": 1.8407,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17511,
+    "check_ms": 3.219407,
+    "id": "stress-096-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.010655,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.483826,
+    "session_direct_ms": 0.774211,
+    "status": "REFUTED",
+    "topological_ms": 1.714702,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12729,
+    "check_ms": 2.504947,
+    "id": "stress-097-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.761421,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.748071,
+    "status": "ACCEPT",
+    "topological_ms": 1.321171,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15027,
+    "check_ms": 2.756463,
+    "id": "stress-098-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.939588,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.514251,
+    "session_direct_ms": 1.044557,
+    "status": "REFUTED",
+    "topological_ms": 1.487701,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15549,
+    "check_ms": 2.935713,
+    "id": "stress-099-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.977165,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.507311,
+    "session_direct_ms": 1.727781,
+    "status": "REFUTED",
+    "topological_ms": 1.850545,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16616,
+    "check_ms": 3.177674,
+    "id": "stress-100-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.271256,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.471677,
+    "session_direct_ms": 0.779659,
+    "status": "REFUTED",
+    "topological_ms": 1.723294,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12610,
+    "check_ms": 2.375943,
+    "id": "stress-101-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.695913,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.40001,
+    "status": "ACCEPT",
+    "topological_ms": 1.289674,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14719,
+    "check_ms": 2.727289,
+    "id": "stress-102-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.912668,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.512298,
+    "session_direct_ms": 1.03997,
+    "status": "REFUTED",
+    "topological_ms": 1.55394,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15189,
+    "check_ms": 2.703263,
+    "id": "stress-103-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.061281,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.478788,
+    "session_direct_ms": 1.530385,
+    "status": "REFUTED",
+    "topological_ms": 1.54047,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16700,
+    "check_ms": 2.977104,
+    "id": "stress-104-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.239077,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.444046,
+    "session_direct_ms": 0.744556,
+    "status": "REFUTED",
+    "topological_ms": 1.638396,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12535,
+    "check_ms": 2.382282,
+    "id": "stress-105-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.821141,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.42047,
+    "status": "ACCEPT",
+    "topological_ms": 1.306939,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14746,
+    "check_ms": 2.744575,
+    "id": "stress-106-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.018076,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.57402,
+    "session_direct_ms": 1.025247,
+    "status": "REFUTED",
+    "topological_ms": 1.584486,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15974,
+    "check_ms": 2.831886,
+    "id": "stress-107-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.075442,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 1.028492,
+    "session_direct_ms": 1.695212,
+    "status": "REFUTED",
+    "topological_ms": 1.62091,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17078,
+    "check_ms": 2.90115,
+    "id": "stress-108-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.988191,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.447421,
+    "session_direct_ms": 0.740039,
+    "status": "REFUTED",
+    "topological_ms": 1.637075,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13458,
+    "check_ms": 2.277726,
+    "id": "stress-109-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.639949,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.450705,
+    "status": "ACCEPT",
+    "topological_ms": 1.255152,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14907,
+    "check_ms": 2.730204,
+    "id": "stress-110-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.89417,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.472648,
+    "session_direct_ms": 1.025888,
+    "status": "REFUTED",
+    "topological_ms": 1.498647,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15118,
+    "check_ms": 3.278496,
+    "id": "stress-111-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.203765,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.531166,
+    "session_direct_ms": 1.544296,
+    "status": "REFUTED",
+    "topological_ms": 1.598918,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16978,
+    "check_ms": 3.164475,
+    "id": "stress-112-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.269803,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.590486,
+    "session_direct_ms": 0.762644,
+    "status": "REFUTED",
+    "topological_ms": 1.683865,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12890,
+    "check_ms": 2.477906,
+    "id": "stress-113-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.673169,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.457586,
+    "status": "ACCEPT",
+    "topological_ms": 1.271827,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14770,
+    "check_ms": 2.699288,
+    "id": "stress-114-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.898938,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.511357,
+    "session_direct_ms": 1.059469,
+    "status": "REFUTED",
+    "topological_ms": 1.48745,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15227,
+    "check_ms": 3.136502,
+    "id": "stress-115-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.941752,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.539258,
+    "session_direct_ms": 1.642793,
+    "status": "REFUTED",
+    "topological_ms": 1.6477,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16938,
+    "check_ms": 3.223444,
+    "id": "stress-116-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.103795,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.75384,
+    "session_direct_ms": 0.755463,
+    "status": "REFUTED",
+    "topological_ms": 1.86101,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12969,
+    "check_ms": 2.390344,
+    "id": "stress-117-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.681451,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.443644,
+    "status": "ACCEPT",
+    "topological_ms": 1.265217,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14988,
+    "check_ms": 2.649493,
+    "id": "stress-118-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.108441,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.506339,
+    "session_direct_ms": 1.045498,
+    "status": "REFUTED",
+    "topological_ms": 1.598527,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15553,
+    "check_ms": 2.797375,
+    "id": "stress-119-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.078327,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.511096,
+    "session_direct_ms": 1.543104,
+    "status": "REFUTED",
+    "topological_ms": 1.517176,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16863,
+    "check_ms": 2.978446,
+    "id": "stress-120-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.94777,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.442203,
+    "session_direct_ms": 0.79338,
+    "status": "REFUTED",
+    "topological_ms": 1.615443,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12963,
+    "check_ms": 2.329363,
+    "id": "stress-121-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.789553,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.467751,
+    "status": "ACCEPT",
+    "topological_ms": 1.218707,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14810,
+    "check_ms": 2.697755,
+    "id": "stress-122-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.069073,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.502714,
+    "session_direct_ms": 1.066519,
+    "status": "REFUTED",
+    "topological_ms": 1.489895,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15495,
+    "check_ms": 2.971175,
+    "id": "stress-123-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.993559,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.506149,
+    "session_direct_ms": 1.849073,
+    "status": "REFUTED",
+    "topological_ms": 1.570766,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16654,
+    "check_ms": 3.339398,
+    "id": "stress-124-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.126639,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.460491,
+    "session_direct_ms": 0.811346,
+    "status": "REFUTED",
+    "topological_ms": 1.69375,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13155,
+    "check_ms": 2.395502,
+    "id": "stress-125-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.679658,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.476845,
+    "status": "ACCEPT",
+    "topological_ms": 1.264736,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14937,
+    "check_ms": 2.662943,
+    "id": "stress-126-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.986929,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.502404,
+    "session_direct_ms": 1.088102,
+    "status": "REFUTED",
+    "topological_ms": 1.64019,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15332,
+    "check_ms": 2.727449,
+    "id": "stress-127-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.092868,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.48056,
+    "session_direct_ms": 1.533669,
+    "status": "REFUTED",
+    "topological_ms": 1.568632,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16671,
+    "check_ms": 3.266688,
+    "id": "stress-128-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.092137,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.555092,
+    "session_direct_ms": 0.785197,
+    "status": "REFUTED",
+    "topological_ms": 1.741762,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13123,
+    "check_ms": 2.557275,
+    "id": "stress-129-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.672969,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.552709,
+    "status": "ACCEPT",
+    "topological_ms": 1.258717,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15314,
+    "check_ms": 2.789844,
+    "id": "stress-130-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.091656,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.591828,
+    "session_direct_ms": 1.090405,
+    "status": "REFUTED",
+    "topological_ms": 1.520339,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15519,
+    "check_ms": 2.824496,
+    "id": "stress-131-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.958567,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.485698,
+    "session_direct_ms": 1.616624,
+    "status": "REFUTED",
+    "topological_ms": 1.591757,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16457,
+    "check_ms": 2.955251,
+    "id": "stress-132-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.005988,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.45299,
+    "session_direct_ms": 0.732428,
+    "status": "REFUTED",
+    "topological_ms": 1.678367,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12421,
+    "check_ms": 2.589894,
+    "id": "stress-133-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.724746,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.381903,
+    "status": "ACCEPT",
+    "topological_ms": 1.254511,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15355,
+    "check_ms": 2.822262,
+    "id": "stress-134-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.96103,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.490215,
+    "session_direct_ms": 1.08705,
+    "status": "REFUTED",
+    "topological_ms": 1.571105,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15631,
+    "check_ms": 2.944335,
+    "id": "stress-135-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.140219,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.507361,
+    "session_direct_ms": 1.502764,
+    "status": "REFUTED",
+    "topological_ms": 1.616324,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16876,
+    "check_ms": 2.925016,
+    "id": "stress-136-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.017165,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.444947,
+    "session_direct_ms": 0.754692,
+    "status": "REFUTED",
+    "topological_ms": 1.638067,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12484,
+    "check_ms": 2.329573,
+    "id": "stress-137-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.71351,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.402422,
+    "status": "ACCEPT",
+    "topological_ms": 1.290485,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15232,
+    "check_ms": 2.846769,
+    "id": "stress-138-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.243224,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.585919,
+    "session_direct_ms": 1.049965,
+    "status": "REFUTED",
+    "topological_ms": 1.621732,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15685,
+    "check_ms": 2.898506,
+    "id": "stress-139-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.961431,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.482293,
+    "session_direct_ms": 1.59408,
+    "status": "REFUTED",
+    "topological_ms": 1.669003,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16753,
+    "check_ms": 2.855682,
+    "id": "stress-140-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.107219,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.531437,
+    "session_direct_ms": 0.852459,
+    "status": "REFUTED",
+    "topological_ms": 1.954331,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12646,
+    "check_ms": 2.429703,
+    "id": "stress-141-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.843734,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.383455,
+    "status": "ACCEPT",
+    "topological_ms": 1.274681,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15872,
+    "check_ms": 2.723554,
+    "id": "stress-142-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.925648,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.536484,
+    "session_direct_ms": 1.003375,
+    "status": "REFUTED",
+    "topological_ms": 1.446559,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15549,
+    "check_ms": 2.79376,
+    "id": "stress-143-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.930985,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.48042,
+    "session_direct_ms": 1.587381,
+    "status": "REFUTED",
+    "topological_ms": 1.499749,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15869,
+    "check_ms": 3.06109,
+    "id": "stress-144-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 1.933759,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.452589,
+    "session_direct_ms": 0.759058,
+    "status": "REFUTED",
+    "topological_ms": 1.918597,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12483,
+    "check_ms": 2.444575,
+    "id": "stress-145-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.968762,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.433189,
+    "status": "ACCEPT",
+    "topological_ms": 1.310726,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14800,
+    "check_ms": 2.631316,
+    "id": "stress-146-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.953329,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.478888,
+    "session_direct_ms": 1.049574,
+    "status": "REFUTED",
+    "topological_ms": 1.503926,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16196,
+    "check_ms": 2.839739,
+    "id": "stress-147-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.999008,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.532769,
+    "session_direct_ms": 1.541571,
+    "status": "REFUTED",
+    "topological_ms": 1.546368,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17078,
+    "check_ms": 2.973759,
+    "id": "stress-148-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.993659,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.45315,
+    "session_direct_ms": 0.899018,
+    "status": "REFUTED",
+    "topological_ms": 1.623564,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12592,
+    "check_ms": 2.459348,
+    "id": "stress-149-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.803625,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.454031,
+    "status": "ACCEPT",
+    "topological_ms": 1.356994,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14907,
+    "check_ms": 2.765337,
+    "id": "stress-150-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.889753,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.481592,
+    "session_direct_ms": 1.070255,
+    "status": "REFUTED",
+    "topological_ms": 1.562693,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16366,
+    "check_ms": 2.9477,
+    "id": "stress-151-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.013078,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.514241,
+    "session_direct_ms": 1.50683,
+    "status": "REFUTED",
+    "topological_ms": 1.692728,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17114,
+    "check_ms": 3.195432,
+    "id": "stress-152-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.202964,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.461863,
+    "session_direct_ms": 0.822504,
+    "status": "REFUTED",
+    "topological_ms": 1.717075,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12863,
+    "check_ms": 2.360219,
+    "id": "stress-153-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.863465,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.558417,
+    "status": "ACCEPT",
+    "topological_ms": 1.262873,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14693,
+    "check_ms": 2.730545,
+    "id": "stress-154-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.954891,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.476214,
+    "session_direct_ms": 1.029124,
+    "status": "REFUTED",
+    "topological_ms": 1.907561,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15220,
+    "check_ms": 3.553379,
+    "id": "stress-155-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.186569,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.484947,
+    "session_direct_ms": 1.83389,
+    "status": "REFUTED",
+    "topological_ms": 1.815342,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17131,
+    "check_ms": 2.912807,
+    "id": "stress-156-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.345868,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.46047,
+    "session_direct_ms": 0.78001,
+    "status": "REFUTED",
+    "topological_ms": 1.687721,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12044,
+    "check_ms": 2.399668,
+    "id": "stress-157-correct",
+    "nodes": 33,
+    "points": 81,
+    "produce_ms": 1.707461,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.417495,
+    "status": "ACCEPT",
+    "topological_ms": 1.321992,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15124,
+    "check_ms": 2.722542,
+    "id": "stress-158-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.982844,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.484546,
+    "session_direct_ms": 1.045568,
+    "status": "REFUTED",
+    "topological_ms": 1.567901,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15529,
+    "check_ms": 2.830975,
+    "id": "stress-159-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.031587,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.604867,
+    "session_direct_ms": 1.539689,
+    "status": "REFUTED",
+    "topological_ms": 1.52746,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17187,
+    "check_ms": 3.237935,
+    "id": "stress-160-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.079969,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.48024,
+    "session_direct_ms": 0.788723,
+    "status": "REFUTED",
+    "topological_ms": 1.713469,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12727,
+    "check_ms": 2.390705,
+    "id": "stress-161-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.661381,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.476544,
+    "status": "ACCEPT",
+    "topological_ms": 1.341943,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15151,
+    "check_ms": 2.772858,
+    "id": "stress-162-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.926469,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.499889,
+    "session_direct_ms": 1.042443,
+    "status": "REFUTED",
+    "topological_ms": 1.585026,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15604,
+    "check_ms": 3.287429,
+    "id": "stress-163-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.995643,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.583596,
+    "session_direct_ms": 1.697315,
+    "status": "REFUTED",
+    "topological_ms": 1.652798,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17582,
+    "check_ms": 3.012056,
+    "id": "stress-164-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.037164,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.485508,
+    "session_direct_ms": 0.842984,
+    "status": "REFUTED",
+    "topological_ms": 1.696864,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13249,
+    "check_ms": 2.363474,
+    "id": "stress-165-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.804005,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.463835,
+    "status": "ACCEPT",
+    "topological_ms": 1.282623,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 13955,
+    "check_ms": 2.661311,
+    "id": "stress-166-overfit",
+    "nodes": 37,
+    "points": 81,
+    "produce_ms": 1.914661,
+    "refutation_cells": 37,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.508853,
+    "session_direct_ms": 1.219719,
+    "status": "REFUTED",
+    "topological_ms": 1.565377,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15226,
+    "check_ms": 2.836323,
+    "id": "stress-167-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.010865,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.490536,
+    "session_direct_ms": 1.621191,
+    "status": "REFUTED",
+    "topological_ms": 1.637836,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16321,
+    "check_ms": 3.093709,
+    "id": "stress-168-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 3.30743,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.464296,
+    "session_direct_ms": 0.856004,
+    "status": "REFUTED",
+    "topological_ms": 1.789724,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13192,
+    "check_ms": 2.307339,
+    "id": "stress-169-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.732527,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.582594,
+    "status": "ACCEPT",
+    "topological_ms": 1.266449,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14552,
+    "check_ms": 2.72115,
+    "id": "stress-170-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.303604,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.476745,
+    "session_direct_ms": 1.056354,
+    "status": "REFUTED",
+    "topological_ms": 1.522383,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15335,
+    "check_ms": 2.792197,
+    "id": "stress-171-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.031696,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.532498,
+    "session_direct_ms": 1.856904,
+    "status": "REFUTED",
+    "topological_ms": 1.56724,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16671,
+    "check_ms": 2.872167,
+    "id": "stress-172-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.023233,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.496234,
+    "session_direct_ms": 0.979569,
+    "status": "REFUTED",
+    "topological_ms": 1.603094,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13351,
+    "check_ms": 2.364375,
+    "id": "stress-173-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.756624,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.430355,
+    "status": "ACCEPT",
+    "topological_ms": 1.282884,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15280,
+    "check_ms": 2.686868,
+    "id": "stress-174-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.92707,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.471267,
+    "session_direct_ms": 1.037105,
+    "status": "REFUTED",
+    "topological_ms": 1.502823,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15848,
+    "check_ms": 2.777795,
+    "id": "stress-175-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.986589,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.532809,
+    "session_direct_ms": 1.545528,
+    "status": "REFUTED",
+    "topological_ms": 1.516073,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16619,
+    "check_ms": 3.031345,
+    "id": "stress-176-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.930495,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.445408,
+    "session_direct_ms": 0.78024,
+    "status": "REFUTED",
+    "topological_ms": 1.608332,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12284,
+    "check_ms": 2.388802,
+    "id": "stress-177-correct",
+    "nodes": 33,
+    "points": 81,
+    "produce_ms": 1.624996,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.442983,
+    "status": "ACCEPT",
+    "topological_ms": 1.258317,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15610,
+    "check_ms": 2.718797,
+    "id": "stress-178-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.896113,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.501922,
+    "session_direct_ms": 1.099058,
+    "status": "REFUTED",
+    "topological_ms": 1.511616,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14775,
+    "check_ms": 2.917204,
+    "id": "stress-179-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.90072,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.479309,
+    "session_direct_ms": 1.574491,
+    "status": "REFUTED",
+    "topological_ms": 1.549273,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16888,
+    "check_ms": 2.936413,
+    "id": "stress-180-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.079879,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.45371,
+    "session_direct_ms": 0.754241,
+    "status": "REFUTED",
+    "topological_ms": 1.797846,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12915,
+    "check_ms": 2.435052,
+    "id": "stress-181-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.73352,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.432978,
+    "status": "ACCEPT",
+    "topological_ms": 1.304987,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 16046,
+    "check_ms": 2.765127,
+    "id": "stress-182-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.973168,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.5199,
+    "session_direct_ms": 1.045738,
+    "status": "REFUTED",
+    "topological_ms": 1.50694,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14754,
+    "check_ms": 3.036013,
+    "id": "stress-183-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.952398,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.478968,
+    "session_direct_ms": 1.549424,
+    "status": "REFUTED",
+    "topological_ms": 1.552909,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16915,
+    "check_ms": 2.896252,
+    "id": "stress-184-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.02725,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.444516,
+    "session_direct_ms": 0.775292,
+    "status": "REFUTED",
+    "topological_ms": 1.640239,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12725,
+    "check_ms": 2.348071,
+    "id": "stress-185-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.686539,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.458988,
+    "status": "ACCEPT",
+    "topological_ms": 1.274441,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15876,
+    "check_ms": 2.66091,
+    "id": "stress-186-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.963434,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.501242,
+    "session_direct_ms": 1.034751,
+    "status": "REFUTED",
+    "topological_ms": 1.49377,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16172,
+    "check_ms": 2.865948,
+    "id": "stress-187-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.999498,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.497967,
+    "session_direct_ms": 1.561391,
+    "status": "REFUTED",
+    "topological_ms": 1.549463,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15921,
+    "check_ms": 2.882102,
+    "id": "stress-188-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 1.970345,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.469554,
+    "session_direct_ms": 0.783474,
+    "status": "REFUTED",
+    "topological_ms": 1.648252,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12698,
+    "check_ms": 2.341772,
+    "id": "stress-189-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.685467,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.43426,
+    "status": "ACCEPT",
+    "topological_ms": 1.387941,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14799,
+    "check_ms": 2.891226,
+    "id": "stress-190-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.911566,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.473119,
+    "session_direct_ms": 1.038027,
+    "status": "REFUTED",
+    "topological_ms": 1.535683,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16372,
+    "check_ms": 2.8274,
+    "id": "stress-191-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.996524,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.502674,
+    "session_direct_ms": 1.549564,
+    "status": "REFUTED",
+    "topological_ms": 1.550905,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16411,
+    "check_ms": 2.913148,
+    "id": "stress-192-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.084165,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.48,
+    "session_direct_ms": 0.775563,
+    "status": "REFUTED",
+    "topological_ms": 1.606959,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12969,
+    "check_ms": 2.355633,
+    "id": "stress-193-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.668963,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.46055,
+    "status": "ACCEPT",
+    "topological_ms": 1.269284,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14747,
+    "check_ms": 2.793178,
+    "id": "stress-194-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.882152,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.801382,
+    "session_direct_ms": 1.033369,
+    "status": "REFUTED",
+    "topological_ms": 1.481571,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16577,
+    "check_ms": 2.846669,
+    "id": "stress-195-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.996584,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.500421,
+    "session_direct_ms": 1.567481,
+    "status": "REFUTED",
+    "topological_ms": 1.556194,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16270,
+    "check_ms": 2.912278,
+    "id": "stress-196-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.992768,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.448973,
+    "session_direct_ms": 0.76744,
+    "status": "REFUTED",
+    "topological_ms": 1.628983,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13105,
+    "check_ms": 2.339227,
+    "id": "stress-197-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.697325,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.451607,
+    "status": "ACCEPT",
+    "topological_ms": 1.294771,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15070,
+    "check_ms": 2.812488,
+    "id": "stress-198-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.937346,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.488944,
+    "session_direct_ms": 1.303865,
+    "status": "REFUTED",
+    "topological_ms": 1.501402,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15486,
+    "check_ms": 2.737004,
+    "id": "stress-199-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.042243,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.484857,
+    "session_direct_ms": 1.564025,
+    "status": "REFUTED",
+    "topological_ms": 1.509884,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17091,
+    "check_ms": 2.898686,
+    "id": "stress-200-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.990655,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.455704,
+    "session_direct_ms": 0.747291,
+    "status": "REFUTED",
+    "topological_ms": 1.6342,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12390,
+    "check_ms": 2.346769,
+    "id": "stress-201-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.662303,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.752498,
+    "status": "ACCEPT",
+    "topological_ms": 1.257837,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14773,
+    "check_ms": 2.679268,
+    "id": "stress-202-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.92676,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.501682,
+    "session_direct_ms": 1.032038,
+    "status": "REFUTED",
+    "topological_ms": 1.521682,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15712,
+    "check_ms": 2.781981,
+    "id": "stress-203-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.98053,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.486921,
+    "session_direct_ms": 1.527411,
+    "status": "REFUTED",
+    "topological_ms": 1.554081,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17648,
+    "check_ms": 2.91393,
+    "id": "stress-204-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.010354,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.488513,
+    "session_direct_ms": 0.763975,
+    "status": "REFUTED",
+    "topological_ms": 1.604836,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12206,
+    "check_ms": 2.389743,
+    "id": "stress-205-correct",
+    "nodes": 33,
+    "points": 81,
+    "produce_ms": 1.782233,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.42066,
+    "status": "ACCEPT",
+    "topological_ms": 1.255913,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15151,
+    "check_ms": 3.025457,
+    "id": "stress-206-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.915282,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.507151,
+    "session_direct_ms": 1.044256,
+    "status": "REFUTED",
+    "topological_ms": 1.495392,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15495,
+    "check_ms": 2.758005,
+    "id": "stress-207-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.944987,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.509084,
+    "session_direct_ms": 1.516755,
+    "status": "REFUTED",
+    "topological_ms": 1.522633,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17402,
+    "check_ms": 2.898286,
+    "id": "stress-208-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.955322,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.447972,
+    "session_direct_ms": 0.749564,
+    "status": "REFUTED",
+    "topological_ms": 1.565207,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12530,
+    "check_ms": 2.275442,
+    "id": "stress-209-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.675052,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.402222,
+    "status": "ACCEPT",
+    "topological_ms": 1.263064,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14663,
+    "check_ms": 2.68076,
+    "id": "stress-210-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.925166,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.496945,
+    "session_direct_ms": 1.025738,
+    "status": "REFUTED",
+    "topological_ms": 1.483003,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15012,
+    "check_ms": 2.721501,
+    "id": "stress-211-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.972107,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.532548,
+    "session_direct_ms": 1.509613,
+    "status": "REFUTED",
+    "topological_ms": 1.548201,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16699,
+    "check_ms": 2.849863,
+    "id": "stress-212-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.964846,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.444937,
+    "session_direct_ms": 0.792478,
+    "status": "REFUTED",
+    "topological_ms": 1.598596,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13458,
+    "check_ms": 2.388561,
+    "id": "stress-213-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.693609,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.435342,
+    "status": "ACCEPT",
+    "topological_ms": 1.273369,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14648,
+    "check_ms": 2.725146,
+    "id": "stress-214-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.973299,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.499318,
+    "session_direct_ms": 1.049583,
+    "status": "REFUTED",
+    "topological_ms": 1.482302,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15712,
+    "check_ms": 2.820519,
+    "id": "stress-215-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.97395,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.476144,
+    "session_direct_ms": 1.548322,
+    "status": "REFUTED",
+    "topological_ms": 1.555953,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16942,
+    "check_ms": 2.925046,
+    "id": "stress-216-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.019438,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.486029,
+    "session_direct_ms": 0.74735,
+    "status": "REFUTED",
+    "topological_ms": 1.607861,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13458,
+    "check_ms": 2.395753,
+    "id": "stress-217-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.690364,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.45397,
+    "status": "ACCEPT",
+    "topological_ms": 1.27413,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14386,
+    "check_ms": 2.744645,
+    "id": "stress-218-overfit",
+    "nodes": 38,
+    "points": 81,
+    "produce_ms": 2.151446,
+    "refutation_cells": 38,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.568503,
+    "session_direct_ms": 1.034231,
+    "status": "REFUTED",
+    "topological_ms": 1.583495,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15712,
+    "check_ms": 2.790094,
+    "id": "stress-219-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.969934,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.507331,
+    "session_direct_ms": 1.533649,
+    "status": "REFUTED",
+    "topological_ms": 1.52767,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16888,
+    "check_ms": 2.858797,
+    "id": "stress-220-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.997555,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.481833,
+    "session_direct_ms": 0.765678,
+    "status": "REFUTED",
+    "topological_ms": 1.609364,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12789,
+    "check_ms": 2.319859,
+    "id": "stress-221-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.663384,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.415502,
+    "status": "ACCEPT",
+    "topological_ms": 1.296003,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14298,
+    "check_ms": 2.653399,
+    "id": "stress-222-overfit",
+    "nodes": 38,
+    "points": 81,
+    "produce_ms": 2.010044,
+    "refutation_cells": 38,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.518448,
+    "session_direct_ms": 1.049213,
+    "status": "REFUTED",
+    "topological_ms": 1.510545,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15122,
+    "check_ms": 2.791647,
+    "id": "stress-223-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.122843,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.504877,
+    "session_direct_ms": 1.541702,
+    "status": "REFUTED",
+    "topological_ms": 1.596374,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16725,
+    "check_ms": 2.906539,
+    "id": "stress-224-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.002804,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.442304,
+    "session_direct_ms": 0.789905,
+    "status": "REFUTED",
+    "topological_ms": 1.616564,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12996,
+    "check_ms": 2.46123,
+    "id": "stress-225-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.662272,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.452608,
+    "status": "ACCEPT",
+    "topological_ms": 1.269313,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 16070,
+    "check_ms": 2.680339,
+    "id": "stress-226-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.951727,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.503975,
+    "session_direct_ms": 1.059179,
+    "status": "REFUTED",
+    "topological_ms": 1.484496,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15442,
+    "check_ms": 2.753469,
+    "id": "stress-227-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.94073,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.486579,
+    "session_direct_ms": 1.769564,
+    "status": "REFUTED",
+    "topological_ms": 1.55373,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16701,
+    "check_ms": 2.879638,
+    "id": "stress-228-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.066789,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.478007,
+    "session_direct_ms": 0.772208,
+    "status": "REFUTED",
+    "topological_ms": 1.579749,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12806,
+    "check_ms": 2.35407,
+    "id": "stress-229-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.695132,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.433329,
+    "status": "ACCEPT",
+    "topological_ms": 1.477435,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 16043,
+    "check_ms": 2.730885,
+    "id": "stress-230-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.998176,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.50689,
+    "session_direct_ms": 1.036755,
+    "status": "REFUTED",
+    "topological_ms": 1.744946,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15333,
+    "check_ms": 2.75439,
+    "id": "stress-231-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.985477,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.480871,
+    "session_direct_ms": 1.558146,
+    "status": "REFUTED",
+    "topological_ms": 1.515082,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16400,
+    "check_ms": 2.914139,
+    "id": "stress-232-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.998357,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.476023,
+    "session_direct_ms": 0.755973,
+    "status": "REFUTED",
+    "topological_ms": 1.634761,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12915,
+    "check_ms": 2.416133,
+    "id": "stress-233-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.719528,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.436153,
+    "status": "ACCEPT",
+    "topological_ms": 1.311777,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14720,
+    "check_ms": 2.623905,
+    "id": "stress-234-overfit",
+    "nodes": 38,
+    "points": 81,
+    "produce_ms": 2.005077,
+    "refutation_cells": 38,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.494692,
+    "session_direct_ms": 1.039949,
+    "status": "REFUTED",
+    "topological_ms": 1.600841,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15241,
+    "check_ms": 2.78103,
+    "id": "stress-235-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.961531,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.534972,
+    "session_direct_ms": 1.521361,
+    "status": "REFUTED",
+    "topological_ms": 1.545908,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16626,
+    "check_ms": 2.949493,
+    "id": "stress-236-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.98069,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.442503,
+    "session_direct_ms": 0.788282,
+    "status": "REFUTED",
+    "topological_ms": 1.609494,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13005,
+    "check_ms": 2.347831,
+    "id": "stress-237-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.690986,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.435443,
+    "status": "ACCEPT",
+    "topological_ms": 1.284787,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15314,
+    "check_ms": 2.744445,
+    "id": "stress-238-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.91406,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.505878,
+    "session_direct_ms": 1.055123,
+    "status": "REFUTED",
+    "topological_ms": 1.496975,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16363,
+    "check_ms": 2.770334,
+    "id": "stress-239-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.932839,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.481041,
+    "session_direct_ms": 1.523184,
+    "status": "REFUTED",
+    "topological_ms": 1.583485,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16450,
+    "check_ms": 2.898115,
+    "id": "stress-240-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.984115,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.474902,
+    "session_direct_ms": 0.770806,
+    "status": "REFUTED",
+    "topological_ms": 1.611516,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12805,
+    "check_ms": 2.342313,
+    "id": "stress-241-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.911957,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.461201,
+    "status": "ACCEPT",
+    "topological_ms": 1.322834,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14854,
+    "check_ms": 2.654871,
+    "id": "stress-242-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.900149,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.474271,
+    "session_direct_ms": 1.024506,
+    "status": "REFUTED",
+    "topological_ms": 1.497966,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15333,
+    "check_ms": 2.749433,
+    "id": "stress-243-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.914301,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.471788,
+    "session_direct_ms": 1.534881,
+    "status": "REFUTED",
+    "topological_ms": 1.503925,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16534,
+    "check_ms": 2.902252,
+    "id": "stress-244-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.970115,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.446229,
+    "session_direct_ms": 0.740139,
+    "status": "REFUTED",
+    "topological_ms": 1.66082,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12245,
+    "check_ms": 2.268281,
+    "id": "stress-245-correct",
+    "nodes": 33,
+    "points": 81,
+    "produce_ms": 1.723485,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.401011,
+    "status": "ACCEPT",
+    "topological_ms": 1.257836,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14818,
+    "check_ms": 2.676393,
+    "id": "stress-246-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.889083,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.476785,
+    "session_direct_ms": 1.023385,
+    "status": "REFUTED",
+    "topological_ms": 1.497866,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15685,
+    "check_ms": 2.755722,
+    "id": "stress-247-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.981832,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.511467,
+    "session_direct_ms": 1.547421,
+    "status": "REFUTED",
+    "topological_ms": 1.655953,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16652,
+    "check_ms": 2.965726,
+    "id": "stress-248-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.972107,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.475303,
+    "session_direct_ms": 0.772168,
+    "status": "REFUTED",
+    "topological_ms": 1.692979,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12646,
+    "check_ms": 2.32084,
+    "id": "stress-249-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.676163,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.404616,
+    "status": "ACCEPT",
+    "topological_ms": 1.247391,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15494,
+    "check_ms": 2.687851,
+    "id": "stress-250-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.922152,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.52685,
+    "session_direct_ms": 1.023825,
+    "status": "REFUTED",
+    "topological_ms": 1.485087,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15471,
+    "check_ms": 2.815692,
+    "id": "stress-251-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.916273,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.504016,
+    "session_direct_ms": 1.541421,
+    "status": "REFUTED",
+    "topological_ms": 1.530324,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17645,
+    "check_ms": 2.961501,
+    "id": "stress-252-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.033839,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.506549,
+    "session_direct_ms": 0.974581,
+    "status": "REFUTED",
+    "topological_ms": 1.617826,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12725,
+    "check_ms": 2.362542,
+    "id": "stress-253-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.772899,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.402223,
+    "status": "ACCEPT",
+    "topological_ms": 1.270616,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14651,
+    "check_ms": 2.680129,
+    "id": "stress-254-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.875132,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.478498,
+    "session_direct_ms": 1.044416,
+    "status": "REFUTED",
+    "topological_ms": 1.502833,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15766,
+    "check_ms": 2.802011,
+    "id": "stress-255-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.956645,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.5267,
+    "session_direct_ms": 1.529273,
+    "status": "REFUTED",
+    "topological_ms": 1.599558,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16485,
+    "check_ms": 2.890604,
+    "id": "stress-256-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 1.957595,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.533119,
+    "session_direct_ms": 1.048182,
+    "status": "REFUTED",
+    "topological_ms": 1.605467,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12537,
+    "check_ms": 2.342472,
+    "id": "stress-257-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.770315,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.429504,
+    "status": "ACCEPT",
+    "topological_ms": 1.276194,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14856,
+    "check_ms": 2.716253,
+    "id": "stress-258-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.885137,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.503605,
+    "session_direct_ms": 1.06023,
+    "status": "REFUTED",
+    "topological_ms": 1.487541,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15637,
+    "check_ms": 2.740269,
+    "id": "stress-259-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.992147,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.478658,
+    "session_direct_ms": 1.560821,
+    "status": "REFUTED",
+    "topological_ms": 1.753429,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17078,
+    "check_ms": 2.931145,
+    "id": "stress-260-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.079989,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.447481,
+    "session_direct_ms": 0.783314,
+    "status": "REFUTED",
+    "topological_ms": 1.59412,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12780,
+    "check_ms": 2.343484,
+    "id": "stress-261-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.643664,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.439378,
+    "status": "ACCEPT",
+    "topological_ms": 1.228482,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14693,
+    "check_ms": 2.703894,
+    "id": "stress-262-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.910585,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.499489,
+    "session_direct_ms": 1.026369,
+    "status": "REFUTED",
+    "topological_ms": 1.482724,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16006,
+    "check_ms": 2.931345,
+    "id": "stress-263-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.950835,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.504256,
+    "session_direct_ms": 1.548542,
+    "status": "REFUTED",
+    "topological_ms": 1.556954,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16951,
+    "check_ms": 3.108912,
+    "id": "stress-264-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.00716,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.467882,
+    "session_direct_ms": 0.758327,
+    "status": "REFUTED",
+    "topological_ms": 1.785377,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12780,
+    "check_ms": 2.326479,
+    "id": "stress-265-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.65406,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.455052,
+    "status": "ACCEPT",
+    "topological_ms": 1.269113,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15070,
+    "check_ms": 2.711435,
+    "id": "stress-266-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.937195,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.469033,
+    "session_direct_ms": 1.028833,
+    "status": "REFUTED",
+    "topological_ms": 1.651917,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15234,
+    "check_ms": 2.772026,
+    "id": "stress-267-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.985827,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.523826,
+    "session_direct_ms": 1.509273,
+    "status": "REFUTED",
+    "topological_ms": 1.52668,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16727,
+    "check_ms": 2.946168,
+    "id": "stress-268-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 1.926619,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.46725,
+    "session_direct_ms": 0.792469,
+    "status": "REFUTED",
+    "topological_ms": 1.757716,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12942,
+    "check_ms": 2.349463,
+    "id": "stress-269-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.678607,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.40717,
+    "status": "ACCEPT",
+    "topological_ms": 1.269143,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14826,
+    "check_ms": 2.695041,
+    "id": "stress-270-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.897666,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.500211,
+    "session_direct_ms": 1.070425,
+    "status": "REFUTED",
+    "topological_ms": 1.461722,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15604,
+    "check_ms": 2.808921,
+    "id": "stress-271-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.002773,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.482714,
+    "session_direct_ms": 1.536554,
+    "status": "REFUTED",
+    "topological_ms": 1.556023,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17372,
+    "check_ms": 2.93389,
+    "id": "stress-272-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.016444,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.477356,
+    "session_direct_ms": 0.745268,
+    "status": "REFUTED",
+    "topological_ms": 1.658467,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12728,
+    "check_ms": 2.338336,
+    "id": "stress-273-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.658256,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.399859,
+    "status": "ACCEPT",
+    "topological_ms": 1.251166,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14849,
+    "check_ms": 2.710114,
+    "id": "stress-274-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.900791,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.477165,
+    "session_direct_ms": 1.033861,
+    "status": "REFUTED",
+    "topological_ms": 1.638968,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15226,
+    "check_ms": 2.737775,
+    "id": "stress-275-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.933219,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.475473,
+    "session_direct_ms": 1.548082,
+    "status": "REFUTED",
+    "topological_ms": 1.514211,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16399,
+    "check_ms": 2.914891,
+    "id": "stress-276-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.236955,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.442133,
+    "session_direct_ms": 0.764055,
+    "status": "REFUTED",
+    "topological_ms": 1.636053,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13195,
+    "check_ms": 2.303083,
+    "id": "stress-277-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.685397,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.396775,
+    "status": "ACCEPT",
+    "topological_ms": 1.27322,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15092,
+    "check_ms": 2.62728,
+    "id": "stress-278-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.865928,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.471888,
+    "session_direct_ms": 1.031477,
+    "status": "REFUTED",
+    "topological_ms": 1.497255,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15281,
+    "check_ms": 2.714651,
+    "id": "stress-279-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.963254,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.502754,
+    "session_direct_ms": 1.52713,
+    "status": "REFUTED",
+    "topological_ms": 1.517886,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16671,
+    "check_ms": 2.899478,
+    "id": "stress-280-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.956433,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.445377,
+    "session_direct_ms": 0.750575,
+    "status": "REFUTED",
+    "topological_ms": 1.598507,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12966,
+    "check_ms": 2.321171,
+    "id": "stress-281-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.649513,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.419167,
+    "status": "ACCEPT",
+    "topological_ms": 1.256554,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15314,
+    "check_ms": 2.719228,
+    "id": "stress-282-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.887491,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.510275,
+    "session_direct_ms": 1.032278,
+    "status": "REFUTED",
+    "topological_ms": 1.501351,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15631,
+    "check_ms": 2.792788,
+    "id": "stress-283-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.985077,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.504978,
+    "session_direct_ms": 1.554882,
+    "status": "REFUTED",
+    "topological_ms": 1.531467,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16595,
+    "check_ms": 2.880409,
+    "id": "stress-284-undefined",
+    "nodes": 43,
+    "points": 81,
+    "produce_ms": 2.005647,
+    "refutation_cells": 43,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.480681,
+    "session_direct_ms": 0.796204,
+    "status": "REFUTED",
+    "topological_ms": 1.772507,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13127,
+    "check_ms": 2.326038,
+    "id": "stress-285-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.689213,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.415893,
+    "status": "ACCEPT",
+    "topological_ms": 1.29325,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15277,
+    "check_ms": 2.733679,
+    "id": "stress-286-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 2.173609,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.475914,
+    "session_direct_ms": 1.056665,
+    "status": "REFUTED",
+    "topological_ms": 2.262302,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14732,
+    "check_ms": 2.784275,
+    "id": "stress-287-regression",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 2.005106,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.54713,
+    "session_direct_ms": 1.60726,
+    "status": "REFUTED",
+    "topological_ms": 1.744135,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16834,
+    "check_ms": 3.178827,
+    "id": "stress-288-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 1.991506,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.455273,
+    "session_direct_ms": 0.776264,
+    "status": "REFUTED",
+    "topological_ms": 1.823354,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12682,
+    "check_ms": 2.330234,
+    "id": "stress-289-correct",
+    "nodes": 34,
+    "points": 81,
+    "produce_ms": 1.761692,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.459328,
+    "status": "ACCEPT",
+    "topological_ms": 1.345778,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15279,
+    "check_ms": 2.678877,
+    "id": "stress-290-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.908402,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.558187,
+    "session_direct_ms": 1.026289,
+    "status": "REFUTED",
+    "topological_ms": 1.456264,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15470,
+    "check_ms": 2.806838,
+    "id": "stress-291-regression",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.976954,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.509804,
+    "session_direct_ms": 1.555312,
+    "status": "REFUTED",
+    "topological_ms": 1.519238,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16779,
+    "check_ms": 2.943634,
+    "id": "stress-292-undefined",
+    "nodes": 44,
+    "points": 81,
+    "produce_ms": 2.124936,
+    "refutation_cells": 44,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.472669,
+    "session_direct_ms": 0.787281,
+    "status": "REFUTED",
+    "topological_ms": 1.651737,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12752,
+    "check_ms": 2.35443,
+    "id": "stress-293-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.683335,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.431086,
+    "status": "ACCEPT",
+    "topological_ms": 1.238818,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 15827,
+    "check_ms": 2.691736,
+    "id": "stress-294-overfit",
+    "nodes": 40,
+    "points": 81,
+    "produce_ms": 1.94123,
+    "refutation_cells": 40,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.48008,
+    "session_direct_ms": 1.039229,
+    "status": "REFUTED",
+    "topological_ms": 1.522603,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15902,
+    "check_ms": 2.731225,
+    "id": "stress-295-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 2.030835,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.507601,
+    "session_direct_ms": 1.58004,
+    "status": "REFUTED",
+    "topological_ms": 1.599619,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16485,
+    "check_ms": 2.86766,
+    "id": "stress-296-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 1.986238,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.449914,
+    "session_direct_ms": 0.767962,
+    "status": "REFUTED",
+    "topological_ms": 1.591346,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12698,
+    "check_ms": 2.325247,
+    "id": "stress-297-correct",
+    "nodes": 35,
+    "points": 81,
+    "produce_ms": 1.652678,
+    "refutation_cells": null,
+    "refutation_certificate_bytes": null,
+    "refutation_check_ms": null,
+    "session_direct_ms": 1.416083,
+    "status": "ACCEPT",
+    "topological_ms": 1.271446,
+    "variant": "correct",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14707,
+    "check_ms": 2.665016,
+    "id": "stress-298-overfit",
+    "nodes": 39,
+    "points": 81,
+    "produce_ms": 1.89348,
+    "refutation_cells": 39,
+    "refutation_certificate_bytes": 667,
+    "refutation_check_ms": 0.507932,
+    "session_direct_ms": 1.040751,
+    "status": "REFUTED",
+    "topological_ms": 1.526289,
+    "variant": "overfit",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16118,
+    "check_ms": 2.878577,
+    "id": "stress-299-regression",
+    "nodes": 41,
+    "points": 81,
+    "produce_ms": 1.986318,
+    "refutation_cells": 41,
+    "refutation_certificate_bytes": 672,
+    "refutation_check_ms": 0.488152,
+    "session_direct_ms": 1.545658,
+    "status": "REFUTED",
+    "topological_ms": 1.544936,
+    "variant": "regression",
+    "witness": {
+      "input": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16067,
+    "check_ms": 2.877385,
+    "id": "stress-300-undefined",
+    "nodes": 42,
+    "points": 81,
+    "produce_ms": 1.972608,
+    "refutation_cells": 42,
+    "refutation_certificate_bytes": 659,
+    "refutation_check_ms": 0.476825,
+    "session_direct_ms": 0.763505,
+    "status": "REFUTED",
+    "topological_ms": 1.626109,
+    "variant": "undefined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  }
+]

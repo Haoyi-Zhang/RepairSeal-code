@@ -1,0 +1,20 @@
+{
+  "id": "holdout-5355a023-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (0u & (x / (((15u & y) & 7u) + 1u)));\n  unsigned b = (((~x) / (((a * a) & 7u) + 1u)) - 31u);\n  unsigned r = (~(x >> ((a >> (y & 31u)) & 31u)));\n  if (((2u % ((15u & 7u) + 1u)) <= a)) {\n    r = (((b / ((x & 7u) + 1u)) / (((a >> (b & 31u)) & 7u) + 1u)) % ((((x + a) % ((15u & 7u) + 1u)) & 7u) + 1u));\n  } else {\n    r = (x * r);\n  }\n  if ((a < ((1u % ((b & 7u) + 1u)) + (r & y)))) {\n    r = (3u / (((a | (r >> (y & 31u))) & 7u) + 1u));\n  } else {\n    r = (((y / ((b & 7u) + 1u)) - x) | ((x >> (x & 31u)) & (b | 1u)));\n  }\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (0u & (x / (((15u & y) & 7u) + 1u)));\n  unsigned b = (((~x) / (((a * a) & 7u) + 1u)) - 31u);\n  unsigned r = (~(x >> ((a >> (y & 31u)) & 31u)));\n  if (((2u % ((15u & 7u) + 1u)) <= a)) {\n    r = (((b / ((x & 7u) + 1u)) / (((a >> (b & 31u)) & 7u) + 1u)) % ((((x + a) % ((15u & 7u) + 1u)) & 7u) + 1u));\n  } else {\n    r = (x * r);\n  }\n  if ((a < ((1u % ((b & 7u) + 1u)) + (r & y)))) {\n    r = (3u / (((a | (r >> (y & 31u))) & 7u) + 1u));\n  } else {\n    r = (((y / ((b & 7u) + 1u)) - x) | ((x >> (x & 31u)) & (b | 1u)));\n  }\n  if (((x == 3u) && (y == 0u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (0u & (x / (((15u & y) & 7u) + 1u)));\n  unsigned b = (((~x) / (((a * a) & 7u) + 1u)) - 31u);\n  unsigned r = (~(x >> ((a >> (y & 31u)) & 31u)));\n  if (((2u % ((15u & 7u) + 1u)) <= a)) {\n    r = (((b / ((x & 7u) + 1u)) / (((a >> (b & 31u)) & 7u) + 1u)) % ((((x + a) % ((15u & 7u) + 1u)) & 7u) + 1u));\n  } else {\n    r = (x * r);\n  }\n  if ((a < ((1u % ((b & 7u) + 1u)) + (r & y)))) {\n    r = (3u / (((a | (r >> (y & 31u))) & 7u) + 1u));\n  } else {\n    r = (((y / ((b & 7u) + 1u)) - x) | ((x >> (x & 31u)) & (b | 1u)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

@@ -1,0 +1,86 @@
+{
+  "outcome": "PASS_DATA_RECONCILIATION",
+  "summary": {
+    "families": 20,
+    "requests": 80,
+    "oracle_points": 6480,
+    "accepted_correct": 20,
+    "refuted_mutants": 60,
+    "test_only_accepted_mutants": 60,
+    "value_only_accepted_undefined": 20,
+    "semantic_only_noncanonical": 34,
+    "trace_aware_exact": 60,
+    "holes": 20,
+    "tamperings": 160,
+    "native_defined": 9180,
+    "native_excluded_undefined": 540,
+    "projected_rows_correct": 370,
+    "unsliced_rows_correct": 4860,
+    "all_projected_rows": 2522,
+    "rows_range": [
+      7,
+      93
+    ],
+    "producer_nodes_range": [
+      21,
+      51
+    ],
+    "receiver_nodes_range": [
+      20,
+      40
+    ],
+    "public_pairs": 0,
+    "regression": {
+      "semantic_cases": 18,
+      "semantic_oracle_rows": 450,
+      "syntax_controls": 60,
+      "invalid_json_controls": 5,
+      "request_controls": 4,
+      "disagreements": 0
+    },
+    "null": {
+      "requests": 80,
+      "matching_results": 80,
+      "equal_replay_rows": 80,
+      "equal_source_interpreter_steps": 80,
+      "certificate_rows": 2522,
+      "direct_rows": 2522
+    },
+    "null_counts": {
+      "certificate_arm": {
+        "certificate_steps": 2522,
+        "checker_projected_points": 4178,
+        "checker_source_tokens": 14388,
+        "checker_steps": 79877,
+        "checker_symbolic_nodes": 2403,
+        "counterexample_comparisons": 312,
+        "coverage_cells": 2522
+      },
+      "receiver_only_arm": {
+        "certificate_steps": 0,
+        "checker_projected_points": 4178,
+        "checker_source_tokens": 14388,
+        "checker_steps": 79877,
+        "checker_symbolic_nodes": 2403,
+        "counterexample_comparisons": 312,
+        "coverage_cells": 0
+      }
+    }
+  },
+  "resources": {
+    "work_events": 25000,
+    "counts": {
+      "report_cases": 80,
+      "report_native_rows": 18360,
+      "report_null_rows": 80,
+      "report_oracle_observations": 6480
+    },
+    "wall_seconds": 0.03569489699998485,
+    "self_cpu_seconds": 0.035679000000000016,
+    "child_cpu_seconds": 0.0,
+    "total_cpu_seconds": 0.035679000000000016,
+    "self_peak_rss_kib": 100400,
+    "largest_child_rss_kib": 0,
+    "workers": 1
+  }
+}

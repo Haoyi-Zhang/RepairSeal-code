@@ -1,0 +1,5412 @@
+[
+  {
+    "id": "fixture-01-correct",
+    "family": "modular addition",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 24,
+    "checker_symbolic_nodes": 23,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-01-overfit",
+    "family": "modular addition",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 30,
+    "checker_symbolic_nodes": 28,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-01-regression",
+    "family": "modular addition",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-01-undefined",
+    "family": "modular addition",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 57,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-02-correct",
+    "family": "modular subtraction",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 11,
+    "producer_dag_nodes": 21,
+    "checker_symbolic_nodes": 20,
+    "supports": [
+      [],
+      [],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-02-overfit",
+    "family": "modular subtraction",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 29,
+    "checker_symbolic_nodes": 27,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-02-regression",
+    "family": "modular subtraction",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 30,
+    "checker_symbolic_nodes": 28,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-02-undefined",
+    "family": "modular subtraction",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 39,
+    "producer_dag_nodes": 30,
+    "checker_symbolic_nodes": 26,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-03-correct",
+    "family": "modular multiplication",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 25,
+    "checker_symbolic_nodes": 24,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-03-overfit",
+    "family": "modular multiplication",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-03-regression",
+    "family": "modular multiplication",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 32,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-03-undefined",
+    "family": "modular multiplication",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 57,
+    "producer_dag_nodes": 35,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-04-correct",
+    "family": "exclusive or",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 24,
+    "checker_symbolic_nodes": 23,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-04-overfit",
+    "family": "exclusive or",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 30,
+    "checker_symbolic_nodes": 28,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-04-regression",
+    "family": "exclusive or",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-04-undefined",
+    "family": "exclusive or",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 57,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-05-correct",
+    "family": "bitwise and",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 25,
+    "checker_symbolic_nodes": 24,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-05-overfit",
+    "family": "bitwise and",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-05-regression",
+    "family": "bitwise and",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 32,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-05-undefined",
+    "family": "bitwise and",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 57,
+    "producer_dag_nodes": 35,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-06-correct",
+    "family": "bitwise or",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 24,
+    "checker_symbolic_nodes": 23,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-06-overfit",
+    "family": "bitwise or",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 30,
+    "checker_symbolic_nodes": 28,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-06-regression",
+    "family": "bitwise or",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-06-undefined",
+    "family": "bitwise or",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 57,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-07-correct",
+    "family": "unsigned boundary addition",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 7,
+    "producer_dag_nodes": 25,
+    "checker_symbolic_nodes": 24,
+    "supports": [
+      [],
+      [
+        "x"
+      ],
+      [
+        "x"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-07-overfit",
+    "family": "unsigned boundary addition",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-07-regression",
+    "family": "unsigned boundary addition",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        4294967295,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 32,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        4294967295,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        4294967295,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-07-undefined",
+    "family": "unsigned boundary addition",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 35,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-08-correct",
+    "family": "unsigned boundary multiplication",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 7,
+    "producer_dag_nodes": 28,
+    "checker_symbolic_nodes": 27,
+    "supports": [
+      [],
+      [
+        "x"
+      ],
+      [
+        "x"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-08-overfit",
+    "family": "unsigned boundary multiplication",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 32,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-08-regression",
+    "family": "unsigned boundary multiplication",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        4294967295,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 36,
+    "checker_symbolic_nodes": 34,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        4294967295,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        4294967295,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-08-undefined",
+    "family": "unsigned boundary multiplication",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 38,
+    "checker_symbolic_nodes": 33,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-09-correct",
+    "family": "nonzero division",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 38,
+    "checker_symbolic_nodes": 33,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-09-overfit",
+    "family": "nonzero division",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 46,
+    "checker_symbolic_nodes": 38,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-09-regression",
+    "family": "nonzero division",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 47,
+    "checker_symbolic_nodes": 39,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-09-undefined",
+    "family": "nonzero division",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 63,
+    "producer_dag_nodes": 45,
+    "checker_symbolic_nodes": 38,
+    "supports": [
+      [
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-10-correct",
+    "family": "nonzero remainder",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 38,
+    "checker_symbolic_nodes": 33,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-10-overfit",
+    "family": "nonzero remainder",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 46,
+    "checker_symbolic_nodes": 38,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-10-regression",
+    "family": "nonzero remainder",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 47,
+    "checker_symbolic_nodes": 39,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-10-undefined",
+    "family": "nonzero remainder",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 63,
+    "producer_dag_nodes": 45,
+    "checker_symbolic_nodes": 38,
+    "supports": [
+      [
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-11-correct",
+    "family": "bounded left shift",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 29,
+    "checker_symbolic_nodes": 25,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-11-overfit",
+    "family": "bounded left shift",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 41,
+    "checker_symbolic_nodes": 33,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-11-regression",
+    "family": "bounded left shift",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 42,
+    "checker_symbolic_nodes": 34,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-11-undefined",
+    "family": "bounded left shift",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 63,
+    "producer_dag_nodes": 37,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-12-correct",
+    "family": "bounded right shift",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 29,
+    "checker_symbolic_nodes": 25,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-12-overfit",
+    "family": "bounded right shift",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 41,
+    "checker_symbolic_nodes": 33,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-12-regression",
+    "family": "bounded right shift",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 42,
+    "checker_symbolic_nodes": 34,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-12-undefined",
+    "family": "bounded right shift",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 63,
+    "producer_dag_nodes": 37,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-13-correct",
+    "family": "minimum with different guards",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 28,
+    "checker_symbolic_nodes": 25,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-13-overfit",
+    "family": "minimum with different guards",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-13-regression",
+    "family": "minimum with different guards",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 35,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-13-undefined",
+    "family": "minimum with different guards",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 57,
+    "producer_dag_nodes": 40,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-14-correct",
+    "family": "maximum with different guards",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 28,
+    "checker_symbolic_nodes": 25,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-14-overfit",
+    "family": "maximum with different guards",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-14-regression",
+    "family": "maximum with different guards",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 35,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-14-undefined",
+    "family": "maximum with different guards",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 57,
+    "producer_dag_nodes": 40,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-15-correct",
+    "family": "unsigned absolute difference",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 11,
+    "producer_dag_nodes": 25,
+    "checker_symbolic_nodes": 23,
+    "supports": [
+      [],
+      [],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-15-overfit",
+    "family": "unsigned absolute difference",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 33,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-15-regression",
+    "family": "unsigned absolute difference",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 19,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-15-undefined",
+    "family": "unsigned absolute difference",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 39,
+    "producer_dag_nodes": 36,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-16-correct",
+    "family": "guarded division",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 32,
+    "checker_symbolic_nodes": 27,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-16-overfit",
+    "family": "guarded division",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 44,
+    "checker_symbolic_nodes": 35,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-16-regression",
+    "family": "guarded division",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 21,
+    "producer_dag_nodes": 45,
+    "checker_symbolic_nodes": 36,
+    "supports": [
+      [
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-16-undefined",
+    "family": "guarded division",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 63,
+    "producer_dag_nodes": 42,
+    "checker_symbolic_nodes": 33,
+    "supports": [
+      [
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-17-correct",
+    "family": "short-circuit guarded division",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 27,
+    "producer_dag_nodes": 38,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-17-overfit",
+    "family": "short-circuit guarded division",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 27,
+    "producer_dag_nodes": 50,
+    "checker_symbolic_nodes": 39,
+    "supports": [
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-17-regression",
+    "family": "short-circuit guarded division",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 27,
+    "producer_dag_nodes": 51,
+    "checker_symbolic_nodes": 40,
+    "supports": [
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ],
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": false
+  },
+  {
+    "id": "fixture-17-undefined",
+    "family": "short-circuit guarded division",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 81,
+    "producer_dag_nodes": 49,
+    "checker_symbolic_nodes": 37,
+    "supports": [
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-18-correct",
+    "family": "nested branch dependence",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 29,
+    "producer_dag_nodes": 29,
+    "checker_symbolic_nodes": 25,
+    "supports": [
+      [],
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-18-overfit",
+    "family": "nested branch dependence",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 55,
+    "producer_dag_nodes": 37,
+    "checker_symbolic_nodes": 32,
+    "supports": [
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": true
+  },
+  {
+    "id": "fixture-18-regression",
+    "family": "nested branch dependence",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 55,
+    "producer_dag_nodes": 38,
+    "checker_symbolic_nodes": 33,
+    "supports": [
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": true
+  },
+  {
+    "id": "fixture-18-undefined",
+    "family": "nested branch dependence",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 93,
+    "producer_dag_nodes": 42,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "z",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "y",
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-19-correct",
+    "family": "overwritten value",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 11,
+    "producer_dag_nodes": 22,
+    "checker_symbolic_nodes": 21,
+    "supports": [
+      [],
+      [],
+      [
+        "x",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-19-overfit",
+    "family": "overwritten value",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 55,
+    "producer_dag_nodes": 30,
+    "checker_symbolic_nodes": 28,
+    "supports": [
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": true
+  },
+  {
+    "id": "fixture-19-regression",
+    "family": "overwritten value",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 55,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 29,
+    "supports": [
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": true
+  },
+  {
+    "id": "fixture-19-undefined",
+    "family": "overwritten value",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 39,
+    "producer_dag_nodes": 31,
+    "checker_symbolic_nodes": 27,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "x",
+        "z",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  },
+  {
+    "id": "fixture-20-correct",
+    "family": "value-relevant branch control",
+    "variant": "correct",
+    "status": "ACCEPT",
+    "witness": null,
+    "oracle_points": 81,
+    "projected_rows": 29,
+    "producer_dag_nodes": 26,
+    "checker_symbolic_nodes": 24,
+    "supports": [
+      [],
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "z"
+    ],
+    "test_only_accepts": true,
+    "unsliced_rows": 243
+  },
+  {
+    "id": "fixture-20-overfit",
+    "family": "value-relevant branch control",
+    "variant": "overfit",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 55,
+    "producer_dag_nodes": 34,
+    "checker_symbolic_nodes": 31,
+    "supports": [
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": true
+  },
+  {
+    "id": "fixture-20-regression",
+    "family": "value-relevant branch control",
+    "variant": "regression",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 55,
+    "producer_dag_nodes": 35,
+    "checker_symbolic_nodes": 32,
+    "supports": [
+      [],
+      [
+        "x",
+        "y",
+        "z"
+      ],
+      [
+        "x",
+        "y",
+        "z"
+      ]
+    ],
+    "checker_trace_support": [
+      "x",
+      "y",
+      "z"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "input": [
+        3,
+        3,
+        1,
+        0
+      ]
+    },
+    "semantic_only_is_canonical": true
+  },
+  {
+    "id": "fixture-20-undefined",
+    "family": "value-relevant branch control",
+    "variant": "undefined",
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "oracle_points": 81,
+    "projected_rows": 93,
+    "producer_dag_nodes": 37,
+    "checker_symbolic_nodes": 30,
+    "supports": [
+      [
+        "t"
+      ],
+      [
+        "x",
+        "t"
+      ],
+      [
+        "x",
+        "y",
+        "z",
+        "t"
+      ]
+    ],
+    "checker_trace_support": [
+      "z",
+      "t"
+    ],
+    "test_only_accepts": true,
+    "semantic_only_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "trace_aware_witness": {
+      "obligation": "defined",
+      "trace": [],
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    "semantic_only_is_canonical": true,
+    "unsafe_value_only_accepts": true
+  }
+]

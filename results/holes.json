@@ -1,0 +1,490 @@
+[
+  {
+    "id": "fixture-01-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 23
+  },
+  {
+    "id": "fixture-02-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 20
+  },
+  {
+    "id": "fixture-03-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 24
+  },
+  {
+    "id": "fixture-04-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 23
+  },
+  {
+    "id": "fixture-05-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 24
+  },
+  {
+    "id": "fixture-06-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 23
+  },
+  {
+    "id": "fixture-07-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 24
+  },
+  {
+    "id": "fixture-08-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 27
+  },
+  {
+    "id": "fixture-09-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 33
+  },
+  {
+    "id": "fixture-10-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 33
+  },
+  {
+    "id": "fixture-11-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 25
+  },
+  {
+    "id": "fixture-12-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 25
+  },
+  {
+    "id": "fixture-13-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 25
+  },
+  {
+    "id": "fixture-14-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 25
+  },
+  {
+    "id": "fixture-15-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 23
+  },
+  {
+    "id": "fixture-16-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 27
+  },
+  {
+    "id": "fixture-17-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 31
+  },
+  {
+    "id": "fixture-18-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 25
+  },
+  {
+    "id": "fixture-19-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 21
+  },
+  {
+    "id": "fixture-20-correct",
+    "status": "UNCOVERED",
+    "reason": "missing evidence, not a semantic refutation",
+    "witness": {
+      "obligation": "defined",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    "checked_rows": 0,
+    "missing_cells": 1,
+    "symbolic_nodes": 24
+  }
+]

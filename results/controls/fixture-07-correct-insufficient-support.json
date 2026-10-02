@@ -1,0 +1,59 @@
+{
+  "kind": "finite-support-replay",
+  "parts": [
+    {
+      "obligation": "defined",
+      "support": [],
+      "rows": [
+        {
+          "key": [],
+          "ok": true
+        }
+      ]
+    },
+    {
+      "obligation": "repair",
+      "support": [],
+      "rows": [
+        {
+          "key": [],
+          "ok": true
+        },
+        {
+          "key": [],
+          "ok": true
+        },
+        {
+          "key": [],
+          "ok": true
+        }
+      ]
+    },
+    {
+      "obligation": "preserve",
+      "support": [
+        "x"
+      ],
+      "rows": [
+        {
+          "key": [
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967294
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967295
+          ],
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

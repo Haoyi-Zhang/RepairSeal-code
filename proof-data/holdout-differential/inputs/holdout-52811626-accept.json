@@ -1,0 +1,25 @@
+{
+  "id": "holdout-52811626-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = (~x);\n  unsigned r = y;\n  if (((((z + x) | 15u) == r) || (((y + a) * (a << (z & 31u))) < z))) {\n    r = (b >> ((~(z | 31u)) & 31u));\n  } else {\n    r = ((~a) + ((r & z) ^ (a | x)));\n  }\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = (~x);\n  unsigned r = y;\n  if (((((z + x) | 15u) == r) || (((y + a) * (a << (z & 31u))) < z))) {\n    r = (b >> ((~(z | 31u)) & 31u));\n  } else {\n    r = ((~a) + ((r & z) ^ (a | x)));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = (~x);\n  unsigned r = y;\n  if (((((z + x) | 15u) == r) || (((y + a) * (a << (z & 31u))) < z))) {\n    r = (b >> ((~(z | 31u)) & 31u));\n  } else {\n    r = ((~a) + ((r & z) ^ (a | x)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

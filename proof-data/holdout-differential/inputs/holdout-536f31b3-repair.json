@@ -1,0 +1,20 @@
+{
+  "id": "holdout-536f31b3-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((x & (y << (2u & 31u))) ^ ((2147483647u & y) + (x | 15u)));\n  unsigned b = (~((x - a) | (a >> (x & 31u))));\n  unsigned r = a;\n  if ((!(((y ^ r) % ((0u & 7u) + 1u)) >= (7u + (y | a))))) {\n    r = (((x | a) * (y - a)) + (x * (r - y)));\n  } else {\n    r = ((a ^ (x / ((b & 7u) + 1u))) >> (((b | x) / (((r >> (31u & 31u)) & 7u) + 1u)) & 31u));\n  }\n  if (((((~1u) ^ x) < ((a & 31u) & (b << (y & 31u)))) || (a < ((a * y) & (a + x))))) {\n    r = (r ^ a);\n  } else {\n    r = ((r << (2u & 31u)) & x);\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((x & (y << (2u & 31u))) ^ ((2147483647u & y) + (x | 15u)));\n  unsigned b = (~((x - a) | (a >> (x & 31u))));\n  unsigned r = a;\n  if ((!(((y ^ r) % ((0u & 7u) + 1u)) >= (7u + (y | a))))) {\n    r = (((x | a) * (y - a)) + (x * (r - y)));\n  } else {\n    r = ((a ^ (x / ((b & 7u) + 1u))) >> (((b | x) / (((r >> (31u & 31u)) & 7u) + 1u)) & 31u));\n  }\n  if (((((~1u) ^ x) < ((a & 31u) & (b << (y & 31u)))) || (a < ((a * y) & (a + x))))) {\n    r = (r ^ a);\n  } else {\n    r = ((r << (2u & 31u)) & x);\n  }\n  if (((x == 0u) && (y == 0u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((x & (y << (2u & 31u))) ^ ((2147483647u & y) + (x | 15u)));\n  unsigned b = (~((x - a) | (a >> (x & 31u))));\n  unsigned r = a;\n  if ((!(((y ^ r) % ((0u & 7u) + 1u)) >= (7u + (y | a))))) {\n    r = (((x | a) * (y - a)) + (x * (r - y)));\n  } else {\n    r = ((a ^ (x / ((b & 7u) + 1u))) >> (((b | x) / (((r >> (31u & 31u)) & 7u) + 1u)) & 31u));\n  }\n  if (((((~1u) ^ x) < ((a & 31u) & (b << (y & 31u)))) || (a < ((a * y) & (a + x))))) {\n    r = (r ^ a);\n  } else {\n    r = ((r << (2u & 31u)) & x);\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "holdout-522c63f9-defined",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (((y ^ z) & (y + y)) - x);\n  unsigned b = (z + (z & (3u << (y & 31u))));\n  unsigned r = 2147483647u;\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned poison = (1u / (z ^ 1u));\n  unsigned a = (((y ^ z) & (y + y)) - x);\n  unsigned b = (z + (z & (3u << (y & 31u))));\n  unsigned r = 2147483647u;\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (((y ^ z) & (y + y)) - x);\n  unsigned b = (z + (z & (3u << (y & 31u))));\n  unsigned r = 2147483647u;\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

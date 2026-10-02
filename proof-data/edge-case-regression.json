@@ -1,0 +1,48 @@
+{
+  "left_deep_ast": {
+    "ast_depth": 1500,
+    "ast_nodes": 2999,
+    "compact_checker_rejection": "AST depth",
+    "diagnostic_guard_bypass": "RecursionError",
+    "full_checker_rejection": "AST depth",
+    "isolated_wall_seconds": 0.5709586470001113,
+    "long_literal_rejection": "literal length",
+    "production_producer_rejection": "AST depth",
+    "source_characters": 3034,
+    "timeout_seconds": 10,
+    "tokens": 3009,
+    "wrong_acceptance_observed": false
+  },
+  "outcome": "PASS",
+  "producer_complexity": {
+    "certificate_bytes_identical": true,
+    "certificate_sha256": "27095d3c79486221e4a7d71d021322394c787aedc2c38c95a3924e08b3ea7378",
+    "legacy_over_topological_ratio": 22.37735849056604,
+    "legacy_recursive_node_visits": 3558,
+    "nodes": 53,
+    "points": 3,
+    "source_characters": 147,
+    "terms": 48,
+    "topological_vector_cells": 159
+  },
+  "schema": "edge-case-regression-v1",
+  "selector_admission": {
+    "boundary": "The mathematical selector semantics is short-circuit total, but the prototype admits only selectors whose reconstructed definedness simplifies directly to true.",
+    "compact_checker_rejection": "guard totality not simplified to true",
+    "domain": [
+      0,
+      1,
+      2
+    ],
+    "full_checker_rejection": "guard totality not simplified to true",
+    "producer_rejection": "guard totality not simplified to true",
+    "prototype_admitted": false,
+    "selector": "(x == 0u) || ((1u / x) > 0u)",
+    "selector_truth_values": [
+      true,
+      true,
+      false
+    ],
+    "semantically_defined_at_all_domain_points": true
+  }
+}

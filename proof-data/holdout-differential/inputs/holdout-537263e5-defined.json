@@ -1,0 +1,20 @@
+{
+  "id": "holdout-537263e5-defined",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = x;\n  unsigned b = a;\n  unsigned r = (((~31u) << ((0u / ((3u & 7u) + 1u)) & 31u)) / (((y * x) & 7u) + 1u));\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned poison = (1u / (y ^ 3u));\n  unsigned a = x;\n  unsigned b = a;\n  unsigned r = (((~31u) << ((0u / ((3u & 7u) + 1u)) & 31u)) / (((y * x) & 7u) + 1u));\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = x;\n  unsigned b = a;\n  unsigned r = (((~31u) << ((0u / ((3u & 7u) + 1u)) & 31u)) / (((y * x) & 7u) + 1u));\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

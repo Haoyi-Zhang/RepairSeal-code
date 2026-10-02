@@ -1,0 +1,57 @@
+{
+  "certificate_sha256": "e9b66d56a5503d6c8d27d6916e1050ab21e5204d5d92095a7a848c0c2bfe5b36",
+  "domains": {
+    "t": [
+      0,
+      1,
+      2
+    ],
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ]
+  },
+  "input": [
+    2,
+    0,
+    2,
+    1
+  ],
+  "input_order": [
+    "x",
+    "y",
+    "z",
+    "t"
+  ],
+  "kind": "finite-semantic-refutation-v1",
+  "obligation": "preserve",
+  "request_id": "stress-031-regression",
+  "source_sha256": {
+    "candidate": "e386118307414e03505712062d1b7559822d5a39f3a0bf144ba516b452deed9c",
+    "original": "0d09fbd666e6e965882229601c53156ed0388026a0402953ec633e03732b491a",
+    "reference": "f4be423dfa6e61bed477ac8908b8c2080f3a81978bce24afa9c1d7897a426639",
+    "repair_guard": "e9acd5d5ab2be963345fd4e64fb9dbdc08b45a39b1200514f58bca3f95db7427"
+  },
+  "trace": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "word_bits": 32
+}

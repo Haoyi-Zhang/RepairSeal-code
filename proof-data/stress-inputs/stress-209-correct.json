@@ -1,0 +1,30 @@
+{
+  "id": "stress-209-correct",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ],
+    "t": [
+      0,
+      1,
+      2
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = ((x + 6u) * (y + 1u)) ^ (z + 12u);\nif (x == 0u) { r = r - 1u; } else { r = r; }\nreturn r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned scratch = t;\nif ((t & 1u) == 0u) { scratch = scratch + 1u; } else { scratch = scratch + 2u; }\nunsigned r = (z + 12u) ^ ((1u + y) * (6u + x));\nreturn r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = ((x + 6u) * (y + 1u)) ^ (z + 12u);\nreturn r;\n}\n",
+  "repair_guard": "x == 0u"
+}

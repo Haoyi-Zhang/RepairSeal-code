@@ -1,0 +1,20 @@
+{
+  "id": "holdout-53aa5250-preserve",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (((x | y) / ((y & 7u) + 1u)) & ((15u & y) / (((y + y) & 7u) + 1u)));\n  unsigned b = y;\n  unsigned r = (~((x | a) % (((y | 15u) & 7u) + 1u)));\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (((x | y) / ((y & 7u) + 1u)) & ((15u & y) / (((y + y) & 7u) + 1u)));\n  unsigned b = y;\n  unsigned r = (~((x | a) % (((y | 15u) & 7u) + 1u)));\n  if (((x == 0u) && (y == 3u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (((x | y) / ((y & 7u) + 1u)) & ((15u & y) / (((y + y) & 7u) + 1u)));\n  unsigned b = y;\n  unsigned r = (~((x | a) % (((y | 15u) & 7u) + 1u)));\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

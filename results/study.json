@@ -1,0 +1,110 @@
+{
+  "outcome": "PASS_FINITE_STUDY",
+  "totals": {
+    "fixture_families": 20,
+    "requests": 80,
+    "oracle_points": 6480,
+    "accepted_correct": 20,
+    "refuted_mutants": 60,
+    "test_only_accepted_mutants": 60,
+    "unsafe_value_only_accepted_undefined": 20,
+    "semantic_only_noncanonical_refutations": 34,
+    "trace_aware_exact_refutations": 60,
+    "correct_patch_coverage_holes": 20,
+    "invalid_certificate_controls": 160,
+    "public_codeflaws_pairs": 0,
+    "oracle_disagreements": 0
+  },
+  "native": {
+    "unique_functions": 120,
+    "unique_defined_evaluations": 9180,
+    "undefined_candidate_observations_excluded": 540,
+    "return_value_disagreements": 0,
+    "cross_compiler_disagreements": 0,
+    "trace_checked_natively": false,
+    "compiler_count": 2,
+    "compilers": [
+      {
+        "id": "gcc",
+        "executable": "/usr/bin/x86_64-linux-gnu-gcc-14",
+        "version_command": [
+          "/usr/bin/x86_64-linux-gnu-gcc-14",
+          "--version"
+        ],
+        "version_first_line": "x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0",
+        "compile_command": [
+          "/usr/bin/x86_64-linux-gnu-gcc-14",
+          "-std=c11",
+          "-O0",
+          "native-harness.c",
+          "-o",
+          "native-gcc"
+        ],
+        "run_command": [
+          "./native-gcc"
+        ],
+        "output_file": "native-outputs-gcc.csv",
+        "compile_returncode": 0,
+        "run_returncode": 0
+      },
+      {
+        "id": "clang",
+        "executable": "/usr/local/swift/usr/bin/clang-17",
+        "version_command": [
+          "/usr/local/swift/usr/bin/clang-17",
+          "--version"
+        ],
+        "version_first_line": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)",
+        "compile_command": [
+          "/usr/local/swift/usr/bin/clang-17",
+          "-std=c11",
+          "-O0",
+          "native-harness.c",
+          "-o",
+          "native-clang"
+        ],
+        "run_command": [
+          "./native-clang"
+        ],
+        "output_file": "native-outputs-clang.csv",
+        "compile_returncode": 0,
+        "run_returncode": 0
+      }
+    ],
+    "compile_options": [
+      "-std=c11",
+      "-O0"
+    ]
+  },
+  "scope": "designed finite intake fixtures; not a public benchmark or general correctness proof",
+  "resources": {
+    "work_events": 657669,
+    "counts": {
+      "certificate_mutations": 180,
+      "certificate_steps": 8218,
+      "checker_projected_points": 9250,
+      "checker_source_tokens": 46908,
+      "checker_steps": 401637,
+      "checker_symbolic_nodes": 7453,
+      "counterexample_comparisons": 852,
+      "coverage_cells": 8160,
+      "native_defined_evaluations": 9180,
+      "obligation_families": 240,
+      "oracle_rows": 6480,
+      "producer_source_tokens": 14388,
+      "producer_steps": 80036,
+      "projected_points": 9940,
+      "requests": 80,
+      "source_mutations": 60,
+      "support_comparisons": 51840,
+      "symbolic_nodes": 2767
+    },
+    "wall_seconds": 0.97728333200007,
+    "self_cpu_seconds": 0.7753479999999999,
+    "child_cpu_seconds": 0.201325,
+    "total_cpu_seconds": 0.9766729999999999,
+    "self_peak_rss_kib": 102696,
+    "largest_child_rss_kib": 102568,
+    "workers": 1
+  }
+}

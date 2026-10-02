@@ -1,0 +1,25 @@
+{
+  "kind": "finite-support-replay",
+  "parts": [
+    {
+      "obligation": "defined",
+      "support": [],
+      "rows": [
+        {
+          "key": [],
+          "ok": true
+        }
+      ]
+    },
+    {
+      "obligation": "repair",
+      "support": [],
+      "rows": [
+        {
+          "key": [],
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

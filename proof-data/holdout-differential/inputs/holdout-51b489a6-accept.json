@@ -1,0 +1,25 @@
+{
+  "id": "holdout-51b489a6-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = x;\n  unsigned b = (~1u);\n  unsigned r = ((4294967295u / ((2147483647u & 7u) + 1u)) & y);\n  if ((((a % ((b & 7u) + 1u)) - (~2u)) == a)) {\n    r = (((1u ^ x) - (y & b)) ^ 2u);\n  } else {\n    r = (((r | r) % (((4294967295u << (b & 31u)) & 7u) + 1u)) + ((b / ((z & 7u) + 1u)) ^ (15u - y)));\n  }\n  if ((x != (y ^ (a ^ y)))) {\n    r = ((~z) | (r >> ((2147483647u ^ z) & 31u)));\n  } else {\n    r = (((b * z) << ((1u * z) & 31u)) - ((r >> (y & 31u)) + (z * x)));\n  }\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = x;\n  unsigned b = (~1u);\n  unsigned r = ((4294967295u / ((2147483647u & 7u) + 1u)) & y);\n  if ((((a % ((b & 7u) + 1u)) - (~2u)) == a)) {\n    r = (((1u ^ x) - (y & b)) ^ 2u);\n  } else {\n    r = (((r | r) % (((4294967295u << (b & 31u)) & 7u) + 1u)) + ((b / ((z & 7u) + 1u)) ^ (15u - y)));\n  }\n  if ((x != (y ^ (a ^ y)))) {\n    r = ((~z) | (r >> ((2147483647u ^ z) & 31u)));\n  } else {\n    r = (((b * z) << ((1u * z) & 31u)) - ((r >> (y & 31u)) + (z * x)));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = x;\n  unsigned b = (~1u);\n  unsigned r = ((4294967295u / ((2147483647u & 7u) + 1u)) & y);\n  if ((((a % ((b & 7u) + 1u)) - (~2u)) == a)) {\n    r = (((1u ^ x) - (y & b)) ^ 2u);\n  } else {\n    r = (((r | r) % (((4294967295u << (b & 31u)) & 7u) + 1u)) + ((b / ((z & 7u) + 1u)) ^ (15u - y)));\n  }\n  if ((x != (y ^ (a ^ y)))) {\n    r = ((~z) | (r >> ((2147483647u ^ z) & 31u)));\n  } else {\n    r = (((b * z) << ((1u * z) & 31u)) - ((r >> (y & 31u)) + (z * x)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

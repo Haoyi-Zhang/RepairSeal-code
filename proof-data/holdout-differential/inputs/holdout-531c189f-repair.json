@@ -1,0 +1,25 @@
+{
+  "id": "holdout-531c189f-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = ((y ^ (z / ((x & 7u) + 1u))) % ((z & 7u) + 1u));\n  unsigned r = (15u + (b >> ((z * 1u) & 31u)));\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = ((y ^ (z / ((x & 7u) + 1u))) % ((z & 7u) + 1u));\n  unsigned r = (15u + (b >> ((z * 1u) & 31u)));\n  if (((x == 0u) && (y == 3u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = ((y ^ (z / ((x & 7u) + 1u))) % ((z & 7u) + 1u));\n  unsigned r = (15u + (b >> ((z * 1u) & 31u)));\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

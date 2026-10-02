@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.528352,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.925979,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.022833,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.668581,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.361552,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.058277,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.105819,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.556383,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.719408,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.938818,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.029433,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.992917,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.54054,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.871217,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.915473,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.577033,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.492938,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.916714,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.095133,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.790994,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.414961,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.867771,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.141772,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.885957,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.499198,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.983284,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.988281,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.763973,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.652859,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.984887,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.095743,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.005506,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.245437,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.365377,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.02073,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.854105,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.152307,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.344245,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.023906,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.385562,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.674421,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.001101,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.056785,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.70227,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.61386,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.999229,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.899208,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.336421,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.699498,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.083816,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.050545,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.243983,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.690845,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.22703,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.229283,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.527879,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.844325,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.40053,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.381512,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.374279,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 2.342964,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.328962,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.070255,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 9.951102,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.3078,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.576313,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.484867,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 19.16664,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 1.918888,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.216053,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.586599,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 7.748158,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.310986,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.792338,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.042763,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.023864,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.732197,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.074111,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.358957,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.100218,
+    "repeat": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.491657,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.933119,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.916204,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.675371,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.349233,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.807231,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.896754,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.088572,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.542103,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.934401,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.165107,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.340679,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.372869,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.850525,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.889033,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.712928,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.485247,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.045288,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.951036,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.670093,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.594511,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.887431,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.052738,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.676614,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.694481,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.875243,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.962984,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.779788,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.586179,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.962233,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.951236,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.294169,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.118246,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.39322,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.16041,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.233905,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.108782,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.487851,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.04028,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.632393,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.689063,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.190805,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.998547,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.831164,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.822974,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.002203,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.03365,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.19559,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.851657,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.135233,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.184997,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.256081,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.692508,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.104256,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.025208,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.087899,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.584466,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.010185,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.25362,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.878015,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 1.979839,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.301832,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.285939,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 10.02374,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.335271,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.530695,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.329003,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 21.42081,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 1.963875,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.211186,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.525467,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 8.174387,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.657736,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.819349,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.139088,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.154219,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.651556,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.118578,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.164977,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.935821,
+    "repeat": 1
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.470555,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.997105,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.071818,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.880408,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.304847,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.738067,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.058117,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.102712,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.575252,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.007892,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.956314,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.765846,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.436303,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.156364,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.099879,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.651295,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.508692,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.101712,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.035613,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.852776,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.52673,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.215503,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.943986,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.991956,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.650736,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.037025,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.174872,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.595872,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.559258,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.94689,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.15411,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.251665,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.097686,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.396724,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.017176,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.747134,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.139509,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.660009,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.209864,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.987145,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.753969,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.090345,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.929914,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.231003,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.731696,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.016354,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.931827,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.874439,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.726198,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.162423,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.21387,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.105445,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.910716,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.103514,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.045598,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.31522,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.609393,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.129724,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.216384,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.689992,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 1.94072,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.30679,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.489674,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 10.304632,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.282533,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.600069,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.51355,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 20.292138,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 2.30068,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.217416,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.204285,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 8.0158,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.464506,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.902824,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.117315,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.0871,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.730194,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.059069,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.320761,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.251594,
+    "repeat": 2
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.563905,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.934542,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.214841,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.079417,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.784726,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.02665,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.257696,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.048541,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.556845,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.924286,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.075623,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.889711,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.609434,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.955703,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.052839,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.875892,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.706159,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.125708,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.138618,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.713338,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.406929,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.92719,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.149303,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.217314,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.552578,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.032738,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.944427,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.823072,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 2.825748,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.999789,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.128192,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.14851,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.389072,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.597085,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.120991,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.85709,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.15452,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.375553,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.054511,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.702698,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.678216,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.032428,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.137967,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.814919,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.617906,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.048542,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.044126,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.86197,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.77365,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.067942,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.182823,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.167509,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.665738,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.108983,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.249664,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.503442,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.599718,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.04689,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.276975,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.295541,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 2.054842,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.24024,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.161452,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 9.517912,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.38775,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.553018,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.49363,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 19.990256,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 1.890184,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.198256,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.793409,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 7.964223,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.337796,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.78683,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.938738,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 2.969683,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.610635,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.069554,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.332247,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.969862,
+    "repeat": 3
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.418588,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.863134,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.890836,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.761551,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.392018,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.885007,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.893831,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.126178,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.495442,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.978057,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.161191,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.127199,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.429153,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.974362,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.967501,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.845146,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.482082,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.930275,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.967651,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.693888,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.428762,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.183344,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.152258,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.583153,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.472569,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.87304,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.896284,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.72082,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.586028,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.94007,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.111277,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.216432,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.141371,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.46031,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.148693,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 12.073685,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.16068,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.364356,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.04024,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 12.173124,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.736144,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.190535,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.12046,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.927849,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 2.653679,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.045868,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.092718,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.839837,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.796584,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.15334,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.156314,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.773117,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.767941,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.071367,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.045918,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.080187,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.759128,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.044226,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.352047,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.23547,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 2.052068,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.257095,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.259969,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.055678,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.294331,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.66026,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.317115,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 19.678898,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 1.962302,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.310035,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.44693,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 8.284523,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.495362,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.821852,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.321812,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.143714,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.694942,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.08009,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.127551,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.938745,
+    "repeat": 4
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.422563,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.852018,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.030616,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.442201,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.508912,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.82696,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.05374,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.264715,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.521742,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.935493,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.956654,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.644284,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.463905,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.010225,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.083004,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.636373,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.472107,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.928752,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.944877,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.678396,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.4141,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.883605,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.897516,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.884716,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.579478,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.904286,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.109093,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.716393,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.706168,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.102373,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.946449,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.286317,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.13364,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.343635,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.995162,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.689198,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.143845,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.650555,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.201742,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 12.812323,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.736363,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.010976,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.927892,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.156461,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.624816,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.999168,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.958748,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.849241,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.792378,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.114571,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.273719,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.153097,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.744496,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.120029,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.057245,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.423162,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.612929,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.996905,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.078768,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.445135,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 2.009754,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.394862,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.355553,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 10.249119,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.291546,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.506279,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.516544,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 19.242254,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 1.948082,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.310966,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.461071,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 7.973435,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.334051,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.785318,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.16697,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.116353,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.633139,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.037325,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.316704,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.229421,
+    "repeat": 5
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.422163,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.994691,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.930215,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.496162,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.286088,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.750576,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.025628,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.10727,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.590105,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.941201,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.926739,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.460218,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.631256,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.003855,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.991137,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.617785,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.501231,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.904917,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.112418,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.669372,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.447049,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.871316,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.926279,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.988411,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.544105,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.912879,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.890886,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.55488,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.574501,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.944005,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.079969,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.542581,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.152047,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.344677,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.017876,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.665201,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.172518,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.759539,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.067561,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 12.204301,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.669263,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.058688,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.349413,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.985675,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.682633,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.011336,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.922814,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.838395,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 2.127561,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.229273,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.088692,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.444204,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.719489,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.094971,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.183525,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.225756,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.701802,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.046639,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.551166,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.373418,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 1.93387,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.302513,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.301701,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 9.375578,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.427881,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.595383,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.512989,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 19.633099,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 2.003704,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.208052,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.434952,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 8.053896,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 3.336734,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.813019,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.092809,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.200058,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.683144,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.052699,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.610345,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.409892,
+    "repeat": 6
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.607521,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.983675,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.024165,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.071415,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.335452,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.976594,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.004517,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.291476,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.496714,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.930075,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.121281,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.432706,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.434471,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.908132,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.937847,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.114399,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.799148,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.971316,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.022883,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.523282,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.443795,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.048552,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.13406,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.511624,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.524466,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.892899,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.939759,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.748321,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.889984,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.06055,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.954432,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.042602,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.443173,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.556864,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.214061,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.603119,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.232528,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.431025,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.0471,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 12.629077,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.930055,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.037536,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.955302,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.961799,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.651086,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.079649,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.113319,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.970693,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.668782,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.163896,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.115503,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.592706,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.74723,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.356885,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.275773,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.289452,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.847149,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.037685,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.405578,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.422311,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 1.950945,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.254221,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.277125,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 9.801357,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.27402,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 2.639878,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.77393,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 20.969824,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 1.898957,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.229754,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.630054,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 8.039906,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.352768,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.778507,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.196104,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.180599,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.678477,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.136825,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.226599,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.046597,
+    "repeat": 7
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.406389,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.910135,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.142123,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.794069,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.35997,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.770125,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.160079,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.026658,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.60696,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.909905,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.935053,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.32794,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.425497,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.043004,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.123154,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.526488,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.476354,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.94686,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.939358,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.645876,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.446029,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.97993,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.90046,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.835762,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.471387,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.889473,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.192659,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.65439,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.56099,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.052598,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.995092,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.294539,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.090514,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.343154,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.233089,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 12.029248,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.170926,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.468242,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.445207,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.546624,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.633179,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.024857,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.919038,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.887539,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.628492,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.024917,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.905648,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.838515,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.699378,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.062704,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.22015,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.132516,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.695202,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.100129,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.459188,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.418064,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.603465,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.036454,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.098777,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.398295,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 2.229213,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.303425,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.238467,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 9.641186,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.361741,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.530926,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.649314,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 20.002694,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 2.015042,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.292649,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.22721,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 7.641429,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.316804,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.796044,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.082503,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 2.985947,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.640269,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.111296,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.598628,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.258335,
+    "repeat": 8
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "proof-check",
+    "milliseconds": 1.470185,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.929854,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.015723,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-01-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.598125,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "proof-check",
+    "milliseconds": 1.26004,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.759048,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.163985,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-02-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.183013,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "proof-check",
+    "milliseconds": 1.562092,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.168673,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.978858,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-03-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.462652,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "proof-check",
+    "milliseconds": 1.678918,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.898428,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.984907,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-04-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.558917,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "proof-check",
+    "milliseconds": 1.544416,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.086479,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.178988,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-05-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.060938,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "proof-check",
+    "milliseconds": 1.576273,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.90014,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.926619,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-06-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.916773,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "proof-check",
+    "milliseconds": 1.487881,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.928943,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "session-direct-result",
+    "milliseconds": 0.908832,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-07-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.156643,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "proof-check",
+    "milliseconds": 1.660049,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.805978,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.295412,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-08-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 4.475321,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "proof-check",
+    "milliseconds": 2.208192,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.429483,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.115312,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-09-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 12.232513,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "proof-check",
+    "milliseconds": 2.2478,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.63377,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.059119,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-10-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 11.827946,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "proof-check",
+    "milliseconds": 1.952087,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.179509,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.583765,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-11-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.340807,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "proof-check",
+    "milliseconds": 1.738236,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.081131,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.069694,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-12-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.511243,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "proof-check",
+    "milliseconds": 1.801762,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.115863,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.038097,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-13-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.092706,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "proof-check",
+    "milliseconds": 1.711186,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.103885,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.183725,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-14-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.503202,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "proof-check",
+    "milliseconds": 1.676153,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.265838,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.356384,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-15-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 5.290643,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "proof-check",
+    "milliseconds": 1.874791,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.208001,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.076253,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-16-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 9.429229,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "proof-check",
+    "milliseconds": 2.490485,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.537927,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.496784,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-17-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 20.241742,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "proof-check",
+    "milliseconds": 1.896103,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.229904,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.452689,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-18-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 7.785103,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "proof-check",
+    "milliseconds": 1.411306,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "topological-direct",
+    "milliseconds": 0.853059,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.170655,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-19-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 3.28778,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "proof-check",
+    "milliseconds": 1.816915,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "topological-direct",
+    "milliseconds": 1.055783,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "session-direct-result",
+    "milliseconds": 1.343294,
+    "repeat": 9
+  },
+  {
+    "id": "fixture-20-correct",
+    "method": "certificate-rebuild",
+    "milliseconds": 6.15481,
+    "repeat": 9
+  }
+]

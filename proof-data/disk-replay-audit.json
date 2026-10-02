@@ -1,0 +1,27 @@
+{
+  "authoritative_order_source": "fixture/stress generators and retained grammar seeds; no certificate field is used to choose request coordinate order",
+  "compact_refutation_certificates_validated": 285,
+  "fixture_requests_reloaded": 80,
+  "full_vector_certificates_validated": 380,
+  "grammar_compact_refutations_validated": 300,
+  "grammar_forged_refutations_rejected": 100,
+  "grammar_median_nodes": 69.5,
+  "grammar_node_range": [
+    15,
+    163
+  ],
+  "grammar_point_distribution": {
+    "27": 133,
+    "81": 142,
+    "9": 125
+  },
+  "grammar_requests_reloaded": 400,
+  "grammar_results_validated": 400,
+  "outcome": "PASS",
+  "peak_rss_kib": 98608,
+  "request_files_reloaded": 780,
+  "request_id_index_sha256": "4595727848cd6aea70bf2f7cf2a56a5f42c6c50e8d30c9e9b4cf5e5afafefd15",
+  "schema": "disk-replay-audit-v1",
+  "stress_requests_reloaded": 300,
+  "wall_seconds": 5.776031237999973
+}

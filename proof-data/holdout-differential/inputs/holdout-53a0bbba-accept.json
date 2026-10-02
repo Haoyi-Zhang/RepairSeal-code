@@ -1,0 +1,30 @@
+{
+  "id": "holdout-53a0bbba-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((y / ((15u & 7u) + 1u)) % (((2147483647u % ((z & 7u) + 1u)) & 7u) + 1u)) << ((3u & (4294967295u % ((x & 7u) + 1u))) & 31u));\n  unsigned b = 1u;\n  unsigned r = (((15u / ((3u & 7u) + 1u)) / (((y % ((t & 7u) + 1u)) & 7u) + 1u)) - t);\n  if ((((z + 15u) | (t & 0u)) < 15u)) {\n    r = (2147483647u ^ 15u);\n  } else {\n    r = b;\n  }\n  if ((((15u / ((y & 7u) + 1u)) << ((y * a) & 31u)) == ((a % ((b & 7u) + 1u)) << (r & 31u)))) {\n    r = (((y * b) | (1u >> (z & 31u))) & ((y << (y & 31u)) + (r >> (0u & 31u))));\n  } else {\n    r = (((15u & y) << ((b >> (a & 31u)) & 31u)) >> ((4294967295u / ((z & 7u) + 1u)) & 31u));\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((y / ((15u & 7u) + 1u)) % (((2147483647u % ((z & 7u) + 1u)) & 7u) + 1u)) << ((3u & (4294967295u % ((x & 7u) + 1u))) & 31u));\n  unsigned b = 1u;\n  unsigned r = (((15u / ((3u & 7u) + 1u)) / (((y % ((t & 7u) + 1u)) & 7u) + 1u)) - t);\n  if ((((z + 15u) | (t & 0u)) < 15u)) {\n    r = (2147483647u ^ 15u);\n  } else {\n    r = b;\n  }\n  if ((((15u / ((y & 7u) + 1u)) << ((y * a) & 31u)) == ((a % ((b & 7u) + 1u)) << (r & 31u)))) {\n    r = (((y * b) | (1u >> (z & 31u))) & ((y << (y & 31u)) + (r >> (0u & 31u))));\n  } else {\n    r = (((15u & y) << ((b >> (a & 31u)) & 31u)) >> ((4294967295u / ((z & 7u) + 1u)) & 31u));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((y / ((15u & 7u) + 1u)) % (((2147483647u % ((z & 7u) + 1u)) & 7u) + 1u)) << ((3u & (4294967295u % ((x & 7u) + 1u))) & 31u));\n  unsigned b = 1u;\n  unsigned r = (((15u / ((3u & 7u) + 1u)) / (((y % ((t & 7u) + 1u)) & 7u) + 1u)) - t);\n  if ((((z + 15u) | (t & 0u)) < 15u)) {\n    r = (2147483647u ^ 15u);\n  } else {\n    r = b;\n  }\n  if ((((15u / ((y & 7u) + 1u)) << ((y * a) & 31u)) == ((a % ((b & 7u) + 1u)) << (r & 31u)))) {\n    r = (((y * b) | (1u >> (z & 31u))) & ((y << (y & 31u)) + (r >> (0u & 31u))));\n  } else {\n    r = (((15u & y) << ((b >> (a & 31u)) & 31u)) >> ((4294967295u / ((z & 7u) + 1u)) & 31u));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

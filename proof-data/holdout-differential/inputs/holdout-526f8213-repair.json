@@ -1,0 +1,30 @@
+{
+  "id": "holdout-526f8213-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((z % ((x & 7u) + 1u)) | (x * 1u)) % (((1u / (((z - 7u) & 7u) + 1u)) & 7u) + 1u));\n  unsigned b = (((z % ((x & 7u) + 1u)) / (((a * 3u) & 7u) + 1u)) | ((a | z) << ((t * x) & 31u)));\n  unsigned r = y;\n  if ((((a / ((7u & 7u) + 1u)) << (z & 31u)) == 3u)) {\n    r = r;\n  } else {\n    r = (((r >> (r & 31u)) & z) - ((b + t) << ((r - 31u) & 31u)));\n  }\n  if ((((a ^ 4294967295u) + 1u) >= z)) {\n    r = (t << (((0u + z) / ((3u & 7u) + 1u)) & 31u));\n  } else {\n    r = (0u ^ (y ^ (z * z)));\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((z % ((x & 7u) + 1u)) | (x * 1u)) % (((1u / (((z - 7u) & 7u) + 1u)) & 7u) + 1u));\n  unsigned b = (((z % ((x & 7u) + 1u)) / (((a * 3u) & 7u) + 1u)) | ((a | z) << ((t * x) & 31u)));\n  unsigned r = y;\n  if ((((a / ((7u & 7u) + 1u)) << (z & 31u)) == 3u)) {\n    r = r;\n  } else {\n    r = (((r >> (r & 31u)) & z) - ((b + t) << ((r - 31u) & 31u)));\n  }\n  if ((((a ^ 4294967295u) + 1u) >= z)) {\n    r = (t << (((0u + z) / ((3u & 7u) + 1u)) & 31u));\n  } else {\n    r = (0u ^ (y ^ (z * z)));\n  }\n  if (((x == 0u) && (y == 0u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((z % ((x & 7u) + 1u)) | (x * 1u)) % (((1u / (((z - 7u) & 7u) + 1u)) & 7u) + 1u));\n  unsigned b = (((z % ((x & 7u) + 1u)) / (((a * 3u) & 7u) + 1u)) | ((a | z) << ((t * x) & 31u)));\n  unsigned r = y;\n  if ((((a / ((7u & 7u) + 1u)) << (z & 31u)) == 3u)) {\n    r = r;\n  } else {\n    r = (((r >> (r & 31u)) & z) - ((b + t) << ((r - 31u) & 31u)));\n  }\n  if ((((a ^ 4294967295u) + 1u) >= z)) {\n    r = (t << (((0u + z) / ((3u & 7u) + 1u)) & 31u));\n  } else {\n    r = (0u ^ (y ^ (z * z)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

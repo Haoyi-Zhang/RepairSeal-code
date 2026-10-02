@@ -1,0 +1,57 @@
+{
+  "certificate_sha256": "688946be72668cf46176c637cdab4d7f19aa19fc498c6fe669c0e13909b3ce72",
+  "domains": {
+    "t": [
+      0,
+      1,
+      2
+    ],
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ]
+  },
+  "input": [
+    0,
+    2,
+    0,
+    1
+  ],
+  "input_order": [
+    "x",
+    "y",
+    "z",
+    "t"
+  ],
+  "kind": "finite-semantic-refutation-v1",
+  "obligation": "repair",
+  "request_id": "stress-250-overfit",
+  "source_sha256": {
+    "candidate": "b531bd33b79ebd5f1a1cb7ea7dfcfe13563d8ecb051afa9caf2fbb1f1971c682",
+    "original": "674d6e742f0fe9e77a37ccbb20000e5197f0589362bf7604da28d6e50bffe891",
+    "reference": "80c2e6cdfcdb3fd12c61723ed99fdddc6a555f629d6310c03bf3a2c7a7587100",
+    "repair_guard": "e9acd5d5ab2be963345fd4e64fb9dbdc08b45a39b1200514f58bca3f95db7427"
+  },
+  "trace": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "word_bits": 32
+}

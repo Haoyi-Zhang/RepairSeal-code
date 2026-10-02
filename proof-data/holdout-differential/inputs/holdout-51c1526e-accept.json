@@ -1,0 +1,20 @@
+{
+  "id": "holdout-51c1526e-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = y;\n  unsigned b = x;\n  unsigned r = (((a << (b & 31u)) ^ (b + b)) - x);\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = y;\n  unsigned b = x;\n  unsigned r = (((a << (b & 31u)) ^ (b + b)) - x);\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = y;\n  unsigned b = x;\n  unsigned r = (((a << (b & 31u)) ^ (b + b)) - x);\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

@@ -1,0 +1,520 @@
+{
+  "acceptance_boundaries": [
+    {
+      "case": "bindings-72",
+      "nodes": 142,
+      "points": 16,
+      "status": "ACCEPT"
+    },
+    {
+      "case": "domain-4096",
+      "nodes": 8,
+      "points": 4096,
+      "status": "ACCEPT"
+    },
+    {
+      "case": "parameters-8",
+      "nodes": 14,
+      "points": 256,
+      "status": "ACCEPT"
+    }
+  ],
+  "acceptance_boundary_cases": 3,
+  "certificate_type_rejection_cases": 7,
+  "certificate_type_rejections": [
+    {
+      "case": "domain-integer-one-to-boolean",
+      "reason": "request/domain binding",
+      "status": "REJECTED"
+    },
+    {
+      "case": "point-integer-one-to-boolean",
+      "reason": "request/domain binding",
+      "status": "REJECTED"
+    },
+    {
+      "case": "node-id-one-to-boolean",
+      "reason": "node 1 topology",
+      "status": "REJECTED"
+    },
+    {
+      "case": "obligation-root-zero-to-boolean",
+      "reason": "root binding",
+      "status": "REJECTED"
+    },
+    {
+      "case": "unsigned-data-one-to-boolean",
+      "reason": "node 9 topology",
+      "status": "REJECTED"
+    },
+    {
+      "case": "boolean-data-true-to-integer",
+      "reason": "node 0 topology",
+      "status": "REJECTED"
+    },
+    {
+      "case": "trace-site-zero-to-boolean",
+      "reason": "root binding",
+      "status": "REJECTED"
+    }
+  ],
+  "import_boundary": {
+    "checker": "src/proof_dag_checker.py",
+    "forbidden_imports": [],
+    "imports": [
+      "__future__",
+      "argparse",
+      "dataclasses",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "pathlib",
+      "re",
+      "typing"
+    ]
+  },
+  "json_text_rejection_cases": 4,
+  "json_text_rejections": [
+    {
+      "case": "duplicate-object-key",
+      "reason": "duplicate JSON key",
+      "status": "REJECTED"
+    },
+    {
+      "case": "nan-constant",
+      "reason": "non-finite JSON number",
+      "status": "REJECTED"
+    },
+    {
+      "case": "infinity-constant",
+      "reason": "non-finite JSON number",
+      "status": "REJECTED"
+    },
+    {
+      "case": "malformed-json",
+      "reason": "JSON syntax",
+      "status": "REJECTED"
+    }
+  ],
+  "operator_coverage": [
+    "!=",
+    "%",
+    "&",
+    "*",
+    "+",
+    "-",
+    "/",
+    "<",
+    "<<",
+    "<=",
+    "==",
+    ">",
+    ">=",
+    ">>",
+    "^",
+    "and",
+    "b",
+    "input",
+    "inv",
+    "ite",
+    "not",
+    "or",
+    "u",
+    "|"
+  ],
+  "operator_probe_records": [
+    {
+      "id": "operator-add",
+      "nodes": 10,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-subtract",
+      "nodes": 10,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-multiply",
+      "nodes": 12,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-divide",
+      "nodes": 17,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-remainder",
+      "nodes": 17,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-left-shift",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-right-shift",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-bit-and",
+      "nodes": 10,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-bit-or",
+      "nodes": 10,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-bit-xor",
+      "nodes": 10,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-bit-invert",
+      "nodes": 10,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-equal",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-not-equal",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-less",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-less-equal",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-greater",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-greater-equal",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-logical-and",
+      "nodes": 16,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-logical-or",
+      "nodes": 15,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-logical-not",
+      "nodes": 14,
+      "points": 81,
+      "status": "ACCEPT"
+    },
+    {
+      "id": "operator-short-circuit-totality",
+      "nodes": 22,
+      "points": 81,
+      "status": "ACCEPT"
+    }
+  ],
+  "operator_probes": 21,
+  "outcome": "PASS",
+  "rejection_reason_counts": {
+    "branch bound": 1,
+    "domain": 11,
+    "domain bound": 1,
+    "early return": 1,
+    "expression depth": 2,
+    "grammar mismatch": 2,
+    "guard totality not simplified to true": 2,
+    "identifier": 1,
+    "input name": 2,
+    "input schema": 3,
+    "local variable bound": 1,
+    "nested declaration": 1,
+    "numeric type": 1,
+    "parameter order": 1,
+    "preprocessing/non-ASCII excluded": 3,
+    "request identifier": 3,
+    "request schema": 3,
+    "source bound": 2,
+    "source type": 1,
+    "token bound": 1,
+    "token outside fragment": 1,
+    "uninitialized": 1,
+    "word width": 2
+  },
+  "request_rejection_cases": 47,
+  "request_rejections": [
+    {
+      "case": "request-not-dict",
+      "reason": "request schema",
+      "status": "REJECTED"
+    },
+    {
+      "case": "request-extra-field",
+      "reason": "request schema",
+      "status": "REJECTED"
+    },
+    {
+      "case": "request-missing-field",
+      "reason": "request schema",
+      "status": "REJECTED"
+    },
+    {
+      "case": "id-empty",
+      "reason": "request identifier",
+      "status": "REJECTED"
+    },
+    {
+      "case": "id-not-string",
+      "reason": "request identifier",
+      "status": "REJECTED"
+    },
+    {
+      "case": "id-too-long",
+      "reason": "request identifier",
+      "status": "REJECTED"
+    },
+    {
+      "case": "word-bits-bool",
+      "reason": "word width",
+      "status": "REJECTED"
+    },
+    {
+      "case": "word-bits-64",
+      "reason": "word width",
+      "status": "REJECTED"
+    },
+    {
+      "case": "inputs-not-dict",
+      "reason": "input schema",
+      "status": "REJECTED"
+    },
+    {
+      "case": "inputs-empty",
+      "reason": "input schema",
+      "status": "REJECTED"
+    },
+    {
+      "case": "inputs-nine",
+      "reason": "input schema",
+      "status": "REJECTED"
+    },
+    {
+      "case": "input-reserved-name",
+      "reason": "input name",
+      "status": "REJECTED"
+    },
+    {
+      "case": "input-reserved-pattern",
+      "reason": "input name",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-empty",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-too-many-values",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-bool",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-null",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-float",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-list-element",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-object-element",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-negative",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-overflow",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-duplicate",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-unsorted",
+      "reason": "domain",
+      "status": "REJECTED"
+    },
+    {
+      "case": "domain-product",
+      "reason": "domain bound",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-not-string",
+      "reason": "source type",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-non-ascii",
+      "reason": "preprocessing/non-ASCII excluded",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-backslash",
+      "reason": "preprocessing/non-ASCII excluded",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-trigraph",
+      "reason": "preprocessing/non-ASCII excluded",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-token-outside-fragment",
+      "reason": "token outside fragment",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-loop",
+      "reason": "identifier",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-call",
+      "reason": "grammar mismatch",
+      "status": "REJECTED"
+    },
+    {
+      "case": "nested-declaration",
+      "reason": "nested declaration",
+      "status": "REJECTED"
+    },
+    {
+      "case": "early-return",
+      "reason": "early return",
+      "status": "REJECTED"
+    },
+    {
+      "case": "missing-else",
+      "reason": "grammar mismatch",
+      "status": "REJECTED"
+    },
+    {
+      "case": "uninitialized-variable",
+      "reason": "uninitialized",
+      "status": "REJECTED"
+    },
+    {
+      "case": "boolean-used-as-number",
+      "reason": "numeric type",
+      "status": "REJECTED"
+    },
+    {
+      "case": "parameter-order",
+      "reason": "parameter order",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-too-many-lines",
+      "reason": "source bound",
+      "status": "REJECTED"
+    },
+    {
+      "case": "source-too-long",
+      "reason": "source bound",
+      "status": "REJECTED"
+    },
+    {
+      "case": "token-bound",
+      "reason": "token bound",
+      "status": "REJECTED"
+    },
+    {
+      "case": "expression-depth",
+      "reason": "expression depth",
+      "status": "REJECTED"
+    },
+    {
+      "case": "block-depth",
+      "reason": "expression depth",
+      "status": "REJECTED"
+    },
+    {
+      "case": "branch-count",
+      "reason": "branch bound",
+      "status": "REJECTED"
+    },
+    {
+      "case": "binding-count",
+      "reason": "local variable bound",
+      "status": "REJECTED"
+    },
+    {
+      "case": "guard-partial",
+      "reason": "guard totality not simplified to true",
+      "status": "REJECTED"
+    },
+    {
+      "case": "guard-not-boolean",
+      "reason": "guard totality not simplified to true",
+      "status": "REJECTED"
+    }
+  ],
+  "schema": "proof-dag-security-regression-v2"
+}

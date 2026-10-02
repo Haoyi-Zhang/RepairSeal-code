@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "fixture-01-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-01-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-02-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-03-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-04-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-05-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-06-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-07-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-08-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-09-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-10-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-11-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-12-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-13-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-14-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-15-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-16-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-17-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-18-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-19-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "flipped-assertion",
+    "status": "INVALID",
+    "reason": "certificate assertion disagrees with independent replay",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "duplicate-cell",
+    "status": "INVALID",
+    "reason": "duplicate evidence cell",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "missing-obligation",
+    "status": "INVALID",
+    "reason": "obligation list must be complete",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "wrong-obligation",
+    "status": "INVALID",
+    "reason": "obligation identity/order",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "foreign-support",
+    "status": "INVALID",
+    "reason": "support membership",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "boolean-key",
+    "status": "INVALID",
+    "reason": "key outside declared domain",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "insufficient-support",
+    "status": "INVALID",
+    "reason": "insufficient semantic support",
+    "witness": null,
+    "checked_rows": 0
+  },
+  {
+    "id": "fixture-20-correct",
+    "mutation": "extra-field",
+    "status": "INVALID",
+    "reason": "certificate header",
+    "witness": null,
+    "checked_rows": 0
+  }
+]

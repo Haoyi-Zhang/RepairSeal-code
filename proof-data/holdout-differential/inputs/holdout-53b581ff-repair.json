@@ -1,0 +1,20 @@
+{
+  "id": "holdout-53b581ff-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = x;\n  unsigned b = ((a >> ((7u & 15u) & 31u)) & (3u / (((0u % ((y & 7u) + 1u)) & 7u) + 1u)));\n  unsigned r = ((1u ^ (y % ((b & 7u) + 1u))) >> (y & 31u));\n  if ((((b + y) ^ (y >> (x & 31u))) <= b)) {\n    r = ((~(3u & r)) % (((~(2u % ((b & 7u) + 1u))) & 7u) + 1u));\n  } else {\n    r = ((r * 7u) / ((b & 7u) + 1u));\n  }\n  if (((((r | y) ^ (r ^ r)) < ((y + 4294967295u) - (x + r))) || (((x << (4294967295u & 31u)) * (x << (4294967295u & 31u))) < ((~15u) + (15u * a))))) {\n    r = 7u;\n  } else {\n    r = (a + (r + (~b)));\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = x;\n  unsigned b = ((a >> ((7u & 15u) & 31u)) & (3u / (((0u % ((y & 7u) + 1u)) & 7u) + 1u)));\n  unsigned r = ((1u ^ (y % ((b & 7u) + 1u))) >> (y & 31u));\n  if ((((b + y) ^ (y >> (x & 31u))) <= b)) {\n    r = ((~(3u & r)) % (((~(2u % ((b & 7u) + 1u))) & 7u) + 1u));\n  } else {\n    r = ((r * 7u) / ((b & 7u) + 1u));\n  }\n  if (((((r | y) ^ (r ^ r)) < ((y + 4294967295u) - (x + r))) || (((x << (4294967295u & 31u)) * (x << (4294967295u & 31u))) < ((~15u) + (15u * a))))) {\n    r = 7u;\n  } else {\n    r = (a + (r + (~b)));\n  }\n  if (((x == 0u) && (y == 2u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = x;\n  unsigned b = ((a >> ((7u & 15u) & 31u)) & (3u / (((0u % ((y & 7u) + 1u)) & 7u) + 1u)));\n  unsigned r = ((1u ^ (y % ((b & 7u) + 1u))) >> (y & 31u));\n  if ((((b + y) ^ (y >> (x & 31u))) <= b)) {\n    r = ((~(3u & r)) % (((~(2u % ((b & 7u) + 1u))) & 7u) + 1u));\n  } else {\n    r = ((r * 7u) / ((b & 7u) + 1u));\n  }\n  if (((((r | y) ^ (r ^ r)) < ((y + 4294967295u) - (x + r))) || (((x << (4294967295u & 31u)) * (x << (4294967295u & 31u))) < ((~15u) + (15u * a))))) {\n    r = 7u;\n  } else {\n    r = (a + (r + (~b)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

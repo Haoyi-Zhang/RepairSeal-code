@@ -1,0 +1,30 @@
+{
+  "id": "stress-280-undefined",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ],
+    "t": [
+      0,
+      1,
+      2
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = ((x + 3u) * (y + 6u)) ^ (z + 4u);\nif (x == 0u) { r = r - 1u; } else { r = r; }\nreturn r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned unused = 1u / (t ^ 2u);\nunsigned scratch = t;\nif ((t & 1u) == 0u) { scratch = scratch + 1u; } else { scratch = scratch + 2u; }\nunsigned r = (z + 4u) ^ ((6u + y) * (3u + x));\nreturn r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = ((x + 3u) * (y + 6u)) ^ (z + 4u);\nreturn r;\n}\n",
+  "repair_guard": "x == 0u"
+}

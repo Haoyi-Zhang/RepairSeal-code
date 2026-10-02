@@ -1,0 +1,5242 @@
+{
+  "records": [
+    {
+      "buggy": "18359456",
+      "buggy_submission_id": "18359456",
+      "canonical_folder": "71-A-bug-18359456-18359477",
+      "classification": "DCCR",
+      "contest": "71",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18359477",
+      "fixed_submission_id": "18359477",
+      "ordinal": 1,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "71-A-bug-18359456-18359477"
+    },
+    {
+      "buggy": "18258406",
+      "buggy_submission_id": "18258406",
+      "canonical_folder": "4-A-bug-18258406-18258457",
+      "classification": "DCCR",
+      "contest": "4",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18258457",
+      "fixed_submission_id": "18258457",
+      "ordinal": 2,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "4-A-bug-18258406-18258457"
+    },
+    {
+      "buggy": "18055428",
+      "buggy_submission_id": "18055428",
+      "canonical_folder": "231-A-bug-18055428-18055539",
+      "classification": "DCCR",
+      "contest": "231",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18055539",
+      "fixed_submission_id": "18055539",
+      "ordinal": 3,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "231-A-bug-18055428-18055539"
+    },
+    {
+      "buggy": "18284844",
+      "buggy_submission_id": "18284844",
+      "canonical_folder": "96-A-bug-18284844-18284870",
+      "classification": "DCCR",
+      "contest": "96",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18284870",
+      "fixed_submission_id": "18284870",
+      "ordinal": 4,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else"
+      ],
+      "task_id": "96-A-bug-18284844-18284870"
+    },
+    {
+      "buggy": "18173471",
+      "buggy_submission_id": "18173471",
+      "canonical_folder": "96-A-bug-18173471-18173484",
+      "classification": "DCCR",
+      "contest": "96",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18173484",
+      "fixed_submission_id": "18173484",
+      "ordinal": 5,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "96-A-bug-18173471-18173484"
+    },
+    {
+      "buggy": "18069181",
+      "buggy_submission_id": "18069181",
+      "canonical_folder": "131-A-bug-18069181-18073244",
+      "classification": "DCCR",
+      "contest": "131",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18073244",
+      "fixed_submission_id": "18073244",
+      "ordinal": 6,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "131-A-bug-18069181-18073244"
+    },
+    {
+      "buggy": "18048780",
+      "buggy_submission_id": "18048780",
+      "canonical_folder": "133-A-bug-18048780-18048793",
+      "classification": "DCCR",
+      "contest": "133",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18048793",
+      "fixed_submission_id": "18048793",
+      "ordinal": 7,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "133-A-bug-18048780-18048793"
+    },
+    {
+      "buggy": "18163826",
+      "buggy_submission_id": "18163826",
+      "canonical_folder": "58-A-bug-18163826-18163845",
+      "classification": "DCCR",
+      "contest": "58",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18163845",
+      "fixed_submission_id": "18163845",
+      "ordinal": 8,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "58-A-bug-18163826-18163845"
+    },
+    {
+      "buggy": "17762757",
+      "buggy_submission_id": "17762757",
+      "canonical_folder": "58-A-bug-17762757-17762804",
+      "classification": "DCCR",
+      "contest": "58",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17762804",
+      "fixed_submission_id": "17762804",
+      "ordinal": 9,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "58-A-bug-17762757-17762804"
+    },
+    {
+      "buggy": "18348808",
+      "buggy_submission_id": "18348808",
+      "canonical_folder": "467-A-bug-18348808-18348843",
+      "classification": "DCCR",
+      "contest": "467",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18348843",
+      "fixed_submission_id": "18348843",
+      "ordinal": 10,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "467-A-bug-18348808-18348843"
+    },
+    {
+      "buggy": "17499279",
+      "buggy_submission_id": "17499279",
+      "canonical_folder": "136-A-bug-17499279-17499383",
+      "classification": "DCCR",
+      "contest": "136",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17499383",
+      "fixed_submission_id": "17499383",
+      "ordinal": 11,
+      "problem": "A",
+      "tags": [
+        "Define"
+      ],
+      "task_id": "136-A-bug-17499279-17499383"
+    },
+    {
+      "buggy": "18221798",
+      "buggy_submission_id": "18221798",
+      "canonical_folder": "82-A-bug-18221798-18221807",
+      "classification": "DCCR",
+      "contest": "82",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18221807",
+      "fixed_submission_id": "18221807",
+      "ordinal": 12,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "82-A-bug-18221798-18221807"
+    },
+    {
+      "buggy": "18358749",
+      "buggy_submission_id": "18358749",
+      "canonical_folder": "271-A-bug-18358749-18358771",
+      "classification": "DCCR",
+      "contest": "271",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18358771",
+      "fixed_submission_id": "18358771",
+      "ordinal": 13,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "271-A-bug-18358749-18358771"
+    },
+    {
+      "buggy": "18245137",
+      "buggy_submission_id": "18245137",
+      "canonical_folder": "271-A-bug-18245137-18245167",
+      "classification": "DCCR",
+      "contest": "271",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18245167",
+      "fixed_submission_id": "18245167",
+      "ordinal": 14,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "271-A-bug-18245137-18245167"
+    },
+    {
+      "buggy": "18046060",
+      "buggy_submission_id": "18046060",
+      "canonical_folder": "271-A-bug-18046060-18046072",
+      "classification": "DCCR",
+      "contest": "271",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18046072",
+      "fixed_submission_id": "18046072",
+      "ordinal": 15,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "271-A-bug-18046060-18046072"
+    },
+    {
+      "buggy": "18031969",
+      "buggy_submission_id": "18031969",
+      "canonical_folder": "271-A-bug-18031969-18031990",
+      "classification": "DCCR",
+      "contest": "271",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18031990",
+      "fixed_submission_id": "18031990",
+      "ordinal": 16,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop"
+      ],
+      "task_id": "271-A-bug-18031969-18031990"
+    },
+    {
+      "buggy": "17990046",
+      "buggy_submission_id": "17990046",
+      "canonical_folder": "271-A-bug-17990046-17990110",
+      "classification": "DCCR",
+      "contest": "271",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17990110",
+      "fixed_submission_id": "17990110",
+      "ordinal": 17,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "271-A-bug-17990046-17990110"
+    },
+    {
+      "buggy": "16884194",
+      "buggy_submission_id": "16884194",
+      "canonical_folder": "82-A-bug-16884194-16884217",
+      "classification": "DCCR",
+      "contest": "82",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16884217",
+      "fixed_submission_id": "16884217",
+      "ordinal": 18,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "82-A-bug-16884194-16884217"
+    },
+    {
+      "buggy": "17876739",
+      "buggy_submission_id": "17876739",
+      "canonical_folder": "271-A-bug-17876739-17876766",
+      "classification": "DCCR",
+      "contest": "271",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17876766",
+      "fixed_submission_id": "17876766",
+      "ordinal": 19,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "271-A-bug-17876739-17876766"
+    },
+    {
+      "buggy": "17597303",
+      "buggy_submission_id": "17597303",
+      "canonical_folder": "271-A-bug-17597303-17597361",
+      "classification": "DCCR",
+      "contest": "271",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17597361",
+      "fixed_submission_id": "17597361",
+      "ordinal": 20,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "271-A-bug-17597303-17597361"
+    },
+    {
+      "buggy": "18257011",
+      "buggy_submission_id": "18257011",
+      "canonical_folder": "472-A-bug-18257011-18257052",
+      "classification": "DCCR",
+      "contest": "472",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18257052",
+      "fixed_submission_id": "18257052",
+      "ordinal": 21,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "472-A-bug-18257011-18257052"
+    },
+    {
+      "buggy": "17310453",
+      "buggy_submission_id": "17310453",
+      "canonical_folder": "451-A-bug-17310453-17310460",
+      "classification": "DCCR",
+      "contest": "451",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17310460",
+      "fixed_submission_id": "17310460",
+      "ordinal": 22,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "451-A-bug-17310453-17310460"
+    },
+    {
+      "buggy": "18240880",
+      "buggy_submission_id": "18240880",
+      "canonical_folder": "479-A-bug-18240880-18240906",
+      "classification": "DCCR",
+      "contest": "479",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18240906",
+      "fixed_submission_id": "18240906",
+      "ordinal": 23,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "479-A-bug-18240880-18240906"
+    },
+    {
+      "buggy": "18351096",
+      "buggy_submission_id": "18351096",
+      "canonical_folder": "208-A-bug-18351096-18351104",
+      "classification": "DCCR",
+      "contest": "208",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18351104",
+      "fixed_submission_id": "18351104",
+      "ordinal": 24,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If"
+      ],
+      "task_id": "208-A-bug-18351096-18351104"
+    },
+    {
+      "buggy": "17532993",
+      "buggy_submission_id": "17532993",
+      "canonical_folder": "208-A-bug-17532993-17533015",
+      "classification": "DCCR",
+      "contest": "208",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17533015",
+      "fixed_submission_id": "17533015",
+      "ordinal": 25,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If"
+      ],
+      "task_id": "208-A-bug-17532993-17533015"
+    },
+    {
+      "buggy": "18351193",
+      "buggy_submission_id": "18351193",
+      "canonical_folder": "144-A-bug-18351193-18351203",
+      "classification": "DCCR",
+      "contest": "144",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18351203",
+      "fixed_submission_id": "18351203",
+      "ordinal": 26,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "144-A-bug-18351193-18351203"
+    },
+    {
+      "buggy": "17841611",
+      "buggy_submission_id": "17841611",
+      "canonical_folder": "469-A-bug-17841611-17841634",
+      "classification": "DCCR",
+      "contest": "469",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17841634",
+      "fixed_submission_id": "17841634",
+      "ordinal": 27,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "469-A-bug-17841611-17841634"
+    },
+    {
+      "buggy": "17545888",
+      "buggy_submission_id": "17545888",
+      "canonical_folder": "144-A-bug-17545888-17545977",
+      "classification": "DCCR",
+      "contest": "144",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17545977",
+      "fixed_submission_id": "17545977",
+      "ordinal": 28,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "144-A-bug-17545888-17545977"
+    },
+    {
+      "buggy": "18160029",
+      "buggy_submission_id": "18160029",
+      "canonical_folder": "500-A-bug-18160029-18160094",
+      "classification": "DCCR",
+      "contest": "500",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18160094",
+      "fixed_submission_id": "18160094",
+      "ordinal": 29,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "500-A-bug-18160029-18160094"
+    },
+    {
+      "buggy": "17810784",
+      "buggy_submission_id": "17810784",
+      "canonical_folder": "500-A-bug-17810784-17810794",
+      "classification": "DCCR",
+      "contest": "500",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17810794",
+      "fixed_submission_id": "17810794",
+      "ordinal": 30,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "500-A-bug-17810784-17810794"
+    },
+    {
+      "buggy": "17378673",
+      "buggy_submission_id": "17378673",
+      "canonical_folder": "492-A-bug-17378673-17378701",
+      "classification": "DCCR",
+      "contest": "492",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17378701",
+      "fixed_submission_id": "17378701",
+      "ordinal": 31,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop"
+      ],
+      "task_id": "492-A-bug-17378673-17378701"
+    },
+    {
+      "buggy": "17713160",
+      "buggy_submission_id": "17713160",
+      "canonical_folder": "617-A-bug-17713160-17713171",
+      "classification": "DCCR",
+      "contest": "617",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17713171",
+      "fixed_submission_id": "17713171",
+      "ordinal": 32,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "617-A-bug-17713160-17713171"
+    },
+    {
+      "buggy": "17811132",
+      "buggy_submission_id": "17811132",
+      "canonical_folder": "478-A-bug-17811132-17811140",
+      "classification": "DCCR",
+      "contest": "478",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17811140",
+      "fixed_submission_id": "17811140",
+      "ordinal": 33,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "478-A-bug-17811132-17811140"
+    },
+    {
+      "buggy": "17294884",
+      "buggy_submission_id": "17294884",
+      "canonical_folder": "478-A-bug-17294884-17294911",
+      "classification": "DCCR",
+      "contest": "478",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17294911",
+      "fixed_submission_id": "17294911",
+      "ordinal": 34,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "478-A-bug-17294884-17294911"
+    },
+    {
+      "buggy": "18044424",
+      "buggy_submission_id": "18044424",
+      "canonical_folder": "584-A-bug-18044424-18044437",
+      "classification": "DCCR",
+      "contest": "584",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18044437",
+      "fixed_submission_id": "18044437",
+      "ordinal": 35,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "584-A-bug-18044424-18044437"
+    },
+    {
+      "buggy": "18022309",
+      "buggy_submission_id": "18022309",
+      "canonical_folder": "339-B-bug-18022309-18022318",
+      "classification": "DCCR",
+      "contest": "339",
+      "failure": "TIME_LIMIT_EXCEEDED",
+      "fixed": "18022318",
+      "fixed_submission_id": "18022318",
+      "ordinal": 36,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "339-B-bug-18022309-18022318"
+    },
+    {
+      "buggy": "18270373",
+      "buggy_submission_id": "18270373",
+      "canonical_folder": "448-A-bug-18270373-18270389",
+      "classification": "DCCR",
+      "contest": "448",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18270389",
+      "fixed_submission_id": "18270389",
+      "ordinal": 37,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "448-A-bug-18270373-18270389"
+    },
+    {
+      "buggy": "18292759",
+      "buggy_submission_id": "18292759",
+      "canonical_folder": "509-A-bug-18292759-18292782",
+      "classification": "DCCR",
+      "contest": "509",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18292782",
+      "fixed_submission_id": "18292782",
+      "ordinal": 38,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "509-A-bug-18292759-18292782"
+    },
+    {
+      "buggy": "18292753",
+      "buggy_submission_id": "18292753",
+      "canonical_folder": "509-A-bug-18292753-18292782",
+      "classification": "DCCR",
+      "contest": "509",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18292782",
+      "fixed_submission_id": "18292782",
+      "ordinal": 39,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "509-A-bug-18292753-18292782"
+    },
+    {
+      "buggy": "17530294",
+      "buggy_submission_id": "17530294",
+      "canonical_folder": "509-A-bug-17530294-17530298",
+      "classification": "DCCR",
+      "contest": "509",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17530298",
+      "fixed_submission_id": "17530298",
+      "ordinal": 40,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "509-A-bug-17530294-17530298"
+    },
+    {
+      "buggy": "17202161",
+      "buggy_submission_id": "17202161",
+      "canonical_folder": "519-A-bug-17202161-17202173",
+      "classification": "DCCR",
+      "contest": "519",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17202173",
+      "fixed_submission_id": "17202173",
+      "ordinal": 41,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "If",
+        "Else"
+      ],
+      "task_id": "519-A-bug-17202161-17202173"
+    },
+    {
+      "buggy": "15908197",
+      "buggy_submission_id": "15908197",
+      "canonical_folder": "519-A-bug-15908197-15908286",
+      "classification": "DCCR",
+      "contest": "519",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15908286",
+      "fixed_submission_id": "15908286",
+      "ordinal": 42,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If"
+      ],
+      "task_id": "519-A-bug-15908197-15908286"
+    },
+    {
+      "buggy": "16196292",
+      "buggy_submission_id": "16196292",
+      "canonical_folder": "570-A-bug-16196292-16196313",
+      "classification": "DCCR",
+      "contest": "570",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16196313",
+      "fixed_submission_id": "16196313",
+      "ordinal": 43,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "570-A-bug-16196292-16196313"
+    },
+    {
+      "buggy": "15171532",
+      "buggy_submission_id": "15171532",
+      "canonical_folder": "439-A-bug-15171532-15171537",
+      "classification": "DCCR",
+      "contest": "439",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15171537",
+      "fixed_submission_id": "15171537",
+      "ordinal": 44,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "439-A-bug-15171532-15171537"
+    },
+    {
+      "buggy": "14856034",
+      "buggy_submission_id": "14856034",
+      "canonical_folder": "439-A-bug-14856034-14856052",
+      "classification": "DCCR",
+      "contest": "439",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14856052",
+      "fixed_submission_id": "14856052",
+      "ordinal": 45,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Loop"
+      ],
+      "task_id": "439-A-bug-14856034-14856052"
+    },
+    {
+      "buggy": "13415047",
+      "buggy_submission_id": "13415047",
+      "canonical_folder": "551-A-bug-13415047-13415071",
+      "classification": "DCCR",
+      "contest": "551",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13415071",
+      "fixed_submission_id": "13415071",
+      "ordinal": 46,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "551-A-bug-13415047-13415071"
+    },
+    {
+      "buggy": "15922792",
+      "buggy_submission_id": "15922792",
+      "canonical_folder": "560-A-bug-15922792-15922810",
+      "classification": "DCCR",
+      "contest": "560",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15922810",
+      "fixed_submission_id": "15922810",
+      "ordinal": 47,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "560-A-bug-15922792-15922810"
+    },
+    {
+      "buggy": "17389910",
+      "buggy_submission_id": "17389910",
+      "canonical_folder": "611-A-bug-17389910-17389923",
+      "classification": "DCCR",
+      "contest": "611",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17389923",
+      "fixed_submission_id": "17389923",
+      "ordinal": 48,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "611-A-bug-17389910-17389923"
+    },
+    {
+      "buggy": "16058680",
+      "buggy_submission_id": "16058680",
+      "canonical_folder": "611-A-bug-16058680-16058709",
+      "classification": "DCCR",
+      "contest": "611",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16058709",
+      "fixed_submission_id": "16058709",
+      "ordinal": 49,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "611-A-bug-16058680-16058709"
+    },
+    {
+      "buggy": "16019969",
+      "buggy_submission_id": "16019969",
+      "canonical_folder": "611-A-bug-16019969-16020019",
+      "classification": "DCCR",
+      "contest": "611",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16020019",
+      "fixed_submission_id": "16020019",
+      "ordinal": 50,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "611-A-bug-16019969-16020019"
+    },
+    {
+      "buggy": "15572418",
+      "buggy_submission_id": "15572418",
+      "canonical_folder": "37-A-bug-15572418-15572426",
+      "classification": "DCCR",
+      "contest": "37",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15572426",
+      "fixed_submission_id": "15572426",
+      "ordinal": 51,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "37-A-bug-15572418-15572426"
+    },
+    {
+      "buggy": "17294544",
+      "buggy_submission_id": "17294544",
+      "canonical_folder": "189-A-bug-17294544-17294560",
+      "classification": "DCCR",
+      "contest": "189",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17294560",
+      "fixed_submission_id": "17294560",
+      "ordinal": 52,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "189-A-bug-17294544-17294560"
+    },
+    {
+      "buggy": "14788727",
+      "buggy_submission_id": "14788727",
+      "canonical_folder": "454-A-bug-14788727-14788751",
+      "classification": "DCCR",
+      "contest": "454",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14788751",
+      "fixed_submission_id": "14788751",
+      "ordinal": 53,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "454-A-bug-14788727-14788751"
+    },
+    {
+      "buggy": "16904583",
+      "buggy_submission_id": "16904583",
+      "canonical_folder": "118-B-bug-16904583-16904610",
+      "classification": "DCCR",
+      "contest": "118",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16904610",
+      "fixed_submission_id": "16904610",
+      "ordinal": 54,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "118-B-bug-16904583-16904610"
+    },
+    {
+      "buggy": "17586003",
+      "buggy_submission_id": "17586003",
+      "canonical_folder": "456-A-bug-17586003-17586007",
+      "classification": "DCCR",
+      "contest": "456",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17586007",
+      "fixed_submission_id": "17586007",
+      "ordinal": 55,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "456-A-bug-17586003-17586007"
+    },
+    {
+      "buggy": "15632585",
+      "buggy_submission_id": "15632585",
+      "canonical_folder": "572-A-bug-15632585-15632589",
+      "classification": "DCCR",
+      "contest": "572",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15632589",
+      "fixed_submission_id": "15632589",
+      "ordinal": 56,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "572-A-bug-15632585-15632589"
+    },
+    {
+      "buggy": "15579415",
+      "buggy_submission_id": "15579415",
+      "canonical_folder": "572-A-bug-15579415-15579491",
+      "classification": "DCCR",
+      "contest": "572",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15579491",
+      "fixed_submission_id": "15579491",
+      "ordinal": 57,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "572-A-bug-15579415-15579491"
+    },
+    {
+      "buggy": "16928615",
+      "buggy_submission_id": "16928615",
+      "canonical_folder": "552-B-bug-16928615-16929418",
+      "classification": "DCCR",
+      "contest": "552",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16929418",
+      "fixed_submission_id": "16929418",
+      "ordinal": 58,
+      "problem": "B",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "552-B-bug-16928615-16929418"
+    },
+    {
+      "buggy": "16459325",
+      "buggy_submission_id": "16459325",
+      "canonical_folder": "552-B-bug-16459325-16459343",
+      "classification": "DCCR",
+      "contest": "552",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16459343",
+      "fixed_submission_id": "16459343",
+      "ordinal": 59,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If"
+      ],
+      "task_id": "552-B-bug-16459325-16459343"
+    },
+    {
+      "buggy": "11961760",
+      "buggy_submission_id": "11961760",
+      "canonical_folder": "515-C-bug-11961760-11961793",
+      "classification": "DCCR",
+      "contest": "515",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11961793",
+      "fixed_submission_id": "11961793",
+      "ordinal": 60,
+      "problem": "C",
+      "tags": [
+        "string"
+      ],
+      "task_id": "515-C-bug-11961760-11961793"
+    },
+    {
+      "buggy": "18162404",
+      "buggy_submission_id": "18162404",
+      "canonical_folder": "214-A-bug-18162404-18162485",
+      "classification": "DCCR",
+      "contest": "214",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18162485",
+      "fixed_submission_id": "18162485",
+      "ordinal": 61,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "214-A-bug-18162404-18162485"
+    },
+    {
+      "buggy": "17033255",
+      "buggy_submission_id": "17033255",
+      "canonical_folder": "462-A-bug-17033255-17033269",
+      "classification": "DCCR",
+      "contest": "462",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17033269",
+      "fixed_submission_id": "17033269",
+      "ordinal": 62,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "462-A-bug-17033255-17033269"
+    },
+    {
+      "buggy": "16437058",
+      "buggy_submission_id": "16437058",
+      "canonical_folder": "401-A-bug-16437058-16437078",
+      "classification": "DCCR",
+      "contest": "401",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16437078",
+      "fixed_submission_id": "16437078",
+      "ordinal": 63,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Loop"
+      ],
+      "task_id": "401-A-bug-16437058-16437078"
+    },
+    {
+      "buggy": "13625080",
+      "buggy_submission_id": "13625080",
+      "canonical_folder": "401-A-bug-13625080-13625095",
+      "classification": "DCCR",
+      "contest": "401",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13625095",
+      "fixed_submission_id": "13625095",
+      "ordinal": 64,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "401-A-bug-13625080-13625095"
+    },
+    {
+      "buggy": "18162703",
+      "buggy_submission_id": "18162703",
+      "canonical_folder": "535-A-bug-18162703-18162711",
+      "classification": "DCCR",
+      "contest": "535",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18162711",
+      "fixed_submission_id": "18162711",
+      "ordinal": 65,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "535-A-bug-18162703-18162711"
+    },
+    {
+      "buggy": "16312418",
+      "buggy_submission_id": "16312418",
+      "canonical_folder": "535-A-bug-16312418-16312451",
+      "classification": "DCCR",
+      "contest": "535",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16312451",
+      "fixed_submission_id": "16312451",
+      "ordinal": 66,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "535-A-bug-16312418-16312451"
+    },
+    {
+      "buggy": "13949153",
+      "buggy_submission_id": "13949153",
+      "canonical_folder": "535-A-bug-13949153-13949173",
+      "classification": "DCCR",
+      "contest": "535",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13949173",
+      "fixed_submission_id": "13949173",
+      "ordinal": 67,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "535-A-bug-13949153-13949173"
+    },
+    {
+      "buggy": "17275476",
+      "buggy_submission_id": "17275476",
+      "canonical_folder": "546-B-bug-17275476-17275488",
+      "classification": "DCCR",
+      "contest": "546",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "17275488",
+      "fixed_submission_id": "17275488",
+      "ordinal": 68,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Define",
+        "Loop",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "546-B-bug-17275476-17275488"
+    },
+    {
+      "buggy": "18253629",
+      "buggy_submission_id": "18253629",
+      "canonical_folder": "230-B-bug-18253629-18253637",
+      "classification": "DCCR",
+      "contest": "230",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18253637",
+      "fixed_submission_id": "18253637",
+      "ordinal": 69,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "230-B-bug-18253629-18253637"
+    },
+    {
+      "buggy": "18240444",
+      "buggy_submission_id": "18240444",
+      "canonical_folder": "384-A-bug-18240444-18240451",
+      "classification": "DCCR",
+      "contest": "384",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18240451",
+      "fixed_submission_id": "18240451",
+      "ordinal": 70,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "384-A-bug-18240444-18240451"
+    },
+    {
+      "buggy": "17124424",
+      "buggy_submission_id": "17124424",
+      "canonical_folder": "255-A-bug-17124424-17124453",
+      "classification": "DCCR",
+      "contest": "255",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17124453",
+      "fixed_submission_id": "17124453",
+      "ordinal": 71,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "255-A-bug-17124424-17124453"
+    },
+    {
+      "buggy": "13497204",
+      "buggy_submission_id": "13497204",
+      "canonical_folder": "255-A-bug-13497204-13497217",
+      "classification": "DCCR",
+      "contest": "255",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13497217",
+      "fixed_submission_id": "13497217",
+      "ordinal": 72,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "255-A-bug-13497204-13497217"
+    },
+    {
+      "buggy": "17298530",
+      "buggy_submission_id": "17298530",
+      "canonical_folder": "534-A-bug-17298530-17298537",
+      "classification": "DCCR",
+      "contest": "534",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17298537",
+      "fixed_submission_id": "17298537",
+      "ordinal": 73,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "534-A-bug-17298530-17298537"
+    },
+    {
+      "buggy": "17298527",
+      "buggy_submission_id": "17298527",
+      "canonical_folder": "534-A-bug-17298527-17298537",
+      "classification": "DCCR",
+      "contest": "534",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17298537",
+      "fixed_submission_id": "17298537",
+      "ordinal": 74,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "534-A-bug-17298527-17298537"
+    },
+    {
+      "buggy": "14649971",
+      "buggy_submission_id": "14649971",
+      "canonical_folder": "534-A-bug-14649971-14649997",
+      "classification": "DCCR",
+      "contest": "534",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14649997",
+      "fixed_submission_id": "14649997",
+      "ordinal": 75,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "534-A-bug-14649971-14649997"
+    },
+    {
+      "buggy": "14543669",
+      "buggy_submission_id": "14543669",
+      "canonical_folder": "534-A-bug-14543669-14543680",
+      "classification": "DCCR",
+      "contest": "534",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14543680",
+      "fixed_submission_id": "14543680",
+      "ordinal": 76,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "534-A-bug-14543669-14543680"
+    },
+    {
+      "buggy": "14106218",
+      "buggy_submission_id": "14106218",
+      "canonical_folder": "534-A-bug-14106218-14106229",
+      "classification": "DCCR",
+      "contest": "534",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14106229",
+      "fixed_submission_id": "14106229",
+      "ordinal": 77,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "534-A-bug-14106218-14106229"
+    },
+    {
+      "buggy": "14106194",
+      "buggy_submission_id": "14106194",
+      "canonical_folder": "534-A-bug-14106194-14106229",
+      "classification": "DCCR",
+      "contest": "534",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14106229",
+      "fixed_submission_id": "14106229",
+      "ordinal": 78,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "534-A-bug-14106194-14106229"
+    },
+    {
+      "buggy": "14090669",
+      "buggy_submission_id": "14090669",
+      "canonical_folder": "534-A-bug-14090669-14090687",
+      "classification": "DCCR",
+      "contest": "534",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14090687",
+      "fixed_submission_id": "14090687",
+      "ordinal": 79,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "534-A-bug-14090669-14090687"
+    },
+    {
+      "buggy": "11339381",
+      "buggy_submission_id": "11339381",
+      "canonical_folder": "463-B-bug-11339381-11339383",
+      "classification": "DCCR",
+      "contest": "463",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11339383",
+      "fixed_submission_id": "11339383",
+      "ordinal": 80,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "463-B-bug-11339381-11339383"
+    },
+    {
+      "buggy": "15274432",
+      "buggy_submission_id": "15274432",
+      "canonical_folder": "385-A-bug-15274432-15281177",
+      "classification": "DCCR",
+      "contest": "385",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15281177",
+      "fixed_submission_id": "15281177",
+      "ordinal": 81,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "385-A-bug-15274432-15281177"
+    },
+    {
+      "buggy": "12308294",
+      "buggy_submission_id": "12308294",
+      "canonical_folder": "385-A-bug-12308294-12308311",
+      "classification": "DCCR",
+      "contest": "385",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12308311",
+      "fixed_submission_id": "12308311",
+      "ordinal": 82,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "385-A-bug-12308294-12308311"
+    },
+    {
+      "buggy": "14191565",
+      "buggy_submission_id": "14191565",
+      "canonical_folder": "586-A-bug-14191565-14191571",
+      "classification": "DCCR",
+      "contest": "586",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14191571",
+      "fixed_submission_id": "14191571",
+      "ordinal": 83,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "586-A-bug-14191565-14191571"
+    },
+    {
+      "buggy": "15579570",
+      "buggy_submission_id": "15579570",
+      "canonical_folder": "465-A-bug-15579570-15579608",
+      "classification": "DCCR",
+      "contest": "465",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15579608",
+      "fixed_submission_id": "15579608",
+      "ordinal": 84,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "465-A-bug-15579570-15579608"
+    },
+    {
+      "buggy": "12128251",
+      "buggy_submission_id": "12128251",
+      "canonical_folder": "278-A-bug-12128251-12129325",
+      "classification": "DCCR",
+      "contest": "278",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12129325",
+      "fixed_submission_id": "12129325",
+      "ordinal": 85,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "278-A-bug-12128251-12129325"
+    },
+    {
+      "buggy": "9390780",
+      "buggy_submission_id": "9390780",
+      "canonical_folder": "472-B-bug-9390780-9390795",
+      "classification": "DCCR",
+      "contest": "472",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9390795",
+      "fixed_submission_id": "9390795",
+      "ordinal": 86,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "472-B-bug-9390780-9390795"
+    },
+    {
+      "buggy": "16440544",
+      "buggy_submission_id": "16440544",
+      "canonical_folder": "629-A-bug-16440544-16440622",
+      "classification": "DCCR",
+      "contest": "629",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16440622",
+      "fixed_submission_id": "16440622",
+      "ordinal": 87,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "629-A-bug-16440544-16440622"
+    },
+    {
+      "buggy": "17314140",
+      "buggy_submission_id": "17314140",
+      "canonical_folder": "320-A-bug-17314140-17314148",
+      "classification": "DCCR",
+      "contest": "320",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17314148",
+      "fixed_submission_id": "17314148",
+      "ordinal": 88,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "320-A-bug-17314140-17314148"
+    },
+    {
+      "buggy": "13853886",
+      "buggy_submission_id": "13853886",
+      "canonical_folder": "320-A-bug-13853886-13855144",
+      "classification": "DCCR",
+      "contest": "320",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13855144",
+      "fixed_submission_id": "13855144",
+      "ordinal": 89,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else"
+      ],
+      "task_id": "320-A-bug-13853886-13855144"
+    },
+    {
+      "buggy": "18231098",
+      "buggy_submission_id": "18231098",
+      "canonical_folder": "488-A-bug-18231098-18231112",
+      "classification": "DCCR",
+      "contest": "488",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18231112",
+      "fixed_submission_id": "18231112",
+      "ordinal": 90,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "488-A-bug-18231098-18231112"
+    },
+    {
+      "buggy": "17920837",
+      "buggy_submission_id": "17920837",
+      "canonical_folder": "488-A-bug-17920837-17920847",
+      "classification": "DCCR",
+      "contest": "488",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17920847",
+      "fixed_submission_id": "17920847",
+      "ordinal": 91,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "488-A-bug-17920837-17920847"
+    },
+    {
+      "buggy": "15694141",
+      "buggy_submission_id": "15694141",
+      "canonical_folder": "488-A-bug-15694141-15694156",
+      "classification": "DCCR",
+      "contest": "488",
+      "failure": "TIME_LIMIT_EXCEEDED",
+      "fixed": "15694156",
+      "fixed_submission_id": "15694156",
+      "ordinal": 92,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "488-A-bug-15694141-15694156"
+    },
+    {
+      "buggy": "15600307",
+      "buggy_submission_id": "15600307",
+      "canonical_folder": "488-A-bug-15600307-15600390",
+      "classification": "DCCR",
+      "contest": "488",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15600390",
+      "fixed_submission_id": "15600390",
+      "ordinal": 93,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Loop"
+      ],
+      "task_id": "488-A-bug-15600307-15600390"
+    },
+    {
+      "buggy": "15410864",
+      "buggy_submission_id": "15410864",
+      "canonical_folder": "488-A-bug-15410864-15410870",
+      "classification": "DCCR",
+      "contest": "488",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15410870",
+      "fixed_submission_id": "15410870",
+      "ordinal": 94,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Loop"
+      ],
+      "task_id": "488-A-bug-15410864-15410870"
+    },
+    {
+      "buggy": "17912548",
+      "buggy_submission_id": "17912548",
+      "canonical_folder": "466-C-bug-17912548-17912675",
+      "classification": "DCCR",
+      "contest": "466",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17912675",
+      "fixed_submission_id": "17912675",
+      "ordinal": 95,
+      "problem": "C",
+      "tags": [
+        "string"
+      ],
+      "task_id": "466-C-bug-17912548-17912675"
+    },
+    {
+      "buggy": "17116256",
+      "buggy_submission_id": "17116256",
+      "canonical_folder": "435-A-bug-17116256-17116702",
+      "classification": "DCCR",
+      "contest": "435",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17116702",
+      "fixed_submission_id": "17116702",
+      "ordinal": 96,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Else"
+      ],
+      "task_id": "435-A-bug-17116256-17116702"
+    },
+    {
+      "buggy": "14841012",
+      "buggy_submission_id": "14841012",
+      "canonical_folder": "604-A-bug-14841012-14841153",
+      "classification": "DCCR",
+      "contest": "604",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14841153",
+      "fixed_submission_id": "14841153",
+      "ordinal": 97,
+      "problem": "A",
+      "tags": [],
+      "task_id": "604-A-bug-14841012-14841153"
+    },
+    {
+      "buggy": "13208278",
+      "buggy_submission_id": "13208278",
+      "canonical_folder": "574-A-bug-13208278-13208318",
+      "classification": "DCCR",
+      "contest": "574",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13208318",
+      "fixed_submission_id": "13208318",
+      "ordinal": 98,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "574-A-bug-13208278-13208318"
+    },
+    {
+      "buggy": "16223174",
+      "buggy_submission_id": "16223174",
+      "canonical_folder": "624-A-bug-16223174-16223213",
+      "classification": "DCCR",
+      "contest": "624",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16223213",
+      "fixed_submission_id": "16223213",
+      "ordinal": 99,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "624-A-bug-16223174-16223213"
+    },
+    {
+      "buggy": "18246246",
+      "buggy_submission_id": "18246246",
+      "canonical_folder": "670-A-bug-18246246-18246262",
+      "classification": "DCCR",
+      "contest": "670",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18246262",
+      "fixed_submission_id": "18246262",
+      "ordinal": 100,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "670-A-bug-18246246-18246262"
+    },
+    {
+      "buggy": "18026816",
+      "buggy_submission_id": "18026816",
+      "canonical_folder": "670-A-bug-18026816-18031168",
+      "classification": "DCCR",
+      "contest": "670",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18031168",
+      "fixed_submission_id": "18031168",
+      "ordinal": 101,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "670-A-bug-18026816-18031168"
+    },
+    {
+      "buggy": "13638253",
+      "buggy_submission_id": "13638253",
+      "canonical_folder": "556-B-bug-13638253-13638828",
+      "classification": "DCCR",
+      "contest": "556",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13638828",
+      "fixed_submission_id": "13638828",
+      "ordinal": 102,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "556-B-bug-13638253-13638828"
+    },
+    {
+      "buggy": "12705128",
+      "buggy_submission_id": "12705128",
+      "canonical_folder": "556-B-bug-12705128-12705137",
+      "classification": "DCCR",
+      "contest": "556",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "12705137",
+      "fixed_submission_id": "12705137",
+      "ordinal": 103,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "556-B-bug-12705128-12705137"
+    },
+    {
+      "buggy": "12795136",
+      "buggy_submission_id": "12795136",
+      "canonical_folder": "560-C-bug-12795136-12795149",
+      "classification": "DCCR",
+      "contest": "560",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12795149",
+      "fixed_submission_id": "12795149",
+      "ordinal": 104,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If",
+        "Else"
+      ],
+      "task_id": "560-C-bug-12795136-12795149"
+    },
+    {
+      "buggy": "15571164",
+      "buggy_submission_id": "15571164",
+      "canonical_folder": "588-B-bug-15571164-15571174",
+      "classification": "DCCR",
+      "contest": "588",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15571174",
+      "fixed_submission_id": "15571174",
+      "ordinal": 105,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Loop"
+      ],
+      "task_id": "588-B-bug-15571164-15571174"
+    },
+    {
+      "buggy": "8674442",
+      "buggy_submission_id": "8674442",
+      "canonical_folder": "482-A-bug-8674442-8674488",
+      "classification": "DCCR",
+      "contest": "482",
+      "failure": "WRONG_ANSWER",
+      "fixed": "8674488",
+      "fixed_submission_id": "8674488",
+      "ordinal": 106,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "482-A-bug-8674442-8674488"
+    },
+    {
+      "buggy": "11606934",
+      "buggy_submission_id": "11606934",
+      "canonical_folder": "550-C-bug-11606934-11606950",
+      "classification": "DCCR",
+      "contest": "550",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11606950",
+      "fixed_submission_id": "11606950",
+      "ordinal": 107,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "550-C-bug-11606934-11606950"
+    },
+    {
+      "buggy": "16987364",
+      "buggy_submission_id": "16987364",
+      "canonical_folder": "9-A-bug-16987364-16987386",
+      "classification": "DCCR",
+      "contest": "9",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16987386",
+      "fixed_submission_id": "16987386",
+      "ordinal": 108,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "9-A-bug-16987364-16987386"
+    },
+    {
+      "buggy": "9385928",
+      "buggy_submission_id": "9385928",
+      "canonical_folder": "84-A-bug-9385928-9385933",
+      "classification": "DCCR",
+      "contest": "84",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9385933",
+      "fixed_submission_id": "9385933",
+      "ordinal": 109,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Printf"
+      ],
+      "task_id": "84-A-bug-9385928-9385933"
+    },
+    {
+      "buggy": "12804327",
+      "buggy_submission_id": "12804327",
+      "canonical_folder": "560-B-bug-12804327-12804342",
+      "classification": "DCCR",
+      "contest": "560",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12804342",
+      "fixed_submission_id": "12804342",
+      "ordinal": 110,
+      "problem": "B",
+      "tags": [
+        "string",
+        "ArrayAccess",
+        "FunCall",
+        "Printf"
+      ],
+      "task_id": "560-B-bug-12804327-12804342"
+    },
+    {
+      "buggy": "14677884",
+      "buggy_submission_id": "14677884",
+      "canonical_folder": "43-A-bug-14677884-14677976",
+      "classification": "DCCR",
+      "contest": "43",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14677976",
+      "fixed_submission_id": "14677976",
+      "ordinal": 111,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else"
+      ],
+      "task_id": "43-A-bug-14677884-14677976"
+    },
+    {
+      "buggy": "14891907",
+      "buggy_submission_id": "14891907",
+      "canonical_folder": "596-B-bug-14891907-14891915",
+      "classification": "DCCR",
+      "contest": "596",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "14891915",
+      "fixed_submission_id": "14891915",
+      "ordinal": 112,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "596-B-bug-14891907-14891915"
+    },
+    {
+      "buggy": "12974475",
+      "buggy_submission_id": "12974475",
+      "canonical_folder": "495-A-bug-12974475-12974513",
+      "classification": "DCCR",
+      "contest": "495",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12974513",
+      "fixed_submission_id": "12974513",
+      "ordinal": 113,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "495-A-bug-12974475-12974513"
+    },
+    {
+      "buggy": "11534750",
+      "buggy_submission_id": "11534750",
+      "canonical_folder": "495-A-bug-11534750-11534818",
+      "classification": "DCCR",
+      "contest": "495",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11534818",
+      "fixed_submission_id": "11534818",
+      "ordinal": 114,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "If",
+        "Else"
+      ],
+      "task_id": "495-A-bug-11534750-11534818"
+    },
+    {
+      "buggy": "15393612",
+      "buggy_submission_id": "15393612",
+      "canonical_folder": "114-A-bug-15393612-15393637",
+      "classification": "DCCR",
+      "contest": "114",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15393637",
+      "fixed_submission_id": "15393637",
+      "ordinal": 115,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "114-A-bug-15393612-15393637"
+    },
+    {
+      "buggy": "12267789",
+      "buggy_submission_id": "12267789",
+      "canonical_folder": "353-A-bug-12267789-12267802",
+      "classification": "DCCR",
+      "contest": "353",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12267802",
+      "fixed_submission_id": "12267802",
+      "ordinal": 116,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "353-A-bug-12267789-12267802"
+    },
+    {
+      "buggy": "16516739",
+      "buggy_submission_id": "16516739",
+      "canonical_folder": "631-A-bug-16516739-16516823",
+      "classification": "DCCR",
+      "contest": "631",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16516823",
+      "fixed_submission_id": "16516823",
+      "ordinal": 117,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "631-A-bug-16516739-16516823"
+    },
+    {
+      "buggy": "14049570",
+      "buggy_submission_id": "14049570",
+      "canonical_folder": "450-B-bug-14049570-14052082",
+      "classification": "DCCR",
+      "contest": "450",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14052082",
+      "fixed_submission_id": "14052082",
+      "ordinal": 118,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "450-B-bug-14049570-14052082"
+    },
+    {
+      "buggy": "15783785",
+      "buggy_submission_id": "15783785",
+      "canonical_folder": "621-B-bug-15783785-15784028",
+      "classification": "DCCR",
+      "contest": "621",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15784028",
+      "fixed_submission_id": "15784028",
+      "ordinal": 119,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "621-B-bug-15783785-15784028"
+    },
+    {
+      "buggy": "18005740",
+      "buggy_submission_id": "18005740",
+      "canonical_folder": "672-B-bug-18005740-18005766",
+      "classification": "DCCR",
+      "contest": "672",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18005766",
+      "fixed_submission_id": "18005766",
+      "ordinal": 120,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "672-B-bug-18005740-18005766"
+    },
+    {
+      "buggy": "11531374",
+      "buggy_submission_id": "11531374",
+      "canonical_folder": "546-C-bug-11531374-11531501",
+      "classification": "DCCR",
+      "contest": "546",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11531501",
+      "fixed_submission_id": "11531501",
+      "ordinal": 121,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "546-C-bug-11531374-11531501"
+    },
+    {
+      "buggy": "9815086",
+      "buggy_submission_id": "9815086",
+      "canonical_folder": "158-C-bug-9815086-9815194",
+      "classification": "DCCR",
+      "contest": "158",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9815194",
+      "fixed_submission_id": "9815194",
+      "ordinal": 122,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "158-C-bug-9815086-9815194"
+    },
+    {
+      "buggy": "14209191",
+      "buggy_submission_id": "14209191",
+      "canonical_folder": "592-A-bug-14209191-14209669",
+      "classification": "DCCR",
+      "contest": "592",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14209669",
+      "fixed_submission_id": "14209669",
+      "ordinal": 123,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "592-A-bug-14209191-14209669"
+    },
+    {
+      "buggy": "17509211",
+      "buggy_submission_id": "17509211",
+      "canonical_folder": "75-A-bug-17509211-17509220",
+      "classification": "DCCR",
+      "contest": "75",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17509220",
+      "fixed_submission_id": "17509220",
+      "ordinal": 124,
+      "problem": "A",
+      "tags": [
+        "string",
+        "FunCall",
+        "Printf"
+      ],
+      "task_id": "75-A-bug-17509211-17509220"
+    },
+    {
+      "buggy": "9918275",
+      "buggy_submission_id": "9918275",
+      "canonical_folder": "322-A-bug-9918275-9918287",
+      "classification": "DCCR",
+      "contest": "322",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9918287",
+      "fixed_submission_id": "9918287",
+      "ordinal": 125,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "322-A-bug-9918275-9918287"
+    },
+    {
+      "buggy": "9088045",
+      "buggy_submission_id": "9088045",
+      "canonical_folder": "322-A-bug-9088045-9088076",
+      "classification": "DCCR",
+      "contest": "322",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9088076",
+      "fixed_submission_id": "9088076",
+      "ordinal": 126,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "322-A-bug-9088045-9088076"
+    },
+    {
+      "buggy": "12426498",
+      "buggy_submission_id": "12426498",
+      "canonical_folder": "460-B-bug-12426498-12426519",
+      "classification": "DCCR",
+      "contest": "460",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12426519",
+      "fixed_submission_id": "12426519",
+      "ordinal": 127,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop"
+      ],
+      "task_id": "460-B-bug-12426498-12426519"
+    },
+    {
+      "buggy": "12385554",
+      "buggy_submission_id": "12385554",
+      "canonical_folder": "160-B-bug-12385554-12385575",
+      "classification": "DCCR",
+      "contest": "160",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12385575",
+      "fixed_submission_id": "12385575",
+      "ordinal": 128,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "160-B-bug-12385554-12385575"
+    },
+    {
+      "buggy": "12585906",
+      "buggy_submission_id": "12585906",
+      "canonical_folder": "558-B-bug-12585906-12585920",
+      "classification": "DCCR",
+      "contest": "558",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "12585920",
+      "fixed_submission_id": "12585920",
+      "ordinal": 129,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "558-B-bug-12585906-12585920"
+    },
+    {
+      "buggy": "11278728",
+      "buggy_submission_id": "11278728",
+      "canonical_folder": "327-B-bug-11278728-11278834",
+      "classification": "DCCR",
+      "contest": "327",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11278834",
+      "fixed_submission_id": "11278834",
+      "ordinal": 130,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "327-B-bug-11278728-11278834"
+    },
+    {
+      "buggy": "16839740",
+      "buggy_submission_id": "16839740",
+      "canonical_folder": "452-A-bug-16839740-16839775",
+      "classification": "DCCR",
+      "contest": "452",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16839775",
+      "fixed_submission_id": "16839775",
+      "ordinal": 131,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "452-A-bug-16839740-16839775"
+    },
+    {
+      "buggy": "11357737",
+      "buggy_submission_id": "11357737",
+      "canonical_folder": "452-A-bug-11357737-11357797",
+      "classification": "DCCR",
+      "contest": "452",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11357797",
+      "fixed_submission_id": "11357797",
+      "ordinal": 132,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else"
+      ],
+      "task_id": "452-A-bug-11357737-11357797"
+    },
+    {
+      "buggy": "12406125",
+      "buggy_submission_id": "12406125",
+      "canonical_folder": "415-A-bug-12406125-12406130",
+      "classification": "DCCR",
+      "contest": "415",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12406130",
+      "fixed_submission_id": "12406130",
+      "ordinal": 133,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "415-A-bug-12406125-12406130"
+    },
+    {
+      "buggy": "17335175",
+      "buggy_submission_id": "17335175",
+      "canonical_folder": "139-A-bug-17335175-17335187",
+      "classification": "DCCR",
+      "contest": "139",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17335187",
+      "fixed_submission_id": "17335187",
+      "ordinal": 134,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If"
+      ],
+      "task_id": "139-A-bug-17335175-17335187"
+    },
+    {
+      "buggy": "14099102",
+      "buggy_submission_id": "14099102",
+      "canonical_folder": "139-A-bug-14099102-14099148",
+      "classification": "DCCR",
+      "contest": "139",
+      "failure": "TIME_LIMIT_EXCEEDED",
+      "fixed": "14099148",
+      "fixed_submission_id": "14099148",
+      "ordinal": 135,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "139-A-bug-14099102-14099148"
+    },
+    {
+      "buggy": "7343710",
+      "buggy_submission_id": "7343710",
+      "canonical_folder": "246-A-bug-7343710-7343728",
+      "classification": "DCCR",
+      "contest": "246",
+      "failure": "WRONG_ANSWER",
+      "fixed": "7343728",
+      "fixed_submission_id": "7343728",
+      "ordinal": 136,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "246-A-bug-7343710-7343728"
+    },
+    {
+      "buggy": "13334881",
+      "buggy_submission_id": "13334881",
+      "canonical_folder": "272-A-bug-13334881-13334907",
+      "classification": "DCCR",
+      "contest": "272",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13334907",
+      "fixed_submission_id": "13334907",
+      "ordinal": 137,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "272-A-bug-13334881-13334907"
+    },
+    {
+      "buggy": "9140479",
+      "buggy_submission_id": "9140479",
+      "canonical_folder": "272-A-bug-9140479-9140575",
+      "classification": "DCCR",
+      "contest": "272",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9140575",
+      "fixed_submission_id": "9140575",
+      "ordinal": 138,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop"
+      ],
+      "task_id": "272-A-bug-9140479-9140575"
+    },
+    {
+      "buggy": "16064998",
+      "buggy_submission_id": "16064998",
+      "canonical_folder": "518-A-bug-16064998-16065017",
+      "classification": "DCCR",
+      "contest": "518",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16065017",
+      "fixed_submission_id": "16065017",
+      "ordinal": 139,
+      "problem": "A",
+      "tags": [
+        "ArrayAccess",
+        "If"
+      ],
+      "task_id": "518-A-bug-16064998-16065017"
+    },
+    {
+      "buggy": "5407312",
+      "buggy_submission_id": "5407312",
+      "canonical_folder": "275-A-bug-5407312-5407337",
+      "classification": "DCCR",
+      "contest": "275",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5407337",
+      "fixed_submission_id": "5407337",
+      "ordinal": 140,
+      "problem": "A",
+      "tags": [
+        "ArrayAccess"
+      ],
+      "task_id": "275-A-bug-5407312-5407337"
+    },
+    {
+      "buggy": "10851567",
+      "buggy_submission_id": "10851567",
+      "canonical_folder": "493-A-bug-10851567-10851582",
+      "classification": "DCCR",
+      "contest": "493",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10851582",
+      "fixed_submission_id": "10851582",
+      "ordinal": 141,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "493-A-bug-10851567-10851582"
+    },
+    {
+      "buggy": "13972360",
+      "buggy_submission_id": "13972360",
+      "canonical_folder": "587-A-bug-13972360-13972373",
+      "classification": "DCCR",
+      "contest": "587",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13972373",
+      "fixed_submission_id": "13972373",
+      "ordinal": 142,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "587-A-bug-13972360-13972373"
+    },
+    {
+      "buggy": "17970704",
+      "buggy_submission_id": "17970704",
+      "canonical_folder": "633-A-bug-17970704-17970774",
+      "classification": "DCCR",
+      "contest": "633",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17970774",
+      "fixed_submission_id": "17970774",
+      "ordinal": 143,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "633-A-bug-17970704-17970774"
+    },
+    {
+      "buggy": "17688004",
+      "buggy_submission_id": "17688004",
+      "canonical_folder": "633-A-bug-17688004-17688228",
+      "classification": "DCCR",
+      "contest": "633",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17688228",
+      "fixed_submission_id": "17688228",
+      "ordinal": 144,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "633-A-bug-17688004-17688228"
+    },
+    {
+      "buggy": "16248246",
+      "buggy_submission_id": "16248246",
+      "canonical_folder": "287-A-bug-16248246-16248273",
+      "classification": "DCCR",
+      "contest": "287",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16248273",
+      "fixed_submission_id": "16248273",
+      "ordinal": 145,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "287-A-bug-16248246-16248273"
+    },
+    {
+      "buggy": "14127156",
+      "buggy_submission_id": "14127156",
+      "canonical_folder": "287-A-bug-14127156-14127164",
+      "classification": "DCCR",
+      "contest": "287",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14127164",
+      "fixed_submission_id": "14127164",
+      "ordinal": 146,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "287-A-bug-14127156-14127164"
+    },
+    {
+      "buggy": "11273662",
+      "buggy_submission_id": "11273662",
+      "canonical_folder": "287-A-bug-11273662-11273693",
+      "classification": "DCCR",
+      "contest": "287",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11273693",
+      "fixed_submission_id": "11273693",
+      "ordinal": 147,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "287-A-bug-11273662-11273693"
+    },
+    {
+      "buggy": "10056259",
+      "buggy_submission_id": "10056259",
+      "canonical_folder": "368-A-bug-10056259-10056302",
+      "classification": "DCCR",
+      "contest": "368",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10056302",
+      "fixed_submission_id": "10056302",
+      "ordinal": 148,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "368-A-bug-10056259-10056302"
+    },
+    {
+      "buggy": "17024233",
+      "buggy_submission_id": "17024233",
+      "canonical_folder": "80-A-bug-17024233-17024254",
+      "classification": "DCCR",
+      "contest": "80",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "17024254",
+      "fixed_submission_id": "17024254",
+      "ordinal": 149,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "80-A-bug-17024233-17024254"
+    },
+    {
+      "buggy": "16970987",
+      "buggy_submission_id": "16970987",
+      "canonical_folder": "80-A-bug-16970987-16971017",
+      "classification": "DCCR",
+      "contest": "80",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16971017",
+      "fixed_submission_id": "16971017",
+      "ordinal": 150,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "80-A-bug-16970987-16971017"
+    },
+    {
+      "buggy": "10796701",
+      "buggy_submission_id": "10796701",
+      "canonical_folder": "336-A-bug-10796701-10796753",
+      "classification": "DCCR",
+      "contest": "336",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10796753",
+      "fixed_submission_id": "10796753",
+      "ordinal": 151,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "336-A-bug-10796701-10796753"
+    },
+    {
+      "buggy": "6096839",
+      "buggy_submission_id": "6096839",
+      "canonical_folder": "336-A-bug-6096839-6096842",
+      "classification": "DCCR",
+      "contest": "336",
+      "failure": "WRONG_ANSWER",
+      "fixed": "6096842",
+      "fixed_submission_id": "6096842",
+      "ordinal": 152,
+      "problem": "A",
+      "tags": [
+        "string",
+        "FunCall",
+        "If",
+        "Printf",
+        "SIDE-EFFECT"
+      ],
+      "task_id": "336-A-bug-6096839-6096842"
+    },
+    {
+      "buggy": "12974262",
+      "buggy_submission_id": "12974262",
+      "canonical_folder": "362-B-bug-12974262-12974302",
+      "classification": "DCCR",
+      "contest": "362",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12974302",
+      "fixed_submission_id": "12974302",
+      "ordinal": 153,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else"
+      ],
+      "task_id": "362-B-bug-12974262-12974302"
+    },
+    {
+      "buggy": "14776196",
+      "buggy_submission_id": "14776196",
+      "canonical_folder": "433-A-bug-14776196-14776225",
+      "classification": "DCCR",
+      "contest": "433",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14776225",
+      "fixed_submission_id": "14776225",
+      "ordinal": 154,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "433-A-bug-14776196-14776225"
+    },
+    {
+      "buggy": "17590501",
+      "buggy_submission_id": "17590501",
+      "canonical_folder": "664-A-bug-17590501-17590517",
+      "classification": "DCCR",
+      "contest": "664",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17590517",
+      "fixed_submission_id": "17590517",
+      "ordinal": 155,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "664-A-bug-17590501-17590517"
+    },
+    {
+      "buggy": "18095947",
+      "buggy_submission_id": "18095947",
+      "canonical_folder": "401-C-bug-18095947-18095968",
+      "classification": "DCCR",
+      "contest": "401",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18095968",
+      "fixed_submission_id": "18095968",
+      "ordinal": 156,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "401-C-bug-18095947-18095968"
+    },
+    {
+      "buggy": "10655714",
+      "buggy_submission_id": "10655714",
+      "canonical_folder": "509-B-bug-10655714-10655736",
+      "classification": "DCCR",
+      "contest": "509",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10655736",
+      "fixed_submission_id": "10655736",
+      "ordinal": 157,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "509-B-bug-10655714-10655736"
+    },
+    {
+      "buggy": "10523652",
+      "buggy_submission_id": "10523652",
+      "canonical_folder": "509-B-bug-10523652-10523659",
+      "classification": "DCCR",
+      "contest": "509",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10523659",
+      "fixed_submission_id": "10523659",
+      "ordinal": 158,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "509-B-bug-10523652-10523659"
+    },
+    {
+      "buggy": "6706156",
+      "buggy_submission_id": "6706156",
+      "canonical_folder": "414-B-bug-6706156-6706199",
+      "classification": "DCCR",
+      "contest": "414",
+      "failure": "WRONG_ANSWER",
+      "fixed": "6706199",
+      "fixed_submission_id": "6706199",
+      "ordinal": 159,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "414-B-bug-6706156-6706199"
+    },
+    {
+      "buggy": "11774554",
+      "buggy_submission_id": "11774554",
+      "canonical_folder": "515-B-bug-11774554-11774710",
+      "classification": "DCCR",
+      "contest": "515",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11774710",
+      "fixed_submission_id": "11774710",
+      "ordinal": 160,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "515-B-bug-11774554-11774710"
+    },
+    {
+      "buggy": "10257432",
+      "buggy_submission_id": "10257432",
+      "canonical_folder": "515-B-bug-10257432-10257461",
+      "classification": "DCCR",
+      "contest": "515",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10257461",
+      "fixed_submission_id": "10257461",
+      "ordinal": 161,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "515-B-bug-10257432-10257461"
+    },
+    {
+      "buggy": "18162681",
+      "buggy_submission_id": "18162681",
+      "canonical_folder": "365-A-bug-18162681-18162685",
+      "classification": "DCCR",
+      "contest": "365",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18162685",
+      "fixed_submission_id": "18162685",
+      "ordinal": 162,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "365-A-bug-18162681-18162685"
+    },
+    {
+      "buggy": "9361800",
+      "buggy_submission_id": "9361800",
+      "canonical_folder": "365-A-bug-9361800-9361805",
+      "classification": "DCCR",
+      "contest": "365",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9361805",
+      "fixed_submission_id": "9361805",
+      "ordinal": 163,
+      "problem": "A",
+      "tags": [
+        "string",
+        "ArrayAccess",
+        "If"
+      ],
+      "task_id": "365-A-bug-9361800-9361805"
+    },
+    {
+      "buggy": "15985457",
+      "buggy_submission_id": "15985457",
+      "canonical_folder": "259-A-bug-15985457-15985487",
+      "classification": "DCCR",
+      "contest": "259",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15985487",
+      "fixed_submission_id": "15985487",
+      "ordinal": 164,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "259-A-bug-15985457-15985487"
+    },
+    {
+      "buggy": "13596646",
+      "buggy_submission_id": "13596646",
+      "canonical_folder": "157-B-bug-13596646-13596675",
+      "classification": "DCCR",
+      "contest": "157",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13596675",
+      "fixed_submission_id": "13596675",
+      "ordinal": 165,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "157-B-bug-13596646-13596675"
+    },
+    {
+      "buggy": "13517559",
+      "buggy_submission_id": "13517559",
+      "canonical_folder": "157-B-bug-13517559-13517565",
+      "classification": "DCCR",
+      "contest": "157",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13517565",
+      "fixed_submission_id": "13517565",
+      "ordinal": 166,
+      "problem": "B",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "157-B-bug-13517559-13517565"
+    },
+    {
+      "buggy": "15851435",
+      "buggy_submission_id": "15851435",
+      "canonical_folder": "382-A-bug-15851435-15851450",
+      "classification": "DCCR",
+      "contest": "382",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15851450",
+      "fixed_submission_id": "15851450",
+      "ordinal": 167,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "382-A-bug-15851435-15851450"
+    },
+    {
+      "buggy": "8368809",
+      "buggy_submission_id": "8368809",
+      "canonical_folder": "382-A-bug-8368809-8368827",
+      "classification": "DCCR",
+      "contest": "382",
+      "failure": "WRONG_ANSWER",
+      "fixed": "8368827",
+      "fixed_submission_id": "8368827",
+      "ordinal": 168,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "382-A-bug-8368809-8368827"
+    },
+    {
+      "buggy": "15635112",
+      "buggy_submission_id": "15635112",
+      "canonical_folder": "330-B-bug-15635112-15635157",
+      "classification": "DCCR",
+      "contest": "330",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15635157",
+      "fixed_submission_id": "15635157",
+      "ordinal": 169,
+      "problem": "B",
+      "tags": [
+        "ArrayAccess",
+        "If"
+      ],
+      "task_id": "330-B-bug-15635112-15635157"
+    },
+    {
+      "buggy": "10101095",
+      "buggy_submission_id": "10101095",
+      "canonical_folder": "505-A-bug-10101095-10101109",
+      "classification": "DCCR",
+      "contest": "505",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10101109",
+      "fixed_submission_id": "10101109",
+      "ordinal": 170,
+      "problem": "A",
+      "tags": [
+        "ArrayAccess"
+      ],
+      "task_id": "505-A-bug-10101095-10101109"
+    },
+    {
+      "buggy": "6946103",
+      "buggy_submission_id": "6946103",
+      "canonical_folder": "288-A-bug-6946103-6946125",
+      "classification": "DCCR",
+      "contest": "288",
+      "failure": "WRONG_ANSWER",
+      "fixed": "6946125",
+      "fixed_submission_id": "6946125",
+      "ordinal": 171,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "288-A-bug-6946103-6946125"
+    },
+    {
+      "buggy": "17509728",
+      "buggy_submission_id": "17509728",
+      "canonical_folder": "373-A-bug-17509728-17509797",
+      "classification": "DCCR",
+      "contest": "373",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17509797",
+      "fixed_submission_id": "17509797",
+      "ordinal": 172,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "373-A-bug-17509728-17509797"
+    },
+    {
+      "buggy": "4857735",
+      "buggy_submission_id": "4857735",
+      "canonical_folder": "127-A-bug-4857735-4857763",
+      "classification": "DCCR",
+      "contest": "127",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4857763",
+      "fixed_submission_id": "4857763",
+      "ordinal": 173,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "127-A-bug-4857735-4857763"
+    },
+    {
+      "buggy": "14650543",
+      "buggy_submission_id": "14650543",
+      "canonical_folder": "205-A-bug-14650543-14650568",
+      "classification": "DCCR",
+      "contest": "205",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14650568",
+      "fixed_submission_id": "14650568",
+      "ordinal": 174,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "205-A-bug-14650543-14650568"
+    },
+    {
+      "buggy": "8395389",
+      "buggy_submission_id": "8395389",
+      "canonical_folder": "220-A-bug-8395389-8395417",
+      "classification": "DCCR",
+      "contest": "220",
+      "failure": "WRONG_ANSWER",
+      "fixed": "8395417",
+      "fixed_submission_id": "8395417",
+      "ordinal": 175,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "220-A-bug-8395389-8395417"
+    },
+    {
+      "buggy": "12485897",
+      "buggy_submission_id": "12485897",
+      "canonical_folder": "355-A-bug-12485897-12485900",
+      "classification": "DCCR",
+      "contest": "355",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12485900",
+      "fixed_submission_id": "12485900",
+      "ordinal": 176,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "355-A-bug-12485897-12485900"
+    },
+    {
+      "buggy": "12485885",
+      "buggy_submission_id": "12485885",
+      "canonical_folder": "355-A-bug-12485885-12485900",
+      "classification": "DCCR",
+      "contest": "355",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12485900",
+      "fixed_submission_id": "12485900",
+      "ordinal": 177,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "355-A-bug-12485885-12485900"
+    },
+    {
+      "buggy": "13906297",
+      "buggy_submission_id": "13906297",
+      "canonical_folder": "94-A-bug-13906297-13906315",
+      "classification": "DCCR",
+      "contest": "94",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13906315",
+      "fixed_submission_id": "13906315",
+      "ordinal": 178,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "94-A-bug-13906297-13906315"
+    },
+    {
+      "buggy": "17835662",
+      "buggy_submission_id": "17835662",
+      "canonical_folder": "357-A-bug-17835662-17835664",
+      "classification": "DCCR",
+      "contest": "357",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17835664",
+      "fixed_submission_id": "17835664",
+      "ordinal": 179,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "357-A-bug-17835662-17835664"
+    },
+    {
+      "buggy": "18325992",
+      "buggy_submission_id": "18325992",
+      "canonical_folder": "680-B-bug-18325992-18326592",
+      "classification": "DCCR",
+      "contest": "680",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18326592",
+      "fixed_submission_id": "18326592",
+      "ordinal": 180,
+      "problem": "B",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "680-B-bug-18325992-18326592"
+    },
+    {
+      "buggy": "17391844",
+      "buggy_submission_id": "17391844",
+      "canonical_folder": "365-B-bug-17391844-17391871",
+      "classification": "DCCR",
+      "contest": "365",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17391871",
+      "fixed_submission_id": "17391871",
+      "ordinal": 181,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "365-B-bug-17391844-17391871"
+    },
+    {
+      "buggy": "10966530",
+      "buggy_submission_id": "10966530",
+      "canonical_folder": "526-A-bug-10966530-10966547",
+      "classification": "DCCR",
+      "contest": "526",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10966547",
+      "fixed_submission_id": "10966547",
+      "ordinal": 182,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "526-A-bug-10966530-10966547"
+    },
+    {
+      "buggy": "10627114",
+      "buggy_submission_id": "10627114",
+      "canonical_folder": "526-A-bug-10627114-10627124",
+      "classification": "DCCR",
+      "contest": "526",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10627124",
+      "fixed_submission_id": "10627124",
+      "ordinal": 183,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "526-A-bug-10627114-10627124"
+    },
+    {
+      "buggy": "14775746",
+      "buggy_submission_id": "14775746",
+      "canonical_folder": "604-B-bug-14775746-14775779",
+      "classification": "DCCR",
+      "contest": "604",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14775779",
+      "fixed_submission_id": "14775779",
+      "ordinal": 184,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "604-B-bug-14775746-14775779"
+    },
+    {
+      "buggy": "15606907",
+      "buggy_submission_id": "15606907",
+      "canonical_folder": "616-B-bug-15606907-15607020",
+      "classification": "DCCR",
+      "contest": "616",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15607020",
+      "fixed_submission_id": "15607020",
+      "ordinal": 185,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "616-B-bug-15606907-15607020"
+    },
+    {
+      "buggy": "12223850",
+      "buggy_submission_id": "12223850",
+      "canonical_folder": "363-A-bug-12223850-12223857",
+      "classification": "DCCR",
+      "contest": "363",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12223857",
+      "fixed_submission_id": "12223857",
+      "ordinal": 186,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "363-A-bug-12223850-12223857"
+    },
+    {
+      "buggy": "9556316",
+      "buggy_submission_id": "9556316",
+      "canonical_folder": "363-A-bug-9556316-9556344",
+      "classification": "DCCR",
+      "contest": "363",
+      "failure": "TIME_LIMIT_EXCEEDED",
+      "fixed": "9556344",
+      "fixed_submission_id": "9556344",
+      "ordinal": 187,
+      "problem": "A",
+      "tags": [
+        "Loop"
+      ],
+      "task_id": "363-A-bug-9556316-9556344"
+    },
+    {
+      "buggy": "8603306",
+      "buggy_submission_id": "8603306",
+      "canonical_folder": "363-A-bug-8603306-8603333",
+      "classification": "DCCR",
+      "contest": "363",
+      "failure": "WRONG_ANSWER",
+      "fixed": "8603333",
+      "fixed_submission_id": "8603333",
+      "ordinal": 188,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "363-A-bug-8603306-8603333"
+    },
+    {
+      "buggy": "7811739",
+      "buggy_submission_id": "7811739",
+      "canonical_folder": "166-E-bug-7811739-7811751",
+      "classification": "DCCR",
+      "contest": "166",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "7811751",
+      "fixed_submission_id": "7811751",
+      "ordinal": 189,
+      "problem": "E",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "166-E-bug-7811739-7811751"
+    },
+    {
+      "buggy": "13338411",
+      "buggy_submission_id": "13338411",
+      "canonical_folder": "414-A-bug-13338411-13338421",
+      "classification": "DCCR",
+      "contest": "414",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13338421",
+      "fixed_submission_id": "13338421",
+      "ordinal": 190,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "414-A-bug-13338411-13338421"
+    },
+    {
+      "buggy": "8342692",
+      "buggy_submission_id": "8342692",
+      "canonical_folder": "414-A-bug-8342692-8342695",
+      "classification": "DCCR",
+      "contest": "414",
+      "failure": "WRONG_ANSWER",
+      "fixed": "8342695",
+      "fixed_submission_id": "8342695",
+      "ordinal": 191,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "414-A-bug-8342692-8342695"
+    },
+    {
+      "buggy": "16393233",
+      "buggy_submission_id": "16393233",
+      "canonical_folder": "475-A-bug-16393233-16393264",
+      "classification": "DCCR",
+      "contest": "475",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16393264",
+      "fixed_submission_id": "16393264",
+      "ordinal": 192,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "475-A-bug-16393233-16393264"
+    },
+    {
+      "buggy": "14056728",
+      "buggy_submission_id": "14056728",
+      "canonical_folder": "475-A-bug-14056728-14056738",
+      "classification": "DCCR",
+      "contest": "475",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14056738",
+      "fixed_submission_id": "14056738",
+      "ordinal": 193,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "475-A-bug-14056728-14056738"
+    },
+    {
+      "buggy": "13253543",
+      "buggy_submission_id": "13253543",
+      "canonical_folder": "475-A-bug-13253543-13253559",
+      "classification": "DCCR",
+      "contest": "475",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13253559",
+      "fixed_submission_id": "13253559",
+      "ordinal": 194,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "475-A-bug-13253543-13253559"
+    },
+    {
+      "buggy": "4023761",
+      "buggy_submission_id": "4023761",
+      "canonical_folder": "268-C-bug-4023761-4023772",
+      "classification": "DCCR",
+      "contest": "268",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4023772",
+      "fixed_submission_id": "4023772",
+      "ordinal": 195,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "268-C-bug-4023761-4023772"
+    },
+    {
+      "buggy": "3071927",
+      "buggy_submission_id": "3071927",
+      "canonical_folder": "268-C-bug-3071927-3071938",
+      "classification": "DCCR",
+      "contest": "268",
+      "failure": "WRONG_ANSWER",
+      "fixed": "3071938",
+      "fixed_submission_id": "3071938",
+      "ordinal": 196,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "268-C-bug-3071927-3071938"
+    },
+    {
+      "buggy": "14489985",
+      "buggy_submission_id": "14489985",
+      "canonical_folder": "34-A-bug-14489985-14490037",
+      "classification": "DCCR",
+      "contest": "34",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14490037",
+      "fixed_submission_id": "14490037",
+      "ordinal": 197,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Printf"
+      ],
+      "task_id": "34-A-bug-14489985-14490037"
+    },
+    {
+      "buggy": "7646053",
+      "buggy_submission_id": "7646053",
+      "canonical_folder": "34-A-bug-7646053-7646105",
+      "classification": "DCCR",
+      "contest": "34",
+      "failure": "WRONG_ANSWER",
+      "fixed": "7646105",
+      "fixed_submission_id": "7646105",
+      "ordinal": 198,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "34-A-bug-7646053-7646105"
+    },
+    {
+      "buggy": "12882080",
+      "buggy_submission_id": "12882080",
+      "canonical_folder": "538-C-bug-12882080-12882098",
+      "classification": "DCCR",
+      "contest": "538",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12882098",
+      "fixed_submission_id": "12882098",
+      "ordinal": 199,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "538-C-bug-12882080-12882098"
+    },
+    {
+      "buggy": "11939068",
+      "buggy_submission_id": "11939068",
+      "canonical_folder": "104-A-bug-11939068-11939085",
+      "classification": "DCCR",
+      "contest": "104",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11939085",
+      "fixed_submission_id": "11939085",
+      "ordinal": 200,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "104-A-bug-11939068-11939085"
+    },
+    {
+      "buggy": "10739007",
+      "buggy_submission_id": "10739007",
+      "canonical_folder": "104-A-bug-10739007-10739021",
+      "classification": "DCCR",
+      "contest": "104",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10739021",
+      "fixed_submission_id": "10739021",
+      "ordinal": 201,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "104-A-bug-10739007-10739021"
+    },
+    {
+      "buggy": "4475922",
+      "buggy_submission_id": "4475922",
+      "canonical_folder": "222-A-bug-4475922-4475947",
+      "classification": "DCCR",
+      "contest": "222",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4475947",
+      "fixed_submission_id": "4475947",
+      "ordinal": 202,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "222-A-bug-4475922-4475947"
+    },
+    {
+      "buggy": "9163727",
+      "buggy_submission_id": "9163727",
+      "canonical_folder": "302-A-bug-9163727-9163744",
+      "classification": "DCCR",
+      "contest": "302",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9163744",
+      "fixed_submission_id": "9163744",
+      "ordinal": 203,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "302-A-bug-9163727-9163744"
+    },
+    {
+      "buggy": "7062010",
+      "buggy_submission_id": "7062010",
+      "canonical_folder": "441-B-bug-7062010-7062022",
+      "classification": "DCCR",
+      "contest": "441",
+      "failure": "WRONG_ANSWER",
+      "fixed": "7062022",
+      "fixed_submission_id": "7062022",
+      "ordinal": 204,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "If"
+      ],
+      "task_id": "441-B-bug-7062010-7062022"
+    },
+    {
+      "buggy": "14043592",
+      "buggy_submission_id": "14043592",
+      "canonical_folder": "186-A-bug-14043592-14043606",
+      "classification": "DCCR",
+      "contest": "186",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14043606",
+      "fixed_submission_id": "14043606",
+      "ordinal": 205,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "186-A-bug-14043592-14043606"
+    },
+    {
+      "buggy": "4336111",
+      "buggy_submission_id": "4336111",
+      "canonical_folder": "244-A-bug-4336111-4336116",
+      "classification": "DCCR",
+      "contest": "244",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4336116",
+      "fixed_submission_id": "4336116",
+      "ordinal": 206,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "244-A-bug-4336111-4336116"
+    },
+    {
+      "buggy": "17396998",
+      "buggy_submission_id": "17396998",
+      "canonical_folder": "626-B-bug-17396998-17397014",
+      "classification": "DCCR",
+      "contest": "626",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17397014",
+      "fixed_submission_id": "17397014",
+      "ordinal": 207,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "626-B-bug-17396998-17397014"
+    },
+    {
+      "buggy": "17271155",
+      "buggy_submission_id": "17271155",
+      "canonical_folder": "626-B-bug-17271155-17271167",
+      "classification": "DCCR",
+      "contest": "626",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17271167",
+      "fixed_submission_id": "17271167",
+      "ordinal": 208,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "626-B-bug-17271155-17271167"
+    },
+    {
+      "buggy": "8946526",
+      "buggy_submission_id": "8946526",
+      "canonical_folder": "284-B-bug-8946526-8946533",
+      "classification": "DCCR",
+      "contest": "284",
+      "failure": "WRONG_ANSWER",
+      "fixed": "8946533",
+      "fixed_submission_id": "8946533",
+      "ordinal": 209,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "284-B-bug-8946526-8946533"
+    },
+    {
+      "buggy": "18053720",
+      "buggy_submission_id": "18053720",
+      "canonical_folder": "667-A-bug-18053720-18053750",
+      "classification": "DCCR",
+      "contest": "667",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18053750",
+      "fixed_submission_id": "18053750",
+      "ordinal": 210,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "floatingpoint",
+        "Define"
+      ],
+      "task_id": "667-A-bug-18053720-18053750"
+    },
+    {
+      "buggy": "17981468",
+      "buggy_submission_id": "17981468",
+      "canonical_folder": "667-A-bug-17981468-17981495",
+      "classification": "DCCR",
+      "contest": "667",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17981495",
+      "fixed_submission_id": "17981495",
+      "ordinal": 211,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "667-A-bug-17981468-17981495"
+    },
+    {
+      "buggy": "17689624",
+      "buggy_submission_id": "17689624",
+      "canonical_folder": "667-A-bug-17689624-17689659",
+      "classification": "DCCR",
+      "contest": "667",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17689659",
+      "fixed_submission_id": "17689659",
+      "ordinal": 212,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "667-A-bug-17689624-17689659"
+    },
+    {
+      "buggy": "17689544",
+      "buggy_submission_id": "17689544",
+      "canonical_folder": "667-A-bug-17689544-17689659",
+      "classification": "DCCR",
+      "contest": "667",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17689659",
+      "fixed_submission_id": "17689659",
+      "ordinal": 213,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "667-A-bug-17689544-17689659"
+    },
+    {
+      "buggy": "12687153",
+      "buggy_submission_id": "12687153",
+      "canonical_folder": "127-B-bug-12687153-12687176",
+      "classification": "DCCR",
+      "contest": "127",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12687176",
+      "fixed_submission_id": "12687176",
+      "ordinal": 214,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "127-B-bug-12687153-12687176"
+    },
+    {
+      "buggy": "3581818",
+      "buggy_submission_id": "3581818",
+      "canonical_folder": "127-B-bug-3581818-3581832",
+      "classification": "DCCR",
+      "contest": "127",
+      "failure": "WRONG_ANSWER",
+      "fixed": "3581832",
+      "fixed_submission_id": "3581832",
+      "ordinal": 215,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "127-B-bug-3581818-3581832"
+    },
+    {
+      "buggy": "14530299",
+      "buggy_submission_id": "14530299",
+      "canonical_folder": "569-A-bug-14530299-14530439",
+      "classification": "DCCR",
+      "contest": "569",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14530439",
+      "fixed_submission_id": "14530439",
+      "ordinal": 216,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "569-A-bug-14530299-14530439"
+    },
+    {
+      "buggy": "17067597",
+      "buggy_submission_id": "17067597",
+      "canonical_folder": "633-B-bug-17067597-17067648",
+      "classification": "DCCR",
+      "contest": "633",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17067648",
+      "fixed_submission_id": "17067648",
+      "ordinal": 217,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "633-B-bug-17067597-17067648"
+    },
+    {
+      "buggy": "16885448",
+      "buggy_submission_id": "16885448",
+      "canonical_folder": "630-J-bug-16885448-16885458",
+      "classification": "DCCR",
+      "contest": "630",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "16885458",
+      "fixed_submission_id": "16885458",
+      "ordinal": 218,
+      "problem": "J",
+      "tags": [
+        "DIFFOUT",
+        "Printf"
+      ],
+      "task_id": "630-J-bug-16885448-16885458"
+    },
+    {
+      "buggy": "4082382",
+      "buggy_submission_id": "4082382",
+      "canonical_folder": "289-B-bug-4082382-4082392",
+      "classification": "DCCR",
+      "contest": "289",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4082392",
+      "fixed_submission_id": "4082392",
+      "ordinal": 219,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "289-B-bug-4082382-4082392"
+    },
+    {
+      "buggy": "13549283",
+      "buggy_submission_id": "13549283",
+      "canonical_folder": "143-A-bug-13549283-13549295",
+      "classification": "DCCR",
+      "contest": "143",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13549295",
+      "fixed_submission_id": "13549295",
+      "ordinal": 220,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "143-A-bug-13549283-13549295"
+    },
+    {
+      "buggy": "13134845",
+      "buggy_submission_id": "13134845",
+      "canonical_folder": "578-A-bug-13134845-13134870",
+      "classification": "DCCR",
+      "contest": "578",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13134870",
+      "fixed_submission_id": "13134870",
+      "ordinal": 221,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "floatingpoint",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "578-A-bug-13134845-13134870"
+    },
+    {
+      "buggy": "13134830",
+      "buggy_submission_id": "13134830",
+      "canonical_folder": "578-A-bug-13134830-13134870",
+      "classification": "DCCR",
+      "contest": "578",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13134870",
+      "fixed_submission_id": "13134870",
+      "ordinal": 222,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "floatingpoint",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "578-A-bug-13134830-13134870"
+    },
+    {
+      "buggy": "11341123",
+      "buggy_submission_id": "11341123",
+      "canonical_folder": "496-B-bug-11341123-11341181",
+      "classification": "DCCR",
+      "contest": "496",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11341181",
+      "fixed_submission_id": "11341181",
+      "ordinal": 223,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Size"
+      ],
+      "task_id": "496-B-bug-11341123-11341181"
+    },
+    {
+      "buggy": "16998123",
+      "buggy_submission_id": "16998123",
+      "canonical_folder": "658-C-bug-16998123-16998228",
+      "classification": "DCCR",
+      "contest": "658",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16998228",
+      "fixed_submission_id": "16998228",
+      "ordinal": 224,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else"
+      ],
+      "task_id": "658-C-bug-16998123-16998228"
+    },
+    {
+      "buggy": "11900403",
+      "buggy_submission_id": "11900403",
+      "canonical_folder": "165-B-bug-11900403-11900412",
+      "classification": "DCCR",
+      "contest": "165",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11900412",
+      "fixed_submission_id": "11900412",
+      "ordinal": 225,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "165-B-bug-11900403-11900412"
+    },
+    {
+      "buggy": "11009648",
+      "buggy_submission_id": "11009648",
+      "canonical_folder": "490-B-bug-11009648-11009654",
+      "classification": "DCCR",
+      "contest": "490",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "11009654",
+      "fixed_submission_id": "11009654",
+      "ordinal": 226,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "490-B-bug-11009648-11009654"
+    },
+    {
+      "buggy": "11891609",
+      "buggy_submission_id": "11891609",
+      "canonical_folder": "546-D-bug-11891609-11891769",
+      "classification": "DCCR",
+      "contest": "546",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11891769",
+      "fixed_submission_id": "11891769",
+      "ordinal": 227,
+      "problem": "D",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "546-D-bug-11891609-11891769"
+    },
+    {
+      "buggy": "14290012",
+      "buggy_submission_id": "14290012",
+      "canonical_folder": "304-A-bug-14290012-14290016",
+      "classification": "DCCR",
+      "contest": "304",
+      "failure": "TIME_LIMIT_EXCEEDED",
+      "fixed": "14290016",
+      "fixed_submission_id": "14290016",
+      "ordinal": 228,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "304-A-bug-14290012-14290016"
+    },
+    {
+      "buggy": "2235327",
+      "buggy_submission_id": "2235327",
+      "canonical_folder": "225-A-bug-2235327-2235330",
+      "classification": "DCCR",
+      "contest": "225",
+      "failure": "WRONG_ANSWER",
+      "fixed": "2235330",
+      "fixed_submission_id": "2235330",
+      "ordinal": 229,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "225-A-bug-2235327-2235330"
+    },
+    {
+      "buggy": "16747066",
+      "buggy_submission_id": "16747066",
+      "canonical_folder": "637-A-bug-16747066-16747205",
+      "classification": "DCCR",
+      "contest": "637",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16747205",
+      "fixed_submission_id": "16747205",
+      "ordinal": 230,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "637-A-bug-16747066-16747205"
+    },
+    {
+      "buggy": "17260366",
+      "buggy_submission_id": "17260366",
+      "canonical_folder": "47-A-bug-17260366-17260380",
+      "classification": "DCCR",
+      "contest": "47",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17260380",
+      "fixed_submission_id": "17260380",
+      "ordinal": 231,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "47-A-bug-17260366-17260380"
+    },
+    {
+      "buggy": "16672494",
+      "buggy_submission_id": "16672494",
+      "canonical_folder": "47-A-bug-16672494-16672523",
+      "classification": "DCCR",
+      "contest": "47",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16672523",
+      "fixed_submission_id": "16672523",
+      "ordinal": 232,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "47-A-bug-16672494-16672523"
+    },
+    {
+      "buggy": "15615019",
+      "buggy_submission_id": "15615019",
+      "canonical_folder": "599-B-bug-15615019-15615020",
+      "classification": "DCCR",
+      "contest": "599",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15615020",
+      "fixed_submission_id": "15615020",
+      "ordinal": 233,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "599-B-bug-15615019-15615020"
+    },
+    {
+      "buggy": "3324361",
+      "buggy_submission_id": "3324361",
+      "canonical_folder": "245-A-bug-3324361-3324366",
+      "classification": "DCCR",
+      "contest": "245",
+      "failure": "WRONG_ANSWER",
+      "fixed": "3324366",
+      "fixed_submission_id": "3324366",
+      "ordinal": 234,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "245-A-bug-3324361-3324366"
+    },
+    {
+      "buggy": "17026157",
+      "buggy_submission_id": "17026157",
+      "canonical_folder": "78-A-bug-17026157-17026164",
+      "classification": "DCCR",
+      "contest": "78",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17026164",
+      "fixed_submission_id": "17026164",
+      "ordinal": 235,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "78-A-bug-17026157-17026164"
+    },
+    {
+      "buggy": "13814982",
+      "buggy_submission_id": "13814982",
+      "canonical_folder": "78-A-bug-13814982-13814989",
+      "classification": "DCCR",
+      "contest": "78",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13814989",
+      "fixed_submission_id": "13814989",
+      "ordinal": 236,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "78-A-bug-13814982-13814989"
+    },
+    {
+      "buggy": "12229092",
+      "buggy_submission_id": "12229092",
+      "canonical_folder": "366-A-bug-12229092-12229103",
+      "classification": "DCCR",
+      "contest": "366",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12229103",
+      "fixed_submission_id": "12229103",
+      "ordinal": 237,
+      "problem": "A",
+      "tags": [
+        "FunCall",
+        "SIDE-EFFECT"
+      ],
+      "task_id": "366-A-bug-12229092-12229103"
+    },
+    {
+      "buggy": "12677176",
+      "buggy_submission_id": "12677176",
+      "canonical_folder": "216-A-bug-12677176-12677205",
+      "classification": "DCCR",
+      "contest": "216",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12677205",
+      "fixed_submission_id": "12677205",
+      "ordinal": 238,
+      "problem": "A",
+      "tags": [
+        "bitwise",
+        "bitwise"
+      ],
+      "task_id": "216-A-bug-12677176-12677205"
+    },
+    {
+      "buggy": "9879753",
+      "buggy_submission_id": "9879753",
+      "canonical_folder": "216-A-bug-9879753-9880150",
+      "classification": "DCCR",
+      "contest": "216",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9880150",
+      "fixed_submission_id": "9880150",
+      "ordinal": 239,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "216-A-bug-9879753-9880150"
+    },
+    {
+      "buggy": "9879712",
+      "buggy_submission_id": "9879712",
+      "canonical_folder": "216-A-bug-9879712-9880150",
+      "classification": "DCCR",
+      "contest": "216",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9880150",
+      "fixed_submission_id": "9880150",
+      "ordinal": 240,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "216-A-bug-9879712-9880150"
+    },
+    {
+      "buggy": "9879672",
+      "buggy_submission_id": "9879672",
+      "canonical_folder": "216-A-bug-9879672-9880150",
+      "classification": "DCCR",
+      "contest": "216",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9880150",
+      "fixed_submission_id": "9880150",
+      "ordinal": 241,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "216-A-bug-9879672-9880150"
+    },
+    {
+      "buggy": "15282572",
+      "buggy_submission_id": "15282572",
+      "canonical_folder": "607-A-bug-15282572-15282604",
+      "classification": "DCCR",
+      "contest": "607",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15282604",
+      "fixed_submission_id": "15282604",
+      "ordinal": 242,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else"
+      ],
+      "task_id": "607-A-bug-15282572-15282604"
+    },
+    {
+      "buggy": "14739525",
+      "buggy_submission_id": "14739525",
+      "canonical_folder": "295-A-bug-14739525-14748349",
+      "classification": "DCCR",
+      "contest": "295",
+      "failure": "TIME_LIMIT_EXCEEDED",
+      "fixed": "14748349",
+      "fixed_submission_id": "14748349",
+      "ordinal": 243,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "295-A-bug-14739525-14748349"
+    },
+    {
+      "buggy": "5449075",
+      "buggy_submission_id": "5449075",
+      "canonical_folder": "371-A-bug-5449075-5449090",
+      "classification": "DCCR",
+      "contest": "371",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5449090",
+      "fixed_submission_id": "5449090",
+      "ordinal": 244,
+      "problem": "A",
+      "tags": [
+        "Involves-+=or-=or*="
+      ],
+      "task_id": "371-A-bug-5449075-5449090"
+    },
+    {
+      "buggy": "16431297",
+      "buggy_submission_id": "16431297",
+      "canonical_folder": "46-A-bug-16431297-16431329",
+      "classification": "DCCR",
+      "contest": "46",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16431329",
+      "fixed_submission_id": "16431329",
+      "ordinal": 245,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "46-A-bug-16431297-16431329"
+    },
+    {
+      "buggy": "5782659",
+      "buggy_submission_id": "5782659",
+      "canonical_folder": "46-A-bug-5782659-5782666",
+      "classification": "DCCR",
+      "contest": "46",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5782666",
+      "fixed_submission_id": "5782666",
+      "ordinal": 246,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "46-A-bug-5782659-5782666"
+    },
+    {
+      "buggy": "9604953",
+      "buggy_submission_id": "9604953",
+      "canonical_folder": "312-A-bug-9604953-9604989",
+      "classification": "DCCR",
+      "contest": "312",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9604989",
+      "fixed_submission_id": "9604989",
+      "ordinal": 247,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "312-A-bug-9604953-9604989"
+    },
+    {
+      "buggy": "7803048",
+      "buggy_submission_id": "7803048",
+      "canonical_folder": "312-A-bug-7803048-7803148",
+      "classification": "DCCR",
+      "contest": "312",
+      "failure": "WRONG_ANSWER",
+      "fixed": "7803148",
+      "fixed_submission_id": "7803148",
+      "ordinal": 248,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "312-A-bug-7803048-7803148"
+    },
+    {
+      "buggy": "17917073",
+      "buggy_submission_id": "17917073",
+      "canonical_folder": "670-D1-bug-17917073-17917152",
+      "classification": "DCCR",
+      "contest": "670",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17917152",
+      "fixed_submission_id": "17917152",
+      "ordinal": 249,
+      "problem": "D1",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Loop",
+        "If"
+      ],
+      "task_id": "670-D1-bug-17917073-17917152"
+    },
+    {
+      "buggy": "18281182",
+      "buggy_submission_id": "18281182",
+      "canonical_folder": "677-C-bug-18281182-18281188",
+      "classification": "DCCR",
+      "contest": "677",
+      "failure": "WRONG_ANSWER",
+      "fixed": "18281188",
+      "fixed_submission_id": "18281188",
+      "ordinal": 250,
+      "problem": "C",
+      "tags": [
+        "string"
+      ],
+      "task_id": "677-C-bug-18281182-18281188"
+    },
+    {
+      "buggy": "13754002",
+      "buggy_submission_id": "13754002",
+      "canonical_folder": "363-C-bug-13754002-13754097",
+      "classification": "DCCR",
+      "contest": "363",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13754097",
+      "fixed_submission_id": "13754097",
+      "ordinal": 251,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "363-C-bug-13754002-13754097"
+    },
+    {
+      "buggy": "16586442",
+      "buggy_submission_id": "16586442",
+      "canonical_folder": "628-A-bug-16586442-16586499",
+      "classification": "DCCR",
+      "contest": "628",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16586499",
+      "fixed_submission_id": "16586499",
+      "ordinal": 252,
+      "problem": "A",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "628-A-bug-16586442-16586499"
+    },
+    {
+      "buggy": "14552810",
+      "buggy_submission_id": "14552810",
+      "canonical_folder": "495-B-bug-14552810-14552853",
+      "classification": "DCCR",
+      "contest": "495",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14552853",
+      "fixed_submission_id": "14552853",
+      "ordinal": 253,
+      "problem": "B",
+      "tags": [
+        "FunCall"
+      ],
+      "task_id": "495-B-bug-14552810-14552853"
+    },
+    {
+      "buggy": "12481867",
+      "buggy_submission_id": "12481867",
+      "canonical_folder": "569-C-bug-12481867-12481905",
+      "classification": "DCCR",
+      "contest": "569",
+      "failure": "WRONG_ANSWER",
+      "fixed": "12481905",
+      "fixed_submission_id": "12481905",
+      "ordinal": 254,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "Define"
+      ],
+      "task_id": "569-C-bug-12481867-12481905"
+    },
+    {
+      "buggy": "15737850",
+      "buggy_submission_id": "15737850",
+      "canonical_folder": "282-C-bug-15737850-15737873",
+      "classification": "DCCR",
+      "contest": "282",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15737873",
+      "fixed_submission_id": "15737873",
+      "ordinal": 255,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "282-C-bug-15737850-15737873"
+    },
+    {
+      "buggy": "15737832",
+      "buggy_submission_id": "15737832",
+      "canonical_folder": "282-C-bug-15737832-15737873",
+      "classification": "DCCR",
+      "contest": "282",
+      "failure": "WRONG_ANSWER",
+      "fixed": "15737873",
+      "fixed_submission_id": "15737873",
+      "ordinal": 256,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "282-C-bug-15737832-15737873"
+    },
+    {
+      "buggy": "14196802",
+      "buggy_submission_id": "14196802",
+      "canonical_folder": "12-A-bug-14196802-14196811",
+      "classification": "DCCR",
+      "contest": "12",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14196811",
+      "fixed_submission_id": "14196811",
+      "ordinal": 257,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "12-A-bug-14196802-14196811"
+    },
+    {
+      "buggy": "17564161",
+      "buggy_submission_id": "17564161",
+      "canonical_folder": "298-A-bug-17564161-17564303",
+      "classification": "DCCR",
+      "contest": "298",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17564303",
+      "fixed_submission_id": "17564303",
+      "ordinal": 258,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "298-A-bug-17564161-17564303"
+    },
+    {
+      "buggy": "5928224",
+      "buggy_submission_id": "5928224",
+      "canonical_folder": "298-A-bug-5928224-5928235",
+      "classification": "DCCR",
+      "contest": "298",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5928235",
+      "fixed_submission_id": "5928235",
+      "ordinal": 259,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If"
+      ],
+      "task_id": "298-A-bug-5928224-5928235"
+    },
+    {
+      "buggy": "14244702",
+      "buggy_submission_id": "14244702",
+      "canonical_folder": "49-A-bug-14244702-14244718",
+      "classification": "DCCR",
+      "contest": "49",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14244718",
+      "fixed_submission_id": "14244718",
+      "ordinal": 260,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "49-A-bug-14244702-14244718"
+    },
+    {
+      "buggy": "14199447",
+      "buggy_submission_id": "14199447",
+      "canonical_folder": "289-A-bug-14199447-14199476",
+      "classification": "DCCR",
+      "contest": "289",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14199476",
+      "fixed_submission_id": "14199476",
+      "ordinal": 261,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "289-A-bug-14199447-14199476"
+    },
+    {
+      "buggy": "13131294",
+      "buggy_submission_id": "13131294",
+      "canonical_folder": "370-A-bug-13131294-13131325",
+      "classification": "DCCR",
+      "contest": "370",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13131325",
+      "fixed_submission_id": "13131325",
+      "ordinal": 262,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else"
+      ],
+      "task_id": "370-A-bug-13131294-13131325"
+    },
+    {
+      "buggy": "11188983",
+      "buggy_submission_id": "11188983",
+      "canonical_folder": "543-A-bug-11188983-11189003",
+      "classification": "DCCR",
+      "contest": "543",
+      "failure": "WRONG_ANSWER",
+      "fixed": "11189003",
+      "fixed_submission_id": "11189003",
+      "ordinal": 263,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Loop",
+        "Loop"
+      ],
+      "task_id": "543-A-bug-11188983-11189003"
+    },
+    {
+      "buggy": "13615252",
+      "buggy_submission_id": "13615252",
+      "canonical_folder": "586-C-bug-13615252-13615263",
+      "classification": "DCCR",
+      "contest": "586",
+      "failure": "TIME_LIMIT_EXCEEDED",
+      "fixed": "13615263",
+      "fixed_submission_id": "13615263",
+      "ordinal": 264,
+      "problem": "C",
+      "tags": [
+        "string"
+      ],
+      "task_id": "586-C-bug-13615252-13615263"
+    },
+    {
+      "buggy": "14171953",
+      "buggy_submission_id": "14171953",
+      "canonical_folder": "420-A-bug-14171953-14171970",
+      "classification": "DCCR",
+      "contest": "420",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14171970",
+      "fixed_submission_id": "14171970",
+      "ordinal": 265,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "420-A-bug-14171953-14171970"
+    },
+    {
+      "buggy": "17091391",
+      "buggy_submission_id": "17091391",
+      "canonical_folder": "99-A-bug-17091391-17091404",
+      "classification": "DCCR",
+      "contest": "99",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17091404",
+      "fixed_submission_id": "17091404",
+      "ordinal": 266,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "99-A-bug-17091391-17091404"
+    },
+    {
+      "buggy": "2038413",
+      "buggy_submission_id": "2038413",
+      "canonical_folder": "99-A-bug-2038413-2038417",
+      "classification": "DCCR",
+      "contest": "99",
+      "failure": "WRONG_ANSWER",
+      "fixed": "2038417",
+      "fixed_submission_id": "2038417",
+      "ordinal": 267,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "99-A-bug-2038413-2038417"
+    },
+    {
+      "buggy": "1846295",
+      "buggy_submission_id": "1846295",
+      "canonical_folder": "99-A-bug-1846295-1846297",
+      "classification": "DCCR",
+      "contest": "99",
+      "failure": "WRONG_ANSWER",
+      "fixed": "1846297",
+      "fixed_submission_id": "1846297",
+      "ordinal": 268,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "99-A-bug-1846295-1846297"
+    },
+    {
+      "buggy": "4324852",
+      "buggy_submission_id": "4324852",
+      "canonical_folder": "332-A-bug-4324852-4324866",
+      "classification": "DCCR",
+      "contest": "332",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4324866",
+      "fixed_submission_id": "4324866",
+      "ordinal": 269,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "332-A-bug-4324852-4324866"
+    },
+    {
+      "buggy": "17986776",
+      "buggy_submission_id": "17986776",
+      "canonical_folder": "284-A-bug-17986776-17986843",
+      "classification": "DCCR",
+      "contest": "284",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17986843",
+      "fixed_submission_id": "17986843",
+      "ordinal": 270,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "Printf"
+      ],
+      "task_id": "284-A-bug-17986776-17986843"
+    },
+    {
+      "buggy": "16227020",
+      "buggy_submission_id": "16227020",
+      "canonical_folder": "284-A-bug-16227020-16227051",
+      "classification": "DCCR",
+      "contest": "284",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16227051",
+      "fixed_submission_id": "16227051",
+      "ordinal": 271,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "284-A-bug-16227020-16227051"
+    },
+    {
+      "buggy": "14681239",
+      "buggy_submission_id": "14681239",
+      "canonical_folder": "284-A-bug-14681239-14681253",
+      "classification": "DCCR",
+      "contest": "284",
+      "failure": "WRONG_ANSWER",
+      "fixed": "14681253",
+      "fixed_submission_id": "14681253",
+      "ordinal": 272,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "284-A-bug-14681239-14681253"
+    },
+    {
+      "buggy": "13255641",
+      "buggy_submission_id": "13255641",
+      "canonical_folder": "493-D-bug-13255641-13255660",
+      "classification": "DCCR",
+      "contest": "493",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13255660",
+      "fixed_submission_id": "13255660",
+      "ordinal": 273,
+      "problem": "D",
+      "tags": [
+        "string"
+      ],
+      "task_id": "493-D-bug-13255641-13255660"
+    },
+    {
+      "buggy": "8986717",
+      "buggy_submission_id": "8986717",
+      "canonical_folder": "493-D-bug-8986717-8986720",
+      "classification": "DCCR",
+      "contest": "493",
+      "failure": "WRONG_ANSWER",
+      "fixed": "8986720",
+      "fixed_submission_id": "8986720",
+      "ordinal": 274,
+      "problem": "D",
+      "tags": [
+        "string"
+      ],
+      "task_id": "493-D-bug-8986717-8986720"
+    },
+    {
+      "buggy": "3415239",
+      "buggy_submission_id": "3415239",
+      "canonical_folder": "284-A-bug-3415239-3415277",
+      "classification": "DCCR",
+      "contest": "284",
+      "failure": "WRONG_ANSWER",
+      "fixed": "3415277",
+      "fixed_submission_id": "3415277",
+      "ordinal": 275,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "284-A-bug-3415239-3415277"
+    },
+    {
+      "buggy": "16656510",
+      "buggy_submission_id": "16656510",
+      "canonical_folder": "527-B-bug-16656510-16656574",
+      "classification": "DCCR",
+      "contest": "527",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16656574",
+      "fixed_submission_id": "16656574",
+      "ordinal": 276,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "527-B-bug-16656510-16656574"
+    },
+    {
+      "buggy": "5250850",
+      "buggy_submission_id": "5250850",
+      "canonical_folder": "368-C-bug-5250850-5251229",
+      "classification": "DCCR",
+      "contest": "368",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5251229",
+      "fixed_submission_id": "5251229",
+      "ordinal": 277,
+      "problem": "C",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "368-C-bug-5250850-5251229"
+    },
+    {
+      "buggy": "10109473",
+      "buggy_submission_id": "10109473",
+      "canonical_folder": "520-C-bug-10109473-10109746",
+      "classification": "DCCR",
+      "contest": "520",
+      "failure": "WRONG_ANSWER",
+      "fixed": "10109746",
+      "fixed_submission_id": "10109746",
+      "ordinal": 278,
+      "problem": "C",
+      "tags": [
+        "ArrayAccess",
+        "Involves-+=or-=or*="
+      ],
+      "task_id": "520-C-bug-10109473-10109746"
+    },
+    {
+      "buggy": "989666",
+      "buggy_submission_id": "989666",
+      "canonical_folder": "118-D-bug-989666-989669",
+      "classification": "DCCR",
+      "contest": "118",
+      "failure": "WRONG_ANSWER",
+      "fixed": "989669",
+      "fixed_submission_id": "989669",
+      "ordinal": 279,
+      "problem": "D",
+      "tags": [
+        "DIFFOUT",
+        "Involves-+=or-=or*=",
+        "Printf"
+      ],
+      "task_id": "118-D-bug-989666-989669"
+    },
+    {
+      "buggy": "6149534",
+      "buggy_submission_id": "6149534",
+      "canonical_folder": "337-B-bug-6149534-6149706",
+      "classification": "DCCR",
+      "contest": "337",
+      "failure": "WRONG_ANSWER",
+      "fixed": "6149706",
+      "fixed_submission_id": "6149706",
+      "ordinal": 280,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "337-B-bug-6149534-6149706"
+    },
+    {
+      "buggy": "6149526",
+      "buggy_submission_id": "6149526",
+      "canonical_folder": "337-B-bug-6149526-6149706",
+      "classification": "DCCR",
+      "contest": "337",
+      "failure": "WRONG_ANSWER",
+      "fixed": "6149706",
+      "fixed_submission_id": "6149706",
+      "ordinal": 281,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "337-B-bug-6149526-6149706"
+    },
+    {
+      "buggy": "7809114",
+      "buggy_submission_id": "7809114",
+      "canonical_folder": "437-B-bug-7809114-7809175",
+      "classification": "DCCR",
+      "contest": "437",
+      "failure": "WRONG_ANSWER",
+      "fixed": "7809175",
+      "fixed_submission_id": "7809175",
+      "ordinal": 282,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "struct",
+        "Define"
+      ],
+      "task_id": "437-B-bug-7809114-7809175"
+    },
+    {
+      "buggy": "5271056",
+      "buggy_submission_id": "5271056",
+      "canonical_folder": "7-A-bug-5271056-5284201",
+      "classification": "DCCR",
+      "contest": "7",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5284201",
+      "fixed_submission_id": "5284201",
+      "ordinal": 283,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "7-A-bug-5271056-5284201"
+    },
+    {
+      "buggy": "3414703",
+      "buggy_submission_id": "3414703",
+      "canonical_folder": "136-B-bug-3414703-3414706",
+      "classification": "DCCR",
+      "contest": "136",
+      "failure": "WRONG_ANSWER",
+      "fixed": "3414706",
+      "fixed_submission_id": "3414706",
+      "ordinal": 284,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "136-B-bug-3414703-3414706"
+    },
+    {
+      "buggy": "7737296",
+      "buggy_submission_id": "7737296",
+      "canonical_folder": "74-A-bug-7737296-7737317",
+      "classification": "DCCR",
+      "contest": "74",
+      "failure": "WRONG_ANSWER",
+      "fixed": "7737317",
+      "fixed_submission_id": "7737317",
+      "ordinal": 285,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "74-A-bug-7737296-7737317"
+    },
+    {
+      "buggy": "1808756",
+      "buggy_submission_id": "1808756",
+      "canonical_folder": "74-A-bug-1808756-1808772",
+      "classification": "DCCR",
+      "contest": "74",
+      "failure": "WRONG_ANSWER",
+      "fixed": "1808772",
+      "fixed_submission_id": "1808772",
+      "ordinal": 286,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop"
+      ],
+      "task_id": "74-A-bug-1808756-1808772"
+    },
+    {
+      "buggy": "9811451",
+      "buggy_submission_id": "9811451",
+      "canonical_folder": "292-B-bug-9811451-9811523",
+      "classification": "DCCR",
+      "contest": "292",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9811523",
+      "fixed_submission_id": "9811523",
+      "ordinal": 287,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Printf"
+      ],
+      "task_id": "292-B-bug-9811451-9811523"
+    },
+    {
+      "buggy": "5741414",
+      "buggy_submission_id": "5741414",
+      "canonical_folder": "292-B-bug-5741414-5741424",
+      "classification": "DCCR",
+      "contest": "292",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5741424",
+      "fixed_submission_id": "5741424",
+      "ordinal": 288,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "292-B-bug-5741414-5741424"
+    },
+    {
+      "buggy": "4205359",
+      "buggy_submission_id": "4205359",
+      "canonical_folder": "56-A-bug-4205359-4205373",
+      "classification": "DCCR",
+      "contest": "56",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4205373",
+      "fixed_submission_id": "4205373",
+      "ordinal": 289,
+      "problem": "A",
+      "tags": [
+        "string"
+      ],
+      "task_id": "56-A-bug-4205359-4205373"
+    },
+    {
+      "buggy": "13602848",
+      "buggy_submission_id": "13602848",
+      "canonical_folder": "31-A-bug-13602848-13602872",
+      "classification": "DCCR",
+      "contest": "31",
+      "failure": "WRONG_ANSWER",
+      "fixed": "13602872",
+      "fixed_submission_id": "13602872",
+      "ordinal": 290,
+      "problem": "A",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If"
+      ],
+      "task_id": "31-A-bug-13602848-13602872"
+    },
+    {
+      "buggy": "7622744",
+      "buggy_submission_id": "7622744",
+      "canonical_folder": "104-C-bug-7622744-7622748",
+      "classification": "DCCR",
+      "contest": "104",
+      "failure": "WRONG_ANSWER",
+      "fixed": "7622748",
+      "fixed_submission_id": "7622748",
+      "ordinal": 291,
+      "problem": "C",
+      "tags": [
+        "string"
+      ],
+      "task_id": "104-C-bug-7622744-7622748"
+    },
+    {
+      "buggy": "9213333",
+      "buggy_submission_id": "9213333",
+      "canonical_folder": "151-B-bug-9213333-9213345",
+      "classification": "DCCR",
+      "contest": "151",
+      "failure": "WRONG_ANSWER",
+      "fixed": "9213345",
+      "fixed_submission_id": "9213345",
+      "ordinal": 292,
+      "problem": "B",
+      "tags": [
+        "string",
+        "If"
+      ],
+      "task_id": "151-B-bug-9213333-9213345"
+    },
+    {
+      "buggy": "17917943",
+      "buggy_submission_id": "17917943",
+      "canonical_folder": "670-D2-bug-17917943-17917968",
+      "classification": "DCCR",
+      "contest": "670",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17917968",
+      "fixed_submission_id": "17917968",
+      "ordinal": 293,
+      "problem": "D2",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "670-D2-bug-17917943-17917968"
+    },
+    {
+      "buggy": "4947545",
+      "buggy_submission_id": "4947545",
+      "canonical_folder": "233-B-bug-4947545-4947552",
+      "classification": "DCCR",
+      "contest": "233",
+      "failure": "WRONG_ANSWER",
+      "fixed": "4947552",
+      "fixed_submission_id": "4947552",
+      "ordinal": 294,
+      "problem": "B",
+      "tags": [
+        "string"
+      ],
+      "task_id": "233-B-bug-4947545-4947552"
+    },
+    {
+      "buggy": "5402669",
+      "buggy_submission_id": "5402669",
+      "canonical_folder": "371-C-bug-5402669-5402672",
+      "classification": "DCCR",
+      "contest": "371",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5402672",
+      "fixed_submission_id": "5402672",
+      "ordinal": 295,
+      "problem": "C",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "371-C-bug-5402669-5402672"
+    },
+    {
+      "buggy": "5402667",
+      "buggy_submission_id": "5402667",
+      "canonical_folder": "371-C-bug-5402667-5402672",
+      "classification": "DCCR",
+      "contest": "371",
+      "failure": "WRONG_ANSWER",
+      "fixed": "5402672",
+      "fixed_submission_id": "5402672",
+      "ordinal": 296,
+      "problem": "C",
+      "tags": [
+        "SIDE-EFFECT"
+      ],
+      "task_id": "371-C-bug-5402667-5402672"
+    },
+    {
+      "buggy": "2629143",
+      "buggy_submission_id": "2629143",
+      "canonical_folder": "43-B-bug-2629143-2629156",
+      "classification": "DCCR",
+      "contest": "43",
+      "failure": "RUNTIME_ERROR",
+      "fixed": "2629156",
+      "fixed_submission_id": "2629156",
+      "ordinal": 297,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "If",
+        "Printf"
+      ],
+      "task_id": "43-B-bug-2629143-2629156"
+    },
+    {
+      "buggy": "16395260",
+      "buggy_submission_id": "16395260",
+      "canonical_folder": "246-D-bug-16395260-16395271",
+      "classification": "DCCR",
+      "contest": "246",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16395271",
+      "fixed_submission_id": "16395271",
+      "ordinal": 298,
+      "problem": "D",
+      "tags": [
+        "ArrayAccess"
+      ],
+      "task_id": "246-D-bug-16395260-16395271"
+    },
+    {
+      "buggy": "16395254",
+      "buggy_submission_id": "16395254",
+      "canonical_folder": "246-D-bug-16395254-16395271",
+      "classification": "DCCR",
+      "contest": "246",
+      "failure": "WRONG_ANSWER",
+      "fixed": "16395271",
+      "fixed_submission_id": "16395271",
+      "ordinal": 299,
+      "problem": "D",
+      "tags": [
+        "ArrayAccess"
+      ],
+      "task_id": "246-D-bug-16395254-16395271"
+    },
+    {
+      "buggy": "17793506",
+      "buggy_submission_id": "17793506",
+      "canonical_folder": "673-B-bug-17793506-17793622",
+      "classification": "DCCR",
+      "contest": "673",
+      "failure": "WRONG_ANSWER",
+      "fixed": "17793622",
+      "fixed_submission_id": "17793622",
+      "ordinal": 300,
+      "problem": "B",
+      "tags": [
+        "DIFFOUT",
+        "Loop",
+        "If",
+        "Else",
+        "Printf"
+      ],
+      "task_id": "673-B-bug-17793506-17793622"
+    }
+  ],
+  "summary": {
+    "commit": "aefae75d8546b5e49e7d9489d51a908d5ee9eddd",
+    "distinct_contests": 181,
+    "distinct_problem_labels": 8,
+    "evidentiary_role": "public benchmark identity, provenance, and defect-taxonomy coverage only; not local semantic-certificate evaluation",
+    "failure_counts": {
+      "RUNTIME_ERROR": 9,
+      "TIME_LIMIT_EXCEEDED": 7,
+      "WRONG_ANSWER": 284
+    },
+    "local_slice_sha256": "447185b47afc3cf37f78d91375bcb6dfcaa2b9f56286a807ca18e0f28e9c38b0",
+    "record_count": 300,
+    "repository": "codeflaws/codeflaws",
+    "schema": "codeflaws-archive-audit-v1",
+    "selection_rule": "first 300 records in repository order from the official defect-detail index at the pinned commit",
+    "source_blob_sha": "7220c1aa33df1a55b25cd7cbb0a554f1a95afb99",
+    "source_execution": {
+      "performed": false,
+      "reason": "The corresponding source directories were not present or acquired in the isolated campaign. No compile/test result is attributed to these 300 records."
+    },
+    "source_lines": "1-300",
+    "source_path": "all-script/codeflaws-defect-detail-info.txt",
+    "status": "PASS",
+    "tag_counts": {
+      "ArrayAccess": 9,
+      "DIFFOUT": 176,
+      "Define": 12,
+      "Else": 43,
+      "FunCall": 5,
+      "If": 121,
+      "Involves-+=or-=or*=": 22,
+      "Loop": 116,
+      "Printf": 74,
+      "SIDE-EFFECT": 16,
+      "Size": 1,
+      "bitwise": 2,
+      "floatingpoint": 3,
+      "string": 96,
+      "struct": 1
+    },
+    "unique_task_ids": 300
+  }
+}

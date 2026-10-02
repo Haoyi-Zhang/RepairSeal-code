@@ -1,0 +1,30 @@
+{
+  "id": "fixture-03-overfit",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = x * (y + 1u);\nif (x == 0u) { r = r - 1u; } else { r = r; }\nreturn r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned scratch = t;\nif (z == 0u) { scratch = scratch + 1u; } else { scratch = scratch + 2u; }\nunsigned r = (y + 1u) * x;\nif ((x == 0u) && (y == 3u)) { r = r + 1u; } else { r = r; }\nreturn r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\nunsigned r = x * (y + 1u);\nreturn r;\n}\n",
+  "repair_guard": "x == 0u"
+}

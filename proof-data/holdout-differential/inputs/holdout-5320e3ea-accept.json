@@ -1,0 +1,30 @@
+{
+  "id": "holdout-5320e3ea-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((y * x) >> (t & 31u)) & ((~y) % ((z & 7u) + 1u)));\n  unsigned b = (((a + z) << ((a ^ x) & 31u)) - a);\n  unsigned r = ((y / (((t % ((b & 7u) + 1u)) & 7u) + 1u)) - ((b % ((2147483647u & 7u) + 1u)) << (y & 31u)));\n  if ((z >= (b - (a - 0u)))) {\n    r = (y / ((((z ^ 15u) * r) & 7u) + 1u));\n  } else {\n    r = x;\n  }\n  if ((15u > ((0u | a) ^ (x + x)))) {\n    r = (4294967295u << (x & 31u));\n  } else {\n    r = ((2147483647u % (((~a) & 7u) + 1u)) >> (r & 31u));\n  }\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((y * x) >> (t & 31u)) & ((~y) % ((z & 7u) + 1u)));\n  unsigned b = (((a + z) << ((a ^ x) & 31u)) - a);\n  unsigned r = ((y / (((t % ((b & 7u) + 1u)) & 7u) + 1u)) - ((b % ((2147483647u & 7u) + 1u)) << (y & 31u)));\n  if ((z >= (b - (a - 0u)))) {\n    r = (y / ((((z ^ 15u) * r) & 7u) + 1u));\n  } else {\n    r = x;\n  }\n  if ((15u > ((0u | a) ^ (x + x)))) {\n    r = (4294967295u << (x & 31u));\n  } else {\n    r = ((2147483647u % (((~a) & 7u) + 1u)) >> (r & 31u));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((y * x) >> (t & 31u)) & ((~y) % ((z & 7u) + 1u)));\n  unsigned b = (((a + z) << ((a ^ x) & 31u)) - a);\n  unsigned r = ((y / (((t % ((b & 7u) + 1u)) & 7u) + 1u)) - ((b % ((2147483647u & 7u) + 1u)) << (y & 31u)));\n  if ((z >= (b - (a - 0u)))) {\n    r = (y / ((((z ^ 15u) * r) & 7u) + 1u));\n  } else {\n    r = x;\n  }\n  if ((15u > ((0u | a) ^ (x + x)))) {\n    r = (4294967295u << (x & 31u));\n  } else {\n    r = ((2147483647u % (((~a) & 7u) + 1u)) >> (r & 31u));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "holdout-53174d54-preserve",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((y * (y + x)) * 31u);\n  unsigned b = (((x / ((2147483647u & 7u) + 1u)) - (y >> (a & 31u))) << (a & 31u));\n  unsigned r = b;\n  if (((x - (3u << (a & 31u))) != y)) {\n    r = (((b ^ r) - 2u) >> (((y & 31u) | (y >> (b & 31u))) & 31u));\n  } else {\n    r = (~((15u ^ 4294967295u) - (a << (b & 31u))));\n  }\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((y * (y + x)) * 31u);\n  unsigned b = (((x / ((2147483647u & 7u) + 1u)) - (y >> (a & 31u))) << (a & 31u));\n  unsigned r = b;\n  if (((x - (3u << (a & 31u))) != y)) {\n    r = (((b ^ r) - 2u) >> (((y & 31u) | (y >> (b & 31u))) & 31u));\n  } else {\n    r = (~((15u ^ 4294967295u) - (a << (b & 31u))));\n  }\n  if (((x == 0u) && (y == 3u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((y * (y + x)) * 31u);\n  unsigned b = (((x / ((2147483647u & 7u) + 1u)) - (y >> (a & 31u))) << (a & 31u));\n  unsigned r = b;\n  if (((x - (3u << (a & 31u))) != y)) {\n    r = (((b ^ r) - 2u) >> (((y & 31u) | (y >> (b & 31u))) & 31u));\n  } else {\n    r = (~((15u ^ 4294967295u) - (a << (b & 31u))));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

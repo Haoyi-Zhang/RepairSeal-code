@@ -1,0 +1,20 @@
+{
+  "id": "holdout-5282af3f-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (((y ^ x) >> (4294967295u & 31u)) >> ((x + y) & 31u));\n  unsigned b = ((y ^ x) << (((y ^ 31u) | a) & 31u));\n  unsigned r = ((~(b % ((b & 7u) + 1u))) - ((31u & a) & (2u ^ b)));\n  if (((((a + a) + (15u ^ 0u)) < ((b * b) * r)) && (!((x + (~a)) < y)))) {\n    r = (3u * y);\n  } else {\n    r = (~((x % ((a & 7u) + 1u)) | 2147483647u));\n  }\n  if (((!(r < r)) && (((~(x << (2147483647u & 31u))) != ((a % ((y & 7u) + 1u)) | (31u % ((r & 7u) + 1u)))) || (((a << (2147483647u & 31u)) & a) >= y)))) {\n    r = (0u ^ (a & 2147483647u));\n  } else {\n    r = ((b - a) & ((x ^ x) & a));\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (((y ^ x) >> (4294967295u & 31u)) >> ((x + y) & 31u));\n  unsigned b = ((y ^ x) << (((y ^ 31u) | a) & 31u));\n  unsigned r = ((~(b % ((b & 7u) + 1u))) - ((31u & a) & (2u ^ b)));\n  if (((((a + a) + (15u ^ 0u)) < ((b * b) * r)) && (!((x + (~a)) < y)))) {\n    r = (3u * y);\n  } else {\n    r = (~((x % ((a & 7u) + 1u)) | 2147483647u));\n  }\n  if (((!(r < r)) && (((~(x << (2147483647u & 31u))) != ((a % ((y & 7u) + 1u)) | (31u % ((r & 7u) + 1u)))) || (((a << (2147483647u & 31u)) & a) >= y)))) {\n    r = (0u ^ (a & 2147483647u));\n  } else {\n    r = ((b - a) & ((x ^ x) & a));\n  }\n  if (((x == 0u) && (y == 3u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (((y ^ x) >> (4294967295u & 31u)) >> ((x + y) & 31u));\n  unsigned b = ((y ^ x) << (((y ^ 31u) | a) & 31u));\n  unsigned r = ((~(b % ((b & 7u) + 1u))) - ((31u & a) & (2u ^ b)));\n  if (((((a + a) + (15u ^ 0u)) < ((b * b) * r)) && (!((x + (~a)) < y)))) {\n    r = (3u * y);\n  } else {\n    r = (~((x % ((a & 7u) + 1u)) | 2147483647u));\n  }\n  if (((!(r < r)) && (((~(x << (2147483647u & 31u))) != ((a % ((y & 7u) + 1u)) | (31u % ((r & 7u) + 1u)))) || (((a << (2147483647u & 31u)) & a) >= y)))) {\n    r = (0u ^ (a & 2147483647u));\n  } else {\n    r = ((b - a) & ((x ^ x) & a));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

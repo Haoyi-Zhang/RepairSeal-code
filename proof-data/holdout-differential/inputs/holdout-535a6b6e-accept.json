@@ -1,0 +1,25 @@
+{
+  "id": "holdout-535a6b6e-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = 7u;\n  unsigned b = ((~a) >> (((y % ((x & 7u) + 1u)) % (((y * y) & 7u) + 1u)) & 31u));\n  unsigned r = (((x >> (a & 31u)) / (((~y) & 7u) + 1u)) | (b / (((a - z) & 7u) + 1u)));\n  if (((x < (z | x)) || ((((~b) ^ (b << (z & 31u))) == 15u) && ((a % (((r >> (r & 31u)) & 7u) + 1u)) < y)))) {\n    r = 31u;\n  } else {\n    r = a;\n  }\n  if ((b < b)) {\n    r = ((3u - 2147483647u) / ((r & 7u) + 1u));\n  } else {\n    r = ((a & x) / ((r & 7u) + 1u));\n  }\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = 7u;\n  unsigned b = ((~a) >> (((y % ((x & 7u) + 1u)) % (((y * y) & 7u) + 1u)) & 31u));\n  unsigned r = (((x >> (a & 31u)) / (((~y) & 7u) + 1u)) | (b / (((a - z) & 7u) + 1u)));\n  if (((x < (z | x)) || ((((~b) ^ (b << (z & 31u))) == 15u) && ((a % (((r >> (r & 31u)) & 7u) + 1u)) < y)))) {\n    r = 31u;\n  } else {\n    r = a;\n  }\n  if ((b < b)) {\n    r = ((3u - 2147483647u) / ((r & 7u) + 1u));\n  } else {\n    r = ((a & x) / ((r & 7u) + 1u));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = 7u;\n  unsigned b = ((~a) >> (((y % ((x & 7u) + 1u)) % (((y * y) & 7u) + 1u)) & 31u));\n  unsigned r = (((x >> (a & 31u)) / (((~y) & 7u) + 1u)) | (b / (((a - z) & 7u) + 1u)));\n  if (((x < (z | x)) || ((((~b) ^ (b << (z & 31u))) == 15u) && ((a % (((r >> (r & 31u)) & 7u) + 1u)) < y)))) {\n    r = 31u;\n  } else {\n    r = a;\n  }\n  if ((b < b)) {\n    r = ((3u - 2147483647u) / ((r & 7u) + 1u));\n  } else {\n    r = ((a & x) / ((r & 7u) + 1u));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

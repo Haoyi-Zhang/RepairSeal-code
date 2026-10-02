@@ -1,0 +1,170 @@
+{
+  "acceptance_misuse_attempts": 95,
+  "acceptance_misuse_rejections": 95,
+  "accepted": 95,
+  "certificate_bytes": {
+    "max": 22342,
+    "median": 15213.0,
+    "min": 8994,
+    "p25": 13351.0,
+    "p75": 16420.75
+  },
+  "certificate_rebuild_operation_counts_correct": {
+    "internal_recursive_cells": 309582,
+    "outer_proof_cells": 45198
+  },
+  "deterministic_indexes": {
+    "acceptance_misuse_sha256": "f049e5dfb7a73ddc963dc35f786b0ea5d4b540070cc127da7f47760c43dceb9c",
+    "refutation_controls_sha256": "9deccb661b1d39dac0f10f57cbf6342cad0b15819e27ed0b5da7eda2a7024058",
+    "refutation_witnesses_sha256": "40a6b9515662d5c266b178226b8201a3bca1d9c9a960c56aee21aa598081c3ad",
+    "results_sha256": "98032ba9f56429d651a472e0fd8651d32897b35a7d21d2f37e54c801198c2a81"
+  },
+  "fixture_families": 20,
+  "fixture_requests": 80,
+  "generated_at_utc": "2026-09-26T02:39:57Z",
+  "node_count": {
+    "max": 51,
+    "median": 40.0,
+    "min": 21,
+    "p25": 35.0,
+    "p75": 41.0
+  },
+  "oracle_agreements": 380,
+  "oracle_disagreements": 0,
+  "outcome": "PASS",
+  "peak_rss_kib": 104620,
+  "proof_operation_counts_all": {
+    "proof_cells": 1179684
+  },
+  "proof_operation_counts_all_scope": "all 380 frozen-core requests",
+  "proof_operation_counts_correct": {
+    "proof_cells": 45198
+  },
+  "refutation_certificate_bytes": {
+    "max": 699,
+    "median": 667,
+    "min": 659,
+    "p25": 659,
+    "p75": 672
+  },
+  "refutation_checked_cells": {
+    "max": 51,
+    "median": 40,
+    "min": 29,
+    "p25": 39,
+    "p75": 43
+  },
+  "refutation_encoding": {
+    "median_compact_bytes": 667,
+    "median_full_bytes": 15604,
+    "median_paired_ratio": 23.229385307346327,
+    "ratio_of_medians": 23.394302848575713,
+    "same_population": 285
+  },
+  "refutation_full_certificate_bytes": {
+    "max": 22342,
+    "median": 15604,
+    "min": 12191,
+    "p25": 14993,
+    "p75": 16652
+  },
+  "refutation_full_proof_cells": {
+    "max": 4131,
+    "median": 3240,
+    "min": 2349,
+    "p25": 3159,
+    "p75": 3483
+  },
+  "refutation_tamper_attempts": 2850,
+  "refutation_tamper_rejections": 2850,
+  "refutation_witness_agreements": 285,
+  "refutation_witnesses": 285,
+  "refutation_work": {
+    "all_one_point": true,
+    "median_cell_reduction_factor": 81.0
+  },
+  "refuted": 285,
+  "schema": "structured-study-v2",
+  "scope": "20 designed C-fragment fixture families plus 300 deterministic generated stress requests; stress requests are not Codeflaws.",
+  "stress_requests": 300,
+  "tamper_attempts": 6000,
+  "tamper_rejections": 6000,
+  "timing_ms": {
+    "certificate_rebuild_correct": {
+      "max": 26.716461,
+      "median": 7.1753745,
+      "min": 3.889031,
+      "p25": 4.86610125,
+      "p75": 9.85398075
+    },
+    "one_point_refutation": {
+      "max": 1.028492,
+      "median": 0.486029,
+      "min": 0.355864,
+      "p25": 0.469554,
+      "p75": 0.510325
+    },
+    "produce": {
+      "max": 3.764124,
+      "median": 1.9409800000000001,
+      "min": 1.074691,
+      "p25": 1.72443075,
+      "p75": 2.00524125
+    },
+    "proof_check": {
+      "max": 5.101369,
+      "median": 2.7411950000000003,
+      "min": 1.478167,
+      "p25": 2.4046555,
+      "p75": 2.899896
+    },
+    "repeated_correct": {
+      "certificate_rebuild": {
+        "median": 5.2900475,
+        "p25": 3.9705015,
+        "p75": 6.79407525
+      },
+      "proof_check": {
+        "median": 1.6771845,
+        "p25": 1.5185345,
+        "p75": 1.93100875
+      },
+      "session_direct_result": {
+        "median": 1.1118475,
+        "p25": 1.0168127500000002,
+        "p75": 1.2302345
+      },
+      "topological_direct": {
+        "median": 1.0526485,
+        "p25": 0.9379867500000001,
+        "p75": 1.2198195
+      }
+    },
+    "session_direct_result": {
+      "max": 34.081375,
+      "median": 1.1356134999999998,
+      "min": 0.587171,
+      "p25": 0.99025,
+      "p75": 1.47661925
+    },
+    "topological_direct": {
+      "max": 2.835711,
+      "median": 1.550184,
+      "min": 0.948282,
+      "p25": 1.42867775,
+      "p75": 1.651782
+    }
+  },
+  "topological_operation_counts_correct": {
+    "topological_cells": 45198
+  },
+  "total_requests": 380,
+  "work_equivalence": {
+    "certificate_rebuild_internal_recursive_cells_correct": 309582,
+    "certificate_rebuild_outer_cells_correct": 45198,
+    "exact_equal": true,
+    "internal_recursive_over_proof_ratio": 6.849462365591398,
+    "proof_cells_correct": 45198,
+    "topological_direct_cells_correct": 45198
+  }
+}

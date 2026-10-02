@@ -1,0 +1,2810 @@
+{
+  "outcome": "PASS_NULL_CONTROL",
+  "records": [
+    {
+      "id": "fixture-01-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 19,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 23,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 19,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 23
+      }
+    },
+    {
+      "id": "fixture-01-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-01-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-01-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 57,
+      "direct_rows": 57,
+      "certificate_arm": {
+        "certificate_steps": 57,
+        "checker_projected_points": 66,
+        "checker_source_tokens": 144,
+        "checker_steps": 933,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 57
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 66,
+        "checker_source_tokens": 144,
+        "checker_steps": 933,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-02-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 11,
+      "direct_rows": 11,
+      "certificate_arm": {
+        "certificate_steps": 11,
+        "checker_projected_points": 11,
+        "checker_source_tokens": 133,
+        "checker_steps": 236,
+        "checker_symbolic_nodes": 20,
+        "coverage_cells": 11
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 11,
+        "checker_source_tokens": 133,
+        "checker_steps": 236,
+        "checker_symbolic_nodes": 20
+      }
+    },
+    {
+      "id": "fixture-02-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 27,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 27,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-02-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-02-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 39,
+      "direct_rows": 39,
+      "certificate_arm": {
+        "certificate_steps": 39,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 144,
+        "checker_steps": 849,
+        "checker_symbolic_nodes": 26,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 39
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 144,
+        "checker_steps": 849,
+        "checker_symbolic_nodes": 26,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-03-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 19,
+        "checker_source_tokens": 145,
+        "checker_steps": 306,
+        "checker_symbolic_nodes": 24,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 19,
+        "checker_source_tokens": 145,
+        "checker_steps": 306,
+        "checker_symbolic_nodes": 24
+      }
+    },
+    {
+      "id": "fixture-03-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 957,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 957,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-03-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 1071,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 1071,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-03-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 57,
+      "direct_rows": 57,
+      "certificate_arm": {
+        "certificate_steps": 57,
+        "checker_projected_points": 66,
+        "checker_source_tokens": 156,
+        "checker_steps": 1031,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 57
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 66,
+        "checker_source_tokens": 156,
+        "checker_steps": 1031,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-04-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 19,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 23,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 19,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 23
+      }
+    },
+    {
+      "id": "fixture-04-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-04-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-04-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 57,
+      "direct_rows": 57,
+      "certificate_arm": {
+        "certificate_steps": 57,
+        "checker_projected_points": 66,
+        "checker_source_tokens": 144,
+        "checker_steps": 933,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 57
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 66,
+        "checker_source_tokens": 144,
+        "checker_steps": 933,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-05-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 19,
+        "checker_source_tokens": 145,
+        "checker_steps": 306,
+        "checker_symbolic_nodes": 24,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 19,
+        "checker_source_tokens": 145,
+        "checker_steps": 306,
+        "checker_symbolic_nodes": 24
+      }
+    },
+    {
+      "id": "fixture-05-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 957,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 957,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-05-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 1071,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 174,
+        "checker_steps": 1071,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-05-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 57,
+      "direct_rows": 57,
+      "certificate_arm": {
+        "certificate_steps": 57,
+        "checker_projected_points": 66,
+        "checker_source_tokens": 156,
+        "checker_steps": 1031,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 57
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 66,
+        "checker_source_tokens": 156,
+        "checker_steps": 1031,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-06-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 19,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 23,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 19,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 23
+      }
+    },
+    {
+      "id": "fixture-06-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-06-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-06-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 57,
+      "direct_rows": 57,
+      "certificate_arm": {
+        "certificate_steps": 57,
+        "checker_projected_points": 66,
+        "checker_source_tokens": 144,
+        "checker_steps": 933,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 57
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 66,
+        "checker_source_tokens": 144,
+        "checker_steps": 933,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-07-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 7,
+      "direct_rows": 7,
+      "certificate_arm": {
+        "certificate_steps": 7,
+        "checker_projected_points": 7,
+        "checker_source_tokens": 133,
+        "checker_steps": 90,
+        "checker_symbolic_nodes": 24,
+        "coverage_cells": 7
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 7,
+        "checker_source_tokens": 133,
+        "checker_steps": 90,
+        "checker_symbolic_nodes": 24
+      }
+    },
+    {
+      "id": "fixture-07-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-07-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          4294967295,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-07-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 30,
+        "checker_source_tokens": 144,
+        "checker_steps": 375,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 30,
+        "checker_source_tokens": 144,
+        "checker_steps": 375,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-08-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 7,
+      "direct_rows": 7,
+      "certificate_arm": {
+        "certificate_steps": 7,
+        "checker_projected_points": 7,
+        "checker_source_tokens": 137,
+        "checker_steps": 96,
+        "checker_symbolic_nodes": 27,
+        "coverage_cells": 7
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 7,
+        "checker_source_tokens": 137,
+        "checker_steps": 96,
+        "checker_symbolic_nodes": 27
+      }
+    },
+    {
+      "id": "fixture-08-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 166,
+        "checker_steps": 927,
+        "checker_symbolic_nodes": 32,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 166,
+        "checker_steps": 927,
+        "checker_symbolic_nodes": 32,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-08-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          4294967295,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 166,
+        "checker_steps": 1029,
+        "checker_symbolic_nodes": 34,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 166,
+        "checker_steps": 1029,
+        "checker_symbolic_nodes": 34,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-08-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 30,
+        "checker_source_tokens": 148,
+        "checker_steps": 395,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 30,
+        "checker_source_tokens": 148,
+        "checker_steps": 395,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-09-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 21,
+        "checker_source_tokens": 157,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 33,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 21,
+        "checker_source_tokens": 157,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 33
+      }
+    },
+    {
+      "id": "fixture-09-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-09-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 39,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 39,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-09-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 63,
+      "direct_rows": 63,
+      "certificate_arm": {
+        "certificate_steps": 63,
+        "checker_projected_points": 90,
+        "checker_source_tokens": 168,
+        "checker_steps": 1353,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 9,
+        "coverage_cells": 63
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 90,
+        "checker_source_tokens": 168,
+        "checker_steps": 1353,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 9
+      }
+    },
+    {
+      "id": "fixture-10-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 21,
+        "checker_source_tokens": 157,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 33,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 21,
+        "checker_source_tokens": 157,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 33
+      }
+    },
+    {
+      "id": "fixture-10-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-10-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 39,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 186,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 39,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-10-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 63,
+      "direct_rows": 63,
+      "certificate_arm": {
+        "certificate_steps": 63,
+        "checker_projected_points": 90,
+        "checker_source_tokens": 168,
+        "checker_steps": 1353,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 9,
+        "coverage_cells": 63
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 90,
+        "checker_source_tokens": 168,
+        "checker_steps": 1353,
+        "checker_symbolic_nodes": 38,
+        "counterexample_comparisons": 9
+      }
+    },
+    {
+      "id": "fixture-11-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 21,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 25,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 21,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 25
+      }
+    },
+    {
+      "id": "fixture-11-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-11-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 34,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 34,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-11-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 63,
+      "direct_rows": 63,
+      "certificate_arm": {
+        "certificate_steps": 63,
+        "checker_projected_points": 90,
+        "checker_source_tokens": 144,
+        "checker_steps": 1125,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 9,
+        "coverage_cells": 63
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 90,
+        "checker_source_tokens": 144,
+        "checker_steps": 1125,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 9
+      }
+    },
+    {
+      "id": "fixture-12-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 21,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 25,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 21,
+        "checker_source_tokens": 133,
+        "checker_steps": 270,
+        "checker_symbolic_nodes": 25
+      }
+    },
+    {
+      "id": "fixture-12-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 873,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-12-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 34,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 162,
+        "checker_steps": 975,
+        "checker_symbolic_nodes": 34,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-12-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 63,
+      "direct_rows": 63,
+      "certificate_arm": {
+        "certificate_steps": 63,
+        "checker_projected_points": 90,
+        "checker_source_tokens": 144,
+        "checker_steps": 1125,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 9,
+        "coverage_cells": 63
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 90,
+        "checker_source_tokens": 144,
+        "checker_steps": 1125,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 9
+      }
+    },
+    {
+      "id": "fixture-13-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 19,
+        "checker_source_tokens": 184,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 25,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 19,
+        "checker_source_tokens": 184,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 25
+      }
+    },
+    {
+      "id": "fixture-13-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-13-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-13-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 57,
+      "direct_rows": 57,
+      "certificate_arm": {
+        "certificate_steps": 57,
+        "checker_projected_points": 138,
+        "checker_source_tokens": 195,
+        "checker_steps": 2025,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 27,
+        "coverage_cells": 57
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 138,
+        "checker_source_tokens": 195,
+        "checker_steps": 2025,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 27
+      }
+    },
+    {
+      "id": "fixture-14-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 19,
+        "checker_source_tokens": 184,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 25,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 19,
+        "checker_source_tokens": 184,
+        "checker_steps": 342,
+        "checker_symbolic_nodes": 25
+      }
+    },
+    {
+      "id": "fixture-14-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1041,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-14-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 213,
+        "checker_steps": 1167,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-14-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 57,
+      "direct_rows": 57,
+      "certificate_arm": {
+        "certificate_steps": 57,
+        "checker_projected_points": 138,
+        "checker_source_tokens": 195,
+        "checker_steps": 2025,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 27,
+        "coverage_cells": 57
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 138,
+        "checker_source_tokens": 195,
+        "checker_steps": 2025,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 27
+      }
+    },
+    {
+      "id": "fixture-15-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 11,
+      "direct_rows": 11,
+      "certificate_arm": {
+        "certificate_steps": 11,
+        "checker_projected_points": 11,
+        "checker_source_tokens": 196,
+        "checker_steps": 332,
+        "checker_symbolic_nodes": 23,
+        "coverage_cells": 11
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 11,
+        "checker_source_tokens": 196,
+        "checker_steps": 332,
+        "checker_symbolic_nodes": 23
+      }
+    },
+    {
+      "id": "fixture-15-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 225,
+        "checker_steps": 1125,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 225,
+        "checker_steps": 1125,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-15-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 19,
+      "direct_rows": 19,
+      "certificate_arm": {
+        "certificate_steps": 19,
+        "checker_projected_points": 46,
+        "checker_source_tokens": 225,
+        "checker_steps": 1263,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 19
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 46,
+        "checker_source_tokens": 225,
+        "checker_steps": 1263,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-15-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 39,
+      "direct_rows": 39,
+      "certificate_arm": {
+        "certificate_steps": 39,
+        "checker_projected_points": 120,
+        "checker_source_tokens": 207,
+        "checker_steps": 2067,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 27,
+        "coverage_cells": 39
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 120,
+        "checker_source_tokens": 207,
+        "checker_steps": 2067,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 27
+      }
+    },
+    {
+      "id": "fixture-16-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 21,
+        "checker_source_tokens": 190,
+        "checker_steps": 366,
+        "checker_symbolic_nodes": 27,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 21,
+        "checker_source_tokens": 190,
+        "checker_steps": 366,
+        "checker_symbolic_nodes": 27
+      }
+    },
+    {
+      "id": "fixture-16-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 219,
+        "checker_steps": 1097,
+        "checker_symbolic_nodes": 35,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 219,
+        "checker_steps": 1097,
+        "checker_symbolic_nodes": 35,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-16-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 21,
+      "direct_rows": 21,
+      "certificate_arm": {
+        "certificate_steps": 21,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 219,
+        "checker_steps": 1231,
+        "checker_symbolic_nodes": 36,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 21
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 219,
+        "checker_steps": 1231,
+        "checker_symbolic_nodes": 36,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-16-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 63,
+      "direct_rows": 63,
+      "certificate_arm": {
+        "certificate_steps": 63,
+        "checker_projected_points": 90,
+        "checker_source_tokens": 201,
+        "checker_steps": 1429,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 9,
+        "coverage_cells": 63
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 90,
+        "checker_source_tokens": 201,
+        "checker_steps": 1429,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 9
+      }
+    },
+    {
+      "id": "fixture-17-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 27,
+      "direct_rows": 27,
+      "certificate_arm": {
+        "certificate_steps": 27,
+        "checker_projected_points": 27,
+        "checker_source_tokens": 232,
+        "checker_steps": 492,
+        "checker_symbolic_nodes": 31,
+        "coverage_cells": 27
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 27,
+        "checker_source_tokens": 232,
+        "checker_steps": 492,
+        "checker_symbolic_nodes": 31
+      }
+    },
+    {
+      "id": "fixture-17-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 27,
+      "direct_rows": 27,
+      "certificate_arm": {
+        "certificate_steps": 27,
+        "checker_projected_points": 54,
+        "checker_source_tokens": 261,
+        "checker_steps": 1391,
+        "checker_symbolic_nodes": 39,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 27
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 54,
+        "checker_source_tokens": 261,
+        "checker_steps": 1391,
+        "checker_symbolic_nodes": 39,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-17-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 27,
+      "direct_rows": 27,
+      "certificate_arm": {
+        "certificate_steps": 27,
+        "checker_projected_points": 54,
+        "checker_source_tokens": 261,
+        "checker_steps": 1567,
+        "checker_symbolic_nodes": 40,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 27
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 54,
+        "checker_source_tokens": 261,
+        "checker_steps": 1567,
+        "checker_symbolic_nodes": 40,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-17-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 81,
+      "direct_rows": 81,
+      "certificate_arm": {
+        "certificate_steps": 81,
+        "checker_projected_points": 162,
+        "checker_source_tokens": 243,
+        "checker_steps": 2700,
+        "checker_symbolic_nodes": 37,
+        "counterexample_comparisons": 27,
+        "coverage_cells": 81
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 162,
+        "checker_source_tokens": 243,
+        "checker_steps": 2700,
+        "checker_symbolic_nodes": 37,
+        "counterexample_comparisons": 27
+      }
+    },
+    {
+      "id": "fixture-18-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 29,
+      "direct_rows": 29,
+      "certificate_arm": {
+        "certificate_steps": 29,
+        "checker_projected_points": 29,
+        "checker_source_tokens": 247,
+        "checker_steps": 1032,
+        "checker_symbolic_nodes": 25,
+        "coverage_cells": 29
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 29,
+        "checker_source_tokens": 247,
+        "checker_steps": 1032,
+        "checker_symbolic_nodes": 25
+      }
+    },
+    {
+      "id": "fixture-18-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 55,
+      "direct_rows": 55,
+      "certificate_arm": {
+        "certificate_steps": 55,
+        "checker_projected_points": 82,
+        "checker_source_tokens": 276,
+        "checker_steps": 1509,
+        "checker_symbolic_nodes": 32,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 55
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 82,
+        "checker_source_tokens": 276,
+        "checker_steps": 1509,
+        "checker_symbolic_nodes": 32,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-18-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 55,
+      "direct_rows": 55,
+      "certificate_arm": {
+        "certificate_steps": 55,
+        "checker_projected_points": 82,
+        "checker_source_tokens": 276,
+        "checker_steps": 1509,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 55
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 82,
+        "checker_source_tokens": 276,
+        "checker_steps": 1509,
+        "checker_symbolic_nodes": 33,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-18-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 93,
+      "direct_rows": 93,
+      "certificate_arm": {
+        "certificate_steps": 93,
+        "checker_projected_points": 120,
+        "checker_source_tokens": 258,
+        "checker_steps": 2997,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 9,
+        "coverage_cells": 93
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 120,
+        "checker_source_tokens": 258,
+        "checker_steps": 2997,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 9
+      }
+    },
+    {
+      "id": "fixture-19-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 11,
+      "direct_rows": 11,
+      "certificate_arm": {
+        "certificate_steps": 11,
+        "checker_projected_points": 11,
+        "checker_source_tokens": 139,
+        "checker_steps": 272,
+        "checker_symbolic_nodes": 21,
+        "coverage_cells": 11
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 11,
+        "checker_source_tokens": 139,
+        "checker_steps": 272,
+        "checker_symbolic_nodes": 21
+      }
+    },
+    {
+      "id": "fixture-19-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 55,
+      "direct_rows": 55,
+      "certificate_arm": {
+        "certificate_steps": 55,
+        "checker_projected_points": 82,
+        "checker_source_tokens": 168,
+        "checker_steps": 1221,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 55
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 82,
+        "checker_source_tokens": 168,
+        "checker_steps": 1221,
+        "checker_symbolic_nodes": 28,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-19-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 55,
+      "direct_rows": 55,
+      "certificate_arm": {
+        "certificate_steps": 55,
+        "checker_projected_points": 82,
+        "checker_source_tokens": 168,
+        "checker_steps": 1221,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 55
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 82,
+        "checker_source_tokens": 168,
+        "checker_steps": 1221,
+        "checker_symbolic_nodes": 29,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-19-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 39,
+      "direct_rows": 39,
+      "certificate_arm": {
+        "certificate_steps": 39,
+        "checker_projected_points": 48,
+        "checker_source_tokens": 150,
+        "checker_steps": 825,
+        "checker_symbolic_nodes": 27,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 39
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 48,
+        "checker_source_tokens": 150,
+        "checker_steps": 825,
+        "checker_symbolic_nodes": 27,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-20-correct",
+      "status": "ACCEPT",
+      "witness": null,
+      "certificate_rows": 29,
+      "direct_rows": 29,
+      "certificate_arm": {
+        "certificate_steps": 29,
+        "checker_projected_points": 29,
+        "checker_source_tokens": 208,
+        "checker_steps": 1060,
+        "checker_symbolic_nodes": 24,
+        "coverage_cells": 29
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 29,
+        "checker_source_tokens": 208,
+        "checker_steps": 1060,
+        "checker_symbolic_nodes": 24
+      }
+    },
+    {
+      "id": "fixture-20-overfit",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "repair",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          0,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 55,
+      "direct_rows": 55,
+      "certificate_arm": {
+        "certificate_steps": 55,
+        "checker_projected_points": 82,
+        "checker_source_tokens": 237,
+        "checker_steps": 1545,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 55
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 82,
+        "checker_source_tokens": 237,
+        "checker_steps": 1545,
+        "checker_symbolic_nodes": 31,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-20-regression",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "preserve",
+        "trace": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "input": [
+          3,
+          3,
+          1,
+          0
+        ]
+      },
+      "certificate_rows": 55,
+      "direct_rows": 55,
+      "certificate_arm": {
+        "certificate_steps": 55,
+        "checker_projected_points": 82,
+        "checker_source_tokens": 237,
+        "checker_steps": 1545,
+        "checker_symbolic_nodes": 32,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 55
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 82,
+        "checker_source_tokens": 237,
+        "checker_steps": 1545,
+        "checker_symbolic_nodes": 32,
+        "counterexample_comparisons": 3
+      }
+    },
+    {
+      "id": "fixture-20-undefined",
+      "status": "REFUTED",
+      "witness": {
+        "obligation": "defined",
+        "trace": [],
+        "input": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "certificate_rows": 93,
+      "direct_rows": 93,
+      "certificate_arm": {
+        "certificate_steps": 93,
+        "checker_projected_points": 102,
+        "checker_source_tokens": 219,
+        "checker_steps": 3063,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3,
+        "coverage_cells": 93
+      },
+      "receiver_only_arm": {
+        "checker_projected_points": 102,
+        "checker_source_tokens": 219,
+        "checker_steps": 3063,
+        "checker_symbolic_nodes": 30,
+        "counterexample_comparisons": 3
+      }
+    }
+  ],
+  "totals": {
+    "requests": 80,
+    "matching_results": 80,
+    "equal_replay_rows": 80,
+    "equal_source_interpreter_steps": 80,
+    "certificate_rows": 2522,
+    "direct_rows": 2522
+  },
+  "aggregate_counts": {
+    "certificate_arm": {
+      "certificate_steps": 2522,
+      "checker_projected_points": 4178,
+      "checker_source_tokens": 14388,
+      "checker_steps": 79877,
+      "checker_symbolic_nodes": 2403,
+      "counterexample_comparisons": 312,
+      "coverage_cells": 2522
+    },
+    "receiver_only_arm": {
+      "certificate_steps": 0,
+      "checker_projected_points": 4178,
+      "checker_source_tokens": 14388,
+      "checker_steps": 79877,
+      "checker_symbolic_nodes": 2403,
+      "counterexample_comparisons": 312,
+      "coverage_cells": 0
+    }
+  },
+  "interpretation": "This replay-table format is not necessary: the receiver independently derives and evaluates the same projected obligations without receiving a certificate.",
+  "resources": {
+    "work_events": 207440,
+    "counts": {
+      "certificate_steps": 2522,
+      "checker_projected_points": 8356,
+      "checker_source_tokens": 28776,
+      "checker_steps": 159754,
+      "checker_symbolic_nodes": 4806,
+      "counterexample_comparisons": 624,
+      "coverage_cells": 2522,
+      "null_requests": 80
+    },
+    "wall_seconds": 0.26888900400001603,
+    "self_cpu_seconds": 0.26826400000000017,
+    "child_cpu_seconds": 0.0,
+    "total_cpu_seconds": 0.26826400000000017,
+    "self_peak_rss_kib": 101676,
+    "largest_child_rss_kib": 0,
+    "workers": 1
+  }
+}

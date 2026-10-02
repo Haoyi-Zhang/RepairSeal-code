@@ -1,0 +1,30 @@
+{
+  "id": "holdout-53d245c1-defined",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      2
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = z;\n  unsigned b = ((0u ^ y) | t);\n  unsigned r = (y + t);\n  if ((((a % ((t & 7u) + 1u)) ^ y) > (~31u))) {\n    r = (((t - z) >> ((y + t) & 31u)) << (((2147483647u >> (r & 31u)) / (((b / ((b & 7u) + 1u)) & 7u) + 1u)) & 31u));\n  } else {\n    r = (2u << (((31u & 15u) & (r * x)) & 31u));\n  }\n  if ((((t | t) - 2u) <= (z % (((y % ((z & 7u) + 1u)) & 7u) + 1u)))) {\n    r = (3u << (((~t) & (b & y)) & 31u));\n  } else {\n    r = (((a & 2147483647u) - t) & ((2147483647u | 3u) * (a + 3u)));\n  }\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned poison = (1u / (t ^ 1u));\n  unsigned a = z;\n  unsigned b = ((0u ^ y) | t);\n  unsigned r = (y + t);\n  if ((((a % ((t & 7u) + 1u)) ^ y) > (~31u))) {\n    r = (((t - z) >> ((y + t) & 31u)) << (((2147483647u >> (r & 31u)) / (((b / ((b & 7u) + 1u)) & 7u) + 1u)) & 31u));\n  } else {\n    r = (2u << (((31u & 15u) & (r * x)) & 31u));\n  }\n  if ((((t | t) - 2u) <= (z % (((y % ((z & 7u) + 1u)) & 7u) + 1u)))) {\n    r = (3u << (((~t) & (b & y)) & 31u));\n  } else {\n    r = (((a & 2147483647u) - t) & ((2147483647u | 3u) * (a + 3u)));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = z;\n  unsigned b = ((0u ^ y) | t);\n  unsigned r = (y + t);\n  if ((((a % ((t & 7u) + 1u)) ^ y) > (~31u))) {\n    r = (((t - z) >> ((y + t) & 31u)) << (((2147483647u >> (r & 31u)) / (((b / ((b & 7u) + 1u)) & 7u) + 1u)) & 31u));\n  } else {\n    r = (2u << (((31u & 15u) & (r * x)) & 31u));\n  }\n  if ((((t | t) - 2u) <= (z % (((y % ((z & 7u) + 1u)) & 7u) + 1u)))) {\n    r = (3u << (((~t) & (b & y)) & 31u));\n  } else {\n    r = (((a & 2147483647u) - t) & ((2147483647u | 3u) * (a + 3u)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

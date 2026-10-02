@@ -1,0 +1,20 @@
+{
+  "id": "holdout-532dacb2-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((~y) + 4294967295u);\n  unsigned b = (1u | ((y ^ a) + 1u));\n  unsigned r = 2u;\n  if ((x == 2u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((~y) + 4294967295u);\n  unsigned b = (1u | ((y ^ a) + 1u));\n  unsigned r = 2u;\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = ((~y) + 4294967295u);\n  unsigned b = (1u | ((y ^ a) + 1u));\n  unsigned r = 2u;\n  return r;\n}\n",
+  "repair_guard": "(x == 2u)"
+}

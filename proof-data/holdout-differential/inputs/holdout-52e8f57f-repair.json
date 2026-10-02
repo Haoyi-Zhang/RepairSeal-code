@@ -1,0 +1,25 @@
+{
+  "id": "holdout-52e8f57f-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (((z & z) / ((y & 7u) + 1u)) & (y & x));\n  unsigned b = (((z / ((z & 7u) + 1u)) | (y << (z & 31u))) << ((z << (3u & 31u)) & 31u));\n  unsigned r = b;\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (((z & z) / ((y & 7u) + 1u)) & (y & x));\n  unsigned b = (((z / ((z & 7u) + 1u)) | (y << (z & 31u))) << ((z << (3u & 31u)) & 31u));\n  unsigned r = b;\n  if (((x == 3u) && (y == 1u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (((z & z) / ((y & 7u) + 1u)) & (y & x));\n  unsigned b = (((z / ((z & 7u) + 1u)) | (y << (z & 31u))) << ((z << (3u & 31u)) & 31u));\n  unsigned r = b;\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

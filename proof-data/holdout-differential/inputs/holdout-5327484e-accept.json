@@ -1,0 +1,25 @@
+{
+  "id": "holdout-5327484e-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = ((a % ((y & 7u) + 1u)) / ((((y ^ y) % (((x ^ z) & 7u) + 1u)) & 7u) + 1u));\n  unsigned r = (z >> (y & 31u));\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = ((a % ((y & 7u) + 1u)) / ((((y ^ y) % (((x ^ z) & 7u) + 1u)) & 7u) + 1u));\n  unsigned r = (z >> (y & 31u));\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = ((a % ((y & 7u) + 1u)) / ((((y ^ y) % (((x ^ z) & 7u) + 1u)) & 7u) + 1u));\n  unsigned r = (z >> (y & 31u));\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

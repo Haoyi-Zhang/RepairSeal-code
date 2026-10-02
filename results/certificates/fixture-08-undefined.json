@@ -1,0 +1,175 @@
+{
+  "kind": "finite-support-replay",
+  "parts": [
+    {
+      "obligation": "defined",
+      "support": [
+        "t"
+      ],
+      "rows": [
+        {
+          "key": [
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            1
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            3
+          ],
+          "ok": false
+        }
+      ]
+    },
+    {
+      "obligation": "repair",
+      "support": [
+        "x",
+        "t"
+      ],
+      "rows": [
+        {
+          "key": [
+            0,
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            0,
+            1
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            0,
+            3
+          ],
+          "ok": false
+        },
+        {
+          "key": [
+            4294967294,
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967294,
+            1
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967294,
+            3
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967295,
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967295,
+            1
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967295,
+            3
+          ],
+          "ok": true
+        }
+      ]
+    },
+    {
+      "obligation": "preserve",
+      "support": [
+        "x",
+        "t"
+      ],
+      "rows": [
+        {
+          "key": [
+            0,
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            0,
+            1
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            0,
+            3
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967294,
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967294,
+            1
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967294,
+            3
+          ],
+          "ok": false
+        },
+        {
+          "key": [
+            4294967295,
+            0
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967295,
+            1
+          ],
+          "ok": true
+        },
+        {
+          "key": [
+            4294967295,
+            3
+          ],
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

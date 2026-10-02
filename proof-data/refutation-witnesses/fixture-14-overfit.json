@@ -1,0 +1,61 @@
+{
+  "certificate_sha256": "6e2a66b80ea0c29a176e55e3779e8659e0b191838425c801e5fcbf4a0657418e",
+  "domains": {
+    "t": [
+      0,
+      1,
+      3
+    ],
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "input": [
+    0,
+    3,
+    1,
+    0
+  ],
+  "input_order": [
+    "x",
+    "y",
+    "z",
+    "t"
+  ],
+  "kind": "finite-semantic-refutation-v1",
+  "obligation": "repair",
+  "request_id": "fixture-14-overfit",
+  "source_sha256": {
+    "candidate": "c742b1effbeca2b6c9e46b291723969cc63360f3be9e6d045554f200a4eb2fa0",
+    "original": "bdd1de9eafbcf16e246b1656c2e373cc37eb8dbcaf2d5010e68a96b13df02614",
+    "reference": "fb2424182a56cf722cd4bcf11e7d7f2972ceebf5e4dfaf506860d159318f55fd",
+    "repair_guard": "e9acd5d5ab2be963345fd4e64fb9dbdc08b45a39b1200514f58bca3f95db7427"
+  },
+  "trace": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "word_bits": 32
+}

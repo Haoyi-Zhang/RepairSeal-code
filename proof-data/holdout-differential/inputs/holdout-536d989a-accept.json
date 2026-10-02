@@ -1,0 +1,30 @@
+{
+  "id": "holdout-536d989a-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = ((z - (1u * z)) << ((t - t) & 31u));\n  unsigned b = (((a % ((1u & 7u) + 1u)) | 15u) % (((x | (15u % ((31u & 7u) + 1u))) & 7u) + 1u));\n  unsigned r = (((t ^ x) | (t / ((2u & 7u) + 1u))) & 1u);\n  if (((((z * a) ^ (t & 4294967295u)) < ((~31u) + (31u * y))) || (((2u ^ (r / ((7u & 7u) + 1u))) > b) && ((~31u) >= ((31u | 15u) - (t * 3u)))))) {\n    r = (2147483647u ^ a);\n  } else {\n    r = (((2u - x) ^ (y + 3u)) >> (((x - b) >> (r & 31u)) & 31u));\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = ((z - (1u * z)) << ((t - t) & 31u));\n  unsigned b = (((a % ((1u & 7u) + 1u)) | 15u) % (((x | (15u % ((31u & 7u) + 1u))) & 7u) + 1u));\n  unsigned r = (((t ^ x) | (t / ((2u & 7u) + 1u))) & 1u);\n  if (((((z * a) ^ (t & 4294967295u)) < ((~31u) + (31u * y))) || (((2u ^ (r / ((7u & 7u) + 1u))) > b) && ((~31u) >= ((31u | 15u) - (t * 3u)))))) {\n    r = (2147483647u ^ a);\n  } else {\n    r = (((2u - x) ^ (y + 3u)) >> (((x - b) >> (r & 31u)) & 31u));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = ((z - (1u * z)) << ((t - t) & 31u));\n  unsigned b = (((a % ((1u & 7u) + 1u)) | 15u) % (((x | (15u % ((31u & 7u) + 1u))) & 7u) + 1u));\n  unsigned r = (((t ^ x) | (t / ((2u & 7u) + 1u))) & 1u);\n  if (((((z * a) ^ (t & 4294967295u)) < ((~31u) + (31u * y))) || (((2u ^ (r / ((7u & 7u) + 1u))) > b) && ((~31u) >= ((31u | 15u) - (t * 3u)))))) {\n    r = (2147483647u ^ a);\n  } else {\n    r = (((2u - x) ^ (y + 3u)) >> (((x - b) >> (r & 31u)) & 31u));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

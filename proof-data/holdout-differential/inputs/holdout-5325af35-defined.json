@@ -1,0 +1,25 @@
+{
+  "id": "holdout-5325af35-defined",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = (((a % ((1u & 7u) + 1u)) / ((x & 7u) + 1u)) / (((0u / (((y >> (a & 31u)) & 7u) + 1u)) & 7u) + 1u));\n  unsigned r = (b << (((y - b) - 2u) & 31u));\n  if ((r != y)) {\n    r = (((z << (r & 31u)) * y) * ((31u >> (15u & 31u)) / (((a ^ y) & 7u) + 1u)));\n  } else {\n    r = 4294967295u;\n  }\n  if ((y == (r >> (a & 31u)))) {\n    r = (((a & y) - (r << (2u & 31u))) % ((((7u >> (0u & 31u)) + 2147483647u) & 7u) + 1u));\n  } else {\n    r = 1u;\n  }\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned poison = (1u / (z ^ 3u));\n  unsigned a = z;\n  unsigned b = (((a % ((1u & 7u) + 1u)) / ((x & 7u) + 1u)) / (((0u / (((y >> (a & 31u)) & 7u) + 1u)) & 7u) + 1u));\n  unsigned r = (b << (((y - b) - 2u) & 31u));\n  if ((r != y)) {\n    r = (((z << (r & 31u)) * y) * ((31u >> (15u & 31u)) / (((a ^ y) & 7u) + 1u)));\n  } else {\n    r = 4294967295u;\n  }\n  if ((y == (r >> (a & 31u)))) {\n    r = (((a & y) - (r << (2u & 31u))) % ((((7u >> (0u & 31u)) + 2147483647u) & 7u) + 1u));\n  } else {\n    r = 1u;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = z;\n  unsigned b = (((a % ((1u & 7u) + 1u)) / ((x & 7u) + 1u)) / (((0u / (((y >> (a & 31u)) & 7u) + 1u)) & 7u) + 1u));\n  unsigned r = (b << (((y - b) - 2u) & 31u));\n  if ((r != y)) {\n    r = (((z << (r & 31u)) * y) * ((31u >> (15u & 31u)) / (((a ^ y) & 7u) + 1u)));\n  } else {\n    r = 4294967295u;\n  }\n  if ((y == (r >> (a & 31u)))) {\n    r = (((a & y) - (r << (2u & 31u))) % ((((7u >> (0u & 31u)) + 2147483647u) & 7u) + 1u));\n  } else {\n    r = 1u;\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

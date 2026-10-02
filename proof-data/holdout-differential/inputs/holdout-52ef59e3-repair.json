@@ -1,0 +1,30 @@
+{
+  "id": "holdout-52ef59e3-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = t;\n  unsigned b = a;\n  unsigned r = a;\n  if (((!(((~z) ^ (z - b)) <= a)) && ((x ^ r) < (r % (((4294967295u + r) & 7u) + 1u))))) {\n    r = y;\n  } else {\n    r = y;\n  }\n  if ((((t << (x & 31u)) * (~x)) < ((7u + y) ^ (15u % ((z & 7u) + 1u))))) {\n    r = (y | (~(a | r)));\n  } else {\n    r = 4294967295u;\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = t;\n  unsigned b = a;\n  unsigned r = a;\n  if (((!(((~z) ^ (z - b)) <= a)) && ((x ^ r) < (r % (((4294967295u + r) & 7u) + 1u))))) {\n    r = y;\n  } else {\n    r = y;\n  }\n  if ((((t << (x & 31u)) * (~x)) < ((7u + y) ^ (15u % ((z & 7u) + 1u))))) {\n    r = (y | (~(a | r)));\n  } else {\n    r = 4294967295u;\n  }\n  if (((x == 0u) && (y == 0u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = t;\n  unsigned b = a;\n  unsigned r = a;\n  if (((!(((~z) ^ (z - b)) <= a)) && ((x ^ r) < (r % (((4294967295u + r) & 7u) + 1u))))) {\n    r = y;\n  } else {\n    r = y;\n  }\n  if ((((t << (x & 31u)) * (~x)) < ((7u + y) ^ (15u % ((z & 7u) + 1u))))) {\n    r = (y | (~(a | r)));\n  } else {\n    r = 4294967295u;\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

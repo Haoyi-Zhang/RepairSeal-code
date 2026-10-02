@@ -1,0 +1,48 @@
+{
+  "certificate_sha256": "7a739690fd7c21494613a283c6b24dd170831dc6085cb62ed41a39fe61a3ee44",
+  "domains": {
+    "t": [
+      0,
+      1,
+      2
+    ],
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      2
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ]
+  },
+  "input": [
+    0,
+    0,
+    0,
+    2
+  ],
+  "input_order": [
+    "x",
+    "y",
+    "z",
+    "t"
+  ],
+  "kind": "finite-semantic-refutation-v1",
+  "obligation": "defined",
+  "request_id": "stress-216-undefined",
+  "source_sha256": {
+    "candidate": "1c0bba972bf4c75cbf31e98f11e57eb9fb8fa074a140d46a5b07bdab979f9d32",
+    "original": "92c1c5cecbf86c900ad1085fe42fbad079adc0bfb4c0773d1aeec3c27c2606a9",
+    "reference": "a3113b5ed378f3a460cc5d0e030c0b27f5c65c0ccde3234ec9c7f65dac387c0b",
+    "repair_guard": "e9acd5d5ab2be963345fd4e64fb9dbdc08b45a39b1200514f58bca3f95db7427"
+  },
+  "trace": [],
+  "word_bits": 32
+}

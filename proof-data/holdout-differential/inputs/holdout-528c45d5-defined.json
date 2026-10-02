@@ -1,0 +1,25 @@
+{
+  "id": "holdout-528c45d5-defined",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      2
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (((y >> (31u & 31u)) >> ((0u % ((z & 7u) + 1u)) & 31u)) >> ((x + (2u * y)) & 31u));\n  unsigned b = (((x * 7u) % (((z ^ 1u) & 7u) + 1u)) + 15u);\n  unsigned r = (((~31u) / ((2u & 7u) + 1u)) + x);\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned poison = (1u / (z ^ 1u));\n  unsigned a = (((y >> (31u & 31u)) >> ((0u % ((z & 7u) + 1u)) & 31u)) >> ((x + (2u * y)) & 31u));\n  unsigned b = (((x * 7u) % (((z ^ 1u) & 7u) + 1u)) + 15u);\n  unsigned r = (((~31u) / ((2u & 7u) + 1u)) + x);\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (((y >> (31u & 31u)) >> ((0u % ((z & 7u) + 1u)) & 31u)) >> ((x + (2u * y)) & 31u));\n  unsigned b = (((x * 7u) % (((z ^ 1u) & 7u) + 1u)) + 15u);\n  unsigned r = (((~31u) / ((2u & 7u) + 1u)) + x);\n  return r;\n}\n",
+  "repair_guard": "(x == 0u)"
+}

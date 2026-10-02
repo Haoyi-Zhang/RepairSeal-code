@@ -1,0 +1,30 @@
+{
+  "id": "holdout-5300edf6-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      2
+    ],
+    "t": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = x;\n  unsigned b = (((~7u) / ((y & 7u) + 1u)) & ((~2u) + (x + t)));\n  unsigned r = (x & ((t / ((t & 7u) + 1u)) & (y - x)));\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = x;\n  unsigned b = (((~7u) / ((y & 7u) + 1u)) & ((~2u) + (x + t)));\n  unsigned r = (x & ((t / ((t & 7u) + 1u)) & (y - x)));\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = x;\n  unsigned b = (((~7u) / ((y & 7u) + 1u)) & ((~2u) + (x + t)));\n  unsigned r = (x & ((t / ((t & 7u) + 1u)) & (y - x)));\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

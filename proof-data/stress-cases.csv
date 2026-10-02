@@ -1,0 +1,301 @@
+id,variant,status,witness,nodes,points,certificate_bytes,produce_ms,check_ms,topological_ms,session_direct_ms,refutation_certificate_bytes,refutation_check_ms,refutation_cells
+stress-001-correct,correct,ACCEPT,,32,81,11713,1.742072,2.301781,1.248382,1.404185,,,
+stress-002-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,14907,2.015342,2.77465,1.496824,1.459438,667,0.475493,40
+stress-003-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15173,2.295291,2.751466,1.682443,1.327791,672,0.508012,40
+stress-004-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17308,2.421511,3.069553,1.833389,1.050836,659,0.545187,44
+stress-005-correct,correct,ACCEPT,,35,81,13105,1.689344,2.408021,1.302323,1.338496,,,
+stress-006-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15172,1.916944,2.686288,1.509143,1.255302,667,0.496424,40
+stress-007-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15227,2.201851,2.737355,1.524817,1.310755,672,0.50673,40
+stress-008-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17401,1.956133,2.897725,1.572928,1.011337,659,0.474702,44
+stress-009-correct,correct,ACCEPT,,35,81,12978,1.68703,2.398086,1.266218,1.18053,,,
+stress-010-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15098,1.986119,3.008451,1.534731,1.329213,667,0.498016,39
+stress-011-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15604,2.023153,3.040378,1.574671,1.329063,672,0.506079,41
+stress-012-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16538,1.939598,3.168441,1.706409,1.066959,659,0.453671,43
+stress-013-correct,correct,ACCEPT,,34,81,12911,1.625477,2.345607,1.292979,1.241612,,,
+stress-014-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",38,81,14068,1.946689,2.831746,1.592908,1.311927,667,0.496404,38
+stress-015-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15307,1.960089,2.768161,1.579157,1.371216,672,0.484296,40
+stress-016-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16834,2.329823,2.952717,1.685357,0.998447,659,0.516385,44
+stress-017-correct,correct,ACCEPT,,35,81,13555,1.758497,2.665086,1.262984,1.229513,,,
+stress-018-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14937,2.105567,2.74093,1.556815,1.272999,667,0.578557,39
+stress-019-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15470,1.910505,2.700439,1.518748,1.289534,672,0.470275,40
+stress-020-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16456,1.982472,2.842512,1.621642,0.990145,659,0.59331,43
+stress-021-correct,correct,ACCEPT,,34,81,13351,1.698717,2.384495,1.48052,1.154762,,,
+stress-022-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15266,1.924937,2.821039,1.730054,1.275673,667,0.509094,39
+stress-023-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,14941,2.040629,2.869563,1.602132,1.344596,672,0.51353,39
+stress-024-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16457,1.972277,3.150313,1.632067,0.768582,659,0.476524,43
+stress-025-correct,correct,ACCEPT,,34,81,12537,1.803724,2.359908,1.306129,1.598627,,,
+stress-026-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15703,1.944035,2.705447,1.521271,1.090886,667,0.479269,40
+stress-027-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,14993,1.953078,2.78767,1.513179,1.520811,672,0.529123,40
+stress-028-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16942,2.031316,3.400308,1.844856,0.76041,659,0.454061,44
+stress-029-correct,correct,ACCEPT,,35,81,12861,1.770534,2.348582,1.235633,1.431587,,,
+stress-030-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",38,81,15514,2.108802,2.606819,1.671216,1.062754,667,0.511477,38
+stress-031-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15593,1.961852,2.74146,1.554161,1.529072,672,0.502334,40
+stress-032-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16942,1.98102,3.01438,1.685918,0.789083,659,0.492809,44
+stress-033-correct,correct,ACCEPT,,34,81,12646,1.943674,2.316954,1.283555,1.675892,,,
+stress-034-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14780,2.00082,2.736824,1.535151,1.036604,667,0.54639,39
+stress-035-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15834,1.942273,2.732518,1.521983,1.577315,672,0.516084,40
+stress-036-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,16027,1.977575,3.105857,1.764306,0.768993,659,0.50018,42
+stress-037-correct,correct,ACCEPT,,35,81,12752,1.9538,2.350885,1.237476,1.364747,,,
+stress-038-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15015,1.893088,2.729733,1.469413,1.037515,667,0.476465,40
+stress-039-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16481,1.9471,2.752808,1.601441,1.549273,672,0.474121,41
+stress-040-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16472,1.964075,2.857224,1.646158,0.743605,659,0.47336,43
+stress-041-correct,correct,ACCEPT,,34,81,12728,1.688361,2.303043,1.26067,1.398026,,,
+stress-042-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,14907,2.002052,2.679027,1.498437,1.079008,667,0.475333,40
+stress-043-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16577,1.984155,3.078276,1.615022,1.669043,672,0.499219,41
+stress-044-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17279,2.065767,3.444395,1.862192,0.924656,659,0.545818,44
+stress-045-correct,correct,ACCEPT,,34,81,12323,1.695602,2.505897,1.283114,1.613089,,,
+stress-046-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15070,2.115362,2.748221,1.449003,1.082864,667,0.54063,40
+stress-047-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,15117,1.869263,2.697215,1.583384,1.537255,672,0.478397,39
+stress-048-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17437,2.004476,3.163955,1.679719,0.743896,659,0.449725,44
+stress-049-correct,correct,ACCEPT,,34,81,12348,1.782713,2.352627,1.315653,1.668362,,,
+stress-050-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15178,2.007921,2.719568,1.50082,1.041111,667,0.477556,40
+stress-051-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15658,1.966178,2.783504,1.49378,1.508512,672,0.471127,41
+stress-052-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,17431,1.94071,2.856524,1.734261,0.773029,659,0.47316,43
+stress-053-correct,correct,ACCEPT,,34,81,12328,1.632338,2.317335,1.234201,1.367881,,,
+stress-054-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15151,1.879167,2.658866,1.464736,1.041983,667,0.497286,40
+stress-055-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15495,1.941862,2.864896,2.510604,2.199448,672,0.563455,41
+stress-056-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16806,2.162153,3.151496,1.94079,0.84068,659,0.5531,43
+stress-057-correct,correct,ACCEPT,,35,81,13492,1.785928,2.391086,1.339118,1.468031,,,
+stress-058-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",38,81,14297,1.933078,2.568171,1.553239,1.085177,667,0.482313,38
+stress-059-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15495,2.038596,2.881541,1.55391,1.889564,672,0.54645,41
+stress-060-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16779,1.977466,3.024986,1.685197,0.822904,659,0.448823,44
+stress-061-correct,correct,ACCEPT,,35,81,13687,1.922553,2.753989,1.33362,1.517576,,,
+stress-062-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14593,2.008181,2.891215,1.543925,1.051998,667,0.480611,39
+stress-063-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15848,2.017776,2.976403,1.531236,1.502873,672,0.575373,41
+stress-064-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16511,1.934351,2.904676,1.627831,0.811487,659,0.441653,43
+stress-065-correct,correct,ACCEPT,,34,81,13375,1.712107,2.369553,1.261732,1.429634,,,
+stress-066-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14527,1.900009,2.942121,1.609804,1.051547,667,0.505468,39
+stress-067-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15026,2.063023,3.223484,1.611006,1.910444,672,0.492248,40
+stress-068-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16619,1.971987,2.939447,1.68033,0.755063,659,0.457476,43
+stress-069-correct,correct,ACCEPT,,33,81,12513,1.647821,2.391657,1.24017,1.484927,,,
+stress-070-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15853,1.908352,2.864675,1.593339,1.038637,667,0.803775,40
+stress-071-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15043,2.018857,2.851535,1.685027,1.957365,672,0.61981,40
+stress-072-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16618,2.513729,2.94745,1.701201,1.029804,659,0.467631,43
+stress-073-correct,correct,ACCEPT,,35,81,12969,1.714531,2.433468,1.323374,1.579749,,,
+stress-074-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,16206,2.132568,2.864635,1.517586,1.145658,667,0.477225,40
+stress-075-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,14977,1.992147,2.729633,1.798938,1.562663,672,0.502753,39
+stress-076-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16915,2.149613,2.92096,1.766599,0.781472,659,0.483776,44
+stress-077-correct,correct,ACCEPT,,35,81,12752,1.883224,2.461471,1.321832,1.422643,,,
+stress-078-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15042,1.96078,2.753048,1.511206,1.037997,667,0.510325,39
+stress-079-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15185,2.014801,2.785818,1.536554,1.585397,672,0.497085,40
+stress-080-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16519,2.064365,2.921541,1.696424,0.761241,659,0.492849,43
+stress-081-correct,correct,ACCEPT,,34,81,12538,1.686008,2.330024,1.241111,1.658467,,,
+stress-082-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15151,2.24748,2.876643,1.564546,1.034782,667,0.48026,40
+stress-083-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16468,2.254741,2.901491,1.5471,1.516604,672,0.534071,41
+stress-084-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16816,2.053489,3.14055,1.769153,0.754621,659,0.448913,44
+stress-085-correct,correct,ACCEPT,,35,81,13141,1.808572,2.435582,1.348111,1.423314,,,
+stress-086-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14801,1.928321,2.806959,1.534822,1.044877,667,0.498187,39
+stress-087-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16577,2.035452,3.143093,1.626609,1.625107,672,0.48682,41
+stress-088-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,16186,2.00751,3.259277,1.877705,0.910265,659,0.499139,42
+stress-089-correct,correct,ACCEPT,,34,81,12364,1.961121,2.617415,1.423214,1.435583,,,
+stress-090-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15124,1.958818,2.729993,1.511636,1.022823,667,0.507051,40
+stress-091-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15556,1.927831,2.76777,1.520049,1.592929,672,0.48004,40
+stress-092-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,16199,1.962633,2.923143,1.648412,0.744746,659,0.4734,42
+stress-093-correct,correct,ACCEPT,,34,81,12435,2.060499,2.408932,1.401752,1.393099,,,
+stress-094-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14851,2.392057,2.76795,1.583625,1.113269,667,0.521863,39
+stress-095-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15551,2.14686,2.797405,1.8407,1.608853,672,0.582844,40
+stress-096-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,17511,2.010655,3.219407,1.714702,0.774211,659,0.483826,43
+stress-097-correct,correct,ACCEPT,,35,81,12729,1.761421,2.504947,1.321171,1.748071,,,
+stress-098-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15027,1.939588,2.756463,1.487701,1.044557,667,0.514251,39
+stress-099-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15549,1.977165,2.935713,1.850545,1.727781,672,0.507311,41
+stress-100-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16616,2.271256,3.177674,1.723294,0.779659,659,0.471677,43
+stress-101-correct,correct,ACCEPT,,34,81,12610,1.695913,2.375943,1.289674,1.40001,,,
+stress-102-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14719,1.912668,2.727289,1.55394,1.03997,667,0.512298,39
+stress-103-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,15189,2.061281,2.703263,1.54047,1.530385,672,0.478788,39
+stress-104-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16700,2.239077,2.977104,1.638396,0.744556,659,0.444046,43
+stress-105-correct,correct,ACCEPT,,34,81,12535,1.821141,2.382282,1.306939,1.42047,,,
+stress-106-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14746,2.018076,2.744575,1.584486,1.025247,667,0.57402,39
+stress-107-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15974,2.075442,2.831886,1.62091,1.695212,672,1.028492,41
+stress-108-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17078,1.988191,2.90115,1.637075,0.740039,659,0.447421,44
+stress-109-correct,correct,ACCEPT,,34,81,13458,1.639949,2.277726,1.255152,1.450705,,,
+stress-110-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,14907,1.89417,2.730204,1.498647,1.025888,667,0.472648,40
+stress-111-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15118,2.203765,3.278496,1.598918,1.544296,672,0.531166,40
+stress-112-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16978,2.269803,3.164475,1.683865,0.762644,659,0.590486,44
+stress-113-correct,correct,ACCEPT,,34,81,12890,1.673169,2.477906,1.271827,1.457586,,,
+stress-114-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14770,1.898938,2.699288,1.48745,1.059469,667,0.511357,39
+stress-115-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15227,1.941752,3.136502,1.6477,1.642793,672,0.539258,40
+stress-116-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16938,2.103795,3.223444,1.86101,0.755463,659,0.75384,44
+stress-117-correct,correct,ACCEPT,,35,81,12969,1.681451,2.390344,1.265217,1.443644,,,
+stress-118-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14988,2.108441,2.649493,1.598527,1.045498,667,0.506339,39
+stress-119-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15553,2.078327,2.797375,1.517176,1.543104,672,0.511096,41
+stress-120-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16863,1.94777,2.978446,1.615443,0.79338,659,0.442203,43
+stress-121-correct,correct,ACCEPT,,35,81,12963,1.789553,2.329363,1.218707,1.467751,,,
+stress-122-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14810,2.069073,2.697755,1.489895,1.066519,667,0.502714,39
+stress-123-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15495,1.993559,2.971175,1.570766,1.849073,672,0.506149,41
+stress-124-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16654,2.126639,3.339398,1.69375,0.811346,659,0.460491,43
+stress-125-correct,correct,ACCEPT,,35,81,13155,1.679658,2.395502,1.264736,1.476845,,,
+stress-126-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14937,1.986929,2.662943,1.64019,1.088102,667,0.502404,39
+stress-127-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15332,2.092868,2.727449,1.568632,1.533669,672,0.48056,40
+stress-128-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16671,2.092137,3.266688,1.741762,0.785197,659,0.555092,44
+stress-129-correct,correct,ACCEPT,,34,81,13123,1.672969,2.557275,1.258717,1.552709,,,
+stress-130-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15314,2.091656,2.789844,1.520339,1.090405,667,0.591828,40
+stress-131-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15519,1.958567,2.824496,1.591757,1.616624,672,0.485698,40
+stress-132-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16457,2.005988,2.955251,1.678367,0.732428,659,0.45299,43
+stress-133-correct,correct,ACCEPT,,34,81,12421,1.724746,2.589894,1.254511,1.381903,,,
+stress-134-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15355,1.96103,2.822262,1.571105,1.08705,667,0.490215,40
+stress-135-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15631,2.140219,2.944335,1.616324,1.502764,672,0.507361,40
+stress-136-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16876,2.017165,2.925016,1.638067,0.754692,659,0.444947,44
+stress-137-correct,correct,ACCEPT,,34,81,12484,1.71351,2.329573,1.290485,1.402422,,,
+stress-138-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15232,2.243224,2.846769,1.621732,1.049965,667,0.585919,39
+stress-139-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15685,1.961431,2.898506,1.669003,1.59408,672,0.482293,41
+stress-140-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16753,2.107219,2.855682,1.954331,0.852459,659,0.531437,43
+stress-141-correct,correct,ACCEPT,,34,81,12646,1.843734,2.429703,1.274681,1.383455,,,
+stress-142-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15872,1.925648,2.723554,1.446559,1.003375,667,0.536484,40
+stress-143-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15549,1.930985,2.79376,1.499749,1.587381,672,0.48042,40
+stress-144-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,15869,1.933759,3.06109,1.918597,0.759058,659,0.452589,42
+stress-145-correct,correct,ACCEPT,,34,81,12483,1.968762,2.444575,1.310726,1.433189,,,
+stress-146-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14800,1.953329,2.631316,1.503926,1.049574,667,0.478888,39
+stress-147-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16196,1.999008,2.839739,1.546368,1.541571,672,0.532769,41
+stress-148-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17078,1.993659,2.973759,1.623564,0.899018,659,0.45315,44
+stress-149-correct,correct,ACCEPT,,34,81,12592,1.803625,2.459348,1.356994,1.454031,,,
+stress-150-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,14907,1.889753,2.765337,1.562693,1.070255,667,0.481592,40
+stress-151-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16366,2.013078,2.9477,1.692728,1.50683,672,0.514241,41
+stress-152-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17114,2.202964,3.195432,1.717075,0.822504,659,0.461863,44
+stress-153-correct,correct,ACCEPT,,34,81,12863,1.863465,2.360219,1.262873,1.558417,,,
+stress-154-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14693,1.954891,2.730545,1.907561,1.029124,667,0.476214,39
+stress-155-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15220,2.186569,3.553379,1.815342,1.83389,672,0.484947,40
+stress-156-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17131,2.345868,2.912807,1.687721,0.78001,659,0.46047,44
+stress-157-correct,correct,ACCEPT,,33,81,12044,1.707461,2.399668,1.321992,1.417495,,,
+stress-158-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15124,1.982844,2.722542,1.567901,1.045568,667,0.484546,40
+stress-159-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15529,2.031587,2.830975,1.52746,1.539689,672,0.604867,41
+stress-160-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,17187,2.079969,3.237935,1.713469,0.788723,659,0.48024,43
+stress-161-correct,correct,ACCEPT,,34,81,12727,1.661381,2.390705,1.341943,1.476544,,,
+stress-162-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15151,1.926469,2.772858,1.585026,1.042443,667,0.499889,40
+stress-163-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15604,1.995643,3.287429,1.652798,1.697315,672,0.583596,41
+stress-164-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17582,2.037164,3.012056,1.696864,0.842984,659,0.485508,44
+stress-165-correct,correct,ACCEPT,,35,81,13249,1.804005,2.363474,1.282623,1.463835,,,
+stress-166-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",37,81,13955,1.914661,2.661311,1.565377,1.219719,667,0.508853,37
+stress-167-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15226,2.010865,2.836323,1.637836,1.621191,672,0.490536,40
+stress-168-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,16321,3.30743,3.093709,1.789724,0.856004,659,0.464296,42
+stress-169-correct,correct,ACCEPT,,34,81,13192,1.732527,2.307339,1.266449,1.582594,,,
+stress-170-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14552,2.303604,2.72115,1.522383,1.056354,667,0.476745,39
+stress-171-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15335,2.031696,2.792197,1.56724,1.856904,672,0.532498,40
+stress-172-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16671,2.023233,2.872167,1.603094,0.979569,659,0.496234,44
+stress-173-correct,correct,ACCEPT,,34,81,13351,1.756624,2.364375,1.282884,1.430355,,,
+stress-174-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15280,1.92707,2.686868,1.502823,1.037105,667,0.471267,40
+stress-175-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15848,1.986589,2.777795,1.516073,1.545528,672,0.532809,41
+stress-176-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16619,1.930495,3.031345,1.608332,0.78024,659,0.445408,43
+stress-177-correct,correct,ACCEPT,,33,81,12284,1.624996,2.388802,1.258317,1.442983,,,
+stress-178-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15610,1.896113,2.718797,1.511616,1.099058,667,0.501922,40
+stress-179-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,14775,1.90072,2.917204,1.549273,1.574491,672,0.479309,39
+stress-180-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16888,2.079879,2.936413,1.797846,0.754241,659,0.45371,44
+stress-181-correct,correct,ACCEPT,,35,81,12915,1.73352,2.435052,1.304987,1.432978,,,
+stress-182-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,16046,1.973168,2.765127,1.50694,1.045738,667,0.5199,40
+stress-183-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,14754,1.952398,3.036013,1.552909,1.549424,672,0.478968,39
+stress-184-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16915,2.02725,2.896252,1.640239,0.775292,659,0.444516,44
+stress-185-correct,correct,ACCEPT,,35,81,12725,1.686539,2.348071,1.274441,1.458988,,,
+stress-186-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15876,1.963434,2.66091,1.49377,1.034751,667,0.501242,39
+stress-187-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16172,1.999498,2.865948,1.549463,1.561391,672,0.497967,41
+stress-188-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,15921,1.970345,2.882102,1.648252,0.783474,659,0.469554,42
+stress-189-correct,correct,ACCEPT,,35,81,12698,1.685467,2.341772,1.387941,1.43426,,,
+stress-190-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14799,1.911566,2.891226,1.535683,1.038027,667,0.473119,39
+stress-191-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16372,1.996524,2.8274,1.550905,1.549564,672,0.502674,41
+stress-192-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16411,2.084165,2.913148,1.606959,0.775563,659,0.48,43
+stress-193-correct,correct,ACCEPT,,35,81,12969,1.668963,2.355633,1.269284,1.46055,,,
+stress-194-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14747,1.882152,2.793178,1.481571,1.033369,667,0.801382,39
+stress-195-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16577,1.996584,2.846669,1.556194,1.567481,672,0.500421,41
+stress-196-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16270,1.992768,2.912278,1.628983,0.76744,659,0.448973,43
+stress-197-correct,correct,ACCEPT,,35,81,13105,1.697325,2.339227,1.294771,1.451607,,,
+stress-198-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15070,1.937346,2.812488,1.501402,1.303865,667,0.488944,40
+stress-199-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15486,2.042243,2.737004,1.509884,1.564025,672,0.484857,40
+stress-200-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,17091,1.990655,2.898686,1.6342,0.747291,659,0.455704,43
+stress-201-correct,correct,ACCEPT,,34,81,12390,1.662303,2.346769,1.257837,1.752498,,,
+stress-202-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14773,1.92676,2.679268,1.521682,1.032038,667,0.501682,39
+stress-203-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15712,1.98053,2.781981,1.554081,1.527411,672,0.486921,41
+stress-204-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17648,2.010354,2.91393,1.604836,0.763975,659,0.488513,44
+stress-205-correct,correct,ACCEPT,,33,81,12206,1.782233,2.389743,1.255913,1.42066,,,
+stress-206-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15151,1.915282,3.025457,1.495392,1.044256,667,0.507151,40
+stress-207-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15495,1.944987,2.758005,1.522633,1.516755,672,0.509084,41
+stress-208-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,17402,1.955322,2.898286,1.565207,0.749564,659,0.447972,43
+stress-209-correct,correct,ACCEPT,,34,81,12530,1.675052,2.275442,1.263064,1.402222,,,
+stress-210-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14663,1.925166,2.68076,1.483003,1.025738,667,0.496945,39
+stress-211-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,15012,1.972107,2.721501,1.548201,1.509613,672,0.532548,39
+stress-212-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16699,1.964846,2.849863,1.598596,0.792478,659,0.444937,43
+stress-213-correct,correct,ACCEPT,,35,81,13458,1.693609,2.388561,1.273369,1.435342,,,
+stress-214-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14648,1.973299,2.725146,1.482302,1.049583,667,0.499318,39
+stress-215-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15712,1.97395,2.820519,1.555953,1.548322,672,0.476144,41
+stress-216-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16942,2.019438,2.925046,1.607861,0.74735,659,0.486029,44
+stress-217-correct,correct,ACCEPT,,34,81,13458,1.690364,2.395753,1.27413,1.45397,,,
+stress-218-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",38,81,14386,2.151446,2.744645,1.583495,1.034231,667,0.568503,38
+stress-219-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15712,1.969934,2.790094,1.52767,1.533649,672,0.507331,41
+stress-220-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16888,1.997555,2.858797,1.609364,0.765678,659,0.481833,44
+stress-221-correct,correct,ACCEPT,,34,81,12789,1.663384,2.319859,1.296003,1.415502,,,
+stress-222-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",38,81,14298,2.010044,2.653399,1.510545,1.049213,667,0.518448,38
+stress-223-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15122,2.122843,2.791647,1.596374,1.541702,672,0.504877,40
+stress-224-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16725,2.002804,2.906539,1.616564,0.789905,659,0.442304,44
+stress-225-correct,correct,ACCEPT,,35,81,12996,1.662272,2.46123,1.269313,1.452608,,,
+stress-226-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,16070,1.951727,2.680339,1.484496,1.059179,667,0.503975,40
+stress-227-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15442,1.94073,2.753469,1.55373,1.769564,672,0.486579,41
+stress-228-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16701,2.066789,2.879638,1.579749,0.772208,659,0.478007,43
+stress-229-correct,correct,ACCEPT,,35,81,12806,1.695132,2.35407,1.477435,1.433329,,,
+stress-230-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,16043,1.998176,2.730885,1.744946,1.036755,667,0.50689,40
+stress-231-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15333,1.985477,2.75439,1.515082,1.558146,672,0.480871,40
+stress-232-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16400,1.998357,2.914139,1.634761,0.755973,659,0.476023,43
+stress-233-correct,correct,ACCEPT,,35,81,12915,1.719528,2.416133,1.311777,1.436153,,,
+stress-234-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",38,81,14720,2.005077,2.623905,1.600841,1.039949,667,0.494692,38
+stress-235-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15241,1.961531,2.78103,1.545908,1.521361,672,0.534972,40
+stress-236-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16626,1.98069,2.949493,1.609494,0.788282,659,0.442503,44
+stress-237-correct,correct,ACCEPT,,35,81,13005,1.690986,2.347831,1.284787,1.435443,,,
+stress-238-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15314,1.91406,2.744445,1.496975,1.055123,667,0.505878,40
+stress-239-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,16363,1.932839,2.770334,1.583485,1.523184,672,0.481041,40
+stress-240-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16450,1.984115,2.898115,1.611516,0.770806,659,0.474902,43
+stress-241-correct,correct,ACCEPT,,34,81,12805,1.911957,2.342313,1.322834,1.461201,,,
+stress-242-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14854,1.900149,2.654871,1.497966,1.024506,667,0.474271,39
+stress-243-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,15333,1.914301,2.749433,1.503925,1.534881,672,0.471788,39
+stress-244-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16534,1.970115,2.902252,1.66082,0.740139,659,0.446229,43
+stress-245-correct,correct,ACCEPT,,33,81,12245,1.723485,2.268281,1.257836,1.401011,,,
+stress-246-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14818,1.889083,2.676393,1.497866,1.023385,667,0.476785,39
+stress-247-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15685,1.981832,2.755722,1.655953,1.547421,672,0.511467,41
+stress-248-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16652,1.972107,2.965726,1.692979,0.772168,659,0.475303,43
+stress-249-correct,correct,ACCEPT,,34,81,12646,1.676163,2.32084,1.247391,1.404616,,,
+stress-250-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15494,1.922152,2.687851,1.485087,1.023825,667,0.52685,40
+stress-251-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15471,1.916273,2.815692,1.530324,1.541421,672,0.504016,40
+stress-252-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17645,2.033839,2.961501,1.617826,0.974581,659,0.506549,44
+stress-253-correct,correct,ACCEPT,,35,81,12725,1.772899,2.362542,1.270616,1.402223,,,
+stress-254-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14651,1.875132,2.680129,1.502833,1.044416,667,0.478498,39
+stress-255-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15766,1.956645,2.802011,1.599558,1.529273,672,0.5267,41
+stress-256-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,16485,1.957595,2.890604,1.605467,1.048182,659,0.533119,42
+stress-257-correct,correct,ACCEPT,,34,81,12537,1.770315,2.342472,1.276194,1.429504,,,
+stress-258-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,14856,1.885137,2.716253,1.487541,1.06023,667,0.503605,40
+stress-259-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15637,1.992147,2.740269,1.753429,1.560821,672,0.478658,40
+stress-260-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17078,2.079989,2.931145,1.59412,0.783314,659,0.447481,44
+stress-261-correct,correct,ACCEPT,,34,81,12780,1.643664,2.343484,1.228482,1.439378,,,
+stress-262-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14693,1.910585,2.703894,1.482724,1.026369,667,0.499489,39
+stress-263-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16006,1.950835,2.931345,1.556954,1.548542,672,0.504256,41
+stress-264-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16951,2.00716,3.108912,1.785377,0.758327,659,0.467882,44
+stress-265-correct,correct,ACCEPT,,34,81,12780,1.65406,2.326479,1.269113,1.455052,,,
+stress-266-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15070,1.937195,2.711435,1.651917,1.028833,667,0.469033,40
+stress-267-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15234,1.985827,2.772026,1.52668,1.509273,672,0.523826,40
+stress-268-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16727,1.926619,2.946168,1.757716,0.792469,659,0.46725,43
+stress-269-correct,correct,ACCEPT,,35,81,12942,1.678607,2.349463,1.269143,1.40717,,,
+stress-270-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14826,1.897666,2.695041,1.461722,1.070425,667,0.500211,39
+stress-271-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15604,2.002773,2.808921,1.556023,1.536554,672,0.482714,41
+stress-272-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,17372,2.016444,2.93389,1.658467,0.745268,659,0.477356,44
+stress-273-correct,correct,ACCEPT,,34,81,12728,1.658256,2.338336,1.251166,1.399859,,,
+stress-274-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14849,1.900791,2.710114,1.638968,1.033861,667,0.477165,39
+stress-275-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15226,1.933219,2.737775,1.514211,1.548082,672,0.475473,40
+stress-276-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16399,2.236955,2.914891,1.636053,0.764055,659,0.442133,43
+stress-277-correct,correct,ACCEPT,,35,81,13195,1.685397,2.303083,1.27322,1.396775,,,
+stress-278-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15092,1.865928,2.62728,1.497255,1.031477,667,0.471888,39
+stress-279-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15281,1.963254,2.714651,1.517886,1.52713,672,0.502754,40
+stress-280-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16671,1.956433,2.899478,1.598507,0.750575,659,0.445377,44
+stress-281-correct,correct,ACCEPT,,34,81,12966,1.649513,2.321171,1.256554,1.419167,,,
+stress-282-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15314,1.887491,2.719228,1.501351,1.032278,667,0.510275,40
+stress-283-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15631,1.985077,2.792788,1.531467,1.554882,672,0.504978,40
+stress-284-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",43,81,16595,2.005647,2.880409,1.772507,0.796204,659,0.480681,43
+stress-285-correct,correct,ACCEPT,,34,81,13127,1.689213,2.326038,1.29325,1.415893,,,
+stress-286-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15277,2.173609,2.733679,2.262302,1.056665,667,0.475914,40
+stress-287-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",39,81,14732,2.005106,2.784275,1.744135,1.60726,672,0.54713,39
+stress-288-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16834,1.991506,3.178827,1.823354,0.776264,659,0.455273,44
+stress-289-correct,correct,ACCEPT,,34,81,12682,1.761692,2.330234,1.345778,1.459328,,,
+stress-290-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,15279,1.908402,2.678877,1.456264,1.026289,667,0.558187,39
+stress-291-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",40,81,15470,1.976954,2.806838,1.519238,1.555312,672,0.509804,40
+stress-292-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",44,81,16779,2.124936,2.943634,1.651737,0.787281,659,0.472669,44
+stress-293-correct,correct,ACCEPT,,35,81,12752,1.683335,2.35443,1.238818,1.431086,,,
+stress-294-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",40,81,15827,1.94123,2.691736,1.522603,1.039229,667,0.48008,40
+stress-295-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,15902,2.030835,2.731225,1.599619,1.58004,672,0.507601,41
+stress-296-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,16485,1.986238,2.86766,1.591346,0.767962,659,0.449914,42
+stress-297-correct,correct,ACCEPT,,35,81,12698,1.652678,2.325247,1.271446,1.416083,,,
+stress-298-overfit,overfit,REFUTED,"{'obligation': 'repair', 'trace': [[0, 0], [1, 1]], 'input': [0, 2, 0, 1]}",39,81,14707,1.89348,2.665016,1.526289,1.040751,667,0.507932,39
+stress-299-regression,regression,REFUTED,"{'obligation': 'preserve', 'trace': [[0, 0], [1, 1]], 'input': [2, 0, 2, 1]}",41,81,16118,1.986318,2.878577,1.544936,1.545658,672,0.488152,41
+stress-300-undefined,undefined,REFUTED,"{'obligation': 'defined', 'trace': [], 'input': [0, 0, 0, 2]}",42,81,16067,1.972608,2.877385,1.626109,0.763505,659,0.476825,42

@@ -1,0 +1,25 @@
+{
+  "id": "holdout-53d7110c-preserve",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = 7u;\n  unsigned b = (((y - z) - (3u ^ 15u)) - z);\n  unsigned r = y;\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = 7u;\n  unsigned b = (((y - z) - (3u ^ 15u)) - z);\n  unsigned r = y;\n  if (((x == 1u) && (y == 1u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = 7u;\n  unsigned b = (((y - z) - (3u ^ 15u)) - z);\n  unsigned r = y;\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

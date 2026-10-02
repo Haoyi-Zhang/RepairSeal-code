@@ -1,0 +1,25 @@
+{
+  "id": "holdout-53ed706a-accept",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (31u << (((z / ((2147483647u & 7u) + 1u)) + 4294967295u) & 31u));\n  unsigned b = a;\n  unsigned r = (y - (y | (1u * x)));\n  if ((((((z << (7u & 31u)) >> ((r ^ b) & 31u)) > r) && (((y + z) & (15u * 3u)) < (4294967295u + (b | x)))) && ((a == x) && (a < (a % (((z >> (b & 31u)) & 7u) + 1u)))))) {\n    r = (((x / ((y & 7u) + 1u)) & (z | y)) - ((x << (x & 31u)) * (r | z)));\n  } else {\n    r = (((b & b) | a) % (((y >> ((31u | a) & 31u)) & 7u) + 1u));\n  }\n  if ((x < (x & (z ^ 15u)))) {\n    r = 7u;\n  } else {\n    r = y;\n  }\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (31u << (((z / ((2147483647u & 7u) + 1u)) + 4294967295u) & 31u));\n  unsigned b = a;\n  unsigned r = (y - (y | (1u * x)));\n  if ((((((z << (7u & 31u)) >> ((r ^ b) & 31u)) > r) && (((y + z) & (15u * 3u)) < (4294967295u + (b | x)))) && ((a == x) && (a < (a % (((z >> (b & 31u)) & 7u) + 1u)))))) {\n    r = (((x / ((y & 7u) + 1u)) & (z | y)) - ((x << (x & 31u)) * (r | z)));\n  } else {\n    r = (((b & b) | a) % (((y >> ((31u | a) & 31u)) & 7u) + 1u));\n  }\n  if ((x < (x & (z ^ 15u)))) {\n    r = 7u;\n  } else {\n    r = y;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (31u << (((z / ((2147483647u & 7u) + 1u)) + 4294967295u) & 31u));\n  unsigned b = a;\n  unsigned r = (y - (y | (1u * x)));\n  if ((((((z << (7u & 31u)) >> ((r ^ b) & 31u)) > r) && (((y + z) & (15u * 3u)) < (4294967295u + (b | x)))) && ((a == x) && (a < (a % (((z >> (b & 31u)) & 7u) + 1u)))))) {\n    r = (((x / ((y & 7u) + 1u)) & (z | y)) - ((x << (x & 31u)) * (r | z)));\n  } else {\n    r = (((b & b) | a) % (((y >> ((31u | a) & 31u)) & 7u) + 1u));\n  }\n  if ((x < (x & (z ^ 15u)))) {\n    r = 7u;\n  } else {\n    r = y;\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
+}

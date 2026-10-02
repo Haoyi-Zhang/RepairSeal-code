@@ -1,0 +1,35 @@
+{
+  "campaign_seed": 1369948382,
+  "cases": 400,
+  "compact_refutations_verified": 300,
+  "forged_refutations_rejected": 100,
+  "max_nodes": 163,
+  "max_points": 81,
+  "median_certificate_bytes": 14216.0,
+  "median_nodes": 69.5,
+  "min_nodes": 15,
+  "min_points": 9,
+  "oracle_agreements": 400,
+  "outcome": "PASS",
+  "peak_rss_kib": 96172,
+  "point_counts": {
+    "27": 133,
+    "81": 142,
+    "9": 125
+  },
+  "record_index_sha256": "73f631da50cbebbfe57159b8b9d5f5b5b029b117a190b7956647a4b9e6863b67",
+  "schema": "holdout-differential-v2",
+  "scope": "Deterministic post hoc grammar-generated loop-free scalar requests with an independent AST interpreter; not Codeflaws and not evidence of unrestricted-C generality.",
+  "statuses": {
+    "ACCEPT": 100,
+    "REFUTED": 300
+  },
+  "topological_agreements": 400,
+  "variants": {
+    "accept": 100,
+    "defined": 100,
+    "preserve": 100,
+    "repair": 100
+  },
+  "wall_seconds": 4.0533213129999695
+}

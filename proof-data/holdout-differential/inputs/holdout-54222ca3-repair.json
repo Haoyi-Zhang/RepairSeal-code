@@ -1,0 +1,20 @@
+{
+  "id": "holdout-54222ca3-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = y;\n  unsigned b = (a + a);\n  unsigned r = (2u / ((y & 7u) + 1u));\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = y;\n  unsigned b = (a + a);\n  unsigned r = (2u / ((y & 7u) + 1u));\n  if (((x == 1u) && (y == 0u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = y;\n  unsigned b = (a + a);\n  unsigned r = (2u / ((y & 7u) + 1u));\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

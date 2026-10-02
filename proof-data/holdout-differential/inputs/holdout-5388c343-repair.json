@@ -1,0 +1,25 @@
+{
+  "id": "holdout-5388c343-repair",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3
+    ],
+    "y": [
+      0,
+      1,
+      3
+    ],
+    "z": [
+      0,
+      1,
+      3
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (3u >> (((y / ((z & 7u) + 1u)) - x) & 31u));\n  unsigned b = (31u | a);\n  unsigned r = (((x | a) >> ((y / ((z & 7u) + 1u)) & 31u)) - 2u);\n  if ((!(((r % ((z & 7u) + 1u)) << ((z - x) & 31u)) == (0u / (((~z) & 7u) + 1u))))) {\n    r = (((y / ((1u & 7u) + 1u)) | (b & 15u)) % ((y & 7u) + 1u));\n  } else {\n    r = b;\n  }\n  if (((7u >= ((7u << (3u & 31u)) - (b + b))) || ((~(r >> (a & 31u))) == (b % (((z * y) & 7u) + 1u))))) {\n    r = 3u;\n  } else {\n    r = a;\n  }\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (3u >> (((y / ((z & 7u) + 1u)) - x) & 31u));\n  unsigned b = (31u | a);\n  unsigned r = (((x | a) >> ((y / ((z & 7u) + 1u)) & 31u)) - 2u);\n  if ((!(((r % ((z & 7u) + 1u)) << ((z - x) & 31u)) == (0u / (((~z) & 7u) + 1u))))) {\n    r = (((y / ((1u & 7u) + 1u)) | (b & 15u)) % ((y & 7u) + 1u));\n  } else {\n    r = b;\n  }\n  if (((7u >= ((7u << (3u & 31u)) - (b + b))) || ((~(r >> (a & 31u))) == (b % (((z * y) & 7u) + 1u))))) {\n    r = 3u;\n  } else {\n    r = a;\n  }\n  if (((x == 1u) && (y == 3u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z) {\n  unsigned a = (3u >> (((y / ((z & 7u) + 1u)) - x) & 31u));\n  unsigned b = (31u | a);\n  unsigned r = (((x | a) >> ((y / ((z & 7u) + 1u)) & 31u)) - 2u);\n  if ((!(((r % ((z & 7u) + 1u)) << ((z - x) & 31u)) == (0u / (((~z) & 7u) + 1u))))) {\n    r = (((y / ((1u & 7u) + 1u)) | (b & 15u)) % ((y & 7u) + 1u));\n  } else {\n    r = b;\n  }\n  if (((7u >= ((7u << (3u & 31u)) - (b + b))) || ((~(r >> (a & 31u))) == (b % (((z * y) & 7u) + 1u))))) {\n    r = 3u;\n  } else {\n    r = a;\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 1u)"
+}

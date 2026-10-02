@@ -1,0 +1,1865 @@
+[
+  {
+    "input": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      0,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      1,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      3,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      3,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      0,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      1,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      3,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      3,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      1,
+      3,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      0,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      0,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      0,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      1,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      1,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      1,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      3,
+      0
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      3,
+      1
+    ],
+    "original": 4294967295,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      0,
+      3,
+      3,
+      3
+    ],
+    "original": 4294967295,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      0,
+      3
+    ],
+    "original": 0,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      1,
+      3
+    ],
+    "original": 0,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      3,
+      0
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      3,
+      1
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      0,
+      3,
+      3
+    ],
+    "original": 0,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      0,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      3,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      3,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      0,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      0,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      0,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      1,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      1,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      1,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      3,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      0,
+      0
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      0,
+      1
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      0,
+      3
+    ],
+    "original": 0,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      1,
+      0
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      1,
+      1
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      1,
+      3
+    ],
+    "original": 0,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      3,
+      0
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      3,
+      1
+    ],
+    "original": 0,
+    "candidate": 0,
+    "reference": 0,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      0,
+      3,
+      3
+    ],
+    "original": 0,
+    "candidate": null,
+    "reference": 0,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      0,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      0,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      0,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      1,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      3,
+      0
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      3,
+      1
+    ],
+    "original": 1,
+    "candidate": 1,
+    "reference": 1,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      1,
+      3,
+      3
+    ],
+    "original": 1,
+    "candidate": null,
+    "reference": 1,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      0,
+      0
+    ],
+    "original": 3,
+    "candidate": 3,
+    "reference": 3,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      0,
+      1
+    ],
+    "original": 3,
+    "candidate": 3,
+    "reference": 3,
+    "trace": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      0,
+      3
+    ],
+    "original": 3,
+    "candidate": null,
+    "reference": 3,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      1,
+      0
+    ],
+    "original": 3,
+    "candidate": 3,
+    "reference": 3,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      1,
+      1
+    ],
+    "original": 3,
+    "candidate": 3,
+    "reference": 3,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      1,
+      3
+    ],
+    "original": 3,
+    "candidate": null,
+    "reference": 3,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      3,
+      0
+    ],
+    "original": 3,
+    "candidate": 3,
+    "reference": 3,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "original": 3,
+    "candidate": 3,
+    "reference": 3,
+    "trace": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "truth": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "input": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "original": 3,
+    "candidate": null,
+    "reference": 3,
+    "trace": [],
+    "truth": [
+      false,
+      true,
+      false
+    ]
+  }
+]

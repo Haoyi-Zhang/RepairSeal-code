@@ -1,0 +1,477 @@
+[
+  {
+    "id": "fixture-01-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-02-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-03-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-04-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-05-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-06-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-07-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-08-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-09-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-10-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-11-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-12-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-13-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-14-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-15-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-16-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-17-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-18-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-19-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "fixture-20-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-001-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-005-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-009-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-013-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-017-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-021-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-025-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-029-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-033-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-037-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-041-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-045-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-049-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-053-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-057-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-061-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-065-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-069-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-073-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-077-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-081-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-085-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-089-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-093-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-097-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-101-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-105-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-109-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-113-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-117-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-121-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-125-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-129-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-133-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-137-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-141-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-145-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-149-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-153-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-157-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-161-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-165-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-169-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-173-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-177-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-181-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-185-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-189-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-193-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-197-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-201-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-205-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-209-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-213-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-217-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-221-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-225-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-229-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-233-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-237-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-241-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-245-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-249-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-253-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-257-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-261-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-265-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-269-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-273-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-277-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-281-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-285-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-289-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-293-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  },
+  {
+    "id": "stress-297-correct",
+    "reason": "claimed obligation is true",
+    "status": "REJECTED"
+  }
+]

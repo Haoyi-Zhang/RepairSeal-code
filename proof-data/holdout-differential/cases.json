@@ -1,0 +1,8256 @@
+[
+  {
+    "certificate_bytes": 5400,
+    "id": "holdout-51a7c0de-accept",
+    "nodes": 26,
+    "points": 27,
+    "seed": 1369948382,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 17330,
+    "id": "holdout-51a959f7-repair",
+    "nodes": 82,
+    "points": 27,
+    "seed": 1370053111,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16378,
+    "id": "holdout-51aaf310-preserve",
+    "nodes": 80,
+    "points": 27,
+    "seed": 1370157840,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 4815,
+    "id": "holdout-51ac8c29-defined",
+    "nodes": 38,
+    "points": 9,
+    "seed": 1370262569,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 5835,
+    "id": "holdout-51ae2542-accept",
+    "nodes": 45,
+    "points": 9,
+    "seed": 1370367298,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 7437,
+    "id": "holdout-51afbe5b-repair",
+    "nodes": 30,
+    "points": 27,
+    "seed": 1370472027,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8347,
+    "id": "holdout-51b15774-preserve",
+    "nodes": 43,
+    "points": 27,
+    "seed": 1370576756,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 12682,
+    "id": "holdout-51b2f08d-defined",
+    "nodes": 114,
+    "points": 9,
+    "seed": 1370681485,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 17887,
+    "id": "holdout-51b489a6-accept",
+    "nodes": 80,
+    "points": 27,
+    "seed": 1370786214,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 11193,
+    "id": "holdout-51b622bf-repair",
+    "nodes": 98,
+    "points": 9,
+    "seed": 1370890943,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 5996,
+    "id": "holdout-51b7bbd8-preserve",
+    "nodes": 49,
+    "points": 9,
+    "seed": 1370995672,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6267,
+    "id": "holdout-51b954f1-defined",
+    "nodes": 32,
+    "points": 27,
+    "seed": 1371100401,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 29167,
+    "id": "holdout-51baee0a-accept",
+    "nodes": 63,
+    "points": 81,
+    "seed": 1371205130,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 27945,
+    "id": "holdout-51bc8723-repair",
+    "nodes": 65,
+    "points": 81,
+    "seed": 1371309859,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 35641,
+    "id": "holdout-51be203c-preserve",
+    "nodes": 82,
+    "points": 81,
+    "seed": 1371414588,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7387,
+    "id": "holdout-51bfb955-defined",
+    "nodes": 37,
+    "points": 27,
+    "seed": 1371519317,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 3349,
+    "id": "holdout-51c1526e-accept",
+    "nodes": 25,
+    "points": 9,
+    "seed": 1371624046,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 7535,
+    "id": "holdout-51c2eb87-repair",
+    "nodes": 62,
+    "points": 9,
+    "seed": 1371728775,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        2,
+        3
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 41057,
+    "id": "holdout-51c484a0-preserve",
+    "nodes": 100,
+    "points": 81,
+    "seed": 1371833504,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 36856,
+    "id": "holdout-51c61db9-defined",
+    "nodes": 82,
+    "points": 81,
+    "seed": 1371938233,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13665,
+    "id": "holdout-51c7b6d2-accept",
+    "nodes": 69,
+    "points": 27,
+    "seed": 1372042962,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 37696,
+    "id": "holdout-51c94feb-repair",
+    "nodes": 86,
+    "points": 81,
+    "seed": 1372147691,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16284,
+    "id": "holdout-51cae904-preserve",
+    "nodes": 77,
+    "points": 27,
+    "seed": 1372252420,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6853,
+    "id": "holdout-51cc821d-defined",
+    "nodes": 61,
+    "points": 9,
+    "seed": 1372357149,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 6342,
+    "id": "holdout-51ce1b36-accept",
+    "nodes": 29,
+    "points": 27,
+    "seed": 1372461878,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 23841,
+    "id": "holdout-51cfb44f-repair",
+    "nodes": 60,
+    "points": 81,
+    "seed": 1372566607,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 18071,
+    "id": "holdout-51d14d68-preserve",
+    "nodes": 100,
+    "points": 27,
+    "seed": 1372671336,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 48194,
+    "id": "holdout-51d2e681-defined",
+    "nodes": 108,
+    "points": 81,
+    "seed": 1372776065,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 5096,
+    "id": "holdout-51d47f9a-accept",
+    "nodes": 41,
+    "points": 9,
+    "seed": 1372880794,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 38689,
+    "id": "holdout-51d618b3-repair",
+    "nodes": 87,
+    "points": 81,
+    "seed": 1372985523,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 31696,
+    "id": "holdout-51d7b1cc-preserve",
+    "nodes": 75,
+    "points": 81,
+    "seed": 1373090252,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 19978,
+    "id": "holdout-51d94ae5-defined",
+    "nodes": 100,
+    "points": 27,
+    "seed": 1373194981,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 14645,
+    "id": "holdout-51dae3fe-accept",
+    "nodes": 74,
+    "points": 27,
+    "seed": 1373299710,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 41506,
+    "id": "holdout-51dc7d17-repair",
+    "nodes": 94,
+    "points": 81,
+    "seed": 1373404439,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 3030,
+    "id": "holdout-51de1630-preserve",
+    "nodes": 21,
+    "points": 9,
+    "seed": 1373509168,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 31222,
+    "id": "holdout-51dfaf49-defined",
+    "nodes": 73,
+    "points": 81,
+    "seed": 1373613897,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 8520,
+    "id": "holdout-51e14862-accept",
+    "nodes": 69,
+    "points": 9,
+    "seed": 1373718626,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 10128,
+    "id": "holdout-51e2e17b-repair",
+    "nodes": 54,
+    "points": 27,
+    "seed": 1373823355,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 41151,
+    "id": "holdout-51e47a94-preserve",
+    "nodes": 99,
+    "points": 81,
+    "seed": 1373928084,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 31373,
+    "id": "holdout-51e613ad-defined",
+    "nodes": 58,
+    "points": 81,
+    "seed": 1374032813,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 18533,
+    "id": "holdout-51e7acc6-accept",
+    "nodes": 43,
+    "points": 81,
+    "seed": 1374137542,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 5922,
+    "id": "holdout-51e945df-repair",
+    "nodes": 51,
+    "points": 9,
+    "seed": 1374242271,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 29119,
+    "id": "holdout-51eadef8-preserve",
+    "nodes": 64,
+    "points": 81,
+    "seed": 1374347000,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11916,
+    "id": "holdout-51ec7811-defined",
+    "nodes": 60,
+    "points": 27,
+    "seed": 1374451729,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 9445,
+    "id": "holdout-51ee112a-accept",
+    "nodes": 50,
+    "points": 27,
+    "seed": 1374556458,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 7202,
+    "id": "holdout-51efaa43-repair",
+    "nodes": 55,
+    "points": 9,
+    "seed": 1374661187,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        3
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 53108,
+    "id": "holdout-51f1435c-preserve",
+    "nodes": 116,
+    "points": 81,
+    "seed": 1374765916,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14061,
+    "id": "holdout-51f2dc75-defined",
+    "nodes": 75,
+    "points": 27,
+    "seed": 1374870645,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 13621,
+    "id": "holdout-51f4758e-accept",
+    "nodes": 72,
+    "points": 27,
+    "seed": 1374975374,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 4630,
+    "id": "holdout-51f60ea7-repair",
+    "nodes": 21,
+    "points": 27,
+    "seed": 1375080103,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6723,
+    "id": "holdout-51f7a7c0-preserve",
+    "nodes": 60,
+    "points": 9,
+    "seed": 1375184832,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 18194,
+    "id": "holdout-51f940d9-defined",
+    "nodes": 94,
+    "points": 27,
+    "seed": 1375289561,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 11815,
+    "id": "holdout-51fad9f2-accept",
+    "nodes": 58,
+    "points": 27,
+    "seed": 1375394290,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 9173,
+    "id": "holdout-51fc730b-repair",
+    "nodes": 46,
+    "points": 27,
+    "seed": 1375499019,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8739,
+    "id": "holdout-51fe0c24-preserve",
+    "nodes": 74,
+    "points": 9,
+    "seed": 1375603748,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15503,
+    "id": "holdout-51ffa53d-defined",
+    "nodes": 142,
+    "points": 9,
+    "seed": 1375708477,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 11587,
+    "id": "holdout-52013e56-accept",
+    "nodes": 57,
+    "points": 27,
+    "seed": 1375813206,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 11849,
+    "id": "holdout-5202d76f-repair",
+    "nodes": 102,
+    "points": 9,
+    "seed": 1375917935,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        2
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 39256,
+    "id": "holdout-52047088-preserve",
+    "nodes": 91,
+    "points": 81,
+    "seed": 1376022664,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17041,
+    "id": "holdout-520609a1-defined",
+    "nodes": 36,
+    "points": 81,
+    "seed": 1376127393,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 15187,
+    "id": "holdout-5207a2ba-accept",
+    "nodes": 80,
+    "points": 27,
+    "seed": 1376232122,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 21843,
+    "id": "holdout-52093bd3-repair",
+    "nodes": 47,
+    "points": 81,
+    "seed": 1376336851,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 20032,
+    "id": "holdout-520ad4ec-preserve",
+    "nodes": 88,
+    "points": 27,
+    "seed": 1376441580,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9772,
+    "id": "holdout-520c6e05-defined",
+    "nodes": 85,
+    "points": 9,
+    "seed": 1376546309,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 29793,
+    "id": "holdout-520e071e-accept",
+    "nodes": 72,
+    "points": 81,
+    "seed": 1376651038,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 29822,
+    "id": "holdout-520fa037-repair",
+    "nodes": 72,
+    "points": 81,
+    "seed": 1376755767,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6730,
+    "id": "holdout-52113950-preserve",
+    "nodes": 53,
+    "points": 9,
+    "seed": 1376860496,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6603,
+    "id": "holdout-5212d269-defined",
+    "nodes": 34,
+    "points": 27,
+    "seed": 1376965225,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 6284,
+    "id": "holdout-52146b82-accept",
+    "nodes": 52,
+    "points": 9,
+    "seed": 1377069954,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 24473,
+    "id": "holdout-5216049b-repair",
+    "nodes": 54,
+    "points": 81,
+    "seed": 1377174683,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8384,
+    "id": "holdout-52179db4-preserve",
+    "nodes": 36,
+    "points": 27,
+    "seed": 1377279412,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 45287,
+    "id": "holdout-521936cd-defined",
+    "nodes": 107,
+    "points": 81,
+    "seed": 1377384141,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 8990,
+    "id": "holdout-521acfe6-accept",
+    "nodes": 78,
+    "points": 9,
+    "seed": 1377488870,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 3473,
+    "id": "holdout-521c68ff-repair",
+    "nodes": 27,
+    "points": 9,
+    "seed": 1377593599,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14150,
+    "id": "holdout-521e0218-preserve",
+    "nodes": 71,
+    "points": 27,
+    "seed": 1377698328,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8060,
+    "id": "holdout-521f9b31-defined",
+    "nodes": 66,
+    "points": 9,
+    "seed": 1377803057,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 4869,
+    "id": "holdout-5221344a-accept",
+    "nodes": 22,
+    "points": 27,
+    "seed": 1377907786,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 19698,
+    "id": "holdout-5222cd63-repair",
+    "nodes": 103,
+    "points": 27,
+    "seed": 1378012515,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 28663,
+    "id": "holdout-5224667c-preserve",
+    "nodes": 62,
+    "points": 81,
+    "seed": 1378117244,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8009,
+    "id": "holdout-5225ff95-defined",
+    "nodes": 71,
+    "points": 9,
+    "seed": 1378221973,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 39421,
+    "id": "holdout-522798ae-accept",
+    "nodes": 92,
+    "points": 81,
+    "seed": 1378326702,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 12907,
+    "id": "holdout-522931c7-repair",
+    "nodes": 63,
+    "points": 27,
+    "seed": 1378431431,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 25102,
+    "id": "holdout-522acae0-preserve",
+    "nodes": 56,
+    "points": 81,
+    "seed": 1378536160,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7751,
+    "id": "holdout-522c63f9-defined",
+    "nodes": 37,
+    "points": 27,
+    "seed": 1378640889,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 32364,
+    "id": "holdout-522dfd12-accept",
+    "nodes": 66,
+    "points": 81,
+    "seed": 1378745618,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 6051,
+    "id": "holdout-522f962b-repair",
+    "nodes": 52,
+    "points": 9,
+    "seed": 1378850347,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        2
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7656,
+    "id": "holdout-52312f44-preserve",
+    "nodes": 34,
+    "points": 27,
+    "seed": 1378955076,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7632,
+    "id": "holdout-5232c85d-defined",
+    "nodes": 62,
+    "points": 9,
+    "seed": 1379059805,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 2671,
+    "id": "holdout-52346176-accept",
+    "nodes": 19,
+    "points": 9,
+    "seed": 1379164534,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 19239,
+    "id": "holdout-5235fa8f-repair",
+    "nodes": 106,
+    "points": 27,
+    "seed": 1379269263,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 56839,
+    "id": "holdout-523793a8-preserve",
+    "nodes": 120,
+    "points": 81,
+    "seed": 1379373992,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 24319,
+    "id": "holdout-52392cc1-defined",
+    "nodes": 59,
+    "points": 81,
+    "seed": 1379478721,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12472,
+    "id": "holdout-523ac5da-accept",
+    "nodes": 60,
+    "points": 27,
+    "seed": 1379583450,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 12981,
+    "id": "holdout-523c5ef3-repair",
+    "nodes": 66,
+    "points": 27,
+    "seed": 1379688179,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 20388,
+    "id": "holdout-523df80c-preserve",
+    "nodes": 116,
+    "points": 27,
+    "seed": 1379792908,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        2,
+        3,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10050,
+    "id": "holdout-523f9125-defined",
+    "nodes": 86,
+    "points": 9,
+    "seed": 1379897637,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 5837,
+    "id": "holdout-52412a3e-accept",
+    "nodes": 45,
+    "points": 9,
+    "seed": 1380002366,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 34065,
+    "id": "holdout-5242c357-repair",
+    "nodes": 64,
+    "points": 81,
+    "seed": 1380107095,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 13797,
+    "id": "holdout-52445c70-preserve",
+    "nodes": 67,
+    "points": 27,
+    "seed": 1380211824,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7635,
+    "id": "holdout-5245f589-defined",
+    "nodes": 61,
+    "points": 9,
+    "seed": 1380316553,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 35431,
+    "id": "holdout-52478ea2-accept",
+    "nodes": 92,
+    "points": 81,
+    "seed": 1380421282,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 3954,
+    "id": "holdout-524927bb-repair",
+    "nodes": 27,
+    "points": 9,
+    "seed": 1380526011,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 23291,
+    "id": "holdout-524ac0d4-preserve",
+    "nodes": 48,
+    "points": 81,
+    "seed": 1380630740,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15786,
+    "id": "holdout-524c59ed-defined",
+    "nodes": 68,
+    "points": 27,
+    "seed": 1380735469,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 10212,
+    "id": "holdout-524df306-accept",
+    "nodes": 46,
+    "points": 27,
+    "seed": 1380840198,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 25268,
+    "id": "holdout-524f8c1f-repair",
+    "nodes": 61,
+    "points": 81,
+    "seed": 1380944927,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9934,
+    "id": "holdout-52512538-preserve",
+    "nodes": 83,
+    "points": 9,
+    "seed": 1381049656,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 66661,
+    "id": "holdout-5252be51-defined",
+    "nodes": 163,
+    "points": 81,
+    "seed": 1381154385,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 33415,
+    "id": "holdout-5254576a-accept",
+    "nodes": 72,
+    "points": 81,
+    "seed": 1381259114,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 13412,
+    "id": "holdout-5255f083-repair",
+    "nodes": 61,
+    "points": 27,
+    "seed": 1381363843,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 37143,
+    "id": "holdout-5257899c-preserve",
+    "nodes": 88,
+    "points": 81,
+    "seed": 1381468572,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6599,
+    "id": "holdout-525922b5-defined",
+    "nodes": 55,
+    "points": 9,
+    "seed": 1381573301,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 47740,
+    "id": "holdout-525abbce-accept",
+    "nodes": 108,
+    "points": 81,
+    "seed": 1381678030,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14419,
+    "id": "holdout-525c54e7-repair",
+    "nodes": 76,
+    "points": 27,
+    "seed": 1381782759,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 37003,
+    "id": "holdout-525dee00-preserve",
+    "nodes": 84,
+    "points": 81,
+    "seed": 1381887488,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7059,
+    "id": "holdout-525f8719-defined",
+    "nodes": 55,
+    "points": 9,
+    "seed": 1381992217,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 6129,
+    "id": "holdout-52612032-accept",
+    "nodes": 54,
+    "points": 9,
+    "seed": 1382096946,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 11069,
+    "id": "holdout-5262b94b-repair",
+    "nodes": 101,
+    "points": 9,
+    "seed": 1382201675,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7068,
+    "id": "holdout-52645264-preserve",
+    "nodes": 58,
+    "points": 9,
+    "seed": 1382306404,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 5110,
+    "id": "holdout-5265eb7d-defined",
+    "nodes": 39,
+    "points": 9,
+    "seed": 1382411133,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 3702,
+    "id": "holdout-52678496-accept",
+    "nodes": 15,
+    "points": 27,
+    "seed": 1382515862,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 12387,
+    "id": "holdout-52691daf-repair",
+    "nodes": 105,
+    "points": 9,
+    "seed": 1382620591,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 33900,
+    "id": "holdout-526ab6c8-preserve",
+    "nodes": 82,
+    "points": 81,
+    "seed": 1382725320,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 42209,
+    "id": "holdout-526c4fe1-defined",
+    "nodes": 91,
+    "points": 81,
+    "seed": 1382830049,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12208,
+    "id": "holdout-526de8fa-accept",
+    "nodes": 64,
+    "points": 27,
+    "seed": 1382934778,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 44489,
+    "id": "holdout-526f8213-repair",
+    "nodes": 110,
+    "points": 81,
+    "seed": 1383039507,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6747,
+    "id": "holdout-52711b2c-preserve",
+    "nodes": 53,
+    "points": 9,
+    "seed": 1383144236,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        2
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 34221,
+    "id": "holdout-5272b445-defined",
+    "nodes": 76,
+    "points": 81,
+    "seed": 1383248965,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 3452,
+    "id": "holdout-52744d5e-accept",
+    "nodes": 15,
+    "points": 27,
+    "seed": 1383353694,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 19754,
+    "id": "holdout-5275e677-repair",
+    "nodes": 109,
+    "points": 27,
+    "seed": 1383458423,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11621,
+    "id": "holdout-52777f90-preserve",
+    "nodes": 104,
+    "points": 9,
+    "seed": 1383563152,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 3483,
+    "id": "holdout-527918a9-defined",
+    "nodes": 25,
+    "points": 9,
+    "seed": 1383667881,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 6027,
+    "id": "holdout-527ab1c2-accept",
+    "nodes": 50,
+    "points": 9,
+    "seed": 1383772610,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 35981,
+    "id": "holdout-527c4adb-repair",
+    "nodes": 87,
+    "points": 81,
+    "seed": 1383877339,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 23592,
+    "id": "holdout-527de3f4-preserve",
+    "nodes": 52,
+    "points": 81,
+    "seed": 1383982068,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9404,
+    "id": "holdout-527f7d0d-defined",
+    "nodes": 86,
+    "points": 9,
+    "seed": 1384086797,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 10891,
+    "id": "holdout-52811626-accept",
+    "nodes": 50,
+    "points": 27,
+    "seed": 1384191526,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 12509,
+    "id": "holdout-5282af3f-repair",
+    "nodes": 110,
+    "points": 9,
+    "seed": 1384296255,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10092,
+    "id": "holdout-52844858-preserve",
+    "nodes": 50,
+    "points": 27,
+    "seed": 1384400984,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8114,
+    "id": "holdout-5285e171-defined",
+    "nodes": 37,
+    "points": 27,
+    "seed": 1384505713,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 50377,
+    "id": "holdout-52877a8a-accept",
+    "nodes": 120,
+    "points": 81,
+    "seed": 1384610442,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 10506,
+    "id": "holdout-528913a3-repair",
+    "nodes": 92,
+    "points": 9,
+    "seed": 1384715171,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6007,
+    "id": "holdout-528aacbc-preserve",
+    "nodes": 50,
+    "points": 9,
+    "seed": 1384819900,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10900,
+    "id": "holdout-528c45d5-defined",
+    "nodes": 56,
+    "points": 27,
+    "seed": 1384924629,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 7720,
+    "id": "holdout-528ddeee-accept",
+    "nodes": 66,
+    "points": 9,
+    "seed": 1385029358,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 16436,
+    "id": "holdout-528f7807-repair",
+    "nodes": 89,
+    "points": 27,
+    "seed": 1385134087,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 19445,
+    "id": "holdout-52911120-preserve",
+    "nodes": 89,
+    "points": 27,
+    "seed": 1385238816,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7435,
+    "id": "holdout-5292aa39-defined",
+    "nodes": 63,
+    "points": 9,
+    "seed": 1385343545,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12727,
+    "id": "holdout-52944352-accept",
+    "nodes": 114,
+    "points": 9,
+    "seed": 1385448274,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 18627,
+    "id": "holdout-5295dc6b-repair",
+    "nodes": 96,
+    "points": 27,
+    "seed": 1385553003,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 29995,
+    "id": "holdout-52977584-preserve",
+    "nodes": 69,
+    "points": 81,
+    "seed": 1385657732,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16886,
+    "id": "holdout-52990e9d-defined",
+    "nodes": 92,
+    "points": 27,
+    "seed": 1385762461,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 5401,
+    "id": "holdout-529aa7b6-accept",
+    "nodes": 44,
+    "points": 9,
+    "seed": 1385867190,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 8108,
+    "id": "holdout-529c40cf-repair",
+    "nodes": 69,
+    "points": 9,
+    "seed": 1385971919,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        2
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 42072,
+    "id": "holdout-529dd9e8-preserve",
+    "nodes": 73,
+    "points": 81,
+    "seed": 1386076648,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11790,
+    "id": "holdout-529f7301-defined",
+    "nodes": 64,
+    "points": 27,
+    "seed": 1386181377,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 6374,
+    "id": "holdout-52a10c1a-accept",
+    "nodes": 33,
+    "points": 27,
+    "seed": 1386286106,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 12087,
+    "id": "holdout-52a2a533-repair",
+    "nodes": 111,
+    "points": 9,
+    "seed": 1386390835,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 12583,
+    "id": "holdout-52a43e4c-preserve",
+    "nodes": 58,
+    "points": 27,
+    "seed": 1386495564,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 27974,
+    "id": "holdout-52a5d765-defined",
+    "nodes": 133,
+    "points": 27,
+    "seed": 1386600293,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 8096,
+    "id": "holdout-52a7707e-accept",
+    "nodes": 40,
+    "points": 27,
+    "seed": 1386705022,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 28562,
+    "id": "holdout-52a90997-repair",
+    "nodes": 62,
+    "points": 81,
+    "seed": 1386809751,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 34651,
+    "id": "holdout-52aaa2b0-preserve",
+    "nodes": 81,
+    "points": 81,
+    "seed": 1386914480,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11110,
+    "id": "holdout-52ac3bc9-defined",
+    "nodes": 51,
+    "points": 27,
+    "seed": 1387019209,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12134,
+    "id": "holdout-52add4e2-accept",
+    "nodes": 104,
+    "points": 9,
+    "seed": 1387123938,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 12982,
+    "id": "holdout-52af6dfb-repair",
+    "nodes": 66,
+    "points": 27,
+    "seed": 1387228667,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 26315,
+    "id": "holdout-52b10714-preserve",
+    "nodes": 63,
+    "points": 81,
+    "seed": 1387333396,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 4055,
+    "id": "holdout-52b2a02d-defined",
+    "nodes": 33,
+    "points": 9,
+    "seed": 1387438125,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 4930,
+    "id": "holdout-52b43946-accept",
+    "nodes": 42,
+    "points": 9,
+    "seed": 1387542854,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 10083,
+    "id": "holdout-52b5d25f-repair",
+    "nodes": 85,
+    "points": 9,
+    "seed": 1387647583,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 47021,
+    "id": "holdout-52b76b78-preserve",
+    "nodes": 104,
+    "points": 81,
+    "seed": 1387752312,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 39985,
+    "id": "holdout-52b90491-defined",
+    "nodes": 95,
+    "points": 81,
+    "seed": 1387857041,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 9274,
+    "id": "holdout-52ba9daa-accept",
+    "nodes": 80,
+    "points": 9,
+    "seed": 1387961770,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 17788,
+    "id": "holdout-52bc36c3-repair",
+    "nodes": 94,
+    "points": 27,
+    "seed": 1388066499,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7422,
+    "id": "holdout-52bdcfdc-preserve",
+    "nodes": 33,
+    "points": 27,
+    "seed": 1388171228,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 19188,
+    "id": "holdout-52bf68f5-defined",
+    "nodes": 47,
+    "points": 81,
+    "seed": 1388275957,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 22657,
+    "id": "holdout-52c1020e-accept",
+    "nodes": 48,
+    "points": 81,
+    "seed": 1388380686,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 35079,
+    "id": "holdout-52c29b27-repair",
+    "nodes": 75,
+    "points": 81,
+    "seed": 1388485415,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 22818,
+    "id": "holdout-52c43440-preserve",
+    "nodes": 53,
+    "points": 81,
+    "seed": 1388590144,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7985,
+    "id": "holdout-52c5cd59-defined",
+    "nodes": 36,
+    "points": 27,
+    "seed": 1388694873,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 14698,
+    "id": "holdout-52c76672-accept",
+    "nodes": 77,
+    "points": 27,
+    "seed": 1388799602,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 7393,
+    "id": "holdout-52c8ff8b-repair",
+    "nodes": 63,
+    "points": 9,
+    "seed": 1388904331,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11529,
+    "id": "holdout-52ca98a4-preserve",
+    "nodes": 50,
+    "points": 27,
+    "seed": 1389009060,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 18947,
+    "id": "holdout-52cc31bd-defined",
+    "nodes": 47,
+    "points": 81,
+    "seed": 1389113789,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 35726,
+    "id": "holdout-52cdcad6-accept",
+    "nodes": 82,
+    "points": 81,
+    "seed": 1389218518,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 4765,
+    "id": "holdout-52cf63ef-repair",
+    "nodes": 21,
+    "points": 27,
+    "seed": 1389323247,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 33138,
+    "id": "holdout-52d0fd08-preserve",
+    "nodes": 68,
+    "points": 81,
+    "seed": 1389427976,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 13884,
+    "id": "holdout-52d29621-defined",
+    "nodes": 125,
+    "points": 9,
+    "seed": 1389532705,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 22846,
+    "id": "holdout-52d42f3a-accept",
+    "nodes": 54,
+    "points": 81,
+    "seed": 1389637434,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 2753,
+    "id": "holdout-52d5c853-repair",
+    "nodes": 18,
+    "points": 9,
+    "seed": 1389742163,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 43165,
+    "id": "holdout-52d7616c-preserve",
+    "nodes": 96,
+    "points": 81,
+    "seed": 1389846892,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11771,
+    "id": "holdout-52d8fa85-defined",
+    "nodes": 60,
+    "points": 27,
+    "seed": 1389951621,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 20827,
+    "id": "holdout-52da939e-accept",
+    "nodes": 45,
+    "points": 81,
+    "seed": 1390056350,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 47364,
+    "id": "holdout-52dc2cb7-repair",
+    "nodes": 105,
+    "points": 81,
+    "seed": 1390161079,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8996,
+    "id": "holdout-52ddc5d0-preserve",
+    "nodes": 45,
+    "points": 27,
+    "seed": 1390265808,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10017,
+    "id": "holdout-52df5ee9-defined",
+    "nodes": 53,
+    "points": 27,
+    "seed": 1390370537,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 6004,
+    "id": "holdout-52e0f802-accept",
+    "nodes": 53,
+    "points": 9,
+    "seed": 1390475266,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 26448,
+    "id": "holdout-52e2911b-repair",
+    "nodes": 66,
+    "points": 81,
+    "seed": 1390579995,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 32805,
+    "id": "holdout-52e42a34-preserve",
+    "nodes": 76,
+    "points": 81,
+    "seed": 1390684724,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14948,
+    "id": "holdout-52e5c34d-defined",
+    "nodes": 75,
+    "points": 27,
+    "seed": 1390789453,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 2498,
+    "id": "holdout-52e75c66-accept",
+    "nodes": 18,
+    "points": 9,
+    "seed": 1390894182,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 10580,
+    "id": "holdout-52e8f57f-repair",
+    "nodes": 56,
+    "points": 27,
+    "seed": 1390998911,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7937,
+    "id": "holdout-52ea8e98-preserve",
+    "nodes": 66,
+    "points": 9,
+    "seed": 1391103640,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7949,
+    "id": "holdout-52ec27b1-defined",
+    "nodes": 72,
+    "points": 9,
+    "seed": 1391208369,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 15636,
+    "id": "holdout-52edc0ca-accept",
+    "nodes": 81,
+    "points": 27,
+    "seed": 1391313098,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 37093,
+    "id": "holdout-52ef59e3-repair",
+    "nodes": 74,
+    "points": 81,
+    "seed": 1391417827,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 12264,
+    "id": "holdout-52f0f2fc-preserve",
+    "nodes": 67,
+    "points": 27,
+    "seed": 1391522556,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        2,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 4866,
+    "id": "holdout-52f28c15-defined",
+    "nodes": 41,
+    "points": 9,
+    "seed": 1391627285,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 7669,
+    "id": "holdout-52f4252e-accept",
+    "nodes": 17,
+    "points": 81,
+    "seed": 1391732014,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 56019,
+    "id": "holdout-52f5be47-repair",
+    "nodes": 126,
+    "points": 81,
+    "seed": 1391836743,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10043,
+    "id": "holdout-52f75760-preserve",
+    "nodes": 55,
+    "points": 27,
+    "seed": 1391941472,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 23681,
+    "id": "holdout-52f8f079-defined",
+    "nodes": 54,
+    "points": 81,
+    "seed": 1392046201,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 6916,
+    "id": "holdout-52fa8992-accept",
+    "nodes": 34,
+    "points": 27,
+    "seed": 1392150930,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 50005,
+    "id": "holdout-52fc22ab-repair",
+    "nodes": 124,
+    "points": 81,
+    "seed": 1392255659,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 41299,
+    "id": "holdout-52fdbbc4-preserve",
+    "nodes": 91,
+    "points": 81,
+    "seed": 1392360388,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 46771,
+    "id": "holdout-52ff54dd-defined",
+    "nodes": 102,
+    "points": 81,
+    "seed": 1392465117,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 18645,
+    "id": "holdout-5300edf6-accept",
+    "nodes": 40,
+    "points": 81,
+    "seed": 1392569846,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 20705,
+    "id": "holdout-5302870f-repair",
+    "nodes": 98,
+    "points": 27,
+    "seed": 1392674575,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 49119,
+    "id": "holdout-53042028-preserve",
+    "nodes": 116,
+    "points": 81,
+    "seed": 1392779304,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10521,
+    "id": "holdout-5305b941-defined",
+    "nodes": 91,
+    "points": 9,
+    "seed": 1392884033,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 10128,
+    "id": "holdout-5307525a-accept",
+    "nodes": 91,
+    "points": 9,
+    "seed": 1392988762,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 51202,
+    "id": "holdout-5308eb73-repair",
+    "nodes": 111,
+    "points": 81,
+    "seed": 1393093491,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7371,
+    "id": "holdout-530a848c-preserve",
+    "nodes": 65,
+    "points": 9,
+    "seed": 1393198220,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        2,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15135,
+    "id": "holdout-530c1da5-defined",
+    "nodes": 36,
+    "points": 81,
+    "seed": 1393302949,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 14379,
+    "id": "holdout-530db6be-accept",
+    "nodes": 26,
+    "points": 81,
+    "seed": 1393407678,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 30826,
+    "id": "holdout-530f4fd7-repair",
+    "nodes": 73,
+    "points": 81,
+    "seed": 1393512407,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 34797,
+    "id": "holdout-5310e8f0-preserve",
+    "nodes": 83,
+    "points": 81,
+    "seed": 1393617136,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0,
+        2
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 38559,
+    "id": "holdout-53128209-defined",
+    "nodes": 82,
+    "points": 81,
+    "seed": 1393721865,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 23307,
+    "id": "holdout-53141b22-accept",
+    "nodes": 42,
+    "points": 81,
+    "seed": 1393826594,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 8385,
+    "id": "holdout-5315b43b-repair",
+    "nodes": 40,
+    "points": 27,
+    "seed": 1393931323,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8887,
+    "id": "holdout-53174d54-preserve",
+    "nodes": 73,
+    "points": 9,
+    "seed": 1394036052,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 55063,
+    "id": "holdout-5318e66d-defined",
+    "nodes": 121,
+    "points": 81,
+    "seed": 1394140781,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 28916,
+    "id": "holdout-531a7f86-accept",
+    "nodes": 70,
+    "points": 81,
+    "seed": 1394245510,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 9541,
+    "id": "holdout-531c189f-repair",
+    "nodes": 51,
+    "points": 27,
+    "seed": 1394350239,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16381,
+    "id": "holdout-531db1b8-preserve",
+    "nodes": 84,
+    "points": 27,
+    "seed": 1394454968,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 49301,
+    "id": "holdout-531f4ad1-defined",
+    "nodes": 119,
+    "points": 81,
+    "seed": 1394559697,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 41330,
+    "id": "holdout-5320e3ea-accept",
+    "nodes": 99,
+    "points": 81,
+    "seed": 1394664426,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 41911,
+    "id": "holdout-53227d03-repair",
+    "nodes": 98,
+    "points": 81,
+    "seed": 1394769155,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8558,
+    "id": "holdout-5324161c-preserve",
+    "nodes": 75,
+    "points": 9,
+    "seed": 1394873884,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17617,
+    "id": "holdout-5325af35-defined",
+    "nodes": 95,
+    "points": 27,
+    "seed": 1394978613,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 7856,
+    "id": "holdout-5327484e-accept",
+    "nodes": 42,
+    "points": 27,
+    "seed": 1395083342,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 9885,
+    "id": "holdout-5328e167-repair",
+    "nodes": 84,
+    "points": 9,
+    "seed": 1395188071,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6709,
+    "id": "holdout-532a7a80-preserve",
+    "nodes": 55,
+    "points": 9,
+    "seed": 1395292800,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 3031,
+    "id": "holdout-532c1399-defined",
+    "nodes": 21,
+    "points": 9,
+    "seed": 1395397529,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 2921,
+    "id": "holdout-532dacb2-accept",
+    "nodes": 17,
+    "points": 9,
+    "seed": 1395502258,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 10475,
+    "id": "holdout-532f45cb-repair",
+    "nodes": 23,
+    "points": 81,
+    "seed": 1395606987,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14050,
+    "id": "holdout-5330dee4-preserve",
+    "nodes": 73,
+    "points": 27,
+    "seed": 1395711716,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 16457,
+    "id": "holdout-533277fd-defined",
+    "nodes": 33,
+    "points": 81,
+    "seed": 1395816445,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 21448,
+    "id": "holdout-53341116-accept",
+    "nodes": 119,
+    "points": 27,
+    "seed": 1395921174,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 10364,
+    "id": "holdout-5335aa2f-repair",
+    "nodes": 51,
+    "points": 27,
+    "seed": 1396025903,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 35305,
+    "id": "holdout-53374348-preserve",
+    "nodes": 79,
+    "points": 81,
+    "seed": 1396130632,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8618,
+    "id": "holdout-5338dc61-defined",
+    "nodes": 79,
+    "points": 9,
+    "seed": 1396235361,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 17914,
+    "id": "holdout-533a757a-accept",
+    "nodes": 87,
+    "points": 27,
+    "seed": 1396340090,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 29333,
+    "id": "holdout-533c0e93-repair",
+    "nodes": 73,
+    "points": 81,
+    "seed": 1396444819,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7178,
+    "id": "holdout-533da7ac-preserve",
+    "nodes": 57,
+    "points": 9,
+    "seed": 1396549548,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14723,
+    "id": "holdout-533f40c5-defined",
+    "nodes": 77,
+    "points": 27,
+    "seed": 1396654277,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 7153,
+    "id": "holdout-5340d9de-accept",
+    "nodes": 58,
+    "points": 9,
+    "seed": 1396759006,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 12286,
+    "id": "holdout-534272f7-repair",
+    "nodes": 104,
+    "points": 9,
+    "seed": 1396863735,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 27249,
+    "id": "holdout-53440c10-preserve",
+    "nodes": 65,
+    "points": 81,
+    "seed": 1396968464,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 46272,
+    "id": "holdout-5345a529-defined",
+    "nodes": 107,
+    "points": 81,
+    "seed": 1397073193,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 19662,
+    "id": "holdout-53473e42-accept",
+    "nodes": 104,
+    "points": 27,
+    "seed": 1397177922,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 33598,
+    "id": "holdout-5348d75b-repair",
+    "nodes": 69,
+    "points": 81,
+    "seed": 1397282651,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 27726,
+    "id": "holdout-534a7074-preserve",
+    "nodes": 59,
+    "points": 81,
+    "seed": 1397387380,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9539,
+    "id": "holdout-534c098d-defined",
+    "nodes": 85,
+    "points": 9,
+    "seed": 1397492109,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 51587,
+    "id": "holdout-534da2a6-accept",
+    "nodes": 128,
+    "points": 81,
+    "seed": 1397596838,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 20784,
+    "id": "holdout-534f3bbf-repair",
+    "nodes": 51,
+    "points": 81,
+    "seed": 1397701567,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 33363,
+    "id": "holdout-5350d4d8-preserve",
+    "nodes": 70,
+    "points": 81,
+    "seed": 1397806296,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 62939,
+    "id": "holdout-53526df1-defined",
+    "nodes": 152,
+    "points": 81,
+    "seed": 1397911025,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 36266,
+    "id": "holdout-5354070a-accept",
+    "nodes": 91,
+    "points": 81,
+    "seed": 1398015754,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 13222,
+    "id": "holdout-5355a023-repair",
+    "nodes": 118,
+    "points": 9,
+    "seed": 1398120483,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 33700,
+    "id": "holdout-5357393c-preserve",
+    "nodes": 76,
+    "points": 81,
+    "seed": 1398225212,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 34534,
+    "id": "holdout-5358d255-defined",
+    "nodes": 71,
+    "points": 81,
+    "seed": 1398329941,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 17993,
+    "id": "holdout-535a6b6e-accept",
+    "nodes": 89,
+    "points": 27,
+    "seed": 1398434670,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 41941,
+    "id": "holdout-535c0487-repair",
+    "nodes": 108,
+    "points": 81,
+    "seed": 1398539399,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 42907,
+    "id": "holdout-535d9da0-preserve",
+    "nodes": 105,
+    "points": 81,
+    "seed": 1398644128,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 18137,
+    "id": "holdout-535f36b9-defined",
+    "nodes": 93,
+    "points": 27,
+    "seed": 1398748857,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 59610,
+    "id": "holdout-5360cfd2-accept",
+    "nodes": 134,
+    "points": 81,
+    "seed": 1398853586,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 6821,
+    "id": "holdout-536268eb-repair",
+    "nodes": 54,
+    "points": 9,
+    "seed": 1398958315,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 13728,
+    "id": "holdout-53640204-preserve",
+    "nodes": 70,
+    "points": 27,
+    "seed": 1399063044,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11406,
+    "id": "holdout-53659b1d-defined",
+    "nodes": 62,
+    "points": 27,
+    "seed": 1399167773,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 20647,
+    "id": "holdout-53673436-accept",
+    "nodes": 111,
+    "points": 27,
+    "seed": 1399272502,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 33450,
+    "id": "holdout-5368cd4f-repair",
+    "nodes": 79,
+    "points": 81,
+    "seed": 1399377231,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 49146,
+    "id": "holdout-536a6668-preserve",
+    "nodes": 115,
+    "points": 81,
+    "seed": 1399481960,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 34632,
+    "id": "holdout-536bff81-defined",
+    "nodes": 74,
+    "points": 81,
+    "seed": 1399586689,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 35246,
+    "id": "holdout-536d989a-accept",
+    "nodes": 80,
+    "points": 81,
+    "seed": 1399691418,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 11706,
+    "id": "holdout-536f31b3-repair",
+    "nodes": 101,
+    "points": 9,
+    "seed": 1399796147,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 29141,
+    "id": "holdout-5370cacc-preserve",
+    "nodes": 66,
+    "points": 81,
+    "seed": 1399900876,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 4417,
+    "id": "holdout-537263e5-defined",
+    "nodes": 34,
+    "points": 9,
+    "seed": 1400005605,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 4903,
+    "id": "holdout-5373fcfe-accept",
+    "nodes": 38,
+    "points": 9,
+    "seed": 1400110334,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 23509,
+    "id": "holdout-53759617-repair",
+    "nodes": 47,
+    "points": 81,
+    "seed": 1400215063,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8430,
+    "id": "holdout-53772f30-preserve",
+    "nodes": 76,
+    "points": 9,
+    "seed": 1400319792,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 12146,
+    "id": "holdout-5378c849-defined",
+    "nodes": 106,
+    "points": 9,
+    "seed": 1400424521,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 25040,
+    "id": "holdout-537a6162-accept",
+    "nodes": 49,
+    "points": 81,
+    "seed": 1400529250,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 18001,
+    "id": "holdout-537bfa7b-repair",
+    "nodes": 87,
+    "points": 27,
+    "seed": 1400633979,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 23130,
+    "id": "holdout-537d9394-preserve",
+    "nodes": 113,
+    "points": 27,
+    "seed": 1400738708,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9308,
+    "id": "holdout-537f2cad-defined",
+    "nodes": 81,
+    "points": 9,
+    "seed": 1400843437,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 5017,
+    "id": "holdout-5380c5c6-accept",
+    "nodes": 41,
+    "points": 9,
+    "seed": 1400948166,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 14744,
+    "id": "holdout-53825edf-repair",
+    "nodes": 72,
+    "points": 27,
+    "seed": 1401052895,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6720,
+    "id": "holdout-5383f7f8-preserve",
+    "nodes": 56,
+    "points": 9,
+    "seed": 1401157624,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7996,
+    "id": "holdout-53859111-defined",
+    "nodes": 67,
+    "points": 9,
+    "seed": 1401262353,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 9238,
+    "id": "holdout-53872a2a-accept",
+    "nodes": 75,
+    "points": 9,
+    "seed": 1401367082,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 19374,
+    "id": "holdout-5388c343-repair",
+    "nodes": 103,
+    "points": 27,
+    "seed": 1401471811,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 19461,
+    "id": "holdout-538a5c5c-preserve",
+    "nodes": 94,
+    "points": 27,
+    "seed": 1401576540,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10457,
+    "id": "holdout-538bf575-defined",
+    "nodes": 50,
+    "points": 27,
+    "seed": 1401681269,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12102,
+    "id": "holdout-538d8e8e-accept",
+    "nodes": 107,
+    "points": 9,
+    "seed": 1401785998,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 24003,
+    "id": "holdout-538f27a7-repair",
+    "nodes": 45,
+    "points": 81,
+    "seed": 1401890727,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 42710,
+    "id": "holdout-5390c0c0-preserve",
+    "nodes": 101,
+    "points": 81,
+    "seed": 1401995456,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7206,
+    "id": "holdout-539259d9-defined",
+    "nodes": 61,
+    "points": 9,
+    "seed": 1402100185,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 15251,
+    "id": "holdout-5393f2f2-accept",
+    "nodes": 73,
+    "points": 27,
+    "seed": 1402204914,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 55232,
+    "id": "holdout-53958c0b-repair",
+    "nodes": 123,
+    "points": 81,
+    "seed": 1402309643,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10941,
+    "id": "holdout-53972524-preserve",
+    "nodes": 98,
+    "points": 9,
+    "seed": 1402414372,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 33263,
+    "id": "holdout-5398be3d-defined",
+    "nodes": 73,
+    "points": 81,
+    "seed": 1402519101,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 17883,
+    "id": "holdout-539a5756-accept",
+    "nodes": 38,
+    "points": 81,
+    "seed": 1402623830,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 21712,
+    "id": "holdout-539bf06f-repair",
+    "nodes": 101,
+    "points": 27,
+    "seed": 1402728559,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14282,
+    "id": "holdout-539d8988-preserve",
+    "nodes": 71,
+    "points": 27,
+    "seed": 1402833288,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 5182,
+    "id": "holdout-539f22a1-defined",
+    "nodes": 44,
+    "points": 9,
+    "seed": 1402938017,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 45769,
+    "id": "holdout-53a0bbba-accept",
+    "nodes": 119,
+    "points": 81,
+    "seed": 1403042746,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 7252,
+    "id": "holdout-53a254d3-repair",
+    "nodes": 63,
+    "points": 9,
+    "seed": 1403147475,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 37941,
+    "id": "holdout-53a3edec-preserve",
+    "nodes": 77,
+    "points": 81,
+    "seed": 1403252204,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 14490,
+    "id": "holdout-53a58705-defined",
+    "nodes": 77,
+    "points": 27,
+    "seed": 1403356933,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 5374,
+    "id": "holdout-53a7201e-accept",
+    "nodes": 45,
+    "points": 9,
+    "seed": 1403461662,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 5605,
+    "id": "holdout-53a8b937-repair",
+    "nodes": 48,
+    "points": 9,
+    "seed": 1403566391,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6457,
+    "id": "holdout-53aa5250-preserve",
+    "nodes": 54,
+    "points": 9,
+    "seed": 1403671120,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8486,
+    "id": "holdout-53abeb69-defined",
+    "nodes": 76,
+    "points": 9,
+    "seed": 1403775849,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 38937,
+    "id": "holdout-53ad8482-accept",
+    "nodes": 96,
+    "points": 81,
+    "seed": 1403880578,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 25953,
+    "id": "holdout-53af1d9b-repair",
+    "nodes": 139,
+    "points": 27,
+    "seed": 1403985307,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0,
+        3
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 44760,
+    "id": "holdout-53b0b6b4-preserve",
+    "nodes": 98,
+    "points": 81,
+    "seed": 1404090036,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15180,
+    "id": "holdout-53b24fcd-defined",
+    "nodes": 140,
+    "points": 9,
+    "seed": 1404194765,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 19116,
+    "id": "holdout-53b3e8e6-accept",
+    "nodes": 41,
+    "points": 81,
+    "seed": 1404299494,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 11431,
+    "id": "holdout-53b581ff-repair",
+    "nodes": 103,
+    "points": 9,
+    "seed": 1404404223,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        2
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 28789,
+    "id": "holdout-53b71b18-preserve",
+    "nodes": 62,
+    "points": 81,
+    "seed": 1404508952,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        2,
+        3,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 21155,
+    "id": "holdout-53b8b431-defined",
+    "nodes": 105,
+    "points": 27,
+    "seed": 1404613681,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 17774,
+    "id": "holdout-53ba4d4a-accept",
+    "nodes": 86,
+    "points": 27,
+    "seed": 1404718410,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 7251,
+    "id": "holdout-53bbe663-repair",
+    "nodes": 56,
+    "points": 9,
+    "seed": 1404823139,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17778,
+    "id": "holdout-53bd7f7c-preserve",
+    "nodes": 95,
+    "points": 27,
+    "seed": 1404927868,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 12729,
+    "id": "holdout-53bf1895-defined",
+    "nodes": 63,
+    "points": 27,
+    "seed": 1405032597,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12476,
+    "id": "holdout-53c0b1ae-accept",
+    "nodes": 69,
+    "points": 27,
+    "seed": 1405137326,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 7902,
+    "id": "holdout-53c24ac7-repair",
+    "nodes": 68,
+    "points": 9,
+    "seed": 1405242055,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 4823,
+    "id": "holdout-53c3e3e0-preserve",
+    "nodes": 38,
+    "points": 9,
+    "seed": 1405346784,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 15339,
+    "id": "holdout-53c57cf9-defined",
+    "nodes": 36,
+    "points": 81,
+    "seed": 1405451513,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 26738,
+    "id": "holdout-53c71612-accept",
+    "nodes": 61,
+    "points": 81,
+    "seed": 1405556242,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 19993,
+    "id": "holdout-53c8af2b-repair",
+    "nodes": 49,
+    "points": 81,
+    "seed": 1405660971,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 12497,
+    "id": "holdout-53ca4844-preserve",
+    "nodes": 61,
+    "points": 27,
+    "seed": 1405765700,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10593,
+    "id": "holdout-53cbe15d-defined",
+    "nodes": 84,
+    "points": 9,
+    "seed": 1405870429,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 30086,
+    "id": "holdout-53cd7a76-accept",
+    "nodes": 70,
+    "points": 81,
+    "seed": 1405975158,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 17475,
+    "id": "holdout-53cf138f-repair",
+    "nodes": 94,
+    "points": 27,
+    "seed": 1406079887,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 47656,
+    "id": "holdout-53d0aca8-preserve",
+    "nodes": 116,
+    "points": 81,
+    "seed": 1406184616,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 47269,
+    "id": "holdout-53d245c1-defined",
+    "nodes": 111,
+    "points": 81,
+    "seed": 1406289345,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 16333,
+    "id": "holdout-53d3deda-accept",
+    "nodes": 35,
+    "points": 81,
+    "seed": 1406394074,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 46211,
+    "id": "holdout-53d577f3-repair",
+    "nodes": 110,
+    "points": 81,
+    "seed": 1406498803,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6058,
+    "id": "holdout-53d7110c-preserve",
+    "nodes": 27,
+    "points": 27,
+    "seed": 1406603532,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 21240,
+    "id": "holdout-53d8aa25-defined",
+    "nodes": 50,
+    "points": 81,
+    "seed": 1406708261,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 12443,
+    "id": "holdout-53da433e-accept",
+    "nodes": 64,
+    "points": 27,
+    "seed": 1406812990,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 23836,
+    "id": "holdout-53dbdc57-repair",
+    "nodes": 122,
+    "points": 27,
+    "seed": 1406917719,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 19647,
+    "id": "holdout-53dd7570-preserve",
+    "nodes": 43,
+    "points": 81,
+    "seed": 1407022448,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8048,
+    "id": "holdout-53df0e89-defined",
+    "nodes": 38,
+    "points": 27,
+    "seed": 1407127177,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 10873,
+    "id": "holdout-53e0a7a2-accept",
+    "nodes": 57,
+    "points": 27,
+    "seed": 1407231906,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 9557,
+    "id": "holdout-53e240bb-repair",
+    "nodes": 81,
+    "points": 9,
+    "seed": 1407336635,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6210,
+    "id": "holdout-53e3d9d4-preserve",
+    "nodes": 49,
+    "points": 9,
+    "seed": 1407441364,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 13009,
+    "id": "holdout-53e572ed-defined",
+    "nodes": 62,
+    "points": 27,
+    "seed": 1407546093,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 24927,
+    "id": "holdout-53e70c06-accept",
+    "nodes": 55,
+    "points": 81,
+    "seed": 1407650822,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 21394,
+    "id": "holdout-53e8a51f-repair",
+    "nodes": 51,
+    "points": 81,
+    "seed": 1407755551,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 11212,
+    "id": "holdout-53ea3e38-preserve",
+    "nodes": 96,
+    "points": 9,
+    "seed": 1407860280,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 23847,
+    "id": "holdout-53ebd751-defined",
+    "nodes": 124,
+    "points": 27,
+    "seed": 1407965009,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 20139,
+    "id": "holdout-53ed706a-accept",
+    "nodes": 102,
+    "points": 27,
+    "seed": 1408069738,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 18170,
+    "id": "holdout-53ef0983-repair",
+    "nodes": 82,
+    "points": 27,
+    "seed": 1408174467,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7144,
+    "id": "holdout-53f0a29c-preserve",
+    "nodes": 61,
+    "points": 9,
+    "seed": 1408279196,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7327,
+    "id": "holdout-53f23bb5-defined",
+    "nodes": 63,
+    "points": 9,
+    "seed": 1408383925,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 26221,
+    "id": "holdout-53f3d4ce-accept",
+    "nodes": 64,
+    "points": 81,
+    "seed": 1408488654,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 32714,
+    "id": "holdout-53f56de7-repair",
+    "nodes": 68,
+    "points": 81,
+    "seed": 1408593383,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7718,
+    "id": "holdout-53f70700-preserve",
+    "nodes": 64,
+    "points": 9,
+    "seed": 1408698112,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 46029,
+    "id": "holdout-53f8a019-defined",
+    "nodes": 106,
+    "points": 81,
+    "seed": 1408802841,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 7068,
+    "id": "holdout-53fa3932-accept",
+    "nodes": 37,
+    "points": 27,
+    "seed": 1408907570,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 4842,
+    "id": "holdout-53fbd24b-repair",
+    "nodes": 39,
+    "points": 9,
+    "seed": 1409012299,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9199,
+    "id": "holdout-53fd6b64-preserve",
+    "nodes": 77,
+    "points": 9,
+    "seed": 1409117028,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        3,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 17698,
+    "id": "holdout-53ff047d-defined",
+    "nodes": 95,
+    "points": 27,
+    "seed": 1409221757,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 19054,
+    "id": "holdout-54009d96-accept",
+    "nodes": 45,
+    "points": 81,
+    "seed": 1409326486,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 32186,
+    "id": "holdout-540236af-repair",
+    "nodes": 74,
+    "points": 81,
+    "seed": 1409431215,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9312,
+    "id": "holdout-5403cfc8-preserve",
+    "nodes": 79,
+    "points": 9,
+    "seed": 1409535944,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8972,
+    "id": "holdout-540568e1-defined",
+    "nodes": 74,
+    "points": 9,
+    "seed": 1409640673,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 36227,
+    "id": "holdout-540701fa-accept",
+    "nodes": 86,
+    "points": 81,
+    "seed": 1409745402,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 33465,
+    "id": "holdout-54089b13-repair",
+    "nodes": 82,
+    "points": 81,
+    "seed": 1409850131,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10896,
+    "id": "holdout-540a342c-preserve",
+    "nodes": 58,
+    "points": 27,
+    "seed": 1409954860,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 13154,
+    "id": "holdout-540bcd45-defined",
+    "nodes": 71,
+    "points": 27,
+    "seed": 1410059589,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 4915,
+    "id": "holdout-540d665e-accept",
+    "nodes": 22,
+    "points": 27,
+    "seed": 1410164318,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 16048,
+    "id": "holdout-540eff77-repair",
+    "nodes": 88,
+    "points": 27,
+    "seed": 1410269047,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 8267,
+    "id": "holdout-54109890-preserve",
+    "nodes": 74,
+    "points": 9,
+    "seed": 1410373776,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        1
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 4429,
+    "id": "holdout-541231a9-defined",
+    "nodes": 37,
+    "points": 9,
+    "seed": 1410478505,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        1
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 9844,
+    "id": "holdout-5413cac2-accept",
+    "nodes": 88,
+    "points": 9,
+    "seed": 1410583234,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 19830,
+    "id": "holdout-541563db-repair",
+    "nodes": 94,
+    "points": 27,
+    "seed": 1410687963,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 10744,
+    "id": "holdout-5416fcf4-preserve",
+    "nodes": 96,
+    "points": 9,
+    "seed": 1410792692,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        2,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 9136,
+    "id": "holdout-5418960d-defined",
+    "nodes": 50,
+    "points": 27,
+    "seed": 1410897421,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        0
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 5597,
+    "id": "holdout-541a2f26-accept",
+    "nodes": 27,
+    "points": 27,
+    "seed": 1411002150,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 10432,
+    "id": "holdout-541bc83f-repair",
+    "nodes": 51,
+    "points": 27,
+    "seed": 1411106879,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        2,
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 6240,
+    "id": "holdout-541d6158-preserve",
+    "nodes": 54,
+    "points": 9,
+    "seed": 1411211608,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        1,
+        3
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 22702,
+    "id": "holdout-541efa71-defined",
+    "nodes": 122,
+    "points": 27,
+    "seed": 1411316337,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  },
+  {
+    "certificate_bytes": 8184,
+    "id": "holdout-5420938a-accept",
+    "nodes": 72,
+    "points": 9,
+    "seed": 1411421066,
+    "status": "ACCEPT",
+    "variant": "accept",
+    "witness": null
+  },
+  {
+    "certificate_bytes": 4532,
+    "id": "holdout-54222ca3-repair",
+    "nodes": 36,
+    "points": 9,
+    "seed": 1411525795,
+    "status": "REFUTED",
+    "variant": "repair",
+    "witness": {
+      "input": [
+        1,
+        0
+      ],
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 25422,
+    "id": "holdout-5423c5bc-preserve",
+    "nodes": 132,
+    "points": 27,
+    "seed": 1411630524,
+    "status": "REFUTED",
+    "variant": "preserve",
+    "witness": {
+      "input": [
+        0,
+        3,
+        0
+      ],
+      "obligation": "preserve",
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "certificate_bytes": 7794,
+    "id": "holdout-54255ed5-defined",
+    "nodes": 71,
+    "points": 9,
+    "seed": 1411735253,
+    "status": "REFUTED",
+    "variant": "defined",
+    "witness": {
+      "input": [
+        0,
+        3
+      ],
+      "obligation": "defined",
+      "trace": []
+    }
+  }
+]

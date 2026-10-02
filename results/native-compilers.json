@@ -1,0 +1,54 @@
+{
+  "schema": "native-compiler-cross-check-v1",
+  "harness": "native-harness.c",
+  "compilers": [
+    {
+      "id": "gcc",
+      "executable": "/usr/bin/x86_64-linux-gnu-gcc-14",
+      "version_command": [
+        "/usr/bin/x86_64-linux-gnu-gcc-14",
+        "--version"
+      ],
+      "version_first_line": "x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0",
+      "compile_command": [
+        "/usr/bin/x86_64-linux-gnu-gcc-14",
+        "-std=c11",
+        "-O0",
+        "native-harness.c",
+        "-o",
+        "native-gcc"
+      ],
+      "run_command": [
+        "./native-gcc"
+      ],
+      "output_file": "native-outputs-gcc.csv",
+      "compile_returncode": 0,
+      "run_returncode": 0
+    },
+    {
+      "id": "clang",
+      "executable": "/usr/local/swift/usr/bin/clang-17",
+      "version_command": [
+        "/usr/local/swift/usr/bin/clang-17",
+        "--version"
+      ],
+      "version_first_line": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)",
+      "compile_command": [
+        "/usr/local/swift/usr/bin/clang-17",
+        "-std=c11",
+        "-O0",
+        "native-harness.c",
+        "-o",
+        "native-clang"
+      ],
+      "run_command": [
+        "./native-clang"
+      ],
+      "output_file": "native-outputs-clang.csv",
+      "compile_returncode": 0,
+      "run_returncode": 0
+    }
+  ],
+  "rows_per_compiler": 9180,
+  "cross_compiler_disagreements": 0
+}
