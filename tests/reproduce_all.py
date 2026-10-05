@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the complete offline reproduction and expose the final audited summary."""
+"""Run offline reproduction and write its summary."""
 from __future__ import annotations
 
 import argparse
