@@ -30,7 +30,7 @@ Two evidence formats are implemented:
 
 The exact negative result is central: full-vector checking and a certificate-free memoized topological evaluator perform the same number of local semantic-cell operations. The format supplies auditable source-bound evidence, not semantic-work reduction or an end-to-end speedup. The compact format obtains a real reduction only by certifying the weaker existential rejection claim.
 
-The 400 grammar-generated requests were added during final blind audit with a separate AST generator and interpreter. They reduce template-overfitting risk but are post hoc, synthetic, and not a public-program sample.
+The 400 grammar-generated requests use a separate AST generator and interpreter and were added after the fixture and stress populations were frozen. They probe template-overfitting risk but are post hoc, synthetic, and not a public-program sample.
 
 ## Reproduce everything
 
