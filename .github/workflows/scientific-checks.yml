@@ -1,0 +1,60 @@
+name: Scientific checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  finite-benign-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Allocate isolated output
+        shell: bash
+        run: |
+          set -euo pipefail
+          evidence="$(mktemp -d "$RUNNER_TEMP/p004-scientific.XXXXXX")"
+          mkdir "$evidence/scratch"
+          echo "P004_EVIDENCE=$evidence" >> "$GITHUB_ENV"
+          echo "P004_TEST_TMP=$evidence/scratch" >> "$GITHUB_ENV"
+      - name: Record available compiler frontends
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            python --version
+            command -v gcc
+            gcc --version
+            command -v clang
+            clang --version
+          } 2>&1 | tee "$P004_EVIDENCE/toolchain.txt"
+      - name: Portable comparison and output-safety regressions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -B tests/test_reproduction_contract.py 2>&1 | tee "$P004_EVIDENCE/portable-tests.txt"
+      - name: Complete offline finite scientific reproduction
+        shell: bash
+        run: |
+          set -euo pipefail
+          # The reviewed driver compiles only the authored, known-defined native
+          # harness. The pinned public index is read as metadata, never programs.
+          python -B tests/reproduce_all.py --output "$P004_EVIDENCE/replayed" 2>&1 | tee "$P004_EVIDENCE/reproduce-all.txt"
+      - name: Upload raw outputs and actual compiler provenance
+        if: ${{ always() && env.P004_EVIDENCE != '' }}
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: p004-scientific-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ env.P004_EVIDENCE }}/
+          if-no-files-found: error
+          overwrite: false
+          retention-days: 14

@@ -36,6 +36,16 @@ The 400 grammar-generated requests were added during final blind audit with a se
 
 Requirements: Python 3.10 or newer, GCC, Clang, and standard POSIX utilities. The retained native evidence records GCC 14.2.0 at `/usr/bin/x86_64-linux-gnu-gcc-14` and Clang 17.0.0 at `/usr/local/swift/usr/bin/clang-17`; the reproducer resolves available `gcc` and `clang` frontends, records their identities and commands, and requires two separate matching outputs. No network, model API, credentials, private cache, or paper directory is used.
 
+The complete reproducer requires Linux (`resource` and `/proc` accounting).
+Scientific reconciliation permits different compiler installation paths and
+version banners, including the compiler executable at command argument zero.
+Both retained and newly measured provenance records are preserved unmodified.
+Frontend roles, C11/O0 options and all remaining command arguments, return codes,
+counts, source/harness bytes, and expected/observed outputs must still agree.
+This is a scientific-result comparison, not a claim of identical environments.
+Budget time/RSS measurements may differ; counted work, category counts and
+worker counts remain part of the scientific comparison.
+
 ```bash
 python3 tests/reproduce_all.py --output ../replayed-results
 ```
@@ -48,7 +58,23 @@ For a dependency-closure and packaging check from a clean extraction:
 python3 tests/release_gate.py
 ```
 
-The release gate parses every Python file, rejects nested archives, caches, and generated checksum/inventory manifests, verifies required dependencies, and executes the complete reproducer.
+The release gate parses every Python file, rejects nested archives, caches, and generated checksum/inventory manifests, verifies required dependencies, and executes the complete reproducer. Its optional `--keep-output` accepts only a new or empty directory; an occupied directory or file is rejected without deletion. Without that option it creates and cleans up only its own temporary run, including on failure.
+
+Portable comparison and output-safety regressions need only Python and do not
+invoke a compiler or the Linux experiment drivers:
+
+```bash
+python -B tests/test_reproduction_contract.py
+```
+
+Set `P004_TEST_TMP` to an existing isolated scratch directory to control where
+temporary regression fixtures are created. Compiler-environment variants in
+these tests are synthetic fixtures, not new native compiler measurements.
+`.github/workflows/scientific-checks.yml` runs these regressions and the complete
+offline scientific reproducer on Ubuntu with Python 3.12, GCC and Clang. It uses
+a fresh `RUNNER_TEMP` directory and uploads raw run outputs, including actual
+compiler provenance, on success or failure. CI timings are measured by the run;
+the workflow's 20-minute timeout is a ceiling, not an estimated duration.
 
 ## Important entry points
 

@@ -21,6 +21,7 @@ import study
 import regression
 import null_control
 import report as publication
+from scientific_comparison import compare_evidence
 
 
 def sample_tree(root):
@@ -63,13 +64,6 @@ def cpu():
     own = resource.getrusage(resource.RUSAGE_SELF)
     children = resource.getrusage(resource.RUSAGE_CHILDREN)
     return own.ru_utime + own.ru_stime + children.ru_utime + children.ru_stime
-
-
-def semantic_json(path):
-    obj = json.loads(path.read_text())
-    if isinstance(obj, dict):
-        obj = {k: v for k, v in obj.items() if k != 'resources'}
-    return obj
 
 
 def main():
@@ -124,10 +118,7 @@ def main():
             names.extend(dirname + '/' + n for n in expected)
         for name in names:
             before = ROOT / 'results' / name; after = out / name
-            if before.suffix == '.json':
-                assert semantic_json(before) == semantic_json(after), ('scientific JSON differs', name)
-            else:
-                assert before.read_bytes() == after.read_bytes(), ('evidence bytes differ', name)
+            compare_evidence(before, after, name)
         summary.update(outcome='PASS_CLEAN_REPRODUCTION', compared_files=len(names),
                        work_events=sum(s['instrumented_resources']['work_events'] for s in stages) + len(names),
                        reconciliation_events=len(names),
