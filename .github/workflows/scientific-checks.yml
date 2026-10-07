@@ -20,6 +20,8 @@ jobs:
           python-version: '3.12'
       - name: Coordinate membership conformance
         run: python -B tests/test_coordinate_membership.py
+      - name: Prepared full-vector cell conformance
+        run: python -B tests/test_prepared_cells.py
       - name: Allocate isolated output
         shell: bash
         run: |

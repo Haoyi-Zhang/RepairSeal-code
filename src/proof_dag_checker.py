@@ -455,20 +455,28 @@ def check(request:dict,certificate:dict,count:Callable[[str,int],None]|None=None
     if type(nodes)is not list or len(nodes)!=len(circuit.nodes): raise Invalid("node count")
     verified=[]
     for index,(record,key,sort) in enumerate(zip(nodes,circuit.nodes,circuit.sorts)):
-        if type(record)is not dict or set(record)!=(set(_expected_record(index,key,sort))|{"vector"}): raise Invalid(f"node {index} schema")
         expected=_expected_record(index,key,sort)
+        if type(record)is not dict or set(record)!=(set(expected)|{"vector"}): raise Invalid(f"node {index} schema")
         if any(not exact_equal(record[k],v) for k,v in expected.items()): raise Invalid(f"node {index} topology")
         vector=record["vector"]
         if type(vector)is not list or len(vector)!=len(points): raise Invalid(f"node {index} vector length")
         computed=[]
         op=key[0]
+        # These addresses depend only on the independently reconstructed node,
+        # not on submitted topology. Keep every cell calculation and check.
+        input_position=names.index(key[1]) if op=="input" else None
+        children=key[1:] if op not in {"b","u","input"} else ()
+        child_vectors=tuple(verified[ch] for ch in children) if mode=="proof" else ()
+        arity=len(child_vectors)
         for cell,point in enumerate(points):
             tick("proof_cells",1)
             if op=="b" or op=="u": value=key[1]
-            elif op=="input": value=point[names.index(key[1])]
+            elif op=="input": value=point[input_position]
             else:
-                children=key[1:]
-                if mode=="proof": args=tuple(verified[ch][cell] for ch in children)
+                if mode=="proof":
+                    if arity==1: args=(child_vectors[0][cell],)
+                    elif arity==2: args=(child_vectors[0][cell],child_vectors[1][cell])
+                    else: args=(child_vectors[0][cell],child_vectors[1][cell],child_vectors[2][cell])
                 elif mode=="rebuild": args=tuple(_recompute(circuit,ch,point,names,tick) for ch in children)
                 else: raise ValueError("mode")
                 value=local_value(op,args)

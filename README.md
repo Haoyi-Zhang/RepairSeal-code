@@ -30,6 +30,16 @@ Two evidence formats are implemented:
 
 The exact negative result is central: full-vector checking and a certificate-free memoized topological evaluator perform the same number of local semantic-cell operations. The format supplies auditable source-bound evidence, not semantic-work reduction or an end-to-end speedup. The compact format obtains a real reduction only by certifying the weaker existential rejection claim.
 
+The full-vector checker prepares input positions and verified child-vector
+addresses once per reconstructed node, rather than rebuilding them at every
+cell. It still computes, counts, type-checks and compares every cell, including
+unreachable branches. `python -B tests/test_prepared_cells.py` checks literal
+unsigned/Boolean formulas for all 24 circuit tags, trace-first diagnostics,
+cell-value/type rejection counts, the 4,096-point boundary, the retained 380
+full certificates and the unchanged certificate-rebuild contract. This is a
+bounded implementation regression, not a new finite-domain theorem or a
+claim that full-vector checking beats the certificate-free baseline.
+
 The 400 grammar-generated requests use a separate AST generator and interpreter and were added after the fixture and stress populations were frozen. They probe template-overfitting risk but are post hoc, synthetic, and not a public-program sample.
 
 ## Reproduce everything
