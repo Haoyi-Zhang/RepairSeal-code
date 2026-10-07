@@ -1,15 +1,18 @@
-"""Independent checker for source-bound one-point refutation witnesses.
+"""Test-only product-enumerating membership reference.
 
-An accepted witness establishes one actual violation and its exact candidate
-trace. It does not certify acceptance or prove that the point is the canonical
-least violation.
+Admission is reproduced below rather than calling the field-only helper. The
+reference constructs every canonical point and uses list membership. Packet
+binding and one-point semantics mirror the protocol and share the current
+proof checker parser/local-value rules: this is an independent membership
+algorithm, not an independently implemented whole-language semantics. Only the
+portable regression imports this file.
 """
 from __future__ import annotations
 
 import hashlib
-import json
+import itertools
+import math
 import re
-from pathlib import Path
 from typing import Callable
 
 from proof_dag_checker import (
@@ -21,12 +24,41 @@ from proof_dag_checker import (
     canonical_bytes,
     digest,
     exact_equal,
-    load_json_strict,
     local_value,
-    validate_request_fields,
+    MASK,
+    RESERVED,
+    MAX_DOMAIN_VALUES,
 )
 
 SCHEMA = "finite-semantic-refutation-v1"
+
+
+def validate_request_fields(request:dict):
+    """Validate the receiver-owned request without enumerating its product."""
+    required={"id","word_bits","inputs","original","candidate","reference","repair_guard"}
+    if type(request) is not dict or set(request)!=required: raise Invalid("request schema")
+    if type(request["id"]) is not str or not request["id"] or len(request["id"])>64: raise Invalid("request identifier")
+    if type(request["word_bits"]) is not int or request["word_bits"]!=32: raise Unsupported("word width")
+    domains=request["inputs"]
+    if type(domains) is not dict or not 1<=len(domains)<=8: raise Invalid("input schema")
+    for name,values in domains.items():
+        if type(name) is not str or not re.fullmatch(r"[A-Za-z_][A-Za-z_0-9]*",name) or name in RESERVED or name.startswith("__") or name.startswith("_") and len(name)>1 and name[1].isupper(): raise Invalid("input name")
+        if type(values) is not list or not 1<=len(values)<=MAX_DOMAIN_VALUES: raise Invalid("domain")
+        if any(type(v)is not int or type(v)is bool or not 0<=v<=MASK for v in values): raise Invalid("domain")
+        if values!=sorted(values) or len(set(values))!=len(values): raise Invalid("domain")
+    if math.prod(map(len,domains.values()))>4096: raise Unsupported("domain bound")
+    for field in (*ROLES,"repair_guard"):
+        if type(request[field]) is not str: raise Invalid("source type")
+    names=list(domains)
+    return domains,names
+
+
+def validate_request(request:dict):
+    """Validate the receiver-owned request and enumerate canonical points."""
+    domains,names=validate_request_fields(request)
+    points=[list(p) for p in itertools.product(*(domains[n] for n in names))]
+    return domains,names,points
+
 
 
 def _evaluate_point(circuit, names, point, tick: Callable[[str, int], None]):
@@ -55,7 +87,7 @@ def _trace(events, values):
 
 def check(request: dict, certificate: dict, count: Callable[[str, int], None] | None = None):
     tick = count or (lambda _kind, _n=1: None)
-    domains, names = validate_request_fields(request)
+    domains, names, points = validate_request(request)
     if type(certificate) is not dict:
         raise Invalid("refutation certificate type")
     fields = {
@@ -91,7 +123,7 @@ def check(request: dict, certificate: dict, count: Callable[[str, int], None] | 
         raise Invalid("refutation input")
     if any(type(value) is not int or type(value) is bool for value in point):
         raise Invalid("refutation input")
-    if any(value not in domains[name] for name, value in zip(names, point)):
+    if point not in points:
         raise Invalid("refutation input outside domain")
     trace = certificate["trace"]
     if type(trace) is not list or any(
@@ -122,22 +154,3 @@ def check(request: dict, certificate: dict, count: Callable[[str, int], None] | 
         "checked_cells": len(circuit.nodes),
         "mode": "one-point-refutation",
     }
-
-
-def main() -> None:
-    import argparse
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("request", type=Path)
-    parser.add_argument("certificate", type=Path)
-    args = parser.parse_args()
-    try:
-        request = load_json_strict(args.request.read_text())
-        certificate = load_json_strict(args.certificate.read_text())
-        result = check(request, certificate)
-    except (Invalid, Unsupported) as exc:
-        result = {"status": "INVALID", "reason": str(exc)}
-    print(json.dumps(result, indent=2))
-
-
-if __name__ == "__main__":
-    main()

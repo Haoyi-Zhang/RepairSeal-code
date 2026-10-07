@@ -34,6 +34,17 @@ The 400 grammar-generated requests use a separate AST generator and interpreter 
 
 ## Reproduce everything
 
+Compact checking validates each claimed coordinate against its receiver-owned
+axis after exact type and arity checks, without generating the Cartesian product.
+This changes allocation and membership overhead, not the N-cell semantic work.
+Full-vector checking still constructs the canonical points and checks NM cells.
+`python -B tests/test_coordinate_membership.py` runs eight portable regression
+groups: 552 complete product-reference/current comparisons, 8,644 finite
+membership identities, 285 retained compact packets and 380 full packets.
+The bounded result is retained in `results/coordinate-membership/correctness.json`.
+The stored container timing table uses product-enumerating admission; it is not a
+timing measurement of axis-membership admission.
+
 Requirements: Python 3.10 or newer, GCC, Clang, and standard POSIX utilities. The retained native evidence records GCC 14.2.0 at `/usr/bin/x86_64-linux-gnu-gcc-14` and Clang 17.0.0 at `/usr/local/swift/usr/bin/clang-17`; the reproducer resolves available `gcc` and `clang` frontends, records their identities and commands, and requires two separate matching outputs. No network, model API, credentials, private cache, or paper directory is used.
 
 The complete reproducer requires Linux (`resource` and `/proc` accounting).

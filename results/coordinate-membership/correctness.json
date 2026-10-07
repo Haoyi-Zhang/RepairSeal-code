@@ -1,0 +1,30 @@
+{
+  "outcome": "PASS",
+  "tests_run": 8,
+  "checks": {
+    "compact_binding_controls": 10,
+    "compact_reference_current_pairs": 552,
+    "conservative_selector_checks": 1,
+    "correct_fixture_semantic_cells_current": 45198,
+    "finite_membership_identity_pairs": 8644,
+    "full_binding_local_controls": 6,
+    "full_semantic_cells_current": 1179684,
+    "malformed_admission_requests": 40,
+    "malformed_points": 10,
+    "no_cartesian_compact_checks": 1,
+    "production_in_domain_pairs": 174,
+    "production_outside_domain_pairs": 31,
+    "retained_compact_certificates": 285,
+    "retained_compact_semantic_cells_per_arm": 11433,
+    "retained_full_certificates": 380,
+    "valid_admission_domains": 9
+  },
+  "comparison": "product-enumerating test reference versus current compact receiver",
+  "regression_asset_read_scope": "standalone artifact only",
+  "timing_performed": false,
+  "grammar_campaign_rerun": false,
+  "security_or_reproduction_driver_run": false,
+  "failures": [],
+  "errors": [],
+  "python": "3.12.14"
+}

@@ -363,8 +363,8 @@ def _expected_record(index,key,sort):
     else: base["children"]=list(args)
     return base
 
-def validate_request(request:dict):
-    """Validate the receiver-owned request and enumerate canonical points."""
+def validate_request_fields(request:dict):
+    """Validate the receiver-owned request without enumerating its product."""
     required={"id","word_bits","inputs","original","candidate","reference","repair_guard"}
     if type(request) is not dict or set(request)!=required: raise Invalid("request schema")
     if type(request["id"]) is not str or not request["id"] or len(request["id"])>64: raise Invalid("request identifier")
@@ -380,6 +380,12 @@ def validate_request(request:dict):
     for field in (*ROLES,"repair_guard"):
         if type(request[field]) is not str: raise Invalid("source type")
     names=list(domains)
+    return domains,names
+
+
+def validate_request(request:dict):
+    """Validate the receiver-owned request and enumerate canonical points."""
+    domains,names=validate_request_fields(request)
     points=[list(p) for p in itertools.product(*(domains[n] for n in names))]
     return domains,names,points
 
