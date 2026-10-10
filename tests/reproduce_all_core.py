@@ -1,6 +1,6 @@
 """One-command clean reproduction of baseline, proof-DAG, and archive-audit evidence."""
 from __future__ import annotations
-import argparse, json, os, shutil, subprocess, sys, time
+import argparse, copy, json, os, shutil, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -24,6 +24,26 @@ def reduced_cases(path):
     rows=json.loads(path.read_text())
     keep=('id','case','variant','status','witness','nodes','points','certificate_bytes')
     return [{k:r.get(k) for k in keep if k in r} for r in rows]
+
+def compare_security_evidence(retained, current):
+    """Keep the security receipt strict except for one historical diagnostic.
+
+    The v2 malformed-JSON control used to report ``JSON syntax``. The receiver
+    now maps decoder exceptions to ``JSON decoding``; explicit duplicate-key
+    and non-finite-number diagnostics still propagate unchanged. Project only
+    that exact retained row, without rewriting either on-disk report.
+    """
+    expected = copy.deepcopy(retained)
+    historical = {"case": "malformed-json", "status": "REJECTED", "reason": "JSON syntax"}
+    if expected.get("schema") == "proof-dag-security-regression-v2":
+        rows = expected.get("json_text_rejections", [])
+        matches = [row for row in rows if row == historical]
+        if len(matches) == 1:
+            matches[0]["reason"] = "JSON decoding"
+    # Canonical JSON also distinguishes Boolean/integer and integer/float
+    # receipt fields; plain Python equality does not.
+    if json.dumps(expected, sort_keys=True, allow_nan=False) != json.dumps(current, sort_keys=True, allow_nan=False):
+        raise AssertionError("security regression differs beyond the historical JSON diagnostic label")
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__); parser.add_argument('--output',type=Path,required=True); args=parser.parse_args(); out=args.output.resolve()
@@ -77,7 +97,7 @@ def main():
     assert reduced_cases(structured/'fixture-cases.json')==reduced_cases(retained/'fixture-cases.json')
     assert reduced_cases(structured/'stress-cases.json')==reduced_cases(retained/'stress-cases.json')
     assert audit==json.loads((retained/'codeflaws-archive-audit.json').read_text())
-    assert security==json.loads((retained/'security-regression.json').read_text())
+    compare_security_evidence(json.loads((retained/'security-regression.json').read_text()), security)
     assert scientific_summary(edge)==scientific_summary(json.loads((retained/'edge-case-regression.json').read_text()))
     assert scientific_summary(disk_audit)==scientific_summary(json.loads((retained/'disk-replay-audit.json').read_text()))
     assert scientific_summary(retained_disk_audit)==scientific_summary(disk_audit)

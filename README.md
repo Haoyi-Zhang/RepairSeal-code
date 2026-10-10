@@ -67,6 +67,18 @@ This is a scientific-result comparison, not a claim of identical environments.
 Budget time/RSS measurements may differ; counted work, category counts and
 worker counts remain part of the scientific comparison.
 
+The retained v2 security receipt labels its malformed-JSON rejection `JSON
+syntax`; the current receiver reports `JSON decoding` after controlled decoder
+exception mapping. Reconciliation permits only that exact historical diagnostic
+transition. Every case, rejection status, other reason, count, operator record
+and import boundary must still agree. Neither receipt is rewritten. The
+receipt-only comparisons and mocked JSON exceptions can be checked without
+running the security generator or any campaign:
+
+```bash
+python -B tests/test_json_error_mapping.py
+```
+
 ```bash
 python3 tests/reproduce_all.py --output ../replayed-results
 ```
