@@ -38,7 +38,10 @@ class Unsupported(ValueError): pass
 
 
 def canonical_bytes(value: Any) -> bytes:
-    return json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=True).encode("ascii")
+    try:
+        return json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=True).encode("ascii")
+    except (ValueError, TypeError, UnicodeError, OverflowError, RecursionError, MemoryError) as exc:
+        raise Invalid("JSON canonical encoding") from exc
 
 
 def exact_equal(actual: Any, expected: Any) -> bool:
@@ -80,8 +83,8 @@ def load_json_strict(text: str) -> Any:
         return json.loads(text, object_pairs_hook=object_pairs, parse_constant=bad_constant)
     except Invalid:
         raise
-    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
-        raise Invalid("JSON syntax") from exc
+    except (ValueError, TypeError, UnicodeError, OverflowError, RecursionError, MemoryError) as exc:
+        raise Invalid("JSON decoding") from exc
 
 
 def digest(text: str) -> str:
