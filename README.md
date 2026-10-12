@@ -42,6 +42,22 @@ claim that full-vector checking beats the certificate-free baseline.
 
 The 400 grammar-generated requests use a separate AST generator and interpreter and were added after the fixture and stress populations were frozen. They probe template-overfitting risk but are post hoc, synthetic, and not a public-program sample.
 
+The corrected selector budgets three small values separately from the mandatory
+boundaries 31, 32, 2^31-1, 2^31, and 2^32-1. Every axis has eight distinct words;
+all five boundaries occur on all 1,217 axes. The same 400 seeds now cover 657,728
+input points and 47,327,168 cells in each full-domain receiver arm. The earlier
+append-then-truncate selector discarded large boundaries; its smaller-domain
+results are not the evidence for these counts. `holdout-differential/` retains
+the corrected requests, results, seeds, and v3 summary.
+
+`results/boundary-selection/receiver-timing.json` retains a fresh, descriptive
+Windows/Python 3.12.14 comparison on the same 20 correct fixtures: ten paired
+repetitions with alternating method order, 200 samples per method. Full/direct
+median API-call times are 1.109/0.977 ms and the median paired ratio is 1.142;
+both arms check the same acceptance obligations and 45,198 cells. Decoding,
+I/O, and production are excluded. This rerun does not replace the historical
+container timings or compare the unequal full/compact guarantees.
+
 ## Reproduce everything
 
 Compact checking validates each claimed coordinate against its receiver-owned
@@ -58,6 +74,9 @@ timing measurement of axis-membership admission.
 Requirements: Python 3.10 or newer, GCC, Clang, and standard POSIX utilities. The retained native evidence records GCC 14.2.0 at `/usr/bin/x86_64-linux-gnu-gcc-14` and Clang 17.0.0 at `/usr/local/swift/usr/bin/clang-17`; the reproducer resolves available `gcc` and `clang` frontends, records their identities and commands, and requires two separate matching outputs. No network, model API, credentials, private cache, or paper directory is used.
 
 The complete reproducer requires Linux (`resource` and `/proc` accounting).
+The grammar campaign, retained disk replay, and receiver timing driver also run
+with standard Python on Windows; unavailable POSIX peak RSS is recorded as null,
+not as a measured zero. The full native/compiler reproduction remains Linux-only.
 Scientific reconciliation permits different compiler installation paths and
 version banners, including the compiler executable at command argument zero.
 Both retained and newly measured provenance records are preserved unmodified.
@@ -100,6 +119,18 @@ invoke a compiler or the Linux experiment drivers:
 python -B tests/test_reproduction_contract.py
 ```
 
+Boundary-selection regressions and the paired timing experiment can be run
+without native C execution:
+
+```bash
+python -B tests/test_boundary_selection.py -v
+python -B tests/receiver_timing.py --output ../paired-receiver-timing.json
+```
+
+The timing output must not already exist. A standalone corrected grammar run
+uses `python -B tests/holdout_differential.py --output ../grammar-results --cases 400`;
+its output directory must be new or empty.
+
 Set `P004_TEST_TMP` to an existing isolated scratch directory to control where
 temporary regression fixtures are created. Compiler-environment variants in
 these tests are synthetic fixtures, not new native compiler measurements.
@@ -126,7 +157,7 @@ the workflow's 20-minute timeout is a ceiling, not an estimated duration.
 
 ## Audited structural ranges and edge regressions
 
-- The 400 grammar requests use exactly 9, 27, or 81 points: 125, 133, and 142 requests respectively. Their canonical circuits range from 15 to 163 nodes, with median 69.5.
+- The corrected 400 grammar requests use exactly 64, 512, or 4,096 points: 125, 133, and 142 requests respectively. Their canonical circuits range from 13 to 148 nodes, with median 70. Full-certificate sizes range from 8,985 to 3,028,245 bytes, with median 206,909.5 bytes.
 - The full-vector producer now computes one topological table per point. On a retained 48-term chain (53 nodes, 3 points), it records 159 vector cells; a legacy root-by-root diagnostic traversal records 3,558 recursive visits, while certificate bytes remain identical.
 - An isolated 1,500-term left-deep addition has 3,034 characters, 3,009 tokens, 2,999 AST nodes, and depth 1,500. A diagnostic bypass reaches `RecursionError`; production producer/full/compact paths all reject on `AST depth`. An 11-digit literal is rejected on `literal length`. No wrong acceptance is claimed.
 - `(x == 0u) || ((1u / x) > 0u)` is semantically defined on `{0,1,2}` by short circuit, but the current selector-definedness simplifier cannot prove direct `true`; producer and both checkers reject it consistently.

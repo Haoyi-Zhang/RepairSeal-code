@@ -13,12 +13,16 @@ import argparse
 import hashlib
 import json
 import re
-import resource
 import statistics
 import sys
 import time
 from pathlib import Path
 from typing import Any
+
+try:
+    import resource
+except ModuleNotFoundError:
+    resource = None
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / "src"), str(ROOT / "tests")]
@@ -244,7 +248,8 @@ def main() -> None:
         ),
         "request_id_index_sha256": id_digest,
         "wall_seconds": time.monotonic() - started,
-        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "peak_rss_kib": (resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+                         if resource is not None else None),
     }
     output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2, sort_keys=True))

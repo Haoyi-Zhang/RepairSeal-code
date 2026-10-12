@@ -5,26 +5,46 @@
     "x": [
       0,
       1,
-      3
+      3,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
     ],
     "y": [
       0,
       1,
-      3
+      3,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
     ],
     "z": [
       0,
       1,
-      3
+      3,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
     ],
     "t": [
       0,
       1,
-      3
+      3,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
     ]
   },
-  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((t - 2147483647u) / ((x & 7u) + 1u)) << (((x >> (y & 31u)) - 2u) & 31u));\n  unsigned b = (~1u);\n  unsigned r = (y * 1u);\n  if ((((z >> (a & 31u)) % ((z & 7u) + 1u)) != 2147483647u)) {\n    r = (((a * y) * t) >> (2u & 31u));\n  } else {\n    r = b;\n  }\n  if ((x == 1u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
-  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((t - 2147483647u) / ((x & 7u) + 1u)) << (((x >> (y & 31u)) - 2u) & 31u));\n  unsigned b = (~1u);\n  unsigned r = (y * 1u);\n  if ((((z >> (a & 31u)) % ((z & 7u) + 1u)) != 2147483647u)) {\n    r = (((a * y) * t) >> (2u & 31u));\n  } else {\n    r = b;\n  }\n  if (((x == 0u) && (y == 1u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
-  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = (((t - 2147483647u) / ((x & 7u) + 1u)) << (((x >> (y & 31u)) - 2u) & 31u));\n  unsigned b = (~1u);\n  unsigned r = (y * 1u);\n  if ((((z >> (a & 31u)) % ((z & 7u) + 1u)) != 2147483647u)) {\n    r = (((a * y) * t) >> (2u & 31u));\n  } else {\n    r = b;\n  }\n  return r;\n}\n",
-  "repair_guard": "(x == 1u)"
+  "original": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = z;\n  unsigned b = 1u;\n  unsigned r = 31u;\n  if ((z > 2u)) {\n    r = (t / ((((~z) * 0u) & 7u) + 1u));\n  } else {\n    r = x;\n  }\n  if ((((15u % ((a & 7u) + 1u)) * z) == 2147483647u)) {\n    r = (((a * y) * t) >> (2u & 31u));\n  } else {\n    r = b;\n  }\n  if ((x == 4294967295u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = z;\n  unsigned b = 1u;\n  unsigned r = 31u;\n  if ((z > 2u)) {\n    r = (t / ((((~z) * 0u) & 7u) + 1u));\n  } else {\n    r = x;\n  }\n  if ((((15u % ((a & 7u) + 1u)) * z) == 2147483647u)) {\n    r = (((a * y) * t) >> (2u & 31u));\n  } else {\n    r = b;\n  }\n  if (((x == 32u) && (y == 3u))) {\n    r = (r + 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y, unsigned z, unsigned t) {\n  unsigned a = z;\n  unsigned b = 1u;\n  unsigned r = 31u;\n  if ((z > 2u)) {\n    r = (t / ((((~z) * 0u) & 7u) + 1u));\n  } else {\n    r = x;\n  }\n  if ((((15u % ((a & 7u) + 1u)) * z) == 2147483647u)) {\n    r = (((a * y) * t) >> (2u & 31u));\n  } else {\n    r = b;\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 4294967295u)"
 }

@@ -9,12 +9,16 @@ import itertools
 import json
 import math
 import os
-import resource
 import statistics
 import sys
 import time
 from collections import Counter, defaultdict
 from pathlib import Path
+
+try:
+    import resource
+except ModuleNotFoundError:
+    resource = None
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / "src"), str(ROOT / "tests")]
@@ -473,7 +477,7 @@ def main():
                                "refutation_witnesses_sha256":witness_index_sha256,
                                "refutation_controls_sha256":refutation_control_index_sha256,
                                "acceptance_misuse_sha256":acceptance_misuse_sha256},
-      "peak_rss_kib":resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+      "peak_rss_kib":resource.getrusage(resource.RUSAGE_SELF).ru_maxrss if resource is not None else None,
       "scope":"20 designed C-fragment fixture families plus 300 deterministic generated stress requests; stress requests are not Codeflaws."
     }
     save(out/"structured-study.json",summary); save(out/"fixture-cases.json",fixture_records); save(out/"stress-cases.json",stress_records); save(out/"tamper-controls.json",controls); save(out/"timing-repeats.json",repeat_rows)

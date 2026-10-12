@@ -1,35 +1,59 @@
 {
+  "axes": 1217,
+  "boundary_axis_counts": {
+    "2147483647": 1217,
+    "2147483648": 1217,
+    "31": 1217,
+    "32": 1217,
+    "4294967295": 1217
+  },
   "campaign_seed": 1369948382,
   "cases": 400,
   "compact_refutations_verified": 300,
+  "domain_policy": {
+    "interior_value_budget": 3,
+    "mandatory_boundary_values": [
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
+    ],
+    "values_per_axis": 8
+  },
   "forged_refutations_rejected": 100,
-  "max_nodes": 163,
-  "max_points": 81,
-  "median_certificate_bytes": 14216.0,
-  "median_nodes": 69.5,
-  "min_nodes": 15,
-  "min_points": 9,
+  "full_vector_cells": 47327168,
+  "max_certificate_bytes": 3028245,
+  "max_nodes": 148,
+  "max_points": 4096,
+  "median_certificate_bytes": 206909.5,
+  "median_nodes": 70.0,
+  "min_certificate_bytes": 8985,
+  "min_nodes": 13,
+  "min_points": 64,
   "oracle_agreements": 400,
   "outcome": "PASS",
-  "peak_rss_kib": 96172,
+  "peak_rss_kib": null,
   "point_counts": {
-    "27": 133,
-    "81": 142,
-    "9": 125
+    "4096": 142,
+    "512": 133,
+    "64": 125
   },
-  "record_index_sha256": "73f631da50cbebbfe57159b8b9d5f5b5b029b117a190b7956647a4b9e6863b67",
-  "schema": "holdout-differential-v2",
+  "record_index_sha256": "815cfb117dea4d33c3f65b20d495a4e645c700a69c9ebadc9de7a222bc154bd0",
+  "schema": "holdout-differential-v3",
   "scope": "Deterministic post hoc grammar-generated loop-free scalar requests with an independent AST interpreter; not Codeflaws and not evidence of unrestricted-C generality.",
   "statuses": {
     "ACCEPT": 100,
     "REFUTED": 300
   },
   "topological_agreements": 400,
+  "topological_direct_cells": 47327168,
+  "total_points": 657728,
   "variants": {
     "accept": 100,
     "defined": 100,
     "preserve": 100,
     "repair": 100
   },
-  "wall_seconds": 4.0533213129999695
+  "wall_seconds": 71.71900000004098
 }

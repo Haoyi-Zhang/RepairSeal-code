@@ -49,6 +49,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__); parser.add_argument('--output',type=Path,required=True); args=parser.parse_args(); out=args.output.resolve()
     if out.exists() and any(out.iterdir()): parser.error('output must be new or empty')
     out.mkdir(parents=True,exist_ok=True); started=time.monotonic()
+    run([sys.executable,str(ROOT/'tests'/'test_boundary_selection.py')])
     baseline=out/'baseline'; structured=out/'structured'; holdout=out/'holdout-differential'
     # The three independent scientific campaigns run concurrently.  This uses at
     # most three local Python workers, stays below the documented four-core

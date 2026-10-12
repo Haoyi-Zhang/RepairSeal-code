@@ -5,16 +5,26 @@
     "x": [
       0,
       1,
-      3
+      3,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
     ],
     "y": [
       0,
       1,
-      2
+      2,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
     ]
   },
-  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = 2147483647u;\n  unsigned b = (3u + ((y & 2147483647u) & (x + x)));\n  unsigned r = (b | (~(31u + y)));\n  if (((3u ^ (4294967295u | r)) == ((~y) * 15u))) {\n    r = (((x / ((y & 7u) + 1u)) >> ((~a) & 31u)) / ((((y + 2u) << (1u & 31u)) & 7u) + 1u));\n  } else {\n    r = b;\n  }\n  if (((x < ((a | 1u) << ((x / ((15u & 7u) + 1u)) & 31u))) && (0u > b))) {\n    r = (x >> ((r << (a & 31u)) & 31u));\n  } else {\n    r = (~15u);\n  }\n  if ((x == 0u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
-  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = 2147483647u;\n  unsigned b = (3u + ((y & 2147483647u) & (x + x)));\n  unsigned r = (b | (~(31u + y)));\n  if (((3u ^ (4294967295u | r)) == ((~y) * 15u))) {\n    r = (((x / ((y & 7u) + 1u)) >> ((~a) & 31u)) / ((((y + 2u) << (1u & 31u)) & 7u) + 1u));\n  } else {\n    r = b;\n  }\n  if (((x < ((a | 1u) << ((x / ((15u & 7u) + 1u)) & 31u))) && (0u > b))) {\n    r = (x >> ((r << (a & 31u)) & 31u));\n  } else {\n    r = (~15u);\n  }\n  return r;\n}\n",
-  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = 2147483647u;\n  unsigned b = (3u + ((y & 2147483647u) & (x + x)));\n  unsigned r = (b | (~(31u + y)));\n  if (((3u ^ (4294967295u | r)) == ((~y) * 15u))) {\n    r = (((x / ((y & 7u) + 1u)) >> ((~a) & 31u)) / ((((y + 2u) << (1u & 31u)) & 7u) + 1u));\n  } else {\n    r = b;\n  }\n  if (((x < ((a | 1u) << ((x / ((15u & 7u) + 1u)) & 31u))) && (0u > b))) {\n    r = (x >> ((r << (a & 31u)) & 31u));\n  } else {\n    r = (~15u);\n  }\n  return r;\n}\n",
-  "repair_guard": "(x == 0u)"
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (x ^ 3u);\n  unsigned b = (((2147483647u % ((0u & 7u) + 1u)) & a) & x);\n  unsigned r = ((~(31u + y)) % ((((a ^ y) - (4294967295u | y)) & 7u) + 1u));\n  if ((a < ((b >> (x & 31u)) / ((b & 7u) + 1u)))) {\n    r = (r * ((2u * x) + b));\n  } else {\n    r = a;\n  }\n  if (((((r | 2u) > ((b >> (y & 31u)) + (r + r))) && ((4294967295u << (r & 31u)) != a)) && (((y & y) | (a & r)) > ((x >> (y & 31u)) - (0u >> (x & 31u)))))) {\n    r = a;\n  } else {\n    r = ((r / ((b & 7u) + 1u)) ^ ((31u & b) ^ (0u | a)));\n  }\n  if ((x == 3u)) {\n    r = (r - 1u);\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (x ^ 3u);\n  unsigned b = (((2147483647u % ((0u & 7u) + 1u)) & a) & x);\n  unsigned r = ((~(31u + y)) % ((((a ^ y) - (4294967295u | y)) & 7u) + 1u));\n  if ((a < ((b >> (x & 31u)) / ((b & 7u) + 1u)))) {\n    r = (r * ((2u * x) + b));\n  } else {\n    r = a;\n  }\n  if (((((r | 2u) > ((b >> (y & 31u)) + (r + r))) && ((4294967295u << (r & 31u)) != a)) && (((y & y) | (a & r)) > ((x >> (y & 31u)) - (0u >> (x & 31u)))))) {\n    r = a;\n  } else {\n    r = ((r / ((b & 7u) + 1u)) ^ ((31u & b) ^ (0u | a)));\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned a = (x ^ 3u);\n  unsigned b = (((2147483647u % ((0u & 7u) + 1u)) & a) & x);\n  unsigned r = ((~(31u + y)) % ((((a ^ y) - (4294967295u | y)) & 7u) + 1u));\n  if ((a < ((b >> (x & 31u)) / ((b & 7u) + 1u)))) {\n    r = (r * ((2u * x) + b));\n  } else {\n    r = a;\n  }\n  if (((((r | 2u) > ((b >> (y & 31u)) + (r + r))) && ((4294967295u << (r & 31u)) != a)) && (((y & y) | (a & r)) > ((x >> (y & 31u)) - (0u >> (x & 31u)))))) {\n    r = a;\n  } else {\n    r = ((r / ((b & 7u) + 1u)) ^ ((31u & b) ^ (0u | a)));\n  }\n  return r;\n}\n",
+  "repair_guard": "(x == 3u)"
 }

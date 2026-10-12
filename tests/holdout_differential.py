@@ -15,13 +15,17 @@ import hashlib
 import itertools
 import json
 import random
-import resource
 import statistics
 import sys
 import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+
+try:
+    import resource
+except ModuleNotFoundError:  # The semantic campaign also runs on Windows.
+    resource = None
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT / "src")]
@@ -34,6 +38,20 @@ MASK = (1 << 32) - 1
 NAMES = ("x", "y", "z", "t")
 VARIANTS = ("accept", "repair", "preserve", "defined")
 CAMPAIGN_SEED = 0x51A7C0DE
+INTERIOR_VALUE_BUDGET = 3
+BOUNDARY_VALUES = (31, 32, 0x7FFFFFFF, 0x80000000, MASK)
+
+
+def select_domain(values) -> list[int]:
+    """Budget interior values without truncating the mandatory boundaries.
+
+    The caller supplies at least 0, 1, and 3. Five fixed boundaries plus three
+    distinct interior values give eight words per axis, hence at most 8**4
+    points for this campaign. Sort only after applying the interior budget.
+    """
+    boundaries = set(BOUNDARY_VALUES)
+    interior = sorted(set(values) - boundaries)[:INTERIOR_VALUE_BUDGET]
+    return sorted(boundaries | set(interior))
 
 
 def canonical(value: Any) -> bytes:
@@ -265,10 +283,10 @@ def case(seed: int, variant: str) -> tuple[dict[str, Any], tuple[Statement, ...]
     param_count = 2 + rng.randrange(3)
     params = NAMES[:param_count]
     domains: dict[str, list[int]] = {}
-    for index, name in enumerate(params):
+    for name in params:
         values = {0, 1, 3}
         values.add(rng.choice((2, 7, 15, 31, 0x7FFFFFFF, MASK)))
-        domains[name] = sorted(values)[:3]
+        domains[name] = select_domain(values)
     guard_value = rng.choice(domains["x"])
     outside = rng.choice([value for value in domains["x"] if value != guard_value])
     y_value = rng.choice(domains["y"])
@@ -341,6 +359,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--cases", type=int, default=400)
+    parser.add_argument("--progress", action="store_true")
     args = parser.parse_args()
     if args.cases < 40 or args.cases % 4:
         parser.error("--cases must be a multiple of four and at least 40")
@@ -356,6 +375,11 @@ def main() -> None:
     fake_rejections = 0
     max_nodes = 0
     max_points = 0
+    full_cells = 0
+    direct_cells = 0
+    total_points = 0
+    boundary_axis_counts = {str(value): 0 for value in BOUNDARY_VALUES}
+    axes = 0
     for index in range(args.cases):
         variant = VARIANTS[index % 4]
         seed = CAMPAIGN_SEED + index * 104729
@@ -364,6 +388,19 @@ def main() -> None:
         cert = produce(request)
         actual = proof_check(request, cert)
         direct = evaluate_topological(request)
+        for values in request["inputs"].values():
+            if len(values) != 8 or values != sorted(set(values)):
+                raise AssertionError((request["id"], "axis cardinality/order"))
+            if not set(BOUNDARY_VALUES) <= set(values):
+                raise AssertionError((request["id"], "missing boundary"))
+            axes += 1
+            for value in BOUNDARY_VALUES:
+                boundary_axis_counts[str(value)] += 1
+        if actual["checked_cells"] != direct["checked_cells"]:
+            raise AssertionError((request["id"], "full/direct cell work differs"))
+        full_cells += actual["checked_cells"]
+        direct_cells += direct["checked_cells"]
+        total_points += len(cert["points"])
         if actual["status"] != expected["status"] or actual["witness"] != expected["witness"]:
             raise AssertionError((request["id"], expected, actual))
         if direct["status"] != expected["status"] or direct["witness"] != expected["witness"]:
@@ -400,9 +437,11 @@ def main() -> None:
             "nodes": actual["checked_nodes"], "points": len(cert["points"]),
             "certificate_bytes": len(canonical(cert)),
         })
+        if args.progress and (index + 1) % 25 == 0:
+            print(f"grammar requests checked: {index + 1}/{args.cases}", file=sys.stderr, flush=True)
     record_digest = hashlib.sha256(canonical(records)).hexdigest()
     summary = {
-        "schema": "holdout-differential-v2",
+        "schema": "holdout-differential-v3",
         "outcome": "PASS",
         "campaign_seed": CAMPAIGN_SEED,
         "cases": args.cases,
@@ -419,9 +458,20 @@ def main() -> None:
         "max_points": max_points,
         "median_nodes": statistics.median(row["nodes"] for row in records),
         "median_certificate_bytes": statistics.median(row["certificate_bytes"] for row in records),
+        "min_certificate_bytes": min(row["certificate_bytes"] for row in records),
+        "max_certificate_bytes": max(row["certificate_bytes"] for row in records),
+        "domain_policy": {"interior_value_budget": INTERIOR_VALUE_BUDGET,
+                          "mandatory_boundary_values": list(BOUNDARY_VALUES),
+                          "values_per_axis": 8},
+        "axes": axes,
+        "boundary_axis_counts": boundary_axis_counts,
+        "total_points": total_points,
+        "full_vector_cells": full_cells,
+        "topological_direct_cells": direct_cells,
         "record_index_sha256": record_digest,
         "wall_seconds": time.monotonic() - started,
-        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "peak_rss_kib": (resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+                         if resource is not None else None),
         "scope": (
             "Deterministic post hoc grammar-generated loop-free scalar requests with an independent AST interpreter; "
             "not Codeflaws and not evidence of unrestricted-C generality."

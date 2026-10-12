@@ -28,6 +28,6 @@ The decisive work accounting is explicit:
 
 For the same 285 refuted requests, median full-vector and compact encodings are 15,604 and 667 bytes. The ratio of those medians is 23.3943; the median of paired per-request ratios is 23.2294. The all-380 full-vector median (15,213 bytes) is retained separately and is not a valid denominator for a refutation-only comparison.
 
-The 400 grammar cases use 9, 27, or 81 points (125, 133, and 142 cases) and 15--163 nodes with median 69.5. `edge-case-regression.json` retains producer topological-reuse, actual AST-depth/literal limits, and conservative selector-admission checks.
+The corrected 400 grammar cases use 64, 512, or 4,096 points (125, 133, and 142 cases) and 13--148 nodes with median 70. Three small values are budgeted independently of five mandatory boundaries on every axis; the v3 summary records all five boundaries on all 1,217 axes, 657,728 total points, and 47,327,168 full-vector/topological cells per arm. `edge-case-regression.json` retains producer topological-reuse, actual AST-depth/literal limits, and conservative selector-admission checks.
 
 Timing files are descriptive and expected to change across hosts. All scientific count, status, request-order, certificate, and grammar-result gates are deterministic.
