@@ -1,0 +1,88 @@
+{
+  "compiler_version": "clang version 19.1.7 (https://github.com/ziglang/zig-bootstrap de1b01a8c1dddf75a560123ac1c2ab182b4830da)\nTarget: x86_64-unknown-windows-gnu\nThread model: posix\nInstalledDir: D:/CodexProjects/2026-07-13/new-chat-4/completion_workspace/library_review/private/branch_handoffs/branch-1/native-bridge/toolchain/ziglang\n",
+  "integer_macros": [
+    "#define INT_MAX __INT_MAX__",
+    "#define UINT_MAX (__INT_MAX__ *2U +1U)",
+    "#define __INT_MAX__ 2147483647",
+    "#define __SIZEOF_INT__ 4"
+  ],
+  "normalization": "Private source/output/compiler prefixes replaced by symbolic location labels; actual complete command and raw diagnostics retained privately.",
+  "diagnostics": [
+    {
+      "stage": "version",
+      "returncode": 0,
+      "outcome": "ok"
+    },
+    {
+      "stage": "macros",
+      "returncode": 0,
+      "outcome": "ok"
+    }
+  ],
+  "compiles": [
+    {
+      "case": "84-A",
+      "role": "buggy",
+      "command": [
+        "$COMPILER",
+        "cc",
+        "-std=c11",
+        "-O0",
+        "$PRIVATE_NATIVE/84-A-buggy.c",
+        "-o",
+        "$PRIVATE_NATIVE/84-A-buggy.exe"
+      ],
+      "returncode": 0,
+      "outcome": "ok",
+      "elapsed_seconds": 50.541891300003044
+    },
+    {
+      "case": "84-A",
+      "role": "supplied",
+      "command": [
+        "$COMPILER",
+        "cc",
+        "-std=c11",
+        "-O0",
+        "$PRIVATE_NATIVE/84-A-supplied.c",
+        "-o",
+        "$PRIVATE_NATIVE/84-A-supplied.exe"
+      ],
+      "returncode": 0,
+      "outcome": "ok",
+      "elapsed_seconds": 0.13205590000143275
+    },
+    {
+      "case": "4-A",
+      "role": "supplied",
+      "command": [
+        "$COMPILER",
+        "cc",
+        "-std=c11",
+        "-O0",
+        "$PRIVATE_NATIVE/4-A-supplied.c",
+        "-o",
+        "$PRIVATE_NATIVE/4-A-supplied.exe"
+      ],
+      "returncode": 0,
+      "outcome": "ok",
+      "elapsed_seconds": 0.13410569999541622
+    },
+    {
+      "case": "4-A",
+      "role": "buggy",
+      "command": [
+        "$COMPILER",
+        "cc",
+        "-std=c11",
+        "-O0",
+        "$PRIVATE_NATIVE/4-A-buggy.c",
+        "-o",
+        "$PRIVATE_NATIVE/4-A-buggy.exe"
+      ],
+      "returncode": 0,
+      "outcome": "ok",
+      "elapsed_seconds": 0.13472360000014305
+    }
+  ]
+}

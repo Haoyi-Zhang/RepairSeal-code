@@ -1,0 +1,145 @@
+[
+  {
+    "case": "4-A",
+    "candidate_origin": "buggy",
+    "points": 64,
+    "full_cells": 1152,
+    "direct_cells": 1152,
+    "nodes": 18,
+    "full_bytes": 7224,
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [
+        [
+          0,
+          1
+        ]
+      ],
+      "input": [
+        2
+      ]
+    },
+    "compact": {
+      "canonical_bytes": 786,
+      "cells": 18,
+      "status": "REFUTED",
+      "operation_counts": {
+        "compact": {
+          "refutation_cells": 18
+        },
+        "point_direct": {
+          "refutation_cells": 18
+        }
+      },
+      "discovery": "already computed full-domain direct classification; discovery not charged as zero"
+    },
+    "operation_counts": {
+      "producer": {
+        "symbolic_nodes": 18,
+        "producer_source_tokens": 138,
+        "producer_vector_cells": 1152
+      },
+      "full": {
+        "proof_cells": 1152
+      },
+      "direct": {
+        "topological_cells": 1152
+      }
+    }
+  },
+  {
+    "case": "4-A",
+    "candidate_origin": "supplied",
+    "points": 64,
+    "full_cells": 1600,
+    "direct_cells": 1600,
+    "nodes": 25,
+    "full_bytes": 9586,
+    "status": "ACCEPT",
+    "witness": null,
+    "compact": null,
+    "operation_counts": {
+      "producer": {
+        "symbolic_nodes": 25,
+        "producer_source_tokens": 138,
+        "producer_vector_cells": 1600
+      },
+      "full": {
+        "proof_cells": 1600
+      },
+      "direct": {
+        "topological_cells": 1600
+      }
+    }
+  },
+  {
+    "case": "84-A",
+    "candidate_origin": "buggy",
+    "points": 64,
+    "full_cells": 704,
+    "direct_cells": 704,
+    "nodes": 11,
+    "full_bytes": 4567,
+    "status": "REFUTED",
+    "witness": {
+      "obligation": "repair",
+      "trace": [],
+      "input": [
+        2
+      ]
+    },
+    "compact": {
+      "canonical_bytes": 822,
+      "cells": 11,
+      "status": "REFUTED",
+      "operation_counts": {
+        "compact": {
+          "refutation_cells": 11
+        },
+        "point_direct": {
+          "refutation_cells": 11
+        }
+      },
+      "discovery": "already computed full-domain direct classification; discovery not charged as zero"
+    },
+    "operation_counts": {
+      "producer": {
+        "symbolic_nodes": 11,
+        "producer_source_tokens": 54,
+        "producer_vector_cells": 704
+      },
+      "full": {
+        "proof_cells": 704
+      },
+      "direct": {
+        "topological_cells": 704
+      }
+    }
+  },
+  {
+    "case": "84-A",
+    "candidate_origin": "supplied",
+    "points": 64,
+    "full_cells": 896,
+    "direct_cells": 896,
+    "nodes": 14,
+    "full_bytes": 5526,
+    "status": "ACCEPT",
+    "witness": null,
+    "compact": null,
+    "operation_counts": {
+      "producer": {
+        "symbolic_nodes": 14,
+        "producer_source_tokens": 52,
+        "producer_vector_cells": 896
+      },
+      "full": {
+        "proof_cells": 896
+      },
+      "direct": {
+        "topological_cells": 896
+      }
+    }
+  }
+]

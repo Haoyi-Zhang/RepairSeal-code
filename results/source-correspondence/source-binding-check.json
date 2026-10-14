@@ -1,0 +1,14 @@
+{
+  "source_bindings": {
+    "tests/codeflaws_source_study.py": "2abcae045082dfd2594badb6e530c8b1cf51988a3cf7df8faf25e21dd0efbdbe",
+    "tests/codeflaws_cases.py": "dcf67dd06456b30c848ca90360e2f7155649f706ea14e242e613c0456cbec65a",
+    "src/producer.py": "809acc204211fd4921f95f7f6c7d1af87429e4de696535445a36ef897510fce9",
+    "src/proof_dag_producer.py": "1ae8d8066d14aafd98adc8b9f0ebd676c35c98618d8e2af9996deda38234222b",
+    "src/proof_dag_checker.py": "6b111e898f3999929f7e28f39fde127b4e8fc4139bcf9f5a8afd82527e458a01",
+    "src/refutation_witness_producer.py": "3cbbb072dccd3af4058331bfabd1bf2f9f19f3ba5acd17d6efcc85e614ec0dc9",
+    "src/refutation_witness_checker.py": "99585772675d31b2bec49534715fc4177898da847dd410d0f7bb4e1e52f08740"
+  },
+  "unchanged": true,
+  "changed": [],
+  "source_binding_path_encoding": "POSIX relative spelling for portability; hashes and scientific values unchanged from the private run record"
+}

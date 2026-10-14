@@ -208,6 +208,10 @@ offline scientific reproducer on Ubuntu with Python 3.12, GCC and Clang. It uses
 a fresh `RUNNER_TEMP` directory and uploads raw run outputs, including actual
 compiler provenance, on success or failure. CI timings are measured by the run;
 the workflow's 20-minute timeout is a ceiling, not an estimated duration.
+The compiler cross-check in this core workflow uses the project's authored
+fixtures, not third-party native programs. The optional Codeflaws source study
+below is separate: CI neither downloads its archive, runs upstream scripts,
+nor compiles or executes third-party source.
 
 ## Important entry points
 
@@ -237,4 +241,131 @@ The receiver validates schemas and limits, computes source bindings, reparses so
 
 ## Codeflaws boundary
 
-`public-data/` freezes 300 unique rows from a pinned official Codeflaws defect-detail index: 284 `WRONG_ANSWER`, 9 `RUNTIME_ERROR`, and 7 `TIME_LIMIT_EXCEEDED` records over 181 contest identifiers. Corresponding source programs are not bundled or executed. No result represents those records as compiled, tested, repaired, or certificate-checked programs. This is the principal external-validity and venue-readiness limitation.
+`public-data/` freezes 300 unique rows from a pinned official Codeflaws
+defect-detail index: 284 `WRONG_ANSWER`, 9 `RUNTIME_ERROR`, and 7
+`TIME_LIMIT_EXCEEDED` records over 181 contest identifiers. The original frozen
+index audit used metadata only: it did not acquire or execute corresponding
+source programs, and those 300 records are not 300 compiled, repaired, or
+certificate-checked programs. A later, separately identified source study uses
+a privately acquired official archive; it does not replace that historical
+population or relabel its results.
+
+### Optional offline source study
+
+`tests/codeflaws_cases.py` contains project-authored mathematical normalizations
+of two source-selected natural pairs from the frozen index:
+`4-A-bug-18258406-18258457` and `84-A-bug-9385928-9385933`. Each pair contributes
+its buggy and supplied versions, giving four requests on 64 points each.
+Selection was structural, not random or based on held-out outcomes. References
+come from the official task specifications, not the supplied outputs. The
+study evaluates supplied versions; it does not generate repairs or estimate
+benchmark-wide repair effectiveness.
+
+The unchanged receiver's source audit covers 600 archive-member occurrences
+across the 300 indexed pairs, with 588 distinct submission filenames and 582
+distinct source contents. It admits zero original translation units. These
+are unsupported-language admissions, not repair-correctness verdicts; the
+four adapted requests do not count as original-source admission.
+
+For model-only replay, Python and the bundled project files suffice:
+
+```bash
+python -B tests/codeflaws_source_study.py --output ../private-source-models
+```
+
+Use a new or empty output directory. This default mode performs no download,
+archive inspection, C compilation, or native execution. It checks full-vector
+and certificate-free topological results against the mathematical oracle,
+records equal work (4,352 cells per arm across the four requests), and records
+paired timings. Equal work does not establish a speedup. Compact
+checking is compared with direct checking of the same supplied point/trace;
+neither proves acceptance or leastness, and witness discovery is not free.
+Source inspection and manual I/O/type mapping are separate, untimed construction
+work, not an automated frontend or a zero-cost preprocessing stage.
+
+### External archive retrieval and identity gate
+
+Obtain the archive separately from the download link on the
+[official Codeflaws site](https://codeflaws.github.io/), after assessing the
+applicable rights and terms. Its advertised link is the unversioned
+[NUS archive](http://www.comp.nus.edu.sg/~release/codeflaws/codeflaws.tar.gz);
+the private acquisition used the corresponding
+[HTTPS URL](https://www.comp.nus.edu.sg/~release/codeflaws/codeflaws.tar.gz).
+Do not substitute the website's GitHub source ZIP/tarball, a partial download,
+or another snapshot. Record the actual retrieval URL, date, byte count and
+SHA-256 privately. No artifact command downloads this payload.
+
+The reviewed archive is exactly 265,695,532 bytes with SHA-256
+`2673fc16fa05590c5c1171f5b633594713ae9207346a3d0ba4c4d8b2eea82b11`.
+The driver rejects any other size or digest before opening the tar stream.
+This identifies the locally reviewed snapshot; the metadata Git commit is
+not an archive release identifier or a distributor signature. Inside the
+archive, the four reviewed whole-source identities are:
+
+| Member below `codeflaws/` | SHA-256 |
+|---|---|
+| `4-A-bug-18258406-18258457/4-A-18258406.c` | `0713806f76a4bf8c22a3ee7ca6a2585b2d08e2073b02094f6c7337ec1d0c24df` |
+| `4-A-bug-18258406-18258457/4-A-18258457.c` | `6f74c3b6969296535b12ca5393e781fa0c8ce783f1c40f2dd4d2247634c31486` |
+| `84-A-bug-9385928-9385933/84-A-9385928.c` | `1686ffd63ba4033a98d5b3d6b96b8e28a89764b99ae523958191a99d68e56431` |
+| `84-A-bug-9385928-9385933/84-A-9385933.c` | `c6cacf09a2c35fa5e4071b10e0cf1b361060f1bf62dcf57375b23ee2cec34c90` |
+
+The driver checks these source digests and the complete 600-member cohort,
+rejecting missing or duplicate source-member identities. To repeat only that
+inspection and model replay, without running third-party code:
+
+```bash
+python -B tests/codeflaws_source_study.py --archive /private/codeflaws.tar.gz --output /private/source-inspection
+```
+
+### Explicit reviewed-only native opt-in
+
+Native execution requires both `--execute-reviewed` and an explicit local
+compiler, in addition to the exact archive. Only opt in after reviewing all
+four complete translation units and their source-to-model correspondence:
+
+```bash
+python -B tests/codeflaws_source_study.py --archive /private/codeflaws.tar.gz --execute-reviewed --compiler /path/to/reviewed/cc --output /private/source-native
+```
+
+For an already installed, reviewed Zig compiler use its executable path and
+add `--zig`; the study does not install a toolchain. Compilation is serial,
+uses C11/O0 and an isolated private working directory, and runs only the four
+unchanged, digest-matched translation units. No upstream build/repair script
+is run. This opt-in is not part of the core reproducer, release gate, or CI.
+
+The native protocol compares decoded stdout with the corresponding model on
+each 64-point domain (256 source-version/input observations). The 4A codec maps
+exact `YES`/`NO` labels to 1/0 after stripping surrounding whitespace; the 84A
+codec requires a single nonnegative decimal integer. Process status zero is
+successful completion, not the scalar model output. Correspondence assumes
+successful input/output and a 32-bit signed-`int` implementation; the driver
+checks integer-width macros. On these legal inputs the relevant arithmetic
+intermediates are nonnegative and at most 300,000,000, so the unsigned-32
+normalization preserves the computation. It does not cover malformed inputs,
+I/O failure, arbitrary signed C, or all legal task inputs. Certificate source
+bindings and canonical branch traces refer to the normalized functions, not
+directly to the original whole programs or measured native branch traces.
+
+Existing repair and held-out tests are a separate comparison: up to the first
+eight inputs per split/subject by lexical member name, selected before their
+payloads are read, with no replacement or model tuning from held-out outcomes.
+The current selection comprises 24 input/output pairs, each run on both
+versions (48 test executions, not 48 distinct tests). Actual completion,
+agreement, failures and timings must be read from the run's `summary.json`,
+`native-observations.csv`, and `existing-test-observations.csv`; protocol counts
+alone are not successful-run evidence.
+
+Project-authored correspondence explanations and the derived records are in
+[results/source-correspondence/](results/source-correspondence/), with the
+measured current source bindings, four full packets and two compact packets.
+Keep the archive, original source/test bytes, compiler, binaries and raw private
+logs outside the deliverable. Publish only project-authored code/models and
+derived data that do not reproduce upstream source or test payloads; check
+serialized requests, certificates and logs as well as file extensions.
+
+The bundled index's pinned repository provenance, its row-97 empty-tag
+normalization, and the exact upstream MIT notice are documented in
+[licenses/NOTICE.txt](licenses/NOTICE.txt) and
+[licenses/Codeflaws-MIT.txt](licenses/Codeflaws-MIT.txt). That repository notice
+does not establish an archive-wide license or rights from every Codeforces
+contestant. Project licensing does not relicense upstream programs or tests.

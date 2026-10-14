@@ -22,6 +22,16 @@ jobs:
         run: python -B tests/test_coordinate_membership.py
       - name: Prepared full-vector cell conformance
         run: python -B tests/test_prepared_cells.py
+      - name: Offline Codeflaws finite-model regressions
+        run: python -B tests/test_codeflaws_cases.py
+      - name: Offline Codeflaws model replay
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Keep model-only output outside the uploaded evidence directory.
+          model_output="$(mktemp -d "$RUNNER_TEMP/p004-codeflaws.XXXXXX")"
+          trap 'rm -rf -- "$model_output"' EXIT
+          python -B tests/codeflaws_source_study.py --output "$model_output" --repetitions 1
       - name: Allocate isolated output
         shell: bash
         run: |

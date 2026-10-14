@@ -1,0 +1,38 @@
+{
+  "4-A": {
+    "repair": [
+      "codeflaws/4-A-bug-18258406-18258457/input-neg1",
+      "codeflaws/4-A-bug-18258406-18258457/input-pos1",
+      "codeflaws/4-A-bug-18258406-18258457/input-pos2",
+      "codeflaws/4-A-bug-18258406-18258457/input-pos3",
+      "codeflaws/4-A-bug-18258406-18258457/input-pos4"
+    ],
+    "heldout": [
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos10",
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos12",
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos14",
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos16",
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos18",
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos2",
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos20",
+      "codeflaws/4-A-bug-18258406-18258457/heldout-input-pos4"
+    ]
+  },
+  "84-A": {
+    "repair": [
+      "codeflaws/84-A-bug-9385928-9385933/input-neg1",
+      "codeflaws/84-A-bug-9385928-9385933/input-pos1",
+      "codeflaws/84-A-bug-9385928-9385933/input-pos2"
+    ],
+    "heldout": [
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos10",
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos11",
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos12",
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos13",
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos14",
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos15",
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos16",
+      "codeflaws/84-A-bug-9385928-9385933/heldout-input-pos17"
+    ]
+  }
+}

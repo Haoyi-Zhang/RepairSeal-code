@@ -1,0 +1,158 @@
+{
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.28000-SP0",
+    "machine": "AMD64",
+    "processor_name": "12th Gen Intel(R) Core(TM) i7-12700KF",
+    "processor_identifier": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "host_logical_cpu_count": 20,
+    "Windows_process_affinity_limit": 2
+  },
+  "source_bindings": {
+    "tests/codeflaws_source_study.py": "2abcae045082dfd2594badb6e530c8b1cf51988a3cf7df8faf25e21dd0efbdbe",
+    "tests/codeflaws_cases.py": "dcf67dd06456b30c848ca90360e2f7155649f706ea14e242e613c0456cbec65a",
+    "src/producer.py": "809acc204211fd4921f95f7f6c7d1af87429e4de696535445a36ef897510fce9",
+    "src/proof_dag_producer.py": "1ae8d8066d14aafd98adc8b9f0ebd676c35c98618d8e2af9996deda38234222b",
+    "src/proof_dag_checker.py": "6b111e898f3999929f7e28f39fde127b4e8fc4139bcf9f5a8afd82527e458a01",
+    "src/refutation_witness_producer.py": "3cbbb072dccd3af4058331bfabd1bf2f9f19f3ba5acd17d6efcc85e614ec0dc9",
+    "src/refutation_witness_checker.py": "99585772675d31b2bec49534715fc4177898da847dd410d0f7bb4e1e52f08740"
+  },
+  "natural_pairs": 2,
+  "source_versions_in_case_studies": 4,
+  "normalized_requests": 4,
+  "points_per_request": 64,
+  "model_statuses": {
+    "REFUTED": 2,
+    "ACCEPT": 2
+  },
+  "full_direct_oracle_agreement": 4,
+  "full_cells": 4352,
+  "direct_cells": 4352,
+  "timing_repetitions_per_request": 30,
+  "timing_scope": "decoded receiver API and automated request construction/encoding-to-result workflow including producer for full evidence; manual source inspection/mapping untimed, no network transfer measured",
+  "timing_warmups_per_method": {
+    "decoded_api": 2,
+    "serialized_workflow": 2
+  },
+  "operation_count_scope": "separate untimed producer/full/direct/compact/supplied-point callbacks; no operation-count callbacks in timing passes",
+  "native": {
+    "source_translation_units": 4,
+    "compiled_translation_units": 4,
+    "domain_process_executions": 256,
+    "domain_observation_agreement": 256,
+    "existing_test_executions": 48,
+    "existing_test_execution_attempts": 48,
+    "existing_test_outcomes": [
+      {
+        "case": "4-A",
+        "role": "buggy",
+        "split": "repair",
+        "selected": 5,
+        "split_available": true,
+        "valid": 5,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 5,
+        "matched_expected": 4,
+        "execution_errors": 0
+      },
+      {
+        "case": "4-A",
+        "role": "buggy",
+        "split": "heldout",
+        "selected": 8,
+        "split_available": true,
+        "valid": 8,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 8,
+        "matched_expected": 8,
+        "execution_errors": 0
+      },
+      {
+        "case": "4-A",
+        "role": "supplied",
+        "split": "repair",
+        "selected": 5,
+        "split_available": true,
+        "valid": 5,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 5,
+        "matched_expected": 5,
+        "execution_errors": 0
+      },
+      {
+        "case": "4-A",
+        "role": "supplied",
+        "split": "heldout",
+        "selected": 8,
+        "split_available": true,
+        "valid": 8,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 8,
+        "matched_expected": 8,
+        "execution_errors": 0
+      },
+      {
+        "case": "84-A",
+        "role": "buggy",
+        "split": "repair",
+        "selected": 3,
+        "split_available": true,
+        "valid": 3,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 3,
+        "matched_expected": 0,
+        "execution_errors": 0
+      },
+      {
+        "case": "84-A",
+        "role": "buggy",
+        "split": "heldout",
+        "selected": 8,
+        "split_available": true,
+        "valid": 8,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 8,
+        "matched_expected": 0,
+        "execution_errors": 0
+      },
+      {
+        "case": "84-A",
+        "role": "supplied",
+        "split": "repair",
+        "selected": 3,
+        "split_available": true,
+        "valid": 3,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 3,
+        "matched_expected": 3,
+        "execution_errors": 0
+      },
+      {
+        "case": "84-A",
+        "role": "supplied",
+        "split": "heldout",
+        "selected": 8,
+        "split_available": true,
+        "valid": 8,
+        "invalid": 0,
+        "unavailable": 0,
+        "total": 8,
+        "matched_expected": 8,
+        "execution_errors": 0
+      }
+    ]
+  },
+  "source_admission_executed": true,
+  "source_redistributed": false,
+  "upstream_scripts_executed": false,
+  "native_source_vs_kernel_trace": "stdout decoded observations checked; canonical traces refer to normalized scalar request",
+  "raw_outputs_private": true,
+  "source_binding_path_encoding": "POSIX relative spelling for portability; hashes and scientific values unchanged from the private run record"
+}
