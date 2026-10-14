@@ -46,6 +46,8 @@ def compare_security_evidence(retained, current):
         raise AssertionError("security regression differs beyond the historical JSON diagnostic label")
 
 def main():
+    if not __debug__:
+        raise SystemExit('scientific reproduction requires enabled assertions; run without -O or -OO')
     parser=argparse.ArgumentParser(description=__doc__); parser.add_argument('--output',type=Path,required=True); args=parser.parse_args(); out=args.output.resolve()
     if out.exists() and any(out.iterdir()): parser.error('output must be new or empty')
     out.mkdir(parents=True,exist_ok=True); started=time.monotonic()

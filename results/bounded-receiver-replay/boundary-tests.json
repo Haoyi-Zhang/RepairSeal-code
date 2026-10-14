@@ -1,0 +1,12 @@
+{
+  "outcome": "PASS",
+  "tests_run": 5,
+  "methods": [
+    "test_400_seeded_requests_have_exact_bounded_products",
+    "test_all_four_status_classes_agree_on_corrected_axes",
+    "test_every_previously_sampled_value_preserves_boundaries",
+    "test_order_duplicates_and_repeated_selection_are_deterministic",
+    "test_simple_boundary_arithmetic_matches_literal_word_formulas"
+  ],
+  "native_execution": false
+}

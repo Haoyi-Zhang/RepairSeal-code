@@ -1,0 +1,22 @@
+{
+  "outcome": "PASS",
+  "tests_run": 5,
+  "methods": [
+    "test_each_cell_checks_types_values_and_stopping_counter",
+    "test_literal_math_all_circuit_tags",
+    "test_rebuild_and_domain_bound_preserved",
+    "test_retained_core_and_exact_counters",
+    "test_truth_and_trace_priority_not_numeric_priority"
+  ],
+  "native_execution": false,
+  "checks": {
+    "cell_negative_controls": 48,
+    "literal_cases": 20,
+    "literal_cells": 3392,
+    "boundary_points": 4096,
+    "retained_full": 380,
+    "retained_full_cells": 1179684,
+    "literal_trace_cases": 3
+  },
+  "timing_performed": false
+}

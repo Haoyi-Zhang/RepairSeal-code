@@ -131,8 +131,8 @@ def main() -> None:
     parser.add_argument("certificate", type=Path)
     args = parser.parse_args()
     try:
-        request = load_json_strict(args.request.read_text())
-        certificate = load_json_strict(args.certificate.read_text())
+        request = load_json_strict(args.request.read_text(encoding="utf-8"))
+        certificate = load_json_strict(args.certificate.read_text(encoding="utf-8"))
         result = check(request, certificate)
     except (Invalid, Unsupported) as exc:
         result = {"status": "INVALID", "reason": str(exc)}

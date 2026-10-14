@@ -46,6 +46,17 @@ jobs:
         run: |
           set -euo pipefail
           python -B tests/test_reproduction_contract.py 2>&1 | tee "$P004_EVIDENCE/portable-tests.txt"
+      - name: UTF-8 request identity under a non-UTF8 default
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -B tests/test_cli_utf8.py 2>&1 | tee "$P004_EVIDENCE/cli-utf8.txt"
+          python -B tests/test_driver_optimization.py 2>&1 | tee "$P004_EVIDENCE/driver-optimization.txt"
+      - name: Owned nested-source trace and repair regressions
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -B tests/test_nested_trace_repair.py --report "$P004_EVIDENCE/nested-trace-repair.json" 2>&1 | tee "$P004_EVIDENCE/nested-trace-repair.txt"
       - name: Complete offline finite scientific reproduction
         shell: bash
         run: |

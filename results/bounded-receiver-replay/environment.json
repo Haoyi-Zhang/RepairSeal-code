@@ -1,0 +1,99 @@
+{
+  "schema": "owned-bounded-replay-environment-v1",
+  "started_utc": "2026-10-14T00:56:50.672587+00:00",
+  "finished_utc": "2026-10-14T00:56:54.706774+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\pdf-env\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.28000-SP0",
+  "argv": [
+    "D:\\CodexProjects\\wg-check\\substantive-library\\P004\\artifact\\tests\\bounded_closure_report.py",
+    "--output",
+    "D:\\CodexProjects\\wg-check\\substantive-library\\P004\\artifact\\results\\bounded-receiver-replay"
+  ],
+  "native_execution": false,
+  "third_party_source_execution": false,
+  "network_execution": false,
+  "source_bindings": [
+    {
+      "path": "src/budget.py",
+      "bytes": 1826,
+      "sha256": "5aa4e1931f8ad233662420ccbd3403003c5494e65a41009b05a88598aed588d7"
+    },
+    {
+      "path": "src/checker.py",
+      "bytes": 27627,
+      "sha256": "fd2de18120e0ed8957e08f2bd2923eb73ca98cd1a4f4c2ea8d952de8824782e7"
+    },
+    {
+      "path": "src/producer.py",
+      "bytes": 18685,
+      "sha256": "809acc204211fd4921f95f7f6c7d1af87429e4de696535445a36ef897510fce9"
+    },
+    {
+      "path": "src/proof_dag_checker.py",
+      "bytes": 26200,
+      "sha256": "6b111e898f3999929f7e28f39fde127b4e8fc4139bcf9f5a8afd82527e458a01"
+    },
+    {
+      "path": "src/proof_dag_producer.py",
+      "bytes": 5301,
+      "sha256": "1ae8d8066d14aafd98adc8b9f0ebd676c35c98618d8e2af9996deda38234222b"
+    },
+    {
+      "path": "src/refutation_witness_checker.py",
+      "bytes": 5148,
+      "sha256": "99585772675d31b2bec49534715fc4177898da847dd410d0f7bb4e1e52f08740"
+    },
+    {
+      "path": "src/refutation_witness_producer.py",
+      "bytes": 1020,
+      "sha256": "3cbbb072dccd3af4058331bfabd1bf2f9f19f3ba5acd17d6efcc85e614ec0dc9"
+    },
+    {
+      "path": "tests/bounded_closure_report.py",
+      "bytes": 10805,
+      "sha256": "9b3b4c3f72c463ce938ddc43987cbd120853690b51617ef5a1cf7f609e90c49e"
+    },
+    {
+      "path": "tests/fixture_oracle.py",
+      "bytes": 7782,
+      "sha256": "a09d3dbb99c6a4ec3d235eb6cf9fa753ab00487ffd14a37ac0476f6b338fda73"
+    },
+    {
+      "path": "tests/holdout_differential.py",
+      "bytes": 20894,
+      "sha256": "fb121bf75803dfbe64c6e310e819845999cc6b652bc74b158507a5e68696cc46"
+    },
+    {
+      "path": "tests/reproduce_all_core.py",
+      "bytes": 9905,
+      "sha256": "1a828c457954ef86a3bfb2b10c8e105bd52361500a926ca32e2bde049354792d"
+    },
+    {
+      "path": "tests/structured_study.py",
+      "bytes": 31206,
+      "sha256": "8de3c0c7720cfe0801b2ad7cafdd0505227659238d16199f04371f7b982baab8"
+    },
+    {
+      "path": "tests/test_boundary_selection.py",
+      "bytes": 4282,
+      "sha256": "0f4b985791d470eee8a3c6dcd386df20d9a80325a077d45847f87b4e95a8b7a1"
+    },
+    {
+      "path": "tests/test_cli_utf8.py",
+      "bytes": 2700,
+      "sha256": "73eb0a94aebefd8d8fda6f40abcd1b74070ee1d00ceeab678dc34b34018bc677"
+    },
+    {
+      "path": "tests/test_driver_optimization.py",
+      "bytes": 1520,
+      "sha256": "87421af4c01bdbf3d3059fc90fb94e248df4f626d9cd0b71ef7e162f1558f048"
+    },
+    {
+      "path": "tests/test_prepared_cells.py",
+      "bytes": 12923,
+      "sha256": "cc718fe18381227854d9d120d90e3500f52be0cecb0a261e3c9105de7818a522"
+    }
+  ],
+  "scope": "Environment of this portable replay, not of historical native or timing campaigns."
+}

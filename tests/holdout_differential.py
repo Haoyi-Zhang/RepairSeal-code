@@ -199,22 +199,34 @@ def render_program(params: tuple[str, ...], body: tuple[Statement, ...]) -> str:
 def execute(body: tuple[Statement, ...], point_env: dict[str, int]) -> tuple[bool, int | None, list[list[int]]]:
     env = dict(point_env)
     trace: list[list[int]] = []
-    next_site = 0
+    # Source sites are preorder occurrences, not counts of executed branches.
+    # Use structural paths so reusing an AST object does not merge its sites.
+    sites: dict[tuple[int, ...], int] = {}
 
-    def block(stmts: tuple[Statement, ...]) -> tuple[bool, int | None, bool]:
-        nonlocal next_site
-        for stmt in stmts:
+    def number_sites(stmts, prefix=()):
+        for index, stmt in enumerate(stmts):
+            address = prefix + (index,)
+            if isinstance(stmt, If):
+                sites[address] = len(sites)
+                number_sites(stmt.yes, address + (0,))
+                number_sites(stmt.no, address + (1,))
+
+    number_sites(body)
+
+    def block(stmts: tuple[Statement, ...], prefix=()) -> tuple[bool, int | None, bool]:
+        for index, stmt in enumerate(stmts):
             if isinstance(stmt, Decl) or isinstance(stmt, SetVar):
                 defined, value = eval_u(stmt.expr, env)
                 if not defined: return False, None, True
                 env[stmt.name] = value
             elif isinstance(stmt, If):
-                site = next_site
-                next_site += 1
+                address = prefix + (index,)
+                site = sites[address]
                 defined, value = eval_b(stmt.cond, env)
                 if not defined: return False, None, True
                 trace.append([site, int(value)])
-                defined, result, returned = block(stmt.yes if value else stmt.no)
+                defined, result, returned = block(
+                    stmt.yes if value else stmt.no, address + (0 if value else 1,))
                 if not defined or returned: return defined, result, returned
             elif isinstance(stmt, Return):
                 defined, value = eval_u(stmt.expr, env)

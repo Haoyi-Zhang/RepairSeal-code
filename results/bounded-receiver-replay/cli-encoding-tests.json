@@ -1,0 +1,10 @@
+{
+  "outcome": "PASS",
+  "tests_run": 3,
+  "methods": [
+    "test_compact_checker_reads_utf8_without_changing_the_body_digest",
+    "test_full_checker_reads_the_same_utf8_identity_as_the_request",
+    "test_producer_retains_receiver_owned_request_identifier"
+  ],
+  "native_execution": false
+}

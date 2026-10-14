@@ -1,5 +1,9 @@
 # Certificate formats
 
+Command-line request and certificate files are UTF-8. Decoding is explicit,
+independent of the host's preferred text encoding. A non-ASCII request identifier
+remains unchanged; the admitted program-source alphabet is still ASCII.
+
 All certificate JSON is parsed with duplicate-key rejection and rejection of non-finite constants. Semantic objects are closed-world: extra fields are invalid. Integer fields reject JSON booleans.
 
 ## Receiver-authoritative request order
@@ -9,6 +13,17 @@ The request, not a certificate, owns coordinate order. The request's `inputs` ob
 The prototype also distinguishes mathematical selector totality from executable admission. A selector can be semantically defined at all declared points by short-circuit evaluation, yet be rejected if its reconstructed definedness does not simplify directly to Boolean `true` under the current simplifier. The producer and both checkers apply the same conservative admission rule.
 
 ## `finite-semantic-proof-dag-v1`
+
+Source-if identifiers are zero-based preorder numbers, local to a program role.
+Visit an if, its then-subtree, and its else-subtree before the following
+statement. Assign all sites before execution; skipped branches retain their
+numbers. A structural source occurrence is distinct even if an AST reuses the
+same object. A trace contains only reached, defined guard decisions, so an
+undefined guard contributes no event and no event follows the first undefined
+operation. Site IDs are neither runtime event ordinals nor hash-consed circuit
+node IDs. The five portable tests and 320 owned candidate-point observations
+in `results/nested-source-occurrences/` exercise this rule, including rejection
+of a compact packet whose authentic source sites are replaced by runtime ordinals.
 
 The full-vector certificate binds the request identifier, word width, ordered domains, authoritative source hashes, canonical points, canonical circuit nodes, role roots, obligation roots, and an outer SHA-256 digest. Each node stores its operation, children, result sort, and complete vector over the canonical point order. The receiver reconstructs the expected circuit from source and requires exact structural equality before validating each local vector cell.
 

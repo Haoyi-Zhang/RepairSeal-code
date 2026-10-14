@@ -52,6 +52,20 @@ For every prototype-admitted request, a valid certificate exists: use the canoni
 - Hash collision resistance and the host runtime are environmental assumptions.
 
 
-## Strong-baseline correction
+## Named-root retention in a possible streaming representation
+
+The current complete-JSON receiver stores the full certificate. A separate
+streaming representation can discard a vector after its last circuit-node use,
+except for distinct named roots needed by final status and trace evaluation.
+If the ordinary future-child frontier has maximum width w and R such roots
+are retained, semantic working storage is O(M(w+R)) for M domain points.
+At a topological cut, every retained vector belongs to the future-child set
+or the processed named-root set. Those sets have at most w and R members.
+Equivalently, add a final root consumer and use the resulting augmented width.
+An ordinary chain has child frontier one but can retain all N cells when each
+is a named output; ordinary child width alone omits this cost. This statement
+does not assert that the current JSON decoder is a streaming implementation.
+
+## Strong-baseline work correction
 
 The original recursive comparison is not evidence of certificate-induced work reduction. A memoized topological evaluator that receives no certificate performs exactly one operation per node--point cell, equal to the full-vector checker under the same counting convention. The 309,582 count is internal recursion inside a certificate-rebuild diagnostic that also performs 45,198 outer proof-cell checks; it is not the certificate-free `Session/direct_result` timing arm. The 6.85x ratio therefore measures repeated recursion only. See `refutation-boundary.md` for the exact work-equivalence proposition and the separate one-point refutation theorem.

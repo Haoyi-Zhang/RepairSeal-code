@@ -1,0 +1,30 @@
+{
+  "id": "owned-nested-saturating-overfit",
+  "word_bits": 32,
+  "inputs": {
+    "x": [
+      0,
+      1,
+      3,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
+    ],
+    "y": [
+      0,
+      1,
+      3,
+      31,
+      32,
+      2147483647,
+      2147483648,
+      4294967295
+    ]
+  },
+  "original": "unsigned f(unsigned x, unsigned y) {\n  unsigned r = (x + 1u);\n  unsigned scratch = 0u;\n  if ((x == 0u)) {\n    if ((y == 0u)) {\n      scratch = 1u;\n    } else {\n      scratch = 2u;\n    }\n  } else {\n    if ((y == 1u)) {\n      scratch = 3u;\n    } else {\n      scratch = 4u;\n    }\n  }\n  if ((x == 4294967295u)) {\n    r = r;\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "candidate": "unsigned f(unsigned x, unsigned y) {\n  unsigned r = (x + 1u);\n  unsigned scratch = 0u;\n  if ((x == 0u)) {\n    if ((y == 0u)) {\n      scratch = 1u;\n    } else {\n      scratch = 2u;\n    }\n  } else {\n    if ((y == 1u)) {\n      scratch = 3u;\n    } else {\n      scratch = 4u;\n    }\n  }\n  if (((x == 4294967295u) && (y == 0u))) {\n    r = 4294967295u;\n  } else {\n    r = r;\n  }\n  return r;\n}\n",
+  "reference": "unsigned f(unsigned x, unsigned y) {\n  unsigned r = x;\n  if ((x == 4294967295u)) {\n    r = 4294967295u;\n  } else {\n    r = (x + 1u);\n  }\n  return r;\n}\n",
+  "repair_guard": "x == 4294967295u"
+}

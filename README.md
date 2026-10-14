@@ -2,7 +2,16 @@
 
 This artifact accompanies **Source-Bound Semantic Certificates for Finite Program-Repair Checking: Full-Vector Work Equivalence and Compact Refutations**.
 
+OpenAI Codex assisted manuscript revision, implementation and test development,
+and review of the ordinary arguments. Measurements come from executed artifact
+workflows; the current complete-JSON receiver is not a streaming implementation.
+
 ## Supported scope and results
+
+The command-line interfaces decode JSON as UTF-8, including receiver-owned
+request identifiers. `python -B tests/test_cli_utf8.py` checks both receivers
+and the full-vector producer with a non-UTF8 default. It does not broaden the
+ASCII program language or add a native execution population.
 
 The implementation covers loop-free scalar 32-bit unsigned C over explicit finite ordered input domains. The receiver owns the original program, candidate, reference, repair guard, and three obligations: candidate definedness, repair-region agreement, and preservation outside that region.
 
@@ -27,6 +36,7 @@ Two evidence formats are implemented:
 | Full-proof cells across all 380 frozen-core requests | 1,179,684 |
 | Median full / compact bytes on the same 285 refutations | 15,604 / 667 (ratio of medians 23.39x; median paired ratio 23.23x) |
 | Median compact semantic-cell reduction | 81x on the retained 81-point requests |
+| Owned nested source-occurrence conformance | 5 portable tests; 5 requests x 64 points = 320 candidate-point observations |
 
 The exact negative result is central: full-vector checking and a certificate-free memoized topological evaluator perform the same number of local semantic-cell operations. The format supplies auditable source-bound evidence, not semantic-work reduction or an end-to-end speedup. The compact format obtains a real reduction only by certifying the weaker existential rejection claim.
 
@@ -50,6 +60,40 @@ append-then-truncate selector discarded large boundaries; its smaller-domain
 results are not the evidence for these counts. `holdout-differential/` retains
 the corrected requests, results, seeds, and v3 summary.
 
+The grammar AST interpreter assigns source-if sites in preorder across both
+branches before executing the selected path. Skipped branches do not renumber
+later sites, and separate source occurrences remain distinct even if they reuse
+one AST object. The portable owned regression is:
+
+```bash
+python -B tests/test_nested_trace_repair.py
+```
+
+The suite has five test methods. Its unsigned saturation example uses five
+program variants over 64 explicit points each, totaling 320 candidate-point
+observations, not 320 programs. The axes include UINT_MAX and
+the five mandatory boundary values. A literal arithmetic/trace oracle checks
+the AST interpreter, the concrete receiver, full-vector checking, topological
+direct evaluation and compact refutations for an unrepaired candidate, a correct
+repair, overfit and preservation controls, and an interpreted definedness fault.
+Additional controls cover skipped branches, shared AST occurrences, undefined
+guards and rejected runtime-renumbered traces. These are owned finite semantic
+regressions; they execute neither native C nor public benchmark programs.
+`results/nested-source-occurrences/` retains the raw report, literal/AST/concrete
+observations for all 320 candidate-point pairs, five separate receiver requests,
+and scientific provenance. Source-if sites are zero-based and local to each
+program role: the outer site is 0, then-branch site 1, else-branch site 2, and the
+following guard site 3. A skipped branch does not close the gap in a trace.
+Full and topological direct checking each perform 10,880 cells across the five
+requests. Four authentic compact refutations verify; a forged refutation of
+the correct repair and a runtime-renumbered trace are rejected.
+
+To regenerate a scientific report at a new output path:
+
+```bash
+python -B tests/test_nested_trace_repair.py --report ../nested-report.json
+```
+
 `results/boundary-selection/receiver-timing.json` retains a fresh, descriptive
 Windows/Python 3.12.14 comparison on the same 20 correct fixtures: ten paired
 repetitions with alternating method order, 200 samples per method. Full/direct
@@ -57,6 +101,31 @@ median API-call times are 1.109/0.977 ms and the median paired ratio is 1.142;
 both arms check the same acceptance obligations and 45,198 cells. Decoding,
 I/O, and production are excluded. This rerun does not replace the historical
 container timings or compare the unequal full/compact guarantees.
+
+The separate `results/nested-source-occurrences/receiver-timing.json` retains
+another same-obligation paired Windows/Python 3.12.14 measurement on those
+20 correct fixtures, with ten alternating-order repetitions and 200 samples
+per method. Full/direct median API-call times are 1.135/0.979 ms and the median
+paired ratio is 1.153; both arms use 45,198 cells. Reconstruction and hashing
+remain inside the timed calls; decoding, I/O, and production are excluded.
+The result is certificate overhead on equal acceptance obligations, not a
+compact/full speed comparison. Both earlier timing records remain unchanged.
+
+`results/bounded-receiver-replay/` supplies a portable raw replay of all 380
+retained full packets against literal oracles and the same-information direct
+path, with 285 authentic compact results, the five boundary and five
+prepared-cell test methods, and current source bindings for the 400 grammar
+inputs. The full/direct total remains 1,179,684 cells per arm; the 20 accepted
+fixtures remain 45,198 per arm. The grammar source/axis check is not a new
+400-case semantic campaign. Regenerate this packet at an unused directory with
+`python -B tests/bounded_closure_report.py --output ../bounded-replay-new`.
+Actual runtime and source bindings are in its `environment.json`.
+
+The same replay also runs three UTF-8 command-line identity controls and one
+optimized-driver control, for 14 portable methods in total. The latter refuses
+direct optimized execution of the scientific driver before output allocation
+or campaign launch, keeping its assertion-based evidence comparisons active.
+It is an owned launch control, not a compiler execution or new repair case.
 
 ## Reproduce everything
 

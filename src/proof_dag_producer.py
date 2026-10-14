@@ -129,10 +129,10 @@ def main() -> None:
     parser.add_argument("request", type=Path)
     parser.add_argument("output", type=Path)
     args = parser.parse_args()
-    request = json.loads(args.request.read_text())
+    request = json.loads(args.request.read_text(encoding="utf-8"))
     certificate = produce(request)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(certificate, indent=2) + "\n")
+    args.output.write_text(json.dumps(certificate, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

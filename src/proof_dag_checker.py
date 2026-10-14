@@ -503,8 +503,8 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__); parser.add_argument("request",type=Path); parser.add_argument("certificate",type=Path); parser.add_argument("--mode",choices=["proof","rebuild"],default="proof")
     args=parser.parse_args()
     try:
-        request=load_json_strict(args.request.read_text())
-        certificate=load_json_strict(args.certificate.read_text())
+        request=load_json_strict(args.request.read_text(encoding="utf-8"))
+        certificate=load_json_strict(args.certificate.read_text(encoding="utf-8"))
         result=check(request,certificate,mode=args.mode)
     except (Invalid,Unsupported) as exc: result={"status":"INVALID","reason":str(exc)}
     print(json.dumps(result,indent=2))

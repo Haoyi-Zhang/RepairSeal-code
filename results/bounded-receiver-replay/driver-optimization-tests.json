@@ -1,0 +1,8 @@
+{
+  "outcome": "PASS",
+  "tests_run": 1,
+  "methods": [
+    "test_direct_core_refuses_optimization_before_output_or_campaign"
+  ],
+  "native_execution": false
+}
