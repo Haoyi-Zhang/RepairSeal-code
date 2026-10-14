@@ -636,6 +636,12 @@ class CodeflawsDriverPathTests(unittest.TestCase):
             stack.enter_context(patch.object(sys, "stdout", io.StringIO()))
             stack.enter_context(patch.object(study, "fingerprint", return_value="a" * 64))
             stack.enter_context(patch.object(study, "pin_affinity"))
+            # platform.platform()/processor() can invoke uname through subprocess
+            # on Linux. This path-dispatch unit uses owned metadata as well as
+            # owned process/archive doubles; production metadata remains real.
+            platform_query = stack.enter_context(patch.object(study.platform, "platform", return_value="owned-platform"))
+            stack.enter_context(patch.object(study.platform, "machine", return_value="owned-machine"))
+            stack.enter_context(patch.object(study.platform, "processor", return_value="owned-processor"))
             replay = stack.enter_context(patch.object(study, "replay_models", return_value=(rows, [])))
             inspect = stack.enter_context(patch.object(study, "inspect", return_value=({}, {})))
             native = stack.enter_context(patch.object(study, "run_native", return_value={"owned_fixture": True}))
@@ -650,6 +656,10 @@ class CodeflawsDriverPathTests(unittest.TestCase):
             self.assertEqual(native.call_args.args[1], (base / output).resolve())
             self.assertEqual(native.call_args.args[4], (base / compiler).resolve())
             self.assertEqual(reports["summary.json"]["native"], {"owned_fixture": True})
+            platform_query.assert_called_once_with()
+            self.assertEqual(reports["summary.json"]["environment"]["platform"], "owned-platform")
+            self.assertEqual(reports["summary.json"]["environment"]["machine"], "owned-machine")
+            self.assertEqual(reports["summary.json"]["environment"]["processor_identifier"], "owned-processor")
 
 
 class CodeflawsNativeDriverTests(unittest.TestCase):
