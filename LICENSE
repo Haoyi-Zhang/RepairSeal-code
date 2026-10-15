@@ -22,5 +22,4 @@ SOFTWARE.
 
 This license covers the original material to the extent copyrightable. It does
 not relicense external works, the Python runtime, the system C compiler or the
-separately supplied ACM publication assets. Substantive AI-assisted provenance
-is recorded in external_resources.csv.
+separately supplied ACM publication assets.
