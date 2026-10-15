@@ -3,9 +3,8 @@
 This artifact accompanies *Source-Bound Semantic Certificates for Finite
 Program-Repair Checking: Full-Vector Work Equivalence and Compact Refutations*.
 
-OpenAI Codex assisted manuscript revision, implementation and test development,
-and review of the ordinary arguments. Measurements come from executed artifact
-workflows; the current complete-JSON receiver is not a streaming implementation.
+Measurements come from executed artifact workflows; the current complete-JSON
+receiver is not a streaming implementation.
 
 ## Scope
 
