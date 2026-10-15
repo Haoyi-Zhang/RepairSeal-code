@@ -1,243 +1,129 @@
-# Generator-Independent Semantic Certificates
+# RepairSeal
 
-This artifact accompanies **Source-Bound Semantic Certificates for Finite Program-Repair Checking: Full-Vector Work Equivalence and Compact Refutations**.
+This artifact accompanies *Source-Bound Semantic Certificates for Finite
+Program-Repair Checking: Full-Vector Work Equivalence and Compact Refutations*.
 
 OpenAI Codex assisted manuscript revision, implementation and test development,
 and review of the ordinary arguments. Measurements come from executed artifact
 workflows; the current complete-JSON receiver is not a streaming implementation.
 
-## Supported scope and results
+## Scope
 
-The command-line interfaces decode JSON as UTF-8, including receiver-owned
-request identifiers. `python -B tests/test_cli_utf8.py` checks both receivers
-and the full-vector producer with a non-UTF8 default. It does not broaden the
-ASCII program language or add a native execution population.
+The receiver checks loop-free scalar unsigned-32 C over explicit finite ordered
+input domains. It owns the original program, candidate, reference and repair
+guard. The obligations are candidate definedness, agreement in the repair region
+and preservation outside it.
 
-The implementation covers loop-free scalar 32-bit unsigned C over explicit finite ordered input domains. The receiver owns the original program, candidate, reference, repair guard, and three obligations: candidate definedness, repair-region agreement, and preservation outside that region.
+The full-vector format is checked after independent parsing and canonical
+circuit reconstruction. A compact one-point refutation checks one actual
+violation and its candidate trace. It establishes rejection, not acceptance or
+the least violating point. On equal full-domain acceptance obligations, full
+checking and the certificate-free topological evaluator perform the same local
+semantic-cell work. The one-point reduction corresponds to a different,
+existential obligation.
 
-Two evidence formats are implemented:
+## Setup and run
 
-1. a **full-vector proof DAG**, checked after independent receiver parsing and canonical circuit reconstruction; and
-2. a **compact one-point refutation**, which proves one actual violation and its candidate trace but cannot prove acceptance or leastness.
+Use Python 3.10 or later. Portable receiver and comparison checks need only the
+standard library. The complete resource-accounted campaign requires Linux, GCC,
+Clang and standard POSIX utilities. Runners resolve and record the actual
+compiler paths; no project command downloads a toolchain, dataset or model.
 
-| Evidence | Result |
-|---|---:|
-| Frozen core requests | 380 (95 accepted, 285 refuted) |
-| Exact-oracle status and canonical-witness agreement | 380/380 |
-| Full-vector targeted corruptions rejected | 6,000/6,000 |
-| Compact refutations verified | 285/285 |
-| Compact corruptions rejected | 2,850/2,850 |
-| Forged refutations of accepted requests rejected | 95/95 |
-| Post hoc grammar-differential requests | 400 |
-| Grammar oracle/topological agreement | 400/400 and 400/400 |
-| Grammar compact refutations / rejected forgeries | 300/300 and 100/100 |
-| Full proof / topological-direct cells on 20 correct fixtures | 45,198 / 45,198 |
-| Certificate-rebuild diagnostic | 45,198 outer proof cells + 309,582 internal recursive visits; still receives the certificate |
-| Full-proof cells across all 380 frozen-core requests | 1,179,684 |
-| Median full / compact bytes on the same 285 refutations | 15,604 / 667 (ratio of medians 23.39x; median paired ratio 23.23x) |
-| Median compact semantic-cell reduction | 81x on the retained 81-point requests |
-| Owned nested source-occurrence conformance | 5 portable tests; 5 requests x 64 points = 320 candidate-point observations |
+From this directory, use a fresh output directory outside the project:
 
-The exact negative result is central: full-vector checking and a certificate-free memoized topological evaluator perform the same number of local semantic-cell operations. The format supplies auditable source-bound evidence, not semantic-work reduction or an end-to-end speedup. The compact format obtains a real reduction only by certifying the weaker existential rejection claim.
-
-The full-vector checker prepares input positions and verified child-vector
-addresses once per reconstructed node, rather than rebuilding them at every
-cell. It still computes, counts, type-checks and compares every cell, including
-unreachable branches. `python -B tests/test_prepared_cells.py` checks literal
-unsigned/Boolean formulas for all 24 circuit tags, trace-first diagnostics,
-cell-value/type rejection counts, the 4,096-point boundary, the retained 380
-full certificates and the unchanged certificate-rebuild contract. This is a
-bounded implementation regression, not a new finite-domain theorem or a
-claim that full-vector checking beats the certificate-free baseline.
-
-The 400 grammar-generated requests use a separate AST generator and interpreter and were added after the fixture and stress populations were frozen. They probe template-overfitting risk but are post hoc, synthetic, and not a public-program sample.
-
-The corrected selector budgets three small values separately from the mandatory
-boundaries 31, 32, 2^31-1, 2^31, and 2^32-1. Every axis has eight distinct words;
-all five boundaries occur on all 1,217 axes. The same 400 seeds now cover 657,728
-input points and 47,327,168 cells in each full-domain receiver arm. The earlier
-append-then-truncate selector discarded large boundaries; its smaller-domain
-results are not the evidence for these counts. `holdout-differential/` retains
-the corrected requests, results, seeds, and v3 summary.
-
-The grammar AST interpreter assigns source-if sites in preorder across both
-branches before executing the selected path. Skipped branches do not renumber
-later sites, and separate source occurrences remain distinct even if they reuse
-one AST object. The portable owned regression is:
-
-```bash
-python -B tests/test_nested_trace_repair.py
+```sh
+python3 -B tests/reproduce_all.py --output /absolute/fresh/repairseal-run
 ```
 
-The suite has five test methods. Its unsigned saturation example uses five
-program variants over 64 explicit points each, totaling 320 candidate-point
-observations, not 320 programs. The axes include UINT_MAX and
-the five mandatory boundary values. A literal arithmetic/trace oracle checks
-the AST interpreter, the concrete receiver, full-vector checking, topological
-direct evaluation and compact refutations for an unrepaired candidate, a correct
-repair, overfit and preservation controls, and an interpreted definedness fault.
-Additional controls cover skipped branches, shared AST occurrences, undefined
-guards and rejected runtime-renumbered traces. These are owned finite semantic
-regressions; they execute neither native C nor public benchmark programs.
-`results/nested-source-occurrences/` retains the raw report, literal/AST/concrete
-observations for all 320 candidate-point pairs, five separate receiver requests,
-and scientific provenance. Source-if sites are zero-based and local to each
-program role: the outer site is 0, then-branch site 1, else-branch site 2, and the
-following guard site 3. A skipped branch does not close the gap in a trace.
-Full and topological direct checking each perform 10,880 cells across the five
-requests. Four authentic compact refutations verify; a forged refutation of
-the correct repair and a runtime-renumbered trace are rejected.
+This runs the replay-table baseline, two native compiler checks, the 380-request
+study and 8,945 selected certificate controls, input/receiver regressions, the
+300-row Codeflaws metadata audit, the corrected 400-request grammar differential
+and the retained-file replay. The disk gate reloads authoritative requests and
+recovers their input order from the generators and saved seeds, not certificates.
+The output must be absent or empty. Failed commands and scientific mismatches
+exit nonzero; diagnostic output remains available.
 
-To regenerate a scientific report at a new output path:
+For the functional clean-extraction check, including that complete campaign:
 
-```bash
-python -B tests/test_nested_trace_repair.py --report ../nested-report.json
+```sh
+python3 -B tests/release_gate.py
 ```
 
-`results/boundary-selection/receiver-timing.json` retains a fresh, descriptive
-Windows/Python 3.12.14 comparison on the same 20 correct fixtures: ten paired
-repetitions with alternating method order, 200 samples per method. Full/direct
-median API-call times are 1.109/0.977 ms and the median paired ratio is 1.142;
-both arms check the same acceptance obligations and 45,198 cells. Decoding,
-I/O, and production are excluded. This rerun does not replace the historical
-container timings or compare the unequal full/compact guarantees.
+The gate checks dependency closure and packaged-file hygiene before execution.
+Its optional `--keep-output` accepts a new or empty directory and preserves
+caller-owned contents. Without it, the gate cleans only its own temporary tree.
 
-The separate `results/nested-source-occurrences/receiver-timing.json` retains
-another same-obligation paired Windows/Python 3.12.14 measurement on those
-20 correct fixtures, with ten alternating-order repetitions and 200 samples
-per method. Full/direct median API-call times are 1.135/0.979 ms and the median
-paired ratio is 1.153; both arms use 45,198 cells. Reconstruction and hashing
-remain inside the timed calls; decoding, I/O, and production are excluded.
-The result is certificate overhead on equal acceptance obligations, not a
-compact/full speed comparison. Both earlier timing records remain unchanged.
+## Focused checks and outputs
 
-`results/bounded-receiver-replay/` supplies a portable raw replay of all 380
-retained full packets against literal oracles and the same-information direct
-path, with 285 authentic compact results, the five boundary and five
-prepared-cell test methods, and current source bindings for the 400 grammar
-inputs. The full/direct total remains 1,179,684 cells per arm; the 20 accepted
-fixtures remain 45,198 per arm. The grammar source/axis check is not a new
-400-case semantic campaign. Regenerate this packet at an unused directory with
-`python -B tests/bounded_closure_report.py --output ../bounded-replay-new`.
-Actual runtime and source bindings are in its `environment.json`.
+These portable commands avoid native compilation and the complete campaign:
 
-The same replay also runs three UTF-8 command-line identity controls and one
-optimized-driver control, for 14 portable methods in total. The latter refuses
-direct optimized execution of the scientific driver before output allocation
-or campaign launch, keeping its assertion-based evidence comparisons active.
-It is an owned launch control, not a compiler execution or new repair case.
-
-## Reproduce everything
-
-Compact checking validates each claimed coordinate against its receiver-owned
-axis after exact type and arity checks, without generating the Cartesian product.
-This changes allocation and membership overhead, not the N-cell semantic work.
-Full-vector checking still constructs the canonical points and checks NM cells.
-`python -B tests/test_coordinate_membership.py` runs eight portable regression
-groups: 552 complete product-reference/current comparisons, 8,644 finite
-membership identities, 285 retained compact packets and 380 full packets.
-The bounded result is retained in `results/coordinate-membership/correctness.json`.
-The stored container timing table uses product-enumerating admission; it is not a
-timing measurement of axis-membership admission.
-
-Requirements: Python 3.10 or newer, GCC, Clang, and standard POSIX utilities. The retained native evidence records GCC 14.2.0 at `/usr/bin/x86_64-linux-gnu-gcc-14` and Clang 17.0.0 at `/usr/local/swift/usr/bin/clang-17`; the reproducer resolves available `gcc` and `clang` frontends, records their identities and commands, and requires two separate matching outputs. No network, model API, credentials, private cache, or paper directory is used.
-
-The complete reproducer requires Linux (`resource` and `/proc` accounting).
-The grammar campaign, retained disk replay, and receiver timing driver also run
-with standard Python on Windows; unavailable POSIX peak RSS is recorded as null,
-not as a measured zero. The full native/compiler reproduction remains Linux-only.
-Scientific reconciliation permits different compiler installation paths and
-version banners, including the compiler executable at command argument zero.
-Both retained and newly measured provenance records are preserved unmodified.
-Frontend roles, C11/O0 options and all remaining command arguments, return codes,
-counts, source/harness bytes, and expected/observed outputs must still agree.
-This is a scientific-result comparison, not a claim of identical environments.
-Budget time/RSS measurements may differ; counted work, category counts and
-worker counts remain part of the scientific comparison.
-
-The retained v2 security receipt labels its malformed-JSON rejection `JSON
-syntax`; the current receiver reports `JSON decoding` after controlled decoder
-exception mapping. Reconciliation permits only that exact historical diagnostic
-transition. Every case, rejection status, other reason, count, operator record
-and import boundary must still agree. Neither receipt is rewritten. The
-receipt-only comparisons and mocked JSON exceptions can be checked without
-running the security generator or any campaign:
-
-```bash
-python -B tests/test_json_error_mapping.py
-```
-
-```bash
-python3 tests/reproduce_all.py --output ../replayed-results
-```
-
-The output directory must be absent or empty. The command reruns the replay-table negative baseline, two native compiler cross-checks, the 380-request study, 8,945 certificate negative controls, fail-closed security regressions, the 300-row Codeflaws index audit, the 400-case post hoc grammar differential, the producer-complexity regression, the AST/literal safety regressions, and the conservative-selector regression. It then performs a separate disk-replay audit: all 780 retained request files are strict-loaded; authoritative input order is recovered from the fixture/stress generators and retained grammar seeds, never from a certificate; 380 full-vector and 285 compact core certificates are replayed; and all 400 grammar results are revalidated.
-
-For a dependency-closure and packaging check from a clean extraction:
-
-```bash
-python3 tests/release_gate.py
-```
-
-The release gate parses every Python file, rejects nested archives, caches, and generated checksum/inventory manifests, verifies required dependencies, and executes the complete reproducer. Its optional `--keep-output` accepts only a new or empty directory; an occupied directory or file is rejected without deletion. Without that option it creates and cleans up only its own temporary run, including on failure.
-
-Portable comparison and output-safety regressions need only Python and do not
-invoke a compiler or the Linux experiment drivers:
-
-```bash
+```sh
+python -B tests/test_cli_utf8.py
 python -B tests/test_reproduction_contract.py
-```
-
-Boundary-selection regressions and the paired timing experiment can be run
-without native C execution:
-
-```bash
 python -B tests/test_boundary_selection.py -v
-python -B tests/receiver_timing.py --output ../paired-receiver-timing.json
+python -B tests/test_nested_trace_repair.py
+python -B tests/test_coordinate_membership.py
+python -B tests/test_prepared_cells.py
 ```
 
-The timing output must not already exist. A standalone corrected grammar run
-uses `python -B tests/holdout_differential.py --output ../grammar-results --cases 400`;
-its output directory must be new or empty.
+The UTF-8 checks preserve receiver-owned identifiers under a non-UTF8 host
+default. Comparison controls distinguish permitted environment telemetry changes
+from scientific values and preserve occupied output directories. Boundary
+selection keeps three small values plus all five mandatory unsigned boundaries.
+Nested-source checks preserve preorder source-site numbering across skipped
+branches and shared AST occurrences.
 
-Set `P004_TEST_TMP` to an existing isolated scratch directory to control where
-temporary regression fixtures are created. Compiler-environment variants in
-these tests are synthetic fixtures, not new native compiler measurements.
-`.github/workflows/scientific-checks.yml` runs these regressions and the complete
-offline scientific reproducer on Ubuntu with Python 3.12, GCC and Clang. It uses
-a fresh `RUNNER_TEMP` directory and uploads raw run outputs, including actual
-compiler provenance, on success or failure. CI timings are measured by the run;
-the workflow's 20-minute timeout is a ceiling, not an estimated duration.
-The compiler cross-check in this core workflow uses the project's authored
-fixtures, not third-party native programs. The optional Codeflaws source study
-below is separate: CI neither downloads its archive, runs upstream scripts,
-nor compiles or executes third-party source.
+A portable retained-packet report can be generated separately:
 
-## Important entry points
+```sh
+python -B tests/bounded_closure_report.py --output /absolute/fresh/bounded-replay
+```
 
-- `src/proof_dag_producer.py`: untrusted full-vector producer.
-- `src/proof_dag_checker.py`: receiver parser, canonical DAG builder, full-vector checker, and strong topological baseline.
-- `src/refutation_witness_producer.py`: compact witness packager.
-- `src/refutation_witness_checker.py`: receiver one-point checker.
-- `tests/structured_study.py`: frozen 380-request study and 8,945 negative controls.
-- `tests/holdout_differential.py`: post hoc 400-case grammar/AST differential audit (the legacy filename is retained for evidence compatibility).
-- `tests/disk_replay.py`: independent retained-file gate for 780 requests, 380 full certificates, 285 compact certificates, and 400 grammar results; it never trusts certificate coordinate order.
-- `tests/edge_case_regression.py`: producer topological-reuse, left-deep AST/literal safety, and conservative selector-admission regressions.
-- `tests/proof_dag_security.py`: malformed requests, strict JSON, type aliases, resource boundaries, and operator probes.
-- `proofs/proof-dag.md`: conditional full-vector soundness argument.
-- `proofs/refutation-boundary.md`: compact-refutation soundness and leastness boundary.
-- `claim_evidence_ledger.csv`: claim-to-proof/code/input/result ledger.
+That report rechecks 380 full packets, 285 authentic compact refutations and
+the same-information direct path. It also checks grammar source/axis bindings;
+it does not rerun the 400-request semantic campaign. Full native/compiler
+reproduction remains Linux-only; unavailable Windows POSIX telemetry is null.
 
-## Audited structural ranges and edge regressions
+## Retained evidence
 
-- The corrected 400 grammar requests use exactly 64, 512, or 4,096 points: 125, 133, and 142 requests respectively. Their canonical circuits range from 13 to 148 nodes, with median 70. Full-certificate sizes range from 8,985 to 3,028,245 bytes, with median 206,909.5 bytes.
-- The full-vector producer now computes one topological table per point. On a retained 48-term chain (53 nodes, 3 points), it records 159 vector cells; a legacy root-by-root diagnostic traversal records 3,558 recursive visits, while certificate bytes remain identical.
-- An isolated 1,500-term left-deep addition has 3,034 characters, 3,009 tokens, 2,999 AST nodes, and depth 1,500. A diagnostic bypass reaches `RecursionError`; production producer/full/compact paths all reject on `AST depth`. An 11-digit literal is rejected on `literal length`. No wrong acceptance is claimed.
-- `(x == 0u) || ((1u / x) > 0u)` is semantically defined on `{0,1,2}` by short circuit, but the current selector-definedness simplifier cannot prove direct `true`; producer and both checkers reject it consistently.
+| Study | Result | Location |
+|---|---|---|
+| Frozen core | 380 requests: 95 accepted, 285 refuted | `results/`, `proof-data/structured-study.json` |
+| Equal acceptance work | 45,198 cells per arm on 20 correct fixtures | retained study and paired receiver records |
+| Core full checking | 1,179,684 cells per arm over all requests | `results/bounded-receiver-replay/` |
+| Corrected grammar | 400 requests, 657,728 points; 47,327,168 cells per full-domain arm | `proof-data/holdout-differential/` |
+| Nested source sites | Five owned requests, 320 candidate-point observations | `results/nested-source-occurrences/` |
+| Selected mutations | 6,000 full, 2,850 compact, 95 forged-acceptance controls rejected | frozen study records |
 
-## Trust and independence boundary
+The full/compact byte comparison concerns the same 285 refutations: median
+sizes are 15,604 and 667 bytes. The 81-fold cell reduction on those 81-point
+requests compares universal checking with one supplied violation, not equal
+acceptance guarantees. Grammar inputs and mutation controls are constructed
+tests, not independent public-program defects.
 
-The receiver validates schemas and limits, computes source bindings, reparses source, reconstructs canonical topology, and checks evidence. Request JSON preserves the insertion order of the receiver-owned `inputs` map; certificate key sorting is not allowed to redefine that order. The producer and both checkers enforce actual AST depth/node limits before recursive elaboration and check literal digit length before integer conversion. A mathematically total selector is admitted by this prototype only when its reconstructed definedness simplifies directly to Boolean `true`; this is an explicit conservative completeness boundary. The full-vector checker imports no producer module. The compact checker reuses receiver-owned parser/circuit code and imports neither producer. The proofs are manual conditional arguments, not proof-assistant derivations. Differential, native, boundary, and mutation testing reduce implementation risk but do not mechanically prove the receiver.
+Paired measurements are retained separately by source/environment in
+`results/boundary-selection/receiver-timing.json` and
+`results/nested-source-occurrences/receiver-timing.json`. Both compare equal
+acceptance obligations; the reported full/direct ratios exceed one. To run a
+new, isolated measurement, inspect `tests/receiver_timing.py` and supply an
+unused output file. Do not pool current allocation measurements with historical
+container timings.
+
+## Implementations and conditions
+
+- `src/proof_dag_producer.py`: full-vector producer.
+- `src/proof_dag_checker.py`: receiver parser, canonical circuit and direct baseline.
+- `src/refutation_witness_checker.py`: one-point receiver.
+- `tests/structured_study.py`, `holdout_differential.py`, `disk_replay.py`:
+  core study, grammar differential and authoritative disk replay.
+- `formats.md`, `proofs/`: schemas, local rules and conditional arguments.
+- `resources.md`, `claim_evidence_ledger.csv`: resource protocol and evidence map.
+
+The receiver checks exact schemas, source/domain/root bindings and every
+required local semantic value. Resource bounds cover actual AST depth and node
+counts; the current selector admission conservatively requires its definedness
+to simplify to true. Manual proof arguments and separate checker code are
+complemented by finite tests, not proof-assistant mechanization.
 
 ## Codeflaws boundary
 
